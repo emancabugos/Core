@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Search</name>
+   <tag></tag>
+   <elementGuidId>4cf4d1af-0df3-427c-91c6-2c2eb4fb4d36</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;react_0HLMV18AAAERB&quot;)/div[1]/div[1]/div[@class=&quot;section home-banner banner-slider&quot;]/div[@class=&quot;home-serach&quot;]/form[1]/div[@class=&quot;search-controls&quot;]/input[@class=&quot;btn-find&quot;][count(. | //input[@class = 'btn-find']) = count(//input[@class = 'btn-find'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-find</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HLMV18AAAERB&quot;)/div[1]/div[1]/div[@class=&quot;section home-banner banner-slider&quot;]/div[@class=&quot;home-serach&quot;]/form[1]/div[@class=&quot;search-controls&quot;]/input[@class=&quot;btn-find&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

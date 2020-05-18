@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_sendNow</name>
+   <tag></tag>
+   <elementGuidId>23a156ff-2474-4e2a-91a0-62b48c98152b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slrofrpg-srvcs-offerbtn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send now</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-buy-chat-offer&quot;)/div[@class=&quot;view-chat chat-active&quot;]/div[2]/div[@class=&quot;seller-offer-right col-sm-7&quot;]/div[@class=&quot;seller-offer-right-sec&quot;]/div[@class=&quot;slrofrpg-service-sec&quot;]/div[@class=&quot;slrofrpg-service-btn&quot;]/a[@class=&quot;slrofrpg-srvcs-offerbtn&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
