@@ -4,7 +4,17 @@
    <name>textfield_Date</name>
    <tag></tag>
    <elementGuidId>7ddf7d12-7624-4e54-afab-e1d8120d46d3</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div/div[2]/form/div[2]/div[1]/div/fieldset/div/div[2]/div/span/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'tel' and @class = 'Fieldset-input Textbox-control' and @id = '6b684270-785c-11e9-9c4e-a5ae269e21ca' and @placeholder = 'MM / YY' and @ref_element = 'Object Repository/SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/popup_Stripe']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

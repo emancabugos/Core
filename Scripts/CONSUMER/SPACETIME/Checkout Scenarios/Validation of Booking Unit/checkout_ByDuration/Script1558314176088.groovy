@@ -19,17 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.comment('Validation on Homepage')
 
 WebUI.waitForPageLoad(0)
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), 0)
 
-WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), searchItem)
-
-WebUI.delay(1)
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), 'Item One ni April_EDIT')
 
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Function/button_Search'))
 
@@ -39,19 +35,11 @@ WebUI.waitForPageLoad(0)
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), 0)
 
-rate = WebUI.getText(findTestObject('SPACETIME/CONSUMER/Search Result Page/textlabel_SearchResultPageRate'))
-
-WebUI.delay(1)
-
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Verify in Item Details Page')
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_ContactSeller'), 0)
-
-WebUI.waitForPageLoad(0)
-
-WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textlabel_ItemDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
 
 if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time')) == true) {
     WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
@@ -60,62 +48,41 @@ if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details P
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), date)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), '27/05/2020')
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'), time)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'), '01:00 AM')
 
-    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), duration)
-} else if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time')) == 
-false) {
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), '1')
+} else if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time')) == false) {
     WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
 
     WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'))
 
     WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'))
 
-    WebUI.delay(1)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), '27/05/2020')
 
-    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Date'), date)
-
-    WebUI.delay(1)
-
-    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), duration)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), '01:00 AM')
 }
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow'))
-
-WebUI.delay(1)
 
 if (WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout')) == true) {
     WebUI.verifyElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
 
-    if (delivery == 'delivery1'){
-		
-		WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery1'))
-	}
-	
-	else if (delivery == 'delivery2'){
-		
-		WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery2'))
-	}
-	
-	else if (delivery == 'pickup1'){
-		
-		WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_PickUp1'))
-	}
-	
-	else if (delivery == 'pickup2'){
-		
-		WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_PickUp2'))
-	}
-
-   
-	WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
-	
+    if (delivery == 'delivery1') {
+        WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery1'))
+    } else if (delivery == 'delivery2') {
+        WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery2'))
+    } else if (delivery == 'pickup1') {
+        WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_PickUp1'))
+    } else if (delivery == 'pickup2') {
+        WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_PickUp2'))
+    }
+    
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_PickUp2'))
 } else if (WebUI.verifyElementNotVisible(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))) {
     WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 }
@@ -132,7 +99,8 @@ WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/buttonDeliv
 
 WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Review Details Page/textlabel_ReviewDetailsPageRate'), rate, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Review Details Page/textlabel_ReviewDetailsPageRate'), rate, 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Review Details Page/button_Previous'), 0)
 
@@ -149,8 +117,8 @@ if (GlobalVariable.payment == 'stripe') {
 
     WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Stripe', true)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Stripe', true, 
-        0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Stripe', 
+        true, 0)
 
     WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
 
@@ -172,8 +140,8 @@ if (GlobalVariable.payment == 'stripe') {
 } else if (GlobalVariable.payment == 'paypal') {
     WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'PayPal', true)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'PayPal', true, 
-        0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'PayPal', 
+        true, 0)
 
     WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
 
@@ -205,7 +173,8 @@ if (GlobalVariable.payment == 'stripe') {
 } else if (GlobalVariable.payment == 'omise') {
     WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Omise', true)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Omise', true, 0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Omise', 
+        true, 0)
 
     WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
 
@@ -229,14 +198,15 @@ if (GlobalVariable.payment == 'stripe') {
 
     WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Handshake', true)
 
-    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Handshake', true, 
-        0)
+    WebUI.verifyOptionSelectedByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Handshake', 
+        true, 0)
 
     WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
 
     WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Custom Payment/button_Accept'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Custom Payment/button_Accept'), 
+        0)
 
     WebUI.setText(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Custom Payment/textfield_Note'), 'test')
 
@@ -246,36 +216,4 @@ if (GlobalVariable.payment == 'stripe') {
 }
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Thank You Page/button_PurchaseHistory'), 0)
-
-String invoice = WebUI.getText(findTestObject('SPACETIME/CONSUMER/Thank You Page/textlabel_Invoice'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('SPACETIME/CONSUMER/Thank You Page/button_PurchaseHistory'))
-
-WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_ViewOrder'), 0)
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('SPACETIME/CONSUMER/Purchase History List/textfield_Search'), invoice)
-
-WebUI.click(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_Search'))
-
-WebUI.waitForPageLoad(0)
-
-WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_ViewOrder'), 0)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('SPACETIME/CONSUMER/Purchase History List/button_ViewOrder'))
-
-WebUI.waitForPageLoad(0)
-
-WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), 
-    0)
-
-WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Purchase History Details/textlabel_PurchaseHistoryDetailsRate_U'), rate, 
-    FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.closeBrowser()
 

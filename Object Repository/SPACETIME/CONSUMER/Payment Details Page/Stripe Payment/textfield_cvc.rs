@@ -4,7 +4,17 @@
    <name>textfield_cvc</name>
    <tag></tag>
    <elementGuidId>c6c66091-151d-47dd-b755-61455301e7c0</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div/div[2]/form/div[2]/div[1]/div/fieldset/div/div[3]/div/span/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'tel' and @id = '6b686980-785c-11e9-9c4e-a5ae269e21ca' and @placeholder = 'CVC' and @ref_element = 'Object Repository/SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/popup_Stripe']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

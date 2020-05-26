@@ -22,47 +22,47 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.homepage)
+WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('Time/Consumer/Homepage/RegisterSignIn_Link'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Homepage/a_REGISTER  SIGN IN'), 0)
 
-WebUI.click(findTestObject('Time/Consumer/Homepage/RegisterSignIn_Link'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Homepage/a_REGISTER  SIGN IN'))
 
-if (GlobalVariable.buyercredential == 'custom') {
-    WebUI.setText(findTestObject('Time/Consumer/Register  Sign In/Username_field'), GlobalVariable.customusername_buyer)
+if (GlobalVariable.ConsumerAccountType == 'custom') {
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Login Buyer/input_username'), GlobalVariable.CustomConsumer)
 
-    WebUI.setText(findTestObject('Time/Consumer/Register  Sign In/Password_field'), GlobalVariable.custompassword_buyer)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Login Buyer/input_password'), GlobalVariable.CustomPass)
 
-    WebUI.click(findTestObject('Time/Consumer/Register  Sign In/Login_button'))
-} else if (GlobalVariable.buyercredential == 'google') {
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Login Buyer/a_Sign In'))
+} else if (GlobalVariable.ConsumerAccountType == 'google') {
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Signup_Google'))
 
-    WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Google_Username'), GlobalVariable.googleusername_buyer)
+    WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Google_Username'), GlobalVariable.GoogleConsumer)
 
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Google_Next'))
 
     WebUI.delay(1)
 
-    WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Google_Password'), GlobalVariable.googlepassword_buyer)
+    WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Google_Password'), GlobalVariable.GooglePass)
 
     WebUI.delay(1)
 
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Google_Next'))
-} else if (GlobalVariable.buyercredential == 'facebook') {
+} else if (GlobalVariable.ConsumerAccountType == 'facebook') {
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Signup_Facebook'))
 
-    WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Facebook_Email'), GlobalVariable.fbusername_buyer)
+    WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Facebook_Email'), GlobalVariable.GoogleConsumer)
 
-    WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Facebook_Password'), GlobalVariable.fbpassword_buyer)
+    WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Facebook_Password'), GlobalVariable.GooglePass)
 
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Login_Facebook'))
 }
 
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textfield_searchbar'), 0)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textfield_searchbar'), 'Item B')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/textfield_searchbar'), 'Saburo Yamada')
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Item Details Page/button_search'))
 

@@ -4,7 +4,17 @@
    <name>button_Pay</name>
    <tag></tag>
    <elementGuidId>9e628a6e-2a30-4b2a-9c67-f4d63a35e9c7</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div/div/div[2]/form/div[2]/div[4]/button/div[3]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and @class = 'Button-animationWrapper-child--primary Button' and (text() = 'Pay' or . = 'Pay')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
