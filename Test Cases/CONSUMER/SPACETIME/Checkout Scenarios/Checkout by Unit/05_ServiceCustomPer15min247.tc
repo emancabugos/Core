@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05_ServiceCustomPer15min247</name>
+   <tag></tag>
+   <comment>Validation on Homepage
+Verify in Search Result Page
+Verify in Item Details Page
+Checkout - Delivery Page
+Checkout - Review Page
+Checkout - Payment Page</comment>
+   <testCaseGuid>8ead2f82-9f40-49d3-820d-93d678ff6456</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b6438c51-d088-40e0-b628-b0d3a8996654</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3e6493b6-a010-447f-95af-2d0a851e9a15</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>39944733-7f7e-49b2-8b85-e56180e8e9c3</id>
+      <masked>false</masked>
+      <name>duration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>62dcd95c-f674-468a-9032-54cd0a821e8f</id>
+      <masked>false</masked>
+      <name>time</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b3e210c1-6deb-42a1-a411-7eaf182aa2b2</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e49c6a02-7436-4871-94d6-a05e26c81de6</id>
+      <masked>false</masked>
+      <name>payment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>0fb55e95-da8c-476e-af0d-e3f70ab1b828</id>
+      <masked>false</masked>
+      <name>unit</name>
+   </variable>
+</TestCaseEntity>

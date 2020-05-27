@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout 29</name>
+   <tag></tag>
+   <comment>Search Item1
+Search Result Page
+Item Details Page
+Search Item2
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page</comment>
+   <testCaseGuid>84dd67cf-0411-47db-91e2-898f7229aa9b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>5d13d1ff-5c96-4a09-b264-638363ea49d1</id>
+      <masked>false</masked>
+      <name>itemName1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d23d19d2-47ef-4d07-9408-a9f9a739e9a2</id>
+      <masked>false</masked>
+      <name>itemName2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6b1e014b-6f6c-49c7-b58e-ea1ca6d3b313</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c9be2eb8-6810-450b-b893-283a831be712</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>922606af-305b-4080-a6d8-dbcb082d794e</id>
+      <masked>false</masked>
+      <name>payment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>da57c6e9-6e56-4f37-a933-13b0ba9bb4cf</id>
+      <masked>false</masked>
+      <name>Custom</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>f2f9bc2b-34c7-4132-ae9d-09ad70363fe0</id>
+      <masked>false</masked>
+      <name>COD</name>
+   </variable>
+</TestCaseEntity>

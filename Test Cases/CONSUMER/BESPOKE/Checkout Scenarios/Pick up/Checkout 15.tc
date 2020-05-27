@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout 15</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page</comment>
+   <testCaseGuid>ebcc991e-56eb-4f5c-b3b1-387b7b79f119</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3773df3b-9577-4cc6-a8a9-1c104762514a</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4e4f50c9-8a7f-4ab2-87de-191e26024c82</id>
+      <masked>false</masked>
+      <name>quantity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>496e2759-770e-4dad-b767-2ddcee1745a2</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>45fbb139-d8a8-4d4d-aa01-360fbc7cc1e6</id>
+      <masked>false</masked>
+      <name>payment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>62da1d82-88a1-4f9f-b9d3-ce9433c50cf6</id>
+      <masked>false</masked>
+      <name>Custom</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>b351d062-3191-428b-8a56-17ea0f3e0cea</id>
+      <masked>false</masked>
+      <name>COD</name>
+   </variable>
+</TestCaseEntity>

@@ -21,18 +21,20 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/linktext_Register'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Homepage/a_REGISTER  SIGN IN'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/linktext_Register'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Homepage/a_REGISTER  SIGN IN'), FailureHandling.STOP_ON_FAILURE)
 
 if (GlobalVariable.ConsumerAccountType == 'custom') {
     WebUI.delay(1)
 
-    WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/textfield_username'), 0)
+    WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Login Buyer/input_username'), 0)
 
-    WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_username'), GlobalVariable.CustomConsumer)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Login Buyer/input_username'), GlobalVariable.CustomConsumer)
 
-    WebUI.setText(findTestObject('CONSUMER/Login Buyer/textfield_password'), GlobalVariable.CustomPass)
+    WebUI.setText(findTestObject('SPACETIME/CONSUMER/Login Buyer/input_password'), GlobalVariable.CustomPass)
+
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Login Buyer/a_Sign In'), FailureHandling.STOP_ON_FAILURE)
 
     if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 3) == true) {
         WebUI.waitForElementVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
