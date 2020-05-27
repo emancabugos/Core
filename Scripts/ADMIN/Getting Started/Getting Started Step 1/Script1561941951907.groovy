@@ -65,7 +65,7 @@ WebUI.click(findTestObject('ADMIN/Getting Started/div_Start Customising'), Failu
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 1/h1_General'), 0)
 
-WebUI.uploadFile(findTestObject('ADMIN/Getting Started/Step 1/input_favicon_1'), 'C:\\\\Katalon\\\\Image\\\\favicon1.png')
+WebUI.uploadFile(findTestObject('ADMIN/Getting Started/Step 1/input_favicon_1'), 'C:\\\\Katalon\\\\Core\\\\Images\\\\LogoLayout\\\\favicon1.png')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 1/p_Favicon Uploaded'), 0)
 

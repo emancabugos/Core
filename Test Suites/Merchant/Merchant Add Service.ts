@@ -4,7 +4,6 @@
    <name>Merchant Add Service</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-11T15:32:51</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

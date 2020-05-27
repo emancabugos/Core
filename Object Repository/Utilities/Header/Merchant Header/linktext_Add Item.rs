@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;header-section&quot;]/div[1]/div/div/ul[1]/li[3]/a[count(. | //a[(text() = 'Add Item' or . = 'Add Item')]) = count(//a[(text() = 'Add Item' or . = 'Add Item')])]</value>
+         <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[3]/a[count(. | //a[(text() = 'Add Item' or . = 'Add Item')]) = count(//a[(text() = 'Add Item' or . = 'Add Item')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;header-section&quot;]/div[1]/div/div/ul[1]/li[3]/a</value>
+      <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[3]/a</value>
    </webElementProperties>
 </WebElementEntity>

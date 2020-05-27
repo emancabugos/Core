@@ -4,7 +4,6 @@
    <name>Admin Category</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-11-13T09:26:21</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -38,28 +37,28 @@
          <testDataId>Data Files/ADMIN/Category List</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Category</value>
-         <variableId>fd5b9795-dcf6-46ff-8085-93363eddcaeb</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>55a4d2ef-8d94-4efc-9f5e-0ead421f6591</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Parent</value>
-         <variableId>cd3ae8ef-a872-48c6-8212-ca6c297816a4</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>95cdb832-0587-44ee-821f-9afb9ae49ce8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Image</value>
-         <variableId>67677f2d-5ad2-4e2a-8ba4-e0543cbd5f4a</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>47799acf-877b-4e5f-838f-5f40b584daa9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Description</value>
-         <variableId>6dfdbbd7-afe0-4d13-8b37-0cc81d3f28fa</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17f850bb-d156-4919-951b-4f9aaaa05417</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

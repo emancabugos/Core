@@ -11,100 +11,19 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>844238d4-8641-4173-a070-e91add554a8b</testSuiteGuid>
    <testCaseLink>
-      <guid>d43060cb-8353-49bb-b399-69353e2a4a7f</guid>
+      <guid>a7ff3c28-266a-4e49-986d-13e4e743a43c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login</testCaseId>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Merchant Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fd5e23d3-e13b-4425-9923-58b5a8b9fd66</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/MERCHANT/BESPOKE/Upload/Other Scenarios/Item Creation</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/MERCHANT/Bespoke/Add Item</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>CATEGORY</value>
-         <variableId>33144598-a238-445a-a919-753739893f8f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ITEM NAME</value>
-         <variableId>0335ea3e-2af6-4a0d-9aa3-77b00e05b3cb</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>PRICE</value>
-         <variableId>01adbd44-1331-4daa-a9e1-c5e6277c7db0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>SKU</value>
-         <variableId>3f033168-a140-4d73-b90d-705ee32bff95</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ITEM DESCRIPTION</value>
-         <variableId>f2509189-bd68-4658-923c-bc7301d26b25</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>IMAGE</value>
-         <variableId>c527d1c1-c184-4c10-aeb1-48a5721b73dc</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>VARIANTS</value>
-         <variableId>c1381db3-0e6c-41f4-83bb-e5493030a56e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>VARIANT OPTION</value>
-         <variableId>939ac1b5-441b-4260-a080-570b50cfd191</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>VARIANTS CHOICES</value>
-         <variableId>43cfc811-6f57-463e-8542-0c862edb1f4c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>7421cfd7-a3d9-45ab-8986-e2f69650ff6f</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>QUANTITY</value>
-         <variableId>2eec7479-2cd3-4f48-9a97-b51ce8036050</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ce0eb2e1-1199-49f9-a170-b069359d7262</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Utilities/MERCHANT/bespoke_logout</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a6cd1c89-7924-483e-9553-ddddd965be45</guid>
+      <guid>70594bd3-3dd1-4f2b-acf4-b0a58250bc46</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MERCHANT/BESPOKE/Upload/Other Scenarios/Simple Upload</testCaseId>
+      <testCaseId>Test Cases/MERCHANT/BESPOKE/Add Item Page/Add Item Data Driven</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>c5f15e04-e7e6-4422-8f0c-f74d885de53d</id>
+         <id>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -112,46 +31,70 @@
          <testDataId>Data Files/MERCHANT/Bespoke/Add Item</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ItemName</value>
+         <variableId>6da790de-9635-4899-93a4-bd2761f39715</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Category</value>
-         <variableId>609b3bef-6752-4b11-b1bc-f23ab2461351</variableId>
+         <variableId>8de2ad48-d252-435b-96d4-e77a505daed5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Item Name</value>
-         <variableId>70b6e3c1-687c-4646-83f5-65d39e23b952</variableId>
+         <value>ItemImage</value>
+         <variableId>4e371598-7abd-44d5-a7ca-363b8d6b1e99</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Price</value>
-         <variableId>cb2a65aa-022c-411e-b179-54a1bf6e643f</variableId>
+         <variableId>f38fcea1-4bf4-4033-b48e-eaa308dde68c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>SKU</value>
-         <variableId>29212876-632d-4cf1-b392-1ebb53dbd80f</variableId>
+         <variableId>f6c43265-c9ae-48e4-92c6-b9e95bb4684e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Stock</value>
+         <variableId>dabed94c-9faf-44f8-84ea-81f485dcbc01</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Description</value>
-         <variableId>4e5fcff5-a377-4956-949f-1b60581fe5d1</variableId>
+         <variableId>1b487539-6647-4197-8dc3-47a0e32f2069</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Image</value>
-         <variableId>83fd36cb-040b-4adf-a2f9-ba9d458ced76</variableId>
+         <value>Variant</value>
+         <variableId>6558239e-421e-43b6-ac2d-202e3358a2a8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c5f15e04-e7e6-4422-8f0c-f74d885de53d</testDataLinkId>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Quantity</value>
-         <variableId>963edf50-0601-483a-b12c-532980ca98ab</variableId>
+         <value>Variant Image</value>
+         <variableId>12c4491a-529f-483f-9a55-3755816d6cda</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>0b7b41a5-3536-4882-9a8c-e9c65868c2b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Delivery Method</value>
+         <variableId>6bf4e40b-e134-43d0-ad68-ff9a7463e168</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5bf6e3b3-344a-4dc5-a74d-4f4ea114b1fb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

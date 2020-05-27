@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Item Data Driven</name>
+   <tag></tag>
+   <comment>Listing Name
+Categories
+Item Cover Image
+Price
+SKU
+Variants
+Item Description
+Custom Fields
+Save</comment>
+   <testCaseGuid>5fbd1ffa-8e8e-4b16-9837-ea32110ddd74</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>6da790de-9635-4899-93a4-bd2761f39715</id>
+      <masked>false</masked>
+      <name>varListingName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>8de2ad48-d252-435b-96d4-e77a505daed5</id>
+      <masked>false</masked>
+      <name>varCategory</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>4e371598-7abd-44d5-a7ca-363b8d6b1e99</id>
+      <masked>false</masked>
+      <name>varImage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>f38fcea1-4bf4-4033-b48e-eaa308dde68c</id>
+      <masked>false</masked>
+      <name>varPrice</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>f6c43265-c9ae-48e4-92c6-b9e95bb4684e</id>
+      <masked>false</masked>
+      <name>varSKU</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>dabed94c-9faf-44f8-84ea-81f485dcbc01</id>
+      <masked>false</masked>
+      <name>varStock</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>1b487539-6647-4197-8dc3-47a0e32f2069</id>
+      <masked>false</masked>
+      <name>varDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>6558239e-421e-43b6-ac2d-202e3358a2a8</id>
+      <masked>false</masked>
+      <name>varVariants</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>12c4491a-529f-483f-9a55-3755816d6cda</id>
+      <masked>false</masked>
+      <name>varVariantOption</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>6bf4e40b-e134-43d0-ad68-ff9a7463e168</id>
+      <masked>false</masked>
+      <name>varDeliveryMethod</name>
+   </variable>
+</TestCaseEntity>

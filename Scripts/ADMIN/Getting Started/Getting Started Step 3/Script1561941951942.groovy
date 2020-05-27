@@ -67,7 +67,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/div_Add
 
 WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/div_Add Payments'))
 
-WebUI.comment('Custom Payment')
+WebUI.comment('COD')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/a_Add a custom payment method'), 0)
 
@@ -81,13 +81,13 @@ WebUI.setText(findTestObject('ADMIN/Configure Payments/Custom Payment/textarea_c
 
 WebUI.setText(findTestObject('ADMIN/Configure Payments/Custom Payment/handshake'), 'https://cash.test.arcadier.io/payment/generatepaykey')
 
-WebUI.setText(findTestObject('ADMIN/Configure Payments/Custom Payment/input_redirect-endpoint-url'), 'https://cash.test.arcadier.io/paypal/index')
+WebUI.setText(findTestObject('ADMIN/Configure Payments/Custom Payment/input_redirect-endpoint-url'), 'https://cash.test.arcadier.io/cash/agreement')
 
 WebUI.click(findTestObject('ADMIN/Configure Payments/Custom Payment/div_Browse'))
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('ADMIN/Configure Payments/Custom Payment/input_thumb'), 'C:\\\\Katalon\\\\Image\\\\logo1.jpg')
+WebUI.uploadFile(findTestObject('ADMIN/Configure Payments/Custom Payment/input_thumb'), 'C:\\\\Katalon\\\\Core\\\\Images\\\\LogoLayout\\\\logo1.jpg')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/div_btn btn-success btn-ok'), 0)
 

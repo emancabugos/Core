@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;frmaccount&quot;]/div[2]/input</value>
+         <value>/html/body/div[4]/div/div/div[2]/form/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;frmaccount&quot;]/div[2]/input</value>
+      <value>/html/body/div[4]/div/div/div[2]/form/div[2]/input</value>
    </webElementProperties>
 </WebElementEntity>
