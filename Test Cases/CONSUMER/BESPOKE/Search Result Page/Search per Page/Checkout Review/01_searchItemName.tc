@@ -4,11 +4,11 @@
    <name>01_searchItemName</name>
    <tag></tag>
    <comment>Search Exact Item Name</comment>
-   <testCaseGuid>740fba8e-1a82-414e-bbb6-3ed7d923c9a1</testCaseGuid>
+   <testCaseGuid>91a89b0e-8c53-45bb-a3f7-39f37b29934e</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>dde07248-d83c-4d9d-ac6d-7ce35d4a1cb3</id>
+      <id>7ac7f009-e6ce-46c3-b57b-eaa8b0c4513f</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

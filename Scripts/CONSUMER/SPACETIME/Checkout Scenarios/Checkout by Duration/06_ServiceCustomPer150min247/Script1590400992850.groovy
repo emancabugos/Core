@@ -47,6 +47,8 @@ WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Ti
 
 WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), duration)
 
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Unit'), unit)
+
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow'), FailureHandling.STOP_ON_FAILURE)
 
 if (delivery == 'del1') {

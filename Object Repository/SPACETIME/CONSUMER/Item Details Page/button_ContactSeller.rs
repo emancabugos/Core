@@ -4,6 +4,12 @@
    <name>button_ContactSeller</name>
    <tag></tag>
    <elementGuidId>d1405613-77af-482f-a0b2-9839b3a45ead</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'Contact seller' or . = 'Contact seller')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

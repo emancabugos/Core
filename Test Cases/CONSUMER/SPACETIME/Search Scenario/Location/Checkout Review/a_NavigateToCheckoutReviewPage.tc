@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>a_NavigateToCheckoutReviewPage</name>
+   <tag></tag>
+   <comment>Validation on Homepage
+Verify in Search Result Page
+Verify in Item Details Page
+Checkout - Delivery Page
+Checkout - Review Page</comment>
+   <testCaseGuid>490aab2f-2ede-493a-b4b7-cbd7a56f7297</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>58b377bd-3607-4f7d-932a-bb3a0962929c</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>98c27ca2-56af-41b1-9f97-6b6deac94ccf</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>1fc660fa-2f2f-4557-b8df-b2079f4a17c1</id>
+      <masked>false</masked>
+      <name>duration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a3bfd34c-2b0e-4dd6-8f8d-d649be6d8453</id>
+      <masked>false</masked>
+      <name>time</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>4753439b-f492-4a1c-bedf-aa42abff174e</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>951510b3-6a18-4cd4-8b39-409d0076e788</id>
+      <masked>false</masked>
+      <name>payment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e71cd120-9e13-45cd-a3f0-4597cbfb1cf5</id>
+      <masked>false</masked>
+      <name>unit</name>
+   </variable>
+</TestCaseEntity>

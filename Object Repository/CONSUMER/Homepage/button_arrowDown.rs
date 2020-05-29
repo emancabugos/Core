@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//i[@class = 'fa fa-angle-down']</value>
+         <value>//i[@class = 'icon icon-user']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-angle-down</value>
+      <value>icon icon-user</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

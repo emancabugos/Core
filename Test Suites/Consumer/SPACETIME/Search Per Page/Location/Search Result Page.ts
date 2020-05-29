@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Search Result Page</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>9ab05f79-d1a7-4a5e-ba28-bb0b4501e138</testSuiteGuid>
+   <testCaseLink>
+      <guid>0a56cacd-219d-441e-b8bf-f6b9e6f7dfe3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b964704-3622-45a9-8083-c553a0752e9b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Search Results Page/a_NavigateToSearchResultPage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c72f6c36-d947-4194-8790-8f58e37b371f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Search Results Page/01_searchItemName</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a0b41b3a-abc9-4363-b356-ab02b7c2aef5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>918d36b6-e8f9-41a9-b50d-744d3fad91f6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Search Results Page/02_searchItemDescription</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>60aa4620-ca90-4566-af3a-d10e5ec33233</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48fec4ef-5c71-4415-ab23-a1f5c4e60858</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4761f441-ec7e-4d89-bf68-db4dbe347d8a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Search Results Page/03_searchPartialItemName</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac9b857f-4859-494b-95fc-1489caf59d2f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d6f9c23b-390c-4dc9-a1b0-02ea9474fb2b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>db8b5474-987f-4618-b804-b069977a50d9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Search Results Page/04_searchPartialItemDescription</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1fd4d668-566b-4dab-bbfb-e0ae127f29d5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2cd76c3e-0e85-47fe-895f-1e8ed70551da</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a483d0fd-0817-4cf0-866f-b8a5bb2dd00f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Search Results Page/05_BlankSearch</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4a48ef45-51be-4374-acab-641573f0fe8f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c16c751c-a987-44e7-886e-3b5824a2cfbd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

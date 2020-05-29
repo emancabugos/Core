@@ -18,16 +18,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.comment('Search Category Only')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.waitForPageLoad(0)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
+WebUI.comment('Search Result Page')
 
-WebUI.verifyElementText(findTestObject('CONSUMER/Search Result Page/itemName_SearchResultPage'), itemName)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/button_Filters'), 0)
+
+WebUI.scrollToElement(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/textlabel_ItemName'), 0)
+
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/textlabel_ItemName'), itemName)
 
 WebUI.back()
 
