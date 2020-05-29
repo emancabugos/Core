@@ -72,7 +72,7 @@ WebUI.click(findTestObject('ADMIN/Categories/Add Category Popup/div_Browse'))
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.uploadFile(findTestObject('ADMIN/Categories/Add Category Popup/input_thumb'), 'C:\\\\Katalon\\\\Image\\\\pic1.jpg')
+WebUI.uploadFile(findTestObject('ADMIN/Categories/Add Category Popup/input_thumb'), 'C:\\\\Katalon\\\\Core\\\\Images\\\\Category\\\\1.png')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Add Category Popup/div_btn btn-success btn-ok'), 0)
 

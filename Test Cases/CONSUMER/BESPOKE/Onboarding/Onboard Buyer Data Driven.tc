@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Onboard Buyer Data Driven</name>
+   <tag></tag>
+   <comment>Profile
+Address
+Payment</comment>
+   <testCaseGuid>1f179e40-5ba5-4d8b-baa6-e28f49491359</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>adc62e38-3a60-4aea-bd0b-c03046e2327e</id>
+      <masked>false</masked>
+      <name>varBuyerUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>1cafee9d-0f0f-45b0-97e7-4302aa7ed354</id>
+      <masked>false</masked>
+      <name>varImage</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>78b78573-b059-4cf3-96bd-24e740754e1f</id>
+      <masked>false</masked>
+      <name>varFname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>21af280d-115b-4775-b8f8-d229b286dc5f</id>
+      <masked>false</masked>
+      <name>varLname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>6dbea0e5-3631-4aa5-813e-d46e62cbc652</id>
+      <masked>false</masked>
+      <name>varEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>2d1ecfcc-e546-4a57-a2fb-d5c2f6cc5d2c</id>
+      <masked>false</masked>
+      <name>varContact</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>30861c3a-8ff1-43b7-bf6d-68547ca553a2</id>
+      <masked>false</masked>
+      <name>varAddFname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>b927b26f-eb17-44aa-98e4-9b83e4e0a278</id>
+      <masked>false</masked>
+      <name>varAddLname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>03dcea96-6b3d-4866-8e8c-0052d414859b</id>
+      <masked>false</masked>
+      <name>varAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>bbf2b791-91bb-488c-9f20-2a53434d520d</id>
+      <masked>false</masked>
+      <name>varCity</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>d048896c-4fe3-4a44-9556-80d6bf05b52b</id>
+      <masked>false</masked>
+      <name>varState</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>32deccd5-b327-4309-956c-c6951a11d47b</id>
+      <masked>false</masked>
+      <name>varCountry</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('CONSUMER/BESPOKE/Buyer List')</defaultValue>
+      <description></description>
+      <id>343f18b7-f81c-460d-aeb8-19de91757ccf</id>
+      <masked>false</masked>
+      <name>varPostalCode</name>
+   </variable>
+</TestCaseEntity>

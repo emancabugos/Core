@@ -4,6 +4,12 @@
    <name>select_st_date</name>
    <tag></tag>
    <elementGuidId>2bf8d585-5b2a-4067-b2b7-bf4b9ebbfa9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'st_date']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>cal_datepicker cal_datepicker1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>

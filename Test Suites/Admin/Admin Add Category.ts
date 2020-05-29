@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>6829c2f5-e662-4263-9d75-0a0c95439d9f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -34,31 +34,31 @@
          <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CategoryNametext</value>
-         <variableId>fd5b9795-dcf6-46ff-8085-93363eddcaeb</variableId>
+         <variableId>55a4d2ef-8d94-4efc-9f5e-0ead421f6591</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>ParentName</value>
-         <variableId>cd3ae8ef-a872-48c6-8212-ca6c297816a4</variableId>
+         <variableId>95cdb832-0587-44ee-821f-9afb9ae49ce8</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CategoryImageUpload</value>
-         <variableId>67677f2d-5ad2-4e2a-8ba4-e0543cbd5f4a</variableId>
+         <variableId>47799acf-877b-4e5f-838f-5f40b584daa9</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Description</value>
-         <variableId>6dfdbbd7-afe0-4d13-8b37-0cc81d3f28fa</variableId>
+         <variableId>17f850bb-d156-4919-951b-4f9aaaa05417</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>5a0a138f-de82-4f61-a81a-a4fc1eeb65f8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

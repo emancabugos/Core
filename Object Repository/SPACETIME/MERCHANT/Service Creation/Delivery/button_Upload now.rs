@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;delivery&quot;]/div/div/div[2]/a[count(. | //*[@class = 'itmupld-loc-upldbtn' and (text() = 'Upload now' or . = 'Upload now')]) = count(//*[@class = 'itmupld-loc-upldbtn' and (text() = 'Upload now' or . = 'Upload now')])]</value>
+         <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[6]/div[2]/div/div/div[2]/a[count(. | //a[(text() = 'Add now' or . = 'Add now')]) = count(//a[(text() = 'Add now' or . = 'Add now')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +27,7 @@
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -38,13 +38,13 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Upload now</value>
+      <value>Add now</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;delivery&quot;]/div/div/div[2]/a</value>
+      <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[6]/div[2]/div/div/div[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>8a10765a-db0e-4a1f-a1a2-164681373bd1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 01</testCaseId>
    </testCaseLink>
    <testCaseLink>

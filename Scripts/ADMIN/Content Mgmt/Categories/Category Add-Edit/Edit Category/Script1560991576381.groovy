@@ -36,7 +36,7 @@ WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Edit'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category/textfield_Category Name'), 0)
 
-WebUI.sendKeys(findTestObject('ADMIN/Categories/Category/textfield_Category Name'), 'edit!@#$%^&*()_+`~1234[];\'\\,./{}:"|<>?')
+WebUI.setText(findTestObject('ADMIN/Categories/Category/textfield_Category Name'), 'Category EDITED')
 
 WebUI.click(findTestObject('ADMIN/Categories/Category/button_Save'), FailureHandling.STOP_ON_FAILURE)
 
