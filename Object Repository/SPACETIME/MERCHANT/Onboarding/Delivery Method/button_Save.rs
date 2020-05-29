@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'next-tab']</value>
+         <value>/html/body/div[4]/div[1]/div[2]/div[4]/div[2]/div[4]/a[count(. | //*[@id = 'next-tab']) = count(//*[@id = 'next-tab'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,13 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;next-tab&quot;]</value>
+      <value>/html/body/div[4]/div[1]/div[2]/div[4]/div[2]/div[4]/a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
    </webElementProperties>
 </WebElementEntity>

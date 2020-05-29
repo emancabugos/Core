@@ -4,6 +4,12 @@
    <name>button_Add listings</name>
    <tag></tag>
    <elementGuidId>bc2ed508-1546-442a-983d-a85b86d087f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div/div/div/div[1]/div/div[1]/div/div/div/div[2]/div[1][count(. | //div[(text() = 'Add listings' or . = 'Add listings')]) = count(//div[(text() = 'Add listings' or . = 'Add listings')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,10 +34,10 @@
       <value>Add listings</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;setting-tab&quot;)/div[@class=&quot;btn-new-service&quot;]</value>
+      <value>/html/body/div[4]/div/div/div/div[1]/div/div[1]/div/div/div/div[2]/div[1]</value>
    </webElementProperties>
 </WebElementEntity>

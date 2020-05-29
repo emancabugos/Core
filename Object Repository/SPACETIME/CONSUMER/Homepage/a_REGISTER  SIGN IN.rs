@@ -4,6 +4,12 @@
    <name>a_REGISTER  SIGN IN</name>
    <tag></tag>
    <elementGuidId>1a2c1f53-d186-4295-b95c-23ee94d2466e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@id = 'register-modal-consumer' and (text() = 'REGISTER / SIGN IN' or . = 'REGISTER / SIGN IN')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +27,7 @@
       <value>hidden-xs register-modal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

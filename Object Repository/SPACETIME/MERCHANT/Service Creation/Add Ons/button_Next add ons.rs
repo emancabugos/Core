@@ -7,27 +7,27 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;add-item-area-custom-fields&quot;]/div/div[3]/button[count(. | //*[@class = 'btn-tab-validate btn btn-grey']) = count(//*[@class = 'btn-tab-validate btn btn-grey'])]</value>
+         <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[4]/div[2]/div/div/div[3]/button[count(. | //button[(text() = 'Next' or . = 'Next')]) = count(//button[(text() = 'Next' or . = 'Next')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>btn-tab-validate btn btn-grey</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;add-item-area-custom-fields&quot;]/div/div[3]/button</value>
+      <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[4]/div[2]/div/div/div[3]/button</value>
    </webElementProperties>
 </WebElementEntity>

@@ -4,6 +4,12 @@
    <name>textbox_price</name>
    <tag></tag>
    <elementGuidId>75af1aae-c5b9-4ff2-806c-cba20b0b5402</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @id = 'servicePrice']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>numbersOnlyD required service-price-placeholder</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -47,5 +53,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;add-item-area&quot;)/div[@class=&quot;box-shadow&quot;]/div[@class=&quot;item-upload-service-sec&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;itmupld-srvcs-durationsec&quot;]/div[@class=&quot;itmupld-srvcs-durationlst-sec&quot;]/div[@class=&quot;itmupld-srvcs-duration-specify&quot;]/div[@class=&quot;itmupld-srvcs-specify&quot;]/input[@class=&quot;numbersOnlyD required service-price-placeholder&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>servicePrice</value>
    </webElementProperties>
 </WebElementEntity>

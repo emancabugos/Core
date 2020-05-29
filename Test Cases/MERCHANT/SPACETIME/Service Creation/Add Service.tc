@@ -147,4 +147,11 @@ END</comment>
       <masked>false</masked>
       <name>varSchedule</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Spacetime/Add Service')</defaultValue>
+      <description></description>
+      <id>e6d26571-2ea8-4431-aee3-2c980d02a0f4</id>
+      <masked>false</masked>
+      <name>varDelivery</name>
+   </variable>
 </TestCaseEntity>
