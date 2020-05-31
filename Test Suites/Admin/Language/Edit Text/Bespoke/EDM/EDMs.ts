@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>f4e176bd-0a4a-499b-941f-f06a653070e8</testSuiteGuid>
    <testCaseLink>
+      <guid>3fd5e661-bb36-414b-86dd-cd4a0387efaa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>6fc54f17-1300-480d-b649-fae8f9569091</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

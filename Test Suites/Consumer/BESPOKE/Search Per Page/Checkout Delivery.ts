@@ -120,16 +120,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Search Result Page/Search per Page/Checkout Delivery/03_searchPartialItemName</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c9a68f52-babe-42a0-8f8d-6a69f8f54539</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Bespoke</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c9a68f52-babe-42a0-8f8d-6a69f8f54539</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescriptionPatial</value>
          <variableId>ffa7818d-c8ed-40d4-9926-1cfdfc9101d9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c9a68f52-babe-42a0-8f8d-6a69f8f54539</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>f38b97d8-2a44-4f1e-87a9-c5b658c9c4c3</variableId>
       </variableLink>
    </testCaseLink>

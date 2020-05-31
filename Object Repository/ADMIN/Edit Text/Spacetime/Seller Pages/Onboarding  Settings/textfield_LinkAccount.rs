@@ -4,7 +4,17 @@
    <name>textfield_LinkAccount</name>
    <tag></tag>
    <elementGuidId>247fdeb4-669b-405d-b827-0afbb1365abe</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'link_account_btn' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[4]/div/div[7]/div[2]/div[3]/div[1]/div[2]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

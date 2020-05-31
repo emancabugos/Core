@@ -4,7 +4,17 @@
    <name>textfield_SelectDateTime</name>
    <tag></tag>
    <elementGuidId>5b4c8af9-0533-4ec0-ae8f-cb8ace165bbe</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'select_dates_times']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[4]/div/div[7]/div/div[1]/div[1]/div[2]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

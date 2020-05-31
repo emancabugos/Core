@@ -19,6 +19,8 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language M
 
 WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/linkMenu_Language'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/subMenu_EditText'), 0)
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/subMenu_EditText'), 0)
 
 WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/subMenu_EditText'), FailureHandling.CONTINUE_ON_FAILURE)
@@ -28,6 +30,8 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language M
 WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/collapseButton_CommonWords'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/linktext_CommonWords'), 0)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/linktext_CommonWords'), FailureHandling.CONTINUE_ON_FAILURE)
 

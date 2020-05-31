@@ -4,7 +4,17 @@
    <name>textfield_DeliveryMethodsOrPickUpLocation</name>
    <tag></tag>
    <elementGuidId>951f292d-866a-416f-a002-cc226f15d7cf</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'item-detail' and (text() = 'If this listing does not require delivery methods or pick-up locations, you can finish the upload by clicking the “Upload Now” button. Otherwise click “Next” to set-up your delivery method and/or pickup location.' or . = 'If this listing does not require delivery methods or pick-up locations, you can finish the upload by clicking the “Upload Now” button. Otherwise click “Next” to set-up your delivery method and/or pickup location.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[4]/div/div[11]/div[5]/div[1]/div[2]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

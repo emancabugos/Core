@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//div[3]/div[2]/div[4]/div/div[3]/div[2]/div[1]/div[2]/div/input</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[4]/div/div[3]/div[2]/div[1]/div[2]/div/input</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

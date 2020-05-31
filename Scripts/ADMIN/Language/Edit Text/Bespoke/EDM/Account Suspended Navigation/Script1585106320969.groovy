@@ -19,6 +19,8 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Language/sidemenu_Language'), 
 
 WebUI.click(findTestObject('ADMIN/Language/sidemenu_Language'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('ADMIN/Language/sidemenu_Edit Text'), 0)
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Language/sidemenu_Edit Text'), 0)
 
 WebUI.click(findTestObject('ADMIN/Language/sidemenu_Edit Text'), FailureHandling.CONTINUE_ON_FAILURE)

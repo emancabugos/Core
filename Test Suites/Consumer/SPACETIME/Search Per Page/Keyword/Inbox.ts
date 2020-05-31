@@ -27,10 +27,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Inbox/01_searchItemName</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b68b0a7b-e81c-41d2-9626-3f06988c4aac</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>b68b0a7b-e81c-41d2-9626-3f06988c4aac</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>a0b41b3a-abc9-4363-b356-ab02b7c2aef5</variableId>
       </variableLink>
    </testCaseLink>
@@ -39,16 +48,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Inbox/02_searchItemDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>98e0f284-83f2-4486-b829-68d5ab4ee139</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>98e0f284-83f2-4486-b829-68d5ab4ee139</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescription</value>
          <variableId>60aa4620-ca90-4566-af3a-d10e5ec33233</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>98e0f284-83f2-4486-b829-68d5ab4ee139</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>48fec4ef-5c71-4415-ab23-a1f5c4e60858</variableId>
       </variableLink>
    </testCaseLink>
@@ -57,16 +75,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Inbox/03_searchPartialItemName</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c0518999-ede2-49d8-ae97-abf62ee9a125</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c0518999-ede2-49d8-ae97-abf62ee9a125</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemNamePartial</value>
          <variableId>ac9b857f-4859-494b-95fc-1489caf59d2f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c0518999-ede2-49d8-ae97-abf62ee9a125</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>d6f9c23b-390c-4dc9-a1b0-02ea9474fb2b</variableId>
       </variableLink>
    </testCaseLink>
@@ -75,29 +102,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Inbox/04_searchPartialItemDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>03af258a-322b-4af9-b736-671f52a0b7a9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>03af258a-322b-4af9-b736-671f52a0b7a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescriptionPatial</value>
          <variableId>1fd4d668-566b-4dab-bbfb-e0ae127f29d5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>03af258a-322b-4af9-b736-671f52a0b7a9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>2cd76c3e-0e85-47fe-895f-1e8ed70551da</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>97b6b0ea-9f71-4ff3-b2fb-daa937eb7cef</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Inbox/05_BlankSearch</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4a48ef45-51be-4374-acab-641573f0fe8f</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

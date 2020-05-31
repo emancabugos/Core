@@ -6,6 +6,10 @@
    <elementGuidId>1e33121f-5d70-4cd2-a45e-f925108c88b0</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//a[(text() = 'Logout' or . = 'Logout')]</value>
       </entry>

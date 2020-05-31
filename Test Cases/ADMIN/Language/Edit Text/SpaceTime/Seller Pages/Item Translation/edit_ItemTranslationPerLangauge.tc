@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c11f8309-b5d8-48d8-8731-a3531498e071</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>3aab09ad-9b26-42d4-a878-b7812ea1442c</id>
+      <masked>false</masked>
+      <name>selectLanguage</name>
+   </variable>
 </TestCaseEntity>

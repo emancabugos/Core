@@ -4,7 +4,17 @@
    <name>collapseButton_SellerPages</name>
    <tag></tag>
    <elementGuidId>73b658e0-0c33-452d-895f-17e299642732</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;sortable-list&quot;)/li[@class=&quot;has-subitems ui-sortable-handle&quot;]/div[@class=&quot;row-wrapper&quot;]/div[@class=&quot;row-details pull-left&quot;]/div[1]/a[@class=&quot;toggle-subcate&quot;]/i[@class=&quot;icon icon-toggle active&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[2]/div/div[2]/ul/li[2]/div[1]/div[1]/div[1]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,7 +4,17 @@
    <name>tabLabel_OmiseConfiguration</name>
    <tag></tag>
    <elementGuidId>c8f6c6f8-591c-4335-849e-aadb447065dc</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Omise Configuration' or . = 'Omise Configuration')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[6]/div/div/div[4]/div[1]/div[2]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

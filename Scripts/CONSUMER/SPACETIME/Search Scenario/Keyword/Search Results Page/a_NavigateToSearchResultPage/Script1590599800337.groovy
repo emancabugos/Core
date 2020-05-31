@@ -17,10 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Validation on Homepage')
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), 0)
-
-WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), itemName)
-
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Function/button_Search'))
 
 WebUI.comment('Verify in Search Result Page')

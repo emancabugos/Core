@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//div[3]/div[2]/div[4]/div/div[5]/div[4]/div[1]/div[2]/input[count(. | //*[@type = 'text' and @name = 'service_rate' and @data-original-database-value = 'Service rate']) = count(//*[@type = 'text' and @name = 'service_rate' and @data-original-database-value = 'Service rate'])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[4]/div/div[5]/div[4]/div[1]/div[2]/input</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,7 +4,17 @@
    <name>textarea_ItemOrderStatus</name>
    <tag></tag>
    <elementGuidId>f09e8cb7-74db-4c11-b53e-22bf0f9322cb</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'popup-desc' and (text() = 'The order status for this item has been updated.' or . = 'The order status for this item has been updated.')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[5]/div/div[3]/div[1]/div[2]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

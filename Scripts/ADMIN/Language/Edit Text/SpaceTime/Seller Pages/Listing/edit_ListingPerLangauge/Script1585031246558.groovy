@@ -15,12 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language/dd_English'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language/dd_English'), selectLanguage, false)
-
-WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language/dd_English'), selectLanguage, false, 
-    0)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), selectLanguage, false)
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/textfield_YourListings'), '*')
 
@@ -34,9 +31,7 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/t
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/textfield_Translate'), '*')
 
-WebUI.delay(1)
+WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language/button_save'))
-
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success'), 0)
 

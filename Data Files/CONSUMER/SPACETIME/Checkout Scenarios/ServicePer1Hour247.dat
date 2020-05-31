@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>366f03ae-7369-4820-abd7-9530a294b25a</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>C:\Katalon\Excel Files\SpaceTime_CheckoutData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>ServiceCustomPer1Hour247</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

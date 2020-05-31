@@ -4,7 +4,19 @@
    <name>textarea_ProvideTheAddress</name>
    <tag></tag>
    <elementGuidId>80223ab2-bb94-4182-8fb8-858c34fb10a6</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'address_desc_used' and (text() = 'Please provide the address where the item may be collected by the buyer.
+(You must select at least one delivery option or pickup location)' or . = 'Please provide the address where the item may be collected by the buyer.
+(You must select at least one delivery option or pickup location)')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[4]/div/div/div[1]/div[8]/div[8]/div[1]/div[1]/div[2]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

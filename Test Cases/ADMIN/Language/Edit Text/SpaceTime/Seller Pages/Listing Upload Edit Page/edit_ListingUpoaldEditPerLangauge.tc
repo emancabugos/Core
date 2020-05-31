@@ -3,6 +3,19 @@
    <description></description>
    <name>edit_ListingUpoaldEditPerLangauge</name>
    <tag></tag>
-   <comment>Seller Service Upload</comment>
+   <comment>Seller Service Upload
+Basic Details
+Schedule
+Images
+Additional Services/Details
+Location/Details
+Delivery</comment>
    <testCaseGuid>3d0a136f-8101-4aff-b3d5-96402ca2181b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9a02ec67-f83f-4596-8a79-a60ff1b40876</id>
+      <masked>false</masked>
+      <name>selectLanguage</name>
+   </variable>
 </TestCaseEntity>

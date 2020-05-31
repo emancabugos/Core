@@ -21,46 +21,55 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Checkout Delivery/a_NavigateToCheckoutDelivery</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6e89b4bb-4c1a-4742-b5fc-b8ca6831dec1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/SPACETIME/Checkout Scenarios/ServicePerHour247</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6e89b4bb-4c1a-4742-b5fc-b8ca6831dec1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>cb488d10-b3c4-4d54-8a66-11003bf28c86</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6e89b4bb-4c1a-4742-b5fc-b8ca6831dec1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
          <variableId>4ba1c2f8-dcd9-474e-9f49-8cb41c7fdcec</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6e89b4bb-4c1a-4742-b5fc-b8ca6831dec1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>duration </value>
          <variableId>3976a708-a369-47a7-951a-1e2bad1468c8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6e89b4bb-4c1a-4742-b5fc-b8ca6831dec1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>time</value>
          <variableId>2e9b3f40-1b1e-436b-8419-111f49f0d000</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6e89b4bb-4c1a-4742-b5fc-b8ca6831dec1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>delivery</value>
          <variableId>045b7ed0-bf45-408a-bcaf-e986551713a1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6e89b4bb-4c1a-4742-b5fc-b8ca6831dec1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>payment</value>
          <variableId>fc239629-0ad2-42da-bc5b-dae06269854c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6e89b4bb-4c1a-4742-b5fc-b8ca6831dec1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>unit</value>
          <variableId>aa150118-87c7-42b9-b479-f0b5c44cb53f</variableId>
       </variableLink>
    </testCaseLink>
@@ -69,10 +78,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Checkout Delivery/01_searchItemName</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a4a02aa2-eb7f-4652-bc14-45c97b17b814</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>a4a02aa2-eb7f-4652-bc14-45c97b17b814</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>7ac7f009-e6ce-46c3-b57b-eaa8b0c4513f</variableId>
       </variableLink>
    </testCaseLink>
@@ -81,16 +99,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Checkout Delivery/02_searchItemDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e3b205bc-8d8b-401a-8b7e-d537a860067a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>e3b205bc-8d8b-401a-8b7e-d537a860067a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescription</value>
          <variableId>7fda0fde-d549-4da9-9965-97b934950794</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>e3b205bc-8d8b-401a-8b7e-d537a860067a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>15f8f6cb-744d-4cf7-b509-ed1a41ad86e7</variableId>
       </variableLink>
    </testCaseLink>
@@ -99,16 +126,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Checkout Delivery/03_searchPartialItemName</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>27a1ea7b-f896-499c-8fd2-0d61f4660e8e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>27a1ea7b-f896-499c-8fd2-0d61f4660e8e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemNamePartial</value>
          <variableId>ffa7818d-c8ed-40d4-9926-1cfdfc9101d9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>27a1ea7b-f896-499c-8fd2-0d61f4660e8e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>f38b97d8-2a44-4f1e-87a9-c5b658c9c4c3</variableId>
       </variableLink>
    </testCaseLink>
@@ -117,16 +153,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Checkout Delivery/04_searchPartialItemDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d2ed22cb-2b40-4ccc-aa61-663f8346b745</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d2ed22cb-2b40-4ccc-aa61-663f8346b745</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescriptionPatial</value>
          <variableId>c7a86189-e746-44e9-a568-7d072b257b25</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>d2ed22cb-2b40-4ccc-aa61-663f8346b745</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>d2aba72d-d0ff-4c88-bf8b-43eb77200a74</variableId>
       </variableLink>
    </testCaseLink>

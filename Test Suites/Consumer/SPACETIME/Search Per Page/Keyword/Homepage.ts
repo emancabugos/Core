@@ -21,10 +21,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Homepage/01_searchItemName</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6bbfd1e4-4342-4f51-9dc8-c15158e91879</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>6bbfd1e4-4342-4f51-9dc8-c15158e91879</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>7ac7f009-e6ce-46c3-b57b-eaa8b0c4513f</variableId>
       </variableLink>
    </testCaseLink>
@@ -33,16 +42,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Homepage/02_searchItemDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>61c8c344-3f5f-4fcb-a0b9-f6fa7117f4ae</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>61c8c344-3f5f-4fcb-a0b9-f6fa7117f4ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescription</value>
          <variableId>7fda0fde-d549-4da9-9965-97b934950794</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>61c8c344-3f5f-4fcb-a0b9-f6fa7117f4ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>15f8f6cb-744d-4cf7-b509-ed1a41ad86e7</variableId>
       </variableLink>
    </testCaseLink>
@@ -51,16 +69,25 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Homepage/03_searchPartialItemName</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7290f9c1-2a2f-48d2-8658-1092acae8e52</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>7290f9c1-2a2f-48d2-8658-1092acae8e52</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescriptionPatial</value>
          <variableId>ffa7818d-c8ed-40d4-9926-1cfdfc9101d9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>7290f9c1-2a2f-48d2-8658-1092acae8e52</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>f38b97d8-2a44-4f1e-87a9-c5b658c9c4c3</variableId>
       </variableLink>
    </testCaseLink>
@@ -69,29 +96,26 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Homepage/04_searchPartialItemDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>df196eba-c4fe-475e-bd05-28d520fb6db8</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/Search_Keyword</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>df196eba-c4fe-475e-bd05-28d520fb6db8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescriptionPatial</value>
          <variableId>c7a86189-e746-44e9-a568-7d072b257b25</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>df196eba-c4fe-475e-bd05-28d520fb6db8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>d2aba72d-d0ff-4c88-bf8b-43eb77200a74</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8394e85c-6e95-4b5b-bfb3-a9e29161d765</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Homepage/05_BlankSearch</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>be1e638b-6a12-4f66-a6b2-5bf6810d122d</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

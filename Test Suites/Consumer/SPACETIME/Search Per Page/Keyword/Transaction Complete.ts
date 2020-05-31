@@ -21,46 +21,55 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Keyword/Transaction Complete/a_NavigateToTransactionComplete</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>76b3fc59-fbdd-43a5-94d1-9a346897e271</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/SPACETIME/Checkout Scenarios/ServicePerHour247</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>76b3fc59-fbdd-43a5-94d1-9a346897e271</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
          <variableId>74d5f876-bcfe-4205-b426-fb3b8f5c7db0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>76b3fc59-fbdd-43a5-94d1-9a346897e271</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
          <variableId>43469caa-22da-472c-ae81-6f4e281f3dd7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>76b3fc59-fbdd-43a5-94d1-9a346897e271</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>duration </value>
          <variableId>a1e2de68-02f8-45cf-8ad9-d12909d285dd</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>76b3fc59-fbdd-43a5-94d1-9a346897e271</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>time</value>
          <variableId>7021ee0a-bbd7-418d-8a8d-31dbe5f97338</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>76b3fc59-fbdd-43a5-94d1-9a346897e271</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>delivery</value>
          <variableId>ca17ff43-a903-451a-8352-b0493b66d4ce</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>76b3fc59-fbdd-43a5-94d1-9a346897e271</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>payment</value>
          <variableId>24c5d129-feee-4960-80e5-350f9958ad2d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>76b3fc59-fbdd-43a5-94d1-9a346897e271</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>unit</value>
          <variableId>bfeda2d0-a865-48a4-ab3c-1f8c6a649b78</variableId>
       </variableLink>
    </testCaseLink>

@@ -4,7 +4,17 @@
    <name>textfield_SelectDeliveryPickupMethod</name>
    <tag></tag>
    <elementGuidId>6af65d05-7958-4ce6-b9c1-e11af638a208</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'select_delivery_method']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[4]/div/div/div[1]/div[8]/div[6]/div[1]/div[1]/div[2]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
