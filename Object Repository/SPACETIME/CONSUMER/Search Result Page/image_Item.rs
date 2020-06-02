@@ -4,10 +4,16 @@
    <name>image_Item</name>
    <tag></tag>
    <elementGuidId>b2bd845c-2e47-4f53-8b56-1a996ad8b53b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'item-box-top']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,10 +27,17 @@
       <value>/images/items/item-59820-636935822143930823-vgEBIX.jpg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;items-list&quot;)/div[@class=&quot;item-box item-box-size col-sm-6 col-xs-6&quot;]/div[@class=&quot;item-box-inner&quot;]/div[@class=&quot;item-box-top&quot;]/a[1]/img[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-box-top</value>
    </webElementProperties>
 </WebElementEntity>

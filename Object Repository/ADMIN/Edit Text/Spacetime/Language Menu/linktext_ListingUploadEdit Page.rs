@@ -4,7 +4,17 @@
    <name>linktext_ListingUploadEdit Page</name>
    <tag></tag>
    <elementGuidId>9c2e78c8-2bc6-4983-af96-9443816d11c0</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Listing Upload/Edit Page' or . = 'Listing Upload/Edit Page')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[2]/div/div[2]/ul/li[2]/div[2]/ul/li[5]/div/div[1]/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

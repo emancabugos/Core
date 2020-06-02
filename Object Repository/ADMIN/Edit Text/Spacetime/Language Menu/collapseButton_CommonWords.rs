@@ -4,7 +4,17 @@
    <name>collapseButton_CommonWords</name>
    <tag></tag>
    <elementGuidId>3bb3dcad-fc52-4a07-9a82-2c9f03edb45c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;sortable-list&quot;)/li[@class=&quot;has-subitems ui-sortable-handle&quot;]/div[@class=&quot;row-wrapper&quot;]/div[@class=&quot;row-details pull-left&quot;]/div[1]/a[@class=&quot;toggle-subcate&quot;]/i[@class=&quot;icon icon-toggle active&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[2]/div/div[2]/ul/li[3]/div[1]/div[1]/div[1]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

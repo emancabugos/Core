@@ -4,7 +4,17 @@
    <name>linktext_Listing</name>
    <tag></tag>
    <elementGuidId>b4578eda-214b-4c07-aae0-ad27e39b0642</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Listing' or . = 'Listing')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[2]/div/div[2]/ul/li[2]/div[2]/ul/li[4]/div/div[1]/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

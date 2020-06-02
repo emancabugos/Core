@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Item Details</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>10c81189-1995-43a1-9fab-18ae4c5a261f</testSuiteGuid>
+   <testCaseLink>
+      <guid>737e6585-6368-40ca-8510-406a3a011f46</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2848864e-e942-443c-aecd-c69f00741ad8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Item Details Page/a_NavigateToItemDetailsPage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6cc84cf5-0440-4545-adb3-4265ae789f95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Item Details Page/01_searchItemName</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a0b41b3a-abc9-4363-b356-ab02b7c2aef5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6d76dff-ee98-4f6f-9a07-d97837cf946f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Item Details Page/02_searchItemDescription</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>60aa4620-ca90-4566-af3a-d10e5ec33233</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48fec4ef-5c71-4415-ab23-a1f5c4e60858</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f1fc6bfe-2206-4dd0-943a-58975bb801b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Item Details Page/03_searchPartialItemName</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ac9b857f-4859-494b-95fc-1489caf59d2f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d6f9c23b-390c-4dc9-a1b0-02ea9474fb2b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1df740ae-1821-42cf-96e5-dec529d52182</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Item Details Page/04_searchPartialItemDescription</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1fd4d668-566b-4dab-bbfb-e0ae127f29d5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2cd76c3e-0e85-47fe-895f-1e8ed70551da</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fdd49243-3dc8-49c9-a214-b222510515d2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/Search Scenario/Location/Item Details Page/05_BlankSearch</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4a48ef45-51be-4374-acab-641573f0fe8f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

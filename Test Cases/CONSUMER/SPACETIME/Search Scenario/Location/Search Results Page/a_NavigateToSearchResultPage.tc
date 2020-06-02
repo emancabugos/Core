@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>a_NavigateToSearchResultPage</name>
+   <tag></tag>
+   <comment>Validation on Homepage
+Verify in Search Result Page</comment>
+   <testCaseGuid>3b2909d6-d0be-49ab-887c-f838fdfec3c5</testCaseGuid>
+</TestCaseEntity>

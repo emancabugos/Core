@@ -15,14 +15,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language/dd_English'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language/dd_English'), selectLanguage, false)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), selectLanguage, false)
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language/dd_English'), selectLanguage, false, 
-    0)
+WebUI.delay(1)
 
 WebUI.comment('Seller Service Upload')
+
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_YourServices'), 
+    '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_BasicDetails'), 
     '*')
@@ -30,8 +32,6 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing Up
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_Schedule'), '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_Images'), '*')
-
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/textfield_Listings'), '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_Additional'), '*')
 
@@ -41,7 +41,7 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing Up
 
 WebUI.comment('Basic Details')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_BasicDetails - Copy'), 
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_BasicDetails01'), 
     '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_Category'), '*')
@@ -73,6 +73,9 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing Up
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_ServiceDuration'), 
     '*')
 
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_SpecifyDuration'), 
+    '*')
+
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_AllowUnlimitedBookings'), 
     '*')
 
@@ -81,7 +84,8 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing Up
 
 WebUI.comment('Schedule')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_Schedule'), '*')
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/tabLabel_Schedule - Copy'), 
+    '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_OperatingHours'), 
     '*')
@@ -151,9 +155,7 @@ WebUI.comment('Delivery')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listing UploadEdit Page/textfield_Delivery01'), '*')
 
-WebUI.delay(1)
+WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Edit Text/Spacetime/Language/button_save'))
-
-WebUI.delay(1)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success'), 0)
 

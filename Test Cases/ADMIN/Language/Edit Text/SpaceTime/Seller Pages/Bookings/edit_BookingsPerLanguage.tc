@@ -4,5 +4,12 @@
    <name>edit_BookingsPerLanguage</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fc82c5c5-b13c-4aa5-9716-82e5cbac77af</testCaseGuid>
+   <testCaseGuid>34568b98-6588-491a-aa5e-f93ffc7287e2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a12d045c-9c6b-435e-a37b-475bdf6f552a</id>
+      <masked>false</masked>
+      <name>selectLanguage</name>
+   </variable>
 </TestCaseEntity>
