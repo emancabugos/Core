@@ -21,8 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/navigate_Delivery2.0'), [:], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/29_redirectionFeatureToggle'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ADMIN/Features Control/Delivery 2.0/Delivery 2.0 List Page/Complex/TC020'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -33,7 +33,7 @@ WebUI.click(findTestObject('ADMIN/Waiting List/button_Invite Merchants'), Failur
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/a_Invite Popup/textlabel_Invite your Merchant to on'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Waiting List/a_Invite Popup/textarea_email'), GlobalVariable.MerchantNotif)
+WebUI.setText(findTestObject('ADMIN/Waiting List/a_Invite Popup/textarea_email'), 'arcqatester03@gmail.com')
 
 WebUI.click(findTestObject('ADMIN/Waiting List/a_Invite Popup/button_send'), FailureHandling.CONTINUE_ON_FAILURE)
 
