@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>9654d834-6539-4c80-9707-b98dbf9fe7be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bcdb7beb-4318-497e-9f07-6c89b702ad68</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 06</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -70,7 +70,7 @@
    <testCaseLink>
       <guid>6c949228-d483-4e7a-ab7b-efb3f915daae</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 07</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -121,7 +121,7 @@
    <testCaseLink>
       <guid>440b3537-796a-4670-b41d-93a1415f9009</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 08</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -172,7 +172,7 @@
    <testCaseLink>
       <guid>4bd0284e-a8eb-415c-a2ca-d607c638448e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 09</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -223,7 +223,7 @@
    <testCaseLink>
       <guid>e1a48ed1-2c61-488e-b34d-7b0dc35618bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 10</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -274,7 +274,7 @@
    <testCaseLink>
       <guid>b89a5123-fd8c-42eb-b6e2-a56e006ab4c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 20</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -331,7 +331,7 @@
    <testCaseLink>
       <guid>e1e65d5e-974f-490c-92a9-3d936087ba5b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 21</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -388,7 +388,7 @@
    <testCaseLink>
       <guid>859f7371-eb21-48d7-ad85-1302c3423d37</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 22</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -445,7 +445,7 @@
    <testCaseLink>
       <guid>5964ecf0-df66-4e1a-a859-9c4118fe347c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 23</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -502,7 +502,7 @@
    <testCaseLink>
       <guid>9502de7d-902e-42e2-83d0-f6c5e5ccf27e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 32</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -559,7 +559,7 @@
    <testCaseLink>
       <guid>9d8be3da-95f8-4e1f-a968-524ce5a5f76e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 33</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -616,7 +616,7 @@
    <testCaseLink>
       <guid>e5f8c988-0f76-48a9-bb93-0583cc7696f2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Merchant Delivery/Checkout 34</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -730,7 +730,7 @@
    <testCaseLink>
       <guid>f6bb6e3f-ece5-4308-8722-e82425e9f759</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;itmupld_srvcs_specify1&quot;)[count(. | //input[@type = 'text' and @id = 'itmupld_srvcs_specify1' and @value = '15']) = count(//input[@type = 'text' and @id = 'itmupld_srvcs_specify1' and @value = '15'])]</value>
+         <value>//input[@type = 'text' and @id = 'itmupld_srvcs_specify1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -62,14 +62,14 @@
       <value>itmupld_srvcs_specify1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>15</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

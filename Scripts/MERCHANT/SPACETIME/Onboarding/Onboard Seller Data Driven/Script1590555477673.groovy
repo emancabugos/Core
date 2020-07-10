@@ -109,10 +109,9 @@ WebUI.click(findTestObject('SPACETIME/MERCHANT/Onboarding/Address/button_NEXT ad
 
 WebUI.comment('Payment')
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/Custom Payment/button_Link Account'), 
-    0)
+//WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/Custom Payment/button_Link Account'), 0)
 
-WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/Custom Payment/button_Link Account'), FailureHandling.CONTINUE_ON_FAILURE)
+//WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/Custom Payment/button_Link Account'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/Custom Payment/button_Okay'), 
     0)

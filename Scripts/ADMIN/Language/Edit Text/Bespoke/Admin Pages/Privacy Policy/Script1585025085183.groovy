@@ -19,6 +19,8 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Naviga
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language'), varLanguage, false)
 
+WebUI.delay(1)
+
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Privacy Policy/input_Privacy Policy_lbl_title'), '*')
 
 WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save'), FailureHandling.CONTINUE_ON_FAILURE)

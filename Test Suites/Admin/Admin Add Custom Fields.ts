@@ -19,7 +19,7 @@
    <testCaseLink>
       <guid>3fb5d26c-85e5-46a3-8bac-bdc948b66a8f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Redirection</testCaseId>
    </testCaseLink>
    <testCaseLink>

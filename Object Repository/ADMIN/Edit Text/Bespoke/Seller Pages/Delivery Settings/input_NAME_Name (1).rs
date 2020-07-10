@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[4]/div/div[4]/div[7]/div[2]/div[2]/input[count(. | //*[@type = 'text' and @name = 'Name']) = count(//*[@type = 'text' and @name = 'Name'])]</value>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[5]/div[7]/div[2]/div[2]/input[count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[4]/div/div[4]/div[7]/div[2]/div[2]/input</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[5]/div[7]/div[2]/div[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

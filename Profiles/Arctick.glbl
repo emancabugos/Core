@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0530stth1'</initValue>
+      <initValue>'subadmin'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0601bp1.staging.arcadier.io/admin'</initValue>
+      <initValue>'mogozay.sandbox.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0601bp1.staging.arcadier.io/'</initValue>
+      <initValue>'mogozay.sandbox.arcadier.io/'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -91,7 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'buyer0001'</initValue>
+      <initValue>'buyer001'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -158,5 +158,10 @@
       <description></description>
       <initValue>'custom'</initValue>
       <name>payment</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'0601bp1.staging.arcadier.io/user/order/cart'</initValue>
+      <name>cartURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

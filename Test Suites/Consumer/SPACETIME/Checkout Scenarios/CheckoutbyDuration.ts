@@ -13,13 +13,13 @@
    <testCaseLink>
       <guid>997cc3e4-6e08-4064-9844-f89ed0c27fec</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>85019777-00ee-4585-9d60-c021ff5d99a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/01_ServicePerHour247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -82,7 +82,7 @@
    <testCaseLink>
       <guid>2cd73556-a2ce-4e91-b1ab-09e123f23b3a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/02_ServicePerDay247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -139,7 +139,7 @@
    <testCaseLink>
       <guid>44d643d8-0ffa-4cf8-a7a8-480f603034d5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/03_ServicePerWeek247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -196,7 +196,7 @@
    <testCaseLink>
       <guid>4646f28d-8be6-457e-8c2c-5a575b452201</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/04_ServicePerMonth247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -253,7 +253,7 @@
    <testCaseLink>
       <guid>4d5cc3b0-ba8b-4c84-bc2b-d0e1057b69e6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/05_ServiceCustomPer15min247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -310,7 +310,7 @@
    <testCaseLink>
       <guid>25b06627-f0dc-41da-8e74-6dd8e0e1b9d1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/06_ServiceCustomPer150min247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -367,7 +367,7 @@
    <testCaseLink>
       <guid>8c02a182-4183-4add-91f9-73636e9f3441</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/07_ServiceCustomPer1hour247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -424,7 +424,7 @@
    <testCaseLink>
       <guid>541f3acc-885e-4742-826f-0a0f6510cdf9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/08_ServiceCustomPer23hrs247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -481,7 +481,7 @@
    <testCaseLink>
       <guid>4d7ce9a8-fc13-4ac8-b881-21a657e1e009</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/09_ServiceCustomPer1Day247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -538,7 +538,7 @@
    <testCaseLink>
       <guid>79b7fdad-77c3-4b4f-8e54-48eb57377d54</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/10_ServiceCustomPer28Day247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -595,7 +595,7 @@
    <testCaseLink>
       <guid>b409674c-c886-4742-9ccc-e64885d7ec6e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/11_ServicePerHourNot247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -652,7 +652,7 @@
    <testCaseLink>
       <guid>a37e926c-9fed-4c4f-873c-321b64cdcd6d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/12_ServicePerDayNot247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -709,7 +709,7 @@
    <testCaseLink>
       <guid>6f545aa9-d97d-4a42-97a8-827c5b328c53</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/13_ServicePerWeekNot247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -766,7 +766,7 @@
    <testCaseLink>
       <guid>092d2ffb-bafa-4eb6-bf6f-0519d8aa8349</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/14_ServicePerMonthNot247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -823,7 +823,7 @@
    <testCaseLink>
       <guid>c01df22e-4e07-4d27-b56b-0ce11ae6b76e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/15_ServiceCustomPer15minNot247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -880,7 +880,7 @@
    <testCaseLink>
       <guid>f3447846-a347-4289-aa86-e0cad2503eea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/16_ServiceCustomPer150minNot247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -937,7 +937,7 @@
    <testCaseLink>
       <guid>22accba8-2ec3-40f0-b4a5-c8e6ab36783f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/17_ServiceCustomPer1hourNot247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -994,7 +994,7 @@
    <testCaseLink>
       <guid>dd9f2ba2-c2f2-4f2e-af1d-a034cb40c5da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/18_ServiceCustomPer1DayNot247</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1051,7 +1051,7 @@
    <testCaseLink>
       <guid>65f66725-4911-40a9-a8eb-97a9e81bc8be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/19_ServiceOvernight</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1165,7 +1165,7 @@
    <testCaseLink>
       <guid>84e76107-8267-4392-b0d1-62437b9f1c0c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/21_ServiceOvernightPerMonth</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1222,7 +1222,7 @@
    <testCaseLink>
       <guid>24cbbbfd-a0c8-4732-9158-6d451ab49628</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/22_ServiceOvernightPer1Night</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1279,7 +1279,7 @@
    <testCaseLink>
       <guid>425841d7-bd2f-4a2f-b58c-796477ef32ff</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/Checkout Scenarios/Checkout by Duration/23_ServiceOvernightPer28Nights</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -1336,7 +1336,7 @@
    <testCaseLink>
       <guid>6b56b457-7e08-49f5-92fc-41e5e53b1fab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
