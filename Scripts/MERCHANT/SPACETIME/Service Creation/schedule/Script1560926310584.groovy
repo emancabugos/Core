@@ -19,6 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Schedule/Operating Hours/mon_st'), '7:00 AM')
+ def element = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/SPACETIME/MERCHANT/Service Creation/Schedule/time_in'), 
+        30)
 
+ WebUI.executeJavaScript('arguments[0].value=\'09:00 PM\';', Arrays.asList(element))
+ 
+ def element1 = WebUiCommonHelper.findWebElement(findTestObject('Object Repository/SPACETIME/MERCHANT/Service Creation/Schedule/time_out'),
+	 30)
+ 
+ WebUI.executeJavaScript('arguments[0].value=\'06:00 AM\';', Arrays.asList(element1))

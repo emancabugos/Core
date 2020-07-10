@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), 0)
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/button_addoption'), 0)
+
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/button_Add Field'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.comment('Choose Field Type')
@@ -69,7 +71,7 @@ if (varCustomFieldType == 'Checkbox') {
     WebUI.selectOptionByLabel(findTestObject('ADMIN/Custom Item Fields Page/a_Default/dropdown_fieldtype'), 'Drop Down', 
         false)
 
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/icon_addoptio'), 0)
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/button_addoption'), 0)
 
     for (int r = 0; r <= 7; r++) {
         WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/icon_addoptio'), FailureHandling.STOP_ON_FAILURE)

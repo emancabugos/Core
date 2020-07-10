@@ -13,19 +13,19 @@
    <testCaseLink>
       <guid>8a5361bc-5713-49dd-9b50-a69f3358d474</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>27f011ef-3b39-4e57-92ad-ac05581a0abb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Bookings/navigateTo_Bookings</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9d875083-603e-42ad-b7a2-79565430afe9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Bookings/edit_BookingsPerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -46,13 +46,13 @@
    <testCaseLink>
       <guid>a9b9b474-d33a-4737-bfa7-533cb656c061</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Dashboard/navigateTo_Dashboard</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>31b344bf-06af-4a2e-a1fd-cba05e4e854e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Dashboard/edit_DashboardPerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -73,7 +73,7 @@
    <testCaseLink>
       <guid>91c17a51-c7c0-44d4-9e74-6d008e991a46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Item Translation/navigateTo_ItemTranslation</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -181,7 +181,7 @@
    <testCaseLink>
       <guid>79a841da-5da4-46d8-87d8-0ecf5b82b7b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

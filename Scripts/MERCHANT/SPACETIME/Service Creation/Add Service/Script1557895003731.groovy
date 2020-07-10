@@ -114,7 +114,7 @@ if (varServiceDuration == 'hour') {
             'day(s)', false)
     }
     
-    def element = WebUiCommonHelper.findWebElement(findTestObject('MERCHANT/SpaceTime/Service Creation/Basic Details/Default Duration/number-duration1'), 
+    def element = WebUiCommonHelper.findWebElement(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/Default Duration/number-duration1'), 
         30)
 
     if (varDuration == '150') {
@@ -157,9 +157,6 @@ WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/bu
 
 WebUI.comment('Schedule')
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'), 
-    0)
-
 if (varOperation == '24/7') {
     WebUI.verifyElementPresent(findTestObject('SPACETIME/MERCHANT/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'), 
         0 /*if (varSchedule == '9AM - 5PM') {
@@ -171,6 +168,8 @@ if (varOperation == '24/7') {
     }*/ )
 } else if (varOperation == 'not 24/7') {
     WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Schedule/247 toggle/span_onoffswitch-switch'), '')
+} else if (varOperation == 'overnight') {
+    WebUI.callTestCase(findTestCase('MERCHANT/SPACETIME/Service Creation/schedule'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 WebUI.sendKeys(findTestObject('SPACETIME/MERCHANT/Service Creation/Schedule/select_st_date'), '25/12/2020')

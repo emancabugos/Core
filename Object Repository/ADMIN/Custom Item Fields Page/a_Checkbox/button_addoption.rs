@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;contactForm&quot;]/div/div[8]/div/div[2]/a/i[count(. | //i[@class = 'icon icon-addopt']) = count(//i[@class = 'icon icon-addopt'])]</value>
+         <value>//i[@class = 'icon icon-addopt' and (text() = ' ADD OPTION' or . = ' ADD OPTION')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,8 +29,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>text</name>
       <type>Main</type>
-      <value>//*[@id=&quot;contactForm&quot;]/div/div[8]/div/div[2]/a/i</value>
+      <value> ADD OPTION</value>
    </webElementProperties>
 </WebElementEntity>

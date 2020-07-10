@@ -19,15 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'), 0)
-
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Content Mgmt'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_Categories'), 0)
-
-WebUI.click(findTestObject('ADMIN/Categories/Category List/button_Categories'))
-
-WebUI.waitForPageLoad(0, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Categories/Category List/button_AddACategory'), 0)
 
 WebUI.click(findTestObject('ADMIN/Categories/Category List/button_AddACategory'))
 

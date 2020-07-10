@@ -19,60 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Arcadier_image link'), 0)
-
-WebUI.click(findTestObject('ADMIN/Getting Started/Arcadier_image link'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.comment('Step 3 Payment')
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/span_Welcome to Arcadier Marke'), 0)
-
-WebUI.verifyElementText(findTestObject('ADMIN/Getting Started/span_Welcome to Arcadier Marke'), 'Welcome to Arcadier Marketplaces!')
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 2/button_arrow'), 0)
-
-WebUI.click(findTestObject('ADMIN/Getting Started/Step 2/button_arrow'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/div_Step 3  Add your payment m'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ADMIN/Getting Started/Step 3/step3_image'), 0)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/div_Step 3  Add your payment m'), 0)
-
-WebUI.verifyElementText(findTestObject('ADMIN/Getting Started/Step 3/p_Make sure to set up your pay'), 'Make sure to set up your payment methods to enable online transactions on your marketplace.')
-
-WebUI.comment('Click video tutorial')
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/step 3_video'), 0)
-
-WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/step 3_video'))
-
-WebUI.delay(1)
-
-WebUI.switchToWindowIndex(1)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/yt-formatted-string_Payments H'), 0)
-
-WebUI.closeWindowIndex(1)
-
-WebUI.delay(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.comment('add payment')
-
-WebUI.click(findTestObject('ADMIN/Getting Started/Step 4/button_arrow left'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Getting Started/Step 3/div_Add Payments'), 0)
-
-WebUI.click(findTestObject('ADMIN/Getting Started/Step 3/div_Add Payments'))
-
-WebUI.comment('COD')
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/a_Add a custom payment method'), 0)
-
-WebUI.click(findTestObject('ADMIN/Configure Payments/Custom Payment/a_Add a custom payment method'))
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Configure Payments/Custom Payment/input_payment-method-name'), 0)
 
 WebUI.setText(findTestObject('ADMIN/Configure Payments/Custom Payment/input_payment-method-name'), 'Handshake')
