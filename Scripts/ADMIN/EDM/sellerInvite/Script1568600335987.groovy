@@ -19,6 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('')
 
@@ -28,13 +31,13 @@ WebUI.navigateToUrl('https://www.gmail.com')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_username'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_username'), GlobalVariable.MerchantNotif)
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_username'), 'arcqatester03@gmail.com')
 
 WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_password'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_password'), GlobalVariable.GooglePass)
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_password'), '20_P@s$w0rd')
 
 WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_password'), Keys.chord(Keys.ENTER))
 
@@ -53,4 +56,6 @@ WebUI.click(findTestObject('ADMIN/Gmail Page/link_Seller Invite'), FailureHandli
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/button_Create Account'), 0)
 
 WebUI.click(findTestObject('ADMIN/Gmail Page/button_Create Account'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.switchToWindowIndex(1)
 
