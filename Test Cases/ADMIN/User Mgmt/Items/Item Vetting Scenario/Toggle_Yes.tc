@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>8de6e96c-8442-454d-9a84-24f25bf5e46e</testCaseGuid>
    <variable>
-      <defaultValue>findTestData('MERCHANT/Item List')</defaultValue>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
       <description></description>
       <id>e85928a6-498e-4c1a-90c3-0923bb0ab6d3</id>
       <masked>false</masked>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>icon_addoptio</name>
+   <name>button_link COD</name>
    <tag></tag>
-   <elementGuidId>575b2657-ad77-406d-baeb-8dfc6bc37f94</elementGuidId>
+   <elementGuidId>18af8c50-8f23-4b0b-939a-cf0d6e13146a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[3]/div/div[1]/div[2]/div/form/div/div[9]/div/div[2]/a/i[count(. | //i[@class = 'icon icon-addopt']) = count(//i[@class = 'icon icon-addopt'])]</value>
+         <value>//div[@data-description = 'By verifying this payment method, all your buyers will be able to checkout your items using Cash on Delivery and settlement has to be handled by you manually if they were to use this payment method.']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,22 +15,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>icon icon-addopt</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>data-description</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[3]/div/div[1]/div[2]/div/form/div/div[9]/div/div[2]/a/i</value>
+      <value>By verifying this payment method, all your buyers will be able to checkout your items using Cash on Delivery and settlement has to be handled by you manually if they were to use this payment method.</value>
    </webElementProperties>
 </WebElementEntity>
