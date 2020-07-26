@@ -30,7 +30,7 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Homepage/a_BE A SELLER'), 0)
 
-if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 3, FailureHandling.CONTINUE_ON_FAILURE) == 
+if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 2, FailureHandling.OPTIONAL) == 
 true) {
     WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
 } else {
