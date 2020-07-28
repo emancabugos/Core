@@ -21,15 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
 WebUI.delay(1)
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'Item Text Editor')
+WebUI.setText(findTestObject('null'), 'Item Text Editor')
 
-WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 

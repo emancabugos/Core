@@ -43,8 +43,6 @@ if (GlobalVariable.ConsumerAccountType == 'custom') {
     } else {
         WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
     }
-    
-    WebUI.click(findTestObject('CONSUMER/Login Buyer/button_SignIn'))
 } else if (GlobalVariable.ConsumerAccountType == 'google') {
     WebUI.waitForElementVisible(findTestObject('CONSUMER/Login Buyer/button_GoogleLogin'), 0)
 

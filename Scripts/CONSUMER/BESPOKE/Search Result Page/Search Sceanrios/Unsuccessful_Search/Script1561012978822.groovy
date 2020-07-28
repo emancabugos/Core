@@ -23,11 +23,11 @@ WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], Failu
 
 WebUI.comment('Search from Homepage textfield only')
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), '')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), '')
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
@@ -35,7 +35,7 @@ WebUI.comment('Verify No Match found logo')
 
 WebUI.comment('Category search from Homepage')
 
-WebUI.click(findTestObject('CONSUMER/Homepage/logo_Marketplace'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/logo_Marketplace'))
 
 WebUI.waitForPageLoad(0, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -43,13 +43,13 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/dropdown
 
 WebUI.selectOptionByLabel(findTestObject('CONSUMER/Search Result Page/dropdown_Category'), '', false)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
 WebUI.comment('Verify No Match found logo')
 
-WebUI.click(findTestObject('CONSUMER/Homepage/logo_Marketplace'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/logo_Marketplace'))
 
 WebUI.waitForPageLoad(0, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -61,17 +61,17 @@ WebUI.comment('Verify No Match found logo')
 
 WebUI.comment('Textfield and Category Search on Homepage')
 
-WebUI.click(findTestObject('CONSUMER/Homepage/logo_Marketplace'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/logo_Marketplace'))
 
 WebUI.waitForPageLoad(0, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/dropdown_Category'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), '')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), '')
 
 WebUI.selectOptionByLabel(findTestObject('CONSUMER/Search Result Page/dropdown_Category'), '', false)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
@@ -79,9 +79,9 @@ WebUI.comment('Verify No Match found logo')
 
 WebUI.comment('Textfield search on Search Result Page')
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), '')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), '')
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
@@ -91,7 +91,7 @@ WebUI.comment('Category search on Search Result Page')
 
 WebUI.selectOptionByLabel(findTestObject('CONSUMER/Search Result Page/dropdown_Category'), '', false)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 
@@ -99,11 +99,11 @@ WebUI.comment('Verify No Match found logo')
 
 WebUI.comment('Textfield & Category search on Search Result Page')
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), '')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), '')
 
 WebUI.selectOptionByLabel(findTestObject('CONSUMER/Search Result Page/dropdown_Category'), '', false)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/button_hamburger'), 0)
 

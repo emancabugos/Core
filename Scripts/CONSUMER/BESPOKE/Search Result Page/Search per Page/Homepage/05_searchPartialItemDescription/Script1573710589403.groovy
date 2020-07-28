@@ -25,9 +25,9 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.comment('Search Partial Item Description')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemDescriptionPartial)
+WebUI.setText(findTestObject('null'), itemDescriptionPartial)
 
-WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 

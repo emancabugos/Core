@@ -27,13 +27,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 'Checkout Item 01 - Delivery - Stripe '
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
 WebUI.comment('Search Item1')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemName1)
+WebUI.setText(findTestObject('null'), itemName1)
 
-WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 
@@ -57,9 +57,9 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.comment('Search Item2')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemName2)
+WebUI.setText(findTestObject('null'), itemName2)
 
-WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 

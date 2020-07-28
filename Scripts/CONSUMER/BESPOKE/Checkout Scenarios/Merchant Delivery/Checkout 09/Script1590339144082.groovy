@@ -27,13 +27,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 'Checkout Item 04 - Admin Delivery - Custom'
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemName)
+WebUI.setText(findTestObject('null'), itemName)
 
-WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 

@@ -4,6 +4,12 @@
    <name>textlabel_Pricing</name>
    <tag></tag>
    <elementGuidId>871d2899-9aaa-4f94-bf5b-328a33603e4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'Price *' or . = 'Price *')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,14 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>label</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Pricing</value>
+      <value>Price *</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
