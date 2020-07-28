@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_buyer</name>
+   <tag></tag>
+   <elementGuidId>016b0125-0b63-4d77-a958-604046d19c27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='buyer_inbox_tab']/div/div/div/div/div/div[2]/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://arctick-assets-test.azureedge.net/userdata/0613bpdiana.test.arcadier.io/images/user/profile-image-60226-pt93ctaaa7.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;buyer_inbox_tab&quot;)/div[@class=&quot;tab-pane fade-in&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;chatdmbinbxpg-listmsg&quot;]/div[@class=&quot;chatdmbinbxpg-ind-sec&quot;]/div[@class=&quot;chatdmbinbxpg-ind-tbl&quot;]/div[@class=&quot;chatdmbinbxpg-col-prf&quot;]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='buyer_inbox_tab']/div/div/div/div/div/div[2]/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[contains(@src,'https://arctick-assets-test.azureedge.net/userdata/0613bpdiana.test.arcadier.io/images/user/profile-image-60226-pt93ctaaa7.jpg')])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div[2]/img</value>
+   </webElementXpaths>
+</WebElementEntity>

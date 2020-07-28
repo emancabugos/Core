@@ -4,6 +4,12 @@
    <name>OrderStatus_dropdown</name>
    <tag></tag>
    <elementGuidId>6d4ce486-5f28-48ac-8580-3ab48562b6b8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[3]/div[2]/div/div[1]/div[9]/select[count(. | //select[@name = 'order-status' and @id = 'orderid-1' and @class = 'basic status-changer' and (text() = 'AcknowledgedDelivered' or . = 'AcknowledgedDelivered')]) = count(//select[@name = 'order-status' and @id = 'orderid-1' and @class = 'basic status-changer' and (text() = 'AcknowledgedDelivered' or . = 'AcknowledgedDelivered')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>orderid-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -49,10 +55,10 @@
       <value>AcknowledgedDelivered</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;order-list&quot;)/div[@class=&quot;order-un-read-box&quot;]/div[@class=&quot;order-status-sec&quot;]/select[@id=&quot;orderid-1&quot;]</value>
+      <value>//div[4]/div[3]/div[2]/div/div[1]/div[9]/select</value>
    </webElementProperties>
 </WebElementEntity>

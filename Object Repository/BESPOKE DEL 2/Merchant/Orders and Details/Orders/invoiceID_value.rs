@@ -4,6 +4,12 @@
    <name>invoiceID_value</name>
    <tag></tag>
    <elementGuidId>cb19d7ec-4e5e-41e8-8366-caa8bc5e6c00</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;order-list&quot;]/div[1]/div[1]/a[count(. | //a[@href = '#']) = count(//a[@href = '#'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,17 +34,17 @@
       <value>click:$root.goToDetails</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>INVOICE NO:0815bpd15658355253ck8</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;order-list&quot;)/div[@class=&quot;order-un-read-box&quot;]/div[@class=&quot;invoice-id-sec&quot;]/a[1]</value>
+      <value>//*[@id=&quot;order-list&quot;]/div[1]/div[1]/a</value>
    </webElementProperties>
 </WebElementEntity>
