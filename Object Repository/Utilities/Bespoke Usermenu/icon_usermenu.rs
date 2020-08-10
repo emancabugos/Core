@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[5]/a[1]/i</value>
+         <value>//li[@class = 'login-menu dropdown']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>li</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[5]/a[1]/i</value>
+      <value>login-menu dropdown</value>
    </webElementProperties>
 </WebElementEntity>

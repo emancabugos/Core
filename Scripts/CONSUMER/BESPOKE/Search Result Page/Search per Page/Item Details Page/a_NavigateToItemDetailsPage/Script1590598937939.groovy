@@ -32,5 +32,5 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Result
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 

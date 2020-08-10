@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>MOGOZAY</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://app-voilaah.site/eclia'</initValue>
+      <name>cmsURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arcadierteam2@gmail.com'</initValue>
+      <name>buyerCMS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'01seller'</initValue>
+      <name>sellerCMS</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mogozay.sandbox.arcadier.io/admin'</initValue>
+      <name>adminURLMogo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'subadmin'</initValue>
+      <name>adminUserMogo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mogozay.sandbox.arcadier.io/'</initValue>
+      <name>mogoSandbox</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

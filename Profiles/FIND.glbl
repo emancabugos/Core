@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>FIND</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'diagnostics.sandbox.arcadier.io/'</initValue>
+      <name>FINDhomepageURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'02seller'</initValue>
+      <name>sellerUsernameFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arcadier.tester1@gmail.com'</initValue>
+      <name>sellerNotifEmailFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'diagnostics.sandbox.arcadier.io/admin'</initValue>
+      <name>FINDadminURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Admin'</initValue>
+      <name>adminUsernameFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Diagnostics123!'</initValue>
+      <name>adminPasswordFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'01buyer'</initValue>
+      <name>buyerUsernameFIND</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

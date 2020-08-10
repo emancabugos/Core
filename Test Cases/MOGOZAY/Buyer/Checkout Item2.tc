@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout Item2</name>
+   <tag></tag>
+   <comment>Search Item
+Search Result
+Item Details
+Cart Summary</comment>
+   <testCaseGuid>0d6dbdae-777e-462f-8b9b-c830706a2f9f</testCaseGuid>
+</TestCaseEntity>

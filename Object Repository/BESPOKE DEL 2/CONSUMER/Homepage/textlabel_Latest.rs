@@ -4,6 +4,12 @@
    <name>textlabel_Latest</name>
    <tag></tag>
    <elementGuidId>df0af3fc-d1cc-4f95-aa15-ac7817fa991a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h1[(text() = 'Our latest items' or . = 'Our latest items')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,14 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>h1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Latest</value>
+      <value>Our latest items</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

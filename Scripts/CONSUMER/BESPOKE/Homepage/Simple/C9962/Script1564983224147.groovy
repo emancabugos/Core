@@ -28,7 +28,7 @@ WebUI.scrollToElement(findTestObject('null'), 0)
 
 WebUI.click(findTestObject('null'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_ContactSeller'))
+WebUI.verifyElementVisible(findTestObject('null'))
 

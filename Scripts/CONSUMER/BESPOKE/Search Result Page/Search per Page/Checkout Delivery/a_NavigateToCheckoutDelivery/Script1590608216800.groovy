@@ -43,17 +43,17 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Result
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
 WebUI.comment('Item Details Page')
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
-WebUI.selectOptionByLabel(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/dropdown_Quantity'), quantity, true)
+WebUI.selectOptionByLabel(findTestObject('null'), quantity, true)
 
-def itemprice = WebUI.getText(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/textlabel_ItemPrice'))
+def itemprice = WebUI.getText(findTestObject('null'))
 
-def quantity = WebUI.getAttribute(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/dropdown_Quantity'), 'value')
+def quantity = WebUI.getAttribute(findTestObject('null'), 'value')
 
 BigDecimal intitemprice = new BigDecimal(itemprice)
 
@@ -63,9 +63,9 @@ def subtotal = intitemprice * intquantity
 
 println(df.format(new BigDecimal(subtotal)))
 
-WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'))
+WebUI.click(findTestObject('null'))
 
-WebUI.waitForElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_ViewCart'), 0)
+WebUI.waitForElementPresent(findTestObject('null'), 0)
 
 WebUI.navigateToUrl(GlobalVariable.cartURL)
 
