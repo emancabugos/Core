@@ -27,13 +27,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 'Checkout Item 02 - Admin Delivery - Paypal '
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('null'), itemName)
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemName)
 
-WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 
@@ -43,17 +43,17 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Result
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('SUNTEC/Item Details Page/button_AddToCart'), 0)
 
 WebUI.comment('Item Details Page')
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
-WebUI.selectOptionByLabel(findTestObject('null'), quantity, true)
+WebUI.selectOptionByLabel(findTestObject('SUNTEC/Item Details Page/dropdown_Quantity'), quantity, true)
 
-def itemprice = WebUI.getText(findTestObject('null'))
+def itemprice = WebUI.getText(findTestObject('SUNTEC/Item Details Page/textlabel_ItemPrice'))
 
-def quantity = WebUI.getAttribute(findTestObject('null'), 'value')
+def quantity = WebUI.getAttribute(findTestObject('SUNTEC/Item Details Page/dropdown_Quantity'), 'value')
 
 BigDecimal intitemprice = new BigDecimal(itemprice)
 
@@ -63,9 +63,9 @@ def subtotal = intitemprice * intquantity
 
 println(df.format(new BigDecimal(subtotal)))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('SUNTEC/Item Details Page/button_AddToCart'))
 
-WebUI.waitForElementPresent(findTestObject('null'), 0)
+WebUI.waitForElementPresent(findTestObject('SUNTEC/Item Details Page/button_ViewCart'), 0)
 
 WebUI.navigateToUrl(GlobalVariable.cartURL)
 
@@ -239,7 +239,7 @@ if (payment == 'Stripe') {
 } else if (payment == 'COD') {
     WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), Cash on delivery, 
+    WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Cash on delivery', 
         true)
 
     WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
