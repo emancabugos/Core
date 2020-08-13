@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;transaction-detail-view&quot;)/div[@class=&quot;detail-top panel-box&quot;]/div[@class=&quot;col-md-8 wrapper&quot;]/div[@class=&quot;details-col col-md-6 col-sm-6&quot;]/div[@class=&quot;fields-group&quot;]/p[1]</value>
+         <value>//div[3]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[1]/div[1]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transaction-detail-view&quot;)/div[@class=&quot;detail-top panel-box&quot;]/div[@class=&quot;col-md-8 wrapper&quot;]/div[@class=&quot;details-col col-md-6 col-sm-6&quot;]/div[@class=&quot;fields-group&quot;]/p[1]</value>
+      <value>//div[3]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[1]/div[1]/p</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_listRefund</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Verify Admin Details
+Verify Merchant Details</comment>
+   <testCaseGuid>fc8a56a3-64e5-4ef6-83e3-9b7e1a988973</testCaseGuid>
+</TestCaseEntity>

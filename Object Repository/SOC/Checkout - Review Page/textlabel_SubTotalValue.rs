@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_SubTotalValue</name>
+   <tag></tag>
+   <elementGuidId>90595327-d941-4012-9c98-e542cd0ad7db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[3]/div/div/div/div[3]/div/div[2]/p[1]/span[count(. | //*[@class = 'pull-right']) = count(//*[@class = 'pull-right'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pull-right</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/div/div/div/div[3]/div/div[2]/p[1]/span</value>
+   </webElementProperties>
+</WebElementEntity>

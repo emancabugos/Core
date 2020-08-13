@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_listDelivered</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Verify Merchant Details
+Verify Admin Details</comment>
+   <testCaseGuid>5f9b119f-ff65-4bde-bedd-6eefa0137fec</testCaseGuid>
+</TestCaseEntity>

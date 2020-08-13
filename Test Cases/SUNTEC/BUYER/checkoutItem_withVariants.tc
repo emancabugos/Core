@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkoutItem_withVariants</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Verify Buyer Purchase List
+Verify Buyer Purchase Details
+Verify Merchant Details
+Verify Admin Details</comment>
+   <testCaseGuid>11e55888-526c-4688-8f12-1ae80f9ed8e7</testCaseGuid>
+</TestCaseEntity>

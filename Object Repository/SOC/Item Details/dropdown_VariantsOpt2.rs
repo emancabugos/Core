@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_VariantsOpt2</name>
+   <tag></tag>
+   <elementGuidId>e4285d16-f5ae-44a4-8f42-1cf0434f79e1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[1]/div/div/div[2]/div[2]/div[5]/div[1]/div[2]/div[2]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[1]/div/div/div[2]/div[2]/div[5]/div[1]/div[2]/div[2]/select</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_listReadyforPickup</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Verify Admin Details
+Verify Merchant Details</comment>
+   <testCaseGuid>7e7a0aaf-d23d-4d3e-a03d-57c160eac9aa</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_CustomFields</name>
+   <tag></tag>
+   <comment>Add Textfield Mandatory
+Add Textfield Non-Mandatory</comment>
+   <testCaseGuid>ab4b55d4-491c-4597-98d8-03ea7962365a</testCaseGuid>
+</TestCaseEntity>

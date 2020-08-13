@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>linktext_InvoiceID</name>
+   <tag></tag>
+   <elementGuidId>d2ef08b0-0a24-49db-82c8-c0cea64a9c96</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[1]/a[count(. | //*[@id = 'purchase_viewdet']) = count(//*[@id = 'purchase_viewdet'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>purchase_viewdet</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[1]/a</value>
+   </webElementProperties>
+</WebElementEntity>

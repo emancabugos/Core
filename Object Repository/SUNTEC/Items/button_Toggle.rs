@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Toggle</name>
+   <tag></tag>
+   <elementGuidId>3ab5d6dd-3fa3-4dfc-b57d-6b5fe46f3cf7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div[2]/div[3]/div/div[3]/table/tbody/tr[1]/td[8]/div/label/span[2][count(. | //*[@class = 'onoffswitch-switch']) = count(//*[@class = 'onoffswitch-switch'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>onoffswitch-switch</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[3]/div/div[3]/table/tbody/tr[1]/td[8]/div/label/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>
