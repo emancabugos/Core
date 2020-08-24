@@ -27,13 +27,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 'Checkout Item 01 - Delivery - Stripe '
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.comment('Search Item1')
 
-WebUI.setText(findTestObject('null'), itemName1)
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemName1)
 
-WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 
@@ -43,13 +43,13 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Result
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('SUNTEC/Item Details Page/button_AddToCart'), 0)
 
 WebUI.comment('Item Details Page')
 
-WebUI.selectOptionByLabel(findTestObject('null'), quantity, true)
+WebUI.selectOptionByLabel(findTestObject('SUNTEC/Item Details Page/dropdown_Quantity'), quantity, true)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('SUNTEC/Item Details Page/button_AddToCart'))
 
 WebUI.waitForElementPresent(findTestObject('null'), 0)
 
@@ -57,9 +57,9 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.comment('Search Item2')
 
-WebUI.setText(findTestObject('null'), itemName2)
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemName2)
 
-WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 
@@ -69,15 +69,15 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Result
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('SUNTEC/Item Details Page/button_ViewCart'), 0)
 
 WebUI.comment('Item Details Page')
 
-WebUI.selectOptionByLabel(findTestObject('null'), quantity, true)
+WebUI.selectOptionByLabel(findTestObject('SUNTEC/Item Details Page/dropdown_Quantity'), quantity, true)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('SUNTEC/Item Details Page/button_AddToCart'))
 
-WebUI.waitForElementPresent(findTestObject('null'), 0)
+WebUI.waitForElementPresent(findTestObject('SUNTEC/Item Details Page/button_ViewCart'), 0)
 
 WebUI.navigateToUrl(GlobalVariable.cartURL)
 

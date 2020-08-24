@@ -4,7 +4,17 @@
    <name>MinLeadTime_value</name>
    <tag></tag>
    <elementGuidId>0e86f4c0-6a37-4519-a73c-267e126fbe89</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[1]/div[1]/div/div[2]/div[1]/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = '1' or . = '1')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

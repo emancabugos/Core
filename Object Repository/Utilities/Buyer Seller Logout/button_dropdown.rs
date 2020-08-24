@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
          <value>//i[@class = 'icon icon-down']</value>
+=======
+         <value>//*[@class = 'icon icon-down']</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +21,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

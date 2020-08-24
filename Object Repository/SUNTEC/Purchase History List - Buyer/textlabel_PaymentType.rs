@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_PaymentType</name>
+   <tag></tag>
+   <elementGuidId>15b573df-d3ee-47a7-b0c0-768bcd032306</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[5]/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[5]/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>

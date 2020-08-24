@@ -4,10 +4,16 @@
    <name>value_OrderID</name>
    <tag></tag>
    <elementGuidId>1332a8c6-77ab-489b-9e19-ed71e56ba312</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[2]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;no-more-tables&quot;)/tbody[1]/tr[1]/td[3]/a[1]</value>
+      <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

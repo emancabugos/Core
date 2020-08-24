@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_ItemNoVariants</name>
+   <tag></tag>
+   <comment>Price
+SKU
+Variants
+Custom Fields</comment>
+   <testCaseGuid>d083fd2a-6268-43fb-b169-8bce9741d19f</testCaseGuid>
+</TestCaseEntity>

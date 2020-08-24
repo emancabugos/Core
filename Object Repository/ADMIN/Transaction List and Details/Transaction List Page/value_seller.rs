@@ -4,17 +4,23 @@
    <name>value_seller</name>
    <tag></tag>
    <elementGuidId>61575c29-d444-4921-9438-a3502456923c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[4]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;no-more-tables&quot;)/tbody[1]/tr[1]/td[4]/a[1]</value>
+      <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[4]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

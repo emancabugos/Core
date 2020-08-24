@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_detailsAcknowledge</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Verify Admin Details
+Verify Merchant Details</comment>
+   <testCaseGuid>66db0984-c719-4c66-9253-e1edd06a0702</testCaseGuid>
+</TestCaseEntity>

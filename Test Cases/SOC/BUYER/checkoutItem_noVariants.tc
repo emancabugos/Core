@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkoutItem_noVariants</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Verify Buyer Purchase List
+Verify Buyer Purchase Details
+Verify Merchant Details
+Verify Admin Details</comment>
+   <testCaseGuid>a1ba74cf-26eb-42c2-943c-083cbc181c24</testCaseGuid>
+</TestCaseEntity>

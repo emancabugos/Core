@@ -3,15 +3,7 @@
    <description></description>
    <name>Checkout 02</name>
    <tag></tag>
-   <comment>Search on Homepage
-Search Result Page
-Item Details Page
-Cart Page
-Checkout - Delivery Page
-Checkout Review Page
-Get Consumer Details
-Computation of Total Cost
-Payment Page</comment>
+   <comment></comment>
    <testCaseGuid>49de19f7-704c-4f7a-aa5e-1cb4b3c0dea9</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>

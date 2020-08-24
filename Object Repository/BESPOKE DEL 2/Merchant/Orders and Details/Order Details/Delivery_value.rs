@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//div[4]/div[1]/div[1]/div/div[1]/div[5]/div/div[3]/text()</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[1]/div[1]/div/div[1]/div[5]/div/div[3]/text()</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

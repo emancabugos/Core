@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textfield_Stock2</name>
+   <tag></tag>
+   <elementGuidId>e10fffde-7d4a-4b2f-9672-a836f0d1d14a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[4]/div/div/div/div[4]/div[3]/table/tbody/tr[2]/td[9]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[4]/div/div/div/div[4]/div[3]/table/tbody/tr[2]/td[9]/input</value>
+   </webElementProperties>
+</WebElementEntity>

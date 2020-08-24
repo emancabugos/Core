@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05_detailsCollected</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Verify Admin Details
+Verify Merchant Details</comment>
+   <testCaseGuid>41fe2d90-af38-4ab8-8b9a-8a7f5fe08f95</testCaseGuid>
+</TestCaseEntity>

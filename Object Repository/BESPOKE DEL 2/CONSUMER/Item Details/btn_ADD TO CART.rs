@@ -6,15 +6,19 @@
    <elementGuidId>e4dae435-31a4-43b4-8c32-827bad9ac9a8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'ADD TO CART')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.add-cart-btn</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'add-cart-btn']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'ADD TO CART')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,21 +28,21 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>javascript: itemDetail.addItemToCart();</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>add-cart-btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
