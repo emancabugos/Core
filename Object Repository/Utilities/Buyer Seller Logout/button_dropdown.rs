@@ -6,15 +6,15 @@
    <elementGuidId>28c82550-e0ed-4303-b779-dd6c3b4bce2f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//i[@class = 'icon icon-down']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[3]/div[1]/div[1]/div/div[2]/div/ul/li[4]/a[2]/i</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[10]/a[1]/i</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,14 +24,14 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-angle-down</value>
+      <value>icon icon-down</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

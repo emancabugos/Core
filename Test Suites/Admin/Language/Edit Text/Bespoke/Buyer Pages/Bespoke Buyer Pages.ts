@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>10cd0c7c-2aaf-4b11-beed-3c49a863e6db</testSuiteGuid>
    <testCaseLink>
       <guid>cb5fce2f-0b88-4c9f-bfa3-272c690a5317</guid>
@@ -19,7 +20,7 @@
    <testCaseLink>
       <guid>9d5ad8b1-aed2-4642-bf0d-eaaa800dd430</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Homepage Navigation</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -31,7 +32,7 @@
    <testCaseLink>
       <guid>0baeda7f-7943-444b-9a0c-ca82729d3254</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Homepage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -52,13 +53,13 @@
    <testCaseLink>
       <guid>0a5aacd0-846c-4cf4-aabf-057a398cf890</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Onboarding_Settings Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3bf08c1d-0b6a-4a8c-b096-a592168d8a88</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Onboarding_Settings</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -79,13 +80,13 @@
    <testCaseLink>
       <guid>96191df4-91cf-4986-93d7-6a35cf8bc6c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Merchant Storefront Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0cc39608-7e46-4a31-9b3c-a4fc12e89f21</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Merchant Storefront</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -106,13 +107,13 @@
    <testCaseLink>
       <guid>603a7d27-91cb-4e6a-aa0a-005ddc1ac3b2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Search Result Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0f74205e-981e-458d-a89e-d3c2ee044185</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Search Result Page</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -133,13 +134,13 @@
    <testCaseLink>
       <guid>d19df1ce-96ad-49f3-b51a-45106dc8e254</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Item Details Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9316785c-8dc9-4483-a133-5bf7e99003bb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Item Details</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -160,13 +161,13 @@
    <testCaseLink>
       <guid>3a5b0d94-acd7-4397-8b4a-a771614b0a10</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Cart Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>982b6404-b69f-493c-83f0-b0614113ef1a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Cart</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -187,13 +188,13 @@
    <testCaseLink>
       <guid>e8dff91d-71ff-45b2-b6da-e02c8504527b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Checkout Delivery Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ec4cd3fd-082f-4650-a8aa-9023534b8547</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Checkout Delivery</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -214,13 +215,13 @@
    <testCaseLink>
       <guid>1715a83e-492a-47be-8b0e-d141b85d9ac6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Checkout Review Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c1240372-2fcc-4f33-883e-d754ff385352</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Checkout Review</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -241,13 +242,13 @@
    <testCaseLink>
       <guid>0be9e328-e250-4f1b-b3f2-161cf2cd9df9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Checkout Payment Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>029b7765-92ed-4f44-970b-9008f1cc969f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Checkout Payment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -268,13 +269,13 @@
    <testCaseLink>
       <guid>a9c26ab0-7763-43d3-9257-e2c882145256</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Checkout Completed Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a9812730-5aa7-4fcb-a091-77683721a018</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Checkout Completed</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -295,13 +296,13 @@
    <testCaseLink>
       <guid>c16ad855-a743-4e62-95ed-62af8d9fe64d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>69d2bffa-6026-4b82-80bb-e42d70e162a1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase History</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -322,13 +323,13 @@
    <testCaseLink>
       <guid>b0832baf-840a-4264-a007-6335e81bb914</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase Details Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f62994d4-43f4-4dc6-b9b9-202fa2f7179b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Purchase Details</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -349,13 +350,13 @@
    <testCaseLink>
       <guid>edfd7ff0-1cbf-4272-9a9d-fc74e1cf7f6e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Inbox Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>83b9323d-d602-4859-ad8e-3d298b2da443</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Inbox</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -403,7 +404,7 @@
    <testCaseLink>
       <guid>90bb9d12-995f-4b99-a7c2-3f680a5ee6f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

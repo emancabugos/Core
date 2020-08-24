@@ -38,7 +38,7 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_listing-name'), varListingName)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_listing-name'), varListingName+" "+GlobalVariable.sellerUsernameFIND)
 
 WebUI.comment('Categories')
 
