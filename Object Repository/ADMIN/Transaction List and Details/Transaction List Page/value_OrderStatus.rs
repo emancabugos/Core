@@ -4,17 +4,23 @@
    <name>value_OrderStatus</name>
    <tag></tag>
    <elementGuidId>9ce9441e-7f84-459b-bd91-5b5d243542ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[8]/div/select[count(. | //*[@class = 'trigger-order-status']) = count(//*[@class = 'trigger-order-status'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-title</name>
       <type>Main</type>
@@ -32,7 +38,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;no-more-tables&quot;)/tbody[1]/tr[1]/td[8]</value>
+      <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[8]/div/select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>trigger-order-status</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

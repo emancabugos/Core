@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_arrowDown'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_arrowDown'), 0)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_arrowDown'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_arrowDown'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Settings/linktext_Settings'), 0)
 

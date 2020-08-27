@@ -23,7 +23,7 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Settings/linktext_Home'), 0
 
 WebUI.click(findTestObject('CONSUMER/Settings/linktext_Home'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/image_Item'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/image_Item'), 0)
 
 WebUI.back()
 

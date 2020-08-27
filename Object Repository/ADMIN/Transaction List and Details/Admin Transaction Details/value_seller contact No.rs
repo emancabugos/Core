@@ -4,6 +4,12 @@
    <name>value_seller contact No</name>
    <tag></tag>
    <elementGuidId>f761fad4-d2b1-4a01-9349-e4fb58642beb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[2]/div[1]/div/div[2]/div[2]/p</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,18 +20,18 @@
       <value>p</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>1234578</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transaction-detail-view&quot;)/div[@class=&quot;panel-box panel-order&quot;]/div[@class=&quot;panel-box-content&quot;]/div[@class=&quot;panelcontent-top&quot;]/div[@class=&quot;panel-row&quot;]/div[@class=&quot;details-col col-md-4&quot;]/div[@class=&quot;bottom-small-margin&quot;]/p[1]</value>
+      <value>//div[3]/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[2]/div[1]/div/div[2]/div[2]/p</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

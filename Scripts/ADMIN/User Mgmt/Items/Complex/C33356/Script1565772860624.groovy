@@ -62,7 +62,7 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/lin
 
 WebUI.click(findTestObject('MERCHANT/Delivery Settings/Search Header/image_marketplacelogo'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textlabel_Categories'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textlabel_Categories'), 0)
 
 WebUI.verifyElementNotVisible(findTestObject(null))
 

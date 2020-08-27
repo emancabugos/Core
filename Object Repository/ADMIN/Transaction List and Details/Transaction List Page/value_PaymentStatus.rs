@@ -4,10 +4,16 @@
    <name>value_PaymentStatus</name>
    <tag></tag>
    <elementGuidId>eb45cf9c-b0f5-4dc8-bcdc-1588ad70a3e0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[10]/div/select[count(. | //*[@class = 'trigger-payment-status']) = count(//*[@class = 'trigger-payment-status'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;no-more-tables&quot;)/tbody[1]/tr[1]/td[9]</value>
+      <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[10]/div/select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>trigger-payment-status</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

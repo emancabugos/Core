@@ -27,9 +27,9 @@ WebUI.comment('Searc Exact Item Description')
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemDescription)
+WebUI.setText(findTestObject('null'), itemDescription)
 
-WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 

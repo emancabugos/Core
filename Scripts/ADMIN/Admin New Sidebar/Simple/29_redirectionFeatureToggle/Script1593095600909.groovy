@@ -23,7 +23,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Admin New Sidebar/submenu_Feat
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_FeatureToogle'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/New Features Control/textlabel_AdminVetting'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Delivery 2.0/button_featureEdit'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/New Features Control/textlabel_AdminVetting'), 0)
+WebUI.click(findTestObject('ADMIN/Features Control/Delivery 2.0/button_featureEdit'), FailureHandling.CONTINUE_ON_FAILURE)
 

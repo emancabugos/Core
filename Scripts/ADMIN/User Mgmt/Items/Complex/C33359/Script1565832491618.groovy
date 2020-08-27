@@ -62,11 +62,11 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Header/Merchant Header/lin
 
 WebUI.click(findTestObject('MERCHANT/Delivery Settings/Search Header/image_marketplacelogo'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('CONSUMER/Homepage/textfield_Search'), findTestData('CONSUMER/checkoutUN').getValue(1, 1))
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), findTestData('CONSUMER/checkoutUN').getValue(1, 1))
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 

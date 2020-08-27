@@ -19,7 +19,7 @@ WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_ViewMark
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_ViewMarketplace'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.back()
 

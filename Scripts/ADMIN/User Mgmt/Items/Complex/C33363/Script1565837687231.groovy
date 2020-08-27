@@ -22,7 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 'Deleted Item of the admin is still present on the Purchase Details Page\r\n\r\n'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'), 0)
 
 WebUI.click(findTestObject('Utilities/Header/Consumer Header/arrow_down'))
 

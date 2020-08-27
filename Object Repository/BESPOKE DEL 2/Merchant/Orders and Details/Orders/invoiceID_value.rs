@@ -7,20 +7,24 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
          <value>//*[@id=&quot;order-list&quot;]/div[1]/div[1]/a[count(. | //a[@href = '#']) = count(//a[@href = '#'])]</value>
+=======
+         <value>//div[4]/div[2]/div[2]/div/div[1]/div[1]/a</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -45,6 +49,10 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
+<<<<<<< HEAD
       <value>//*[@id=&quot;order-list&quot;]/div[1]/div[1]/a</value>
+=======
+      <value>//div[4]/div[2]/div[2]/div/div[1]/div[1]/a</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
    </webElementProperties>
 </WebElementEntity>

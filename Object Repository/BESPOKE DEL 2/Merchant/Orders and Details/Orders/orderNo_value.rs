@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
          <value>//*[@id=&quot;order-list&quot;]/div[1]/div[2][count(. | //*[@class = 'order-id-sec']) = count(//*[@class = 'order-id-sec'])]</value>
+=======
+         <value>//div[4]/div[2]/div[2]/div/div[1]/div[2]/a/span[2][count(. | //span[@id = 'order-id']) = count(//span[@id = 'order-id'])]</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,6 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
+<<<<<<< HEAD
       <value>//*[@id=&quot;order-list&quot;]/div[1]/div[2]</value>
    </webElementProperties>
    <webElementProperties>
@@ -53,5 +58,8 @@
       <name>class</name>
       <type>Main</type>
       <value>order-id-sec</value>
+=======
+      <value>//div[4]/div[2]/div[2]/div/div[1]/div[2]/a/span[2]</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
    </webElementProperties>
 </WebElementEntity>

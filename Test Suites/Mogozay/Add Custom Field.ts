@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Add Custom Field</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>f3999883-d909-4258-96cd-4db4867e90c7</testSuiteGuid>
+   <testCaseLink>
+      <guid>8dd3db76-0993-4832-b606-c7a3c5a91295</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MOGOZAY/Admin/Admin Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>39291f5f-06e7-449e-9d7d-0dad8f4815c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MOGOZAY/Admin/Add_CF</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd660516-0df0-416e-b904-660554402361</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a283d4df-e96e-4866-aadf-c6a30b3ebbcb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3e984e7b-1a73-4b4f-bad2-2cbf91af3adf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4f222b2b-77ca-4ab4-bc86-29334580d003</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

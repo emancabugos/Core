@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class = 'btn-link-payment' and @data-description = 'Custom Payment']</value>
+         <value>/html/body/div[4]/div[2]/div/div[3]/div/div[1]/div/div[4]/div[3]/div[count(. | //div[@class = 'btn-link-payment']) = count(//div[@class = 'btn-link-payment'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -41,7 +41,7 @@
       <value>linkpayment</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-description</name>
       <type>Main</type>
@@ -57,10 +57,10 @@
                                                 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;60352-handshake-fvl27lil0svny9hm1nfr&quot;]</value>
+      <value>/html/body/div[4]/div[2]/div/div[3]/div/div[1]/div/div[4]/div[3]/div</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textfield_Sur1</name>
+   <tag></tag>
+   <elementGuidId>2fc93d84-2e0b-4592-b42f-b33dcca32ee8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[4]/div/div/div/div[4]/div[3]/table/tbody/tr[1]/td[7]/input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[4]/div/div/div/div[3]/div[3]/table/tbody/tr[2]/td[7]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[4]/div/div/div/div[4]/div[3]/table/tbody/tr[1]/td[7]/input</value>
+   </webElementProperties>
+</WebElementEntity>

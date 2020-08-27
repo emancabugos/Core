@@ -22,9 +22,9 @@ import internal.GlobalVariable as GlobalVariable
 'User clicks Category menu on the homepage'
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
+WebUI.waitForElementVisible(findTestObject('null'), 0)
 
-WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/box_CategoryName'))
+WebUI.click(findTestObject('null'))
 
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/button_Filters'), 0)
 

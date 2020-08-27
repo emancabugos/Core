@@ -43,15 +43,15 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Result
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('SUNTEC/Item Details Page/button_AddToCart'), 0)
 
 WebUI.comment('Item Details Page')
 
-WebUI.selectOptionByLabel(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/dropdown_Quantity'), quantity, true)
+WebUI.selectOptionByLabel(findTestObject('SUNTEC/Item Details Page/dropdown_Quantity'), quantity, true)
 
-WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'))
+WebUI.click(findTestObject('SUNTEC/Item Details Page/button_AddToCart'))
 
-WebUI.waitForElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_ViewCart'), 0)
+WebUI.waitForElementPresent(findTestObject('null'), 0)
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
@@ -69,15 +69,15 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Result
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'), 0)
+WebUI.waitForElementVisible(findTestObject('SUNTEC/Item Details Page/button_ViewCart'), 0)
 
 WebUI.comment('Item Details Page')
 
-WebUI.selectOptionByLabel(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/dropdown_Quantity'), quantity, true)
+WebUI.selectOptionByLabel(findTestObject('SUNTEC/Item Details Page/dropdown_Quantity'), quantity, true)
 
-WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_AddtoCart'))
+WebUI.click(findTestObject('SUNTEC/Item Details Page/button_AddToCart'))
 
-WebUI.waitForElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details Page/button_ViewCart'), 0)
+WebUI.waitForElementPresent(findTestObject('SUNTEC/Item Details Page/button_ViewCart'), 0)
 
 WebUI.navigateToUrl(GlobalVariable.cartURL)
 
