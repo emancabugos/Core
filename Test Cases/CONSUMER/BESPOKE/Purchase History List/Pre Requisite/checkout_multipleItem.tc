@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkout_multipleItem</name>
+   <tag></tag>
+   <comment>Search Item1
+Search Result Page
+Item Details Page
+Search Item2
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Payment Page</comment>
+   <testCaseGuid>559ff82a-f727-4990-9b04-f25de6ed3c1d</testCaseGuid>
+</TestCaseEntity>

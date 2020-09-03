@@ -6,12 +6,16 @@
    <elementGuidId>993353d9-af21-4e2e-b242-536109f46f2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.quantity</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='react_0HM1S9FREQQK0']/div/div[3]/div/div/div/div/div/div[3]/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.quantity</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +28,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -42,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div/div[3]/div/div/div/div/div[1]/div[3]/span[2]</value>
+      <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'suntecdemo.sandbox.arcadier.io/admin'</initValue>
+      <initValue>'sunteconline.staging.arcadier.io/admin'</initValue>
       <name>SBAdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -56,12 +56,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'emall-stg.sunteccity.com.sg/user/order/cart'</initValue>
+      <initValue>'sunteconline.staging.arcadier.io/user/order/cart'</initValue>
       <name>SCartURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Item no variants'</initValue>
       <name>itemName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sunteconline.staging.arcadier.io'</initValue>
+      <name>STHomepageURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dashboard.staging.arcadier.io'</initValue>
+      <name>DashboardURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'edmar@arcadier.com'</initValue>
+      <name>dUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Qazse1234+'</initValue>
+      <name>dPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

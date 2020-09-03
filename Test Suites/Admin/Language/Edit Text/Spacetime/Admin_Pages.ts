@@ -9,18 +9,13 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e9998292-333b-4a11-a5cd-844c789a76e3</testSuiteGuid>
    <testCaseLink>
       <guid>0a2291c0-53ac-4892-a4b5-90124213d529</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f1a88de5-8194-4842-b639-7a6ec35d6eb8</guid>
-      <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/navigateTo_MarketplaceHeaderFooter</testCaseId>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>20d4c1e2-2637-4cbd-b1c2-dfc2cc3bf209</guid>
@@ -42,6 +37,12 @@
          <value>Language</value>
          <variableId>a676cc75-daa7-4567-a0d3-880441e7d458</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f1a88de5-8194-4842-b639-7a6ec35d6eb8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/navigateTo_MarketplaceHeaderFooter</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>90afe13a-0bcc-4816-a708-8f5d90f5203a</guid>
@@ -262,7 +263,7 @@
    <testCaseLink>
       <guid>9fa85475-42f7-45c6-b1d3-5c935ad77609</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

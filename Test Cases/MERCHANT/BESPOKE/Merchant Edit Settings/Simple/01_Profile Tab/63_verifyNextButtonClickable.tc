@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Next button is clickable with empty Display Name text</description>
+   <name>63_verifyNextButtonClickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4cd9a9bb-376c-4347-bafb-a5e97acf0a46</testCaseGuid>
+</TestCaseEntity>

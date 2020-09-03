@@ -166,8 +166,6 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Transaction List and Details/T
 WebUI.verifyOptionSelectedByLabel(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/value_OrderStatus'), 
     'Collected', false, 0)
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.closeBrowser()
 
 WebUI.comment('Verify Merchant Details')

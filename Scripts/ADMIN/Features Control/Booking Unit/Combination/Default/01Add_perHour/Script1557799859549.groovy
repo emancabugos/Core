@@ -19,14 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Advance Search/a_Features Control'), 0)
-
-WebUI.click(findTestObject('ADMIN/Features Control/Advance Search/a_Features Control'))
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Booking Unit/button_Edit'), 0)
-
-WebUI.click(findTestObject('ADMIN/Features Control/Booking Unit/button_Edit'))
-
 WebUI.waitForElementVisible(findTestObject('ADMIN/Features Control/Booking Unit/icon1st_NewBookingUnit'), 0)
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/Features Control/Booking Unit/textlabel_NewBookingUnit'))

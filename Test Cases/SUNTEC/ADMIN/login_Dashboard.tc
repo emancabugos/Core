@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login_Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f010434b-5665-4b82-a9a6-631f15c9e5e0</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.DashboardURL</defaultValue>
+      <description></description>
+      <id>5d836354-620a-4925-ace3-585d1d1d2000</id>
+      <masked>false</masked>
+      <name>DashboardURL</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.dUsername</defaultValue>
+      <description></description>
+      <id>9cffe1fb-9c28-4d25-ad52-c2f54dffa818</id>
+      <masked>false</masked>
+      <name>dUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.dPassword</defaultValue>
+      <description></description>
+      <id>f58b5e3e-9ec5-48b5-8d0c-e9ab4a6e609b</id>
+      <masked>false</masked>
+      <name>dPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.HomepageURL</defaultValue>
+      <description></description>
+      <id>113e5407-e700-4dc2-9271-c44a7ed8d4b7</id>
+      <masked>false</masked>
+      <name>HomepageURL</name>
+   </variable>
+</TestCaseEntity>

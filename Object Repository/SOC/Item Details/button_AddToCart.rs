@@ -6,12 +6,16 @@
    <elementGuidId>f2c3916f-d67b-422d-b513-c0ca218d8ea4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'ADD TO CART')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.add-cart-btn</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'ADD TO CART')]</value>
+         <key>BASIC</key>
+         <value>//*[@class = 'add-cart-btn']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +42,7 @@
       <value>add-cart-btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
