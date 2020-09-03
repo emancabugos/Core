@@ -51,8 +51,6 @@ WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_MinimumLeadT
 
 WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'), 'MAKATI')
 
-WebUI.scrollToElement(findTestObject('ADMIN/Admin Delivery Option/textlabel_radioSelection'), 0)
-
 WebUI.comment('Range 1')
 
 WebUI.setText(findTestObject('ADMIN/Installed Packages/Delivery Package/z_AddDeliveryRate/textfield_DeliveryRateName'), 

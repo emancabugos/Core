@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
+         <value>//div[4]/div[3]/div[2]/div/div[1]/div[9]/select[count(. | //select[@name = 'order-status' and @id = 'orderid-1' and @class = 'basic status-changer' and (text() = 'AcknowledgedDelivered' or . = 'AcknowledgedDelivered')]) = count(//select[@name = 'order-status' and @id = 'orderid-1' and @class = 'basic status-changer' and (text() = 'AcknowledgedDelivered' or . = 'AcknowledgedDelivered')])]</value>
+=======
          <value>//div[4]/div[2]/div[2]/div/div[1]/div[9]/select[count(. | //*[@name = 'order-status']) = count(//*[@name = 'order-status'])]</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +38,7 @@
       <value>orderid-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -59,6 +63,10 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
+<<<<<<< HEAD
+      <value>//div[4]/div[3]/div[2]/div/div[1]/div[9]/select</value>
+=======
       <value>//div[4]/div[2]/div[2]/div/div[1]/div[9]/select</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
    </webElementProperties>
 </WebElementEntity>

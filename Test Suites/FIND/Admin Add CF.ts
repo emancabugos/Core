@@ -14,13 +14,13 @@
    <testCaseLink>
       <guid>68f40096-f362-4ffd-bbbf-531e1de0a7c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FIND/Admin/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3c66d87d-795e-4577-b24c-e2fb64ab79cd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FIND/Admin/Navigation Custom Field</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>c15467a9-c70f-4278-b658-3e22c80167ae</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

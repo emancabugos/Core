@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//label[(text() = 'Operation 1' or . = 'Operation 1')]</value>
+         <value>//label[(text() = 'Procure from other agencies' or . = 'Procure from other agencies')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Operation 1</value>
+      <value>Procure from other agencies</value>
    </webElementProperties>
 </WebElementEntity>

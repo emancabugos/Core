@@ -24,16 +24,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Language Settings/a_Language'), 0)
-
-WebUI.click(findTestObject('ADMIN/Language Settings/a_Language'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Language Settings/a_Language Settings'), 0)
-
-WebUI.click(findTestObject('ADMIN/Language Settings/a_Language Settings'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Language Settings/i_icon icon-language'), 0)
-
 WebUI.verifyElementText(findTestObject('ADMIN/Language Settings/h1_Language Settings'), 'Language Settings')
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Language Settings/select_Select New Language'), 'French', false)
