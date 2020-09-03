@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>adminfee_Computation</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page</comment>
+   <testCaseGuid>9317d90a-72ef-44d9-b9d0-69c59f9e680e</testCaseGuid>
+</TestCaseEntity>

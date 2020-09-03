@@ -187,7 +187,7 @@ WebUI.comment('Verify Buyer Purchase Details')
 
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textabel_Delivery2'), 0)
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textlabel_InvoiceID'), finvoice)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textlabelvalue_InvoiceID'), finvoice)
 
 WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textlabel_PaymentMethod'), 'Custom Payment')
 
@@ -203,7 +203,7 @@ WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History 
 
 WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textlabel_buyerPostalCode'), '1011')
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textabel_TransctionTotal'), ftotal)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textabelvalue_TransctionTotal'), ftotal)
 
 WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textlabel_SubTotal'), fsubtotal)
 
@@ -332,5 +332,5 @@ WebUI.verifyElementText(findTestObject('ADMIN/Transaction List and Details/Admin
 
 WebUI.verifyElementText(findTestObject('ADMIN/Transaction List and Details/Admin Transaction Details/value_ItemName'), itemname)
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.closeBrowser()
 

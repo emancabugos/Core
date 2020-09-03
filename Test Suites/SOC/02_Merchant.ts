@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>d52847a3-59d6-4539-a5de-4bb5b0971838</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SOC/SELLER/gmail_Seller</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6a020a9d-fc26-4558-abff-36277cc2988b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SOC/SELLER/register_Seller</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9238460c-1fed-454c-81e2-f6d9b39f3d32</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SOC/SELLER/onboard_Seller</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -6,16 +6,16 @@
    <elementGuidId>ea94a718-b35f-4c9d-a8e2-b2707d1b878a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#purchase_viewdet > a</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value>//div[4]/div[2]/div/div/div[3]/div/div/div/div/div[1]/div[1]/a</value>
+         <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[1]/a</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='purchase_viewdet']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#purchase_viewdet > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -46,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div/div[3]/div/div/div/div/div[1]/div[1]/a</value>
+      <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[1]/a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

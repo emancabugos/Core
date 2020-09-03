@@ -4,6 +4,12 @@
    <name>1stvalue_total stock</name>
    <tag></tag>
    <elementGuidId>2f517164-e192-4c0f-892a-13f9034cf862</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;no-more-tables&quot;)/tbody[1]/tr[1]/td[6]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,14 +34,14 @@
       <value>&lt;div class=&quot;tablesorter-header-inner&quot;>Total Stock&lt;/div></value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>∞</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

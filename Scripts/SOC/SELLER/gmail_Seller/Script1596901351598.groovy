@@ -24,7 +24,7 @@ WebUI.navigateToUrl('https://www.gmail.com')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Gmail Page/textfield_username'), 0)
 
-WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_username'), GlobalVariable.STinviteMerchant)
+WebUI.setText(findTestObject('ADMIN/Gmail Page/textfield_username'), GlobalVariable.inviteMerchant)
 
 WebUI.sendKeys(findTestObject('ADMIN/Gmail Page/textfield_username'), Keys.chord(Keys.ENTER))
 
