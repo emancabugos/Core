@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_Item</name>
+   <tag></tag>
+   <elementGuidId>224d7921-13a1-4ffd-9d1a-740915b38a74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.delivery2-seller-items-container > div.ordr-dtls-item-bodyrow > div.purchase-history-container2 > div.ordr-dtls-item-itemdesc > div.ordr-dtls-item-iteminfo > div.item-img > a.item-detail-url > span > img.item-preview.item-image-url</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='MyPrintDiv']/div[2]/div[2]/div/div/div/div[4]/div/div/div/div/div/a/span/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>item-preview item-image-url</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://arctick-assets-test.azureedge.net/userdata/0717bp1.test.arcadier.io/images/items/item-60408-637259278487736040-vhg2ke.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;order-detail-item-sec&quot;]/div[@class=&quot;ordr-dtls-item-body-sec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row ordr-dtls-item-bodyarea&quot;]/div[@class=&quot;sold_box&quot;]/div[@class=&quot;delivery2-seller-items-container&quot;]/div[@class=&quot;ordr-dtls-item-bodyrow&quot;]/div[@class=&quot;purchase-history-container2&quot;]/div[@class=&quot;ordr-dtls-item-itemdesc&quot;]/div[@class=&quot;ordr-dtls-item-iteminfo&quot;]/div[@class=&quot;item-img&quot;]/a[@class=&quot;item-detail-url&quot;]/span[1]/img[@class=&quot;item-preview item-image-url&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='MyPrintDiv']/div[2]/div[2]/div/div/div/div[4]/div/div/div/div/div/a/span/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[contains(@src,'https://arctick-assets-test.azureedge.net/userdata/0717bp1.test.arcadier.io/images/items/item-60408-637259278487736040-vhg2ke.jpg')])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[4]/div/div/div/div/div/a/span/img</value>
+   </webElementXpaths>
+</WebElementEntity>

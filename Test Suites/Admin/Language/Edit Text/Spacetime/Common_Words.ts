@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>4f946e6b-ea16-49a1-adad-5b75dd0e4eee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -47,7 +47,7 @@
    <testCaseLink>
       <guid>7911cd93-63f8-4ca4-98b8-df1198753ebb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

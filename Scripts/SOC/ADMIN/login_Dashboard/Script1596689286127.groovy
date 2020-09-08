@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('ADMIN/Marketplace Dashboard/CS Support/textfield_S
 
 WebUI.sendKeys(findTestObject('ADMIN/Marketplace Dashboard/CS Support/textfield_SearchMarketplace'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('ADMIN/Marketplace Dashboard/CS Support/button_AdminLogin'))
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC066</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b560beef-69d1-4300-89d0-fe0e0673d5aa</testCaseGuid>
+   <variable>
+      <defaultValue>'0613BPD1595397692VKJ6'</defaultValue>
+      <description></description>
+      <id>63662819-e431-4b37-84c2-a990027a22e6</id>
+      <masked>false</masked>
+      <name>invoiceid</name>
+   </variable>
+</TestCaseEntity>

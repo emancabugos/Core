@@ -15,7 +15,31 @@
       <guid>1727bbfb-43f5-4be7-b12c-cd24c1b65526</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SUNTEC/ADMIN/login_Admin</testCaseId>
+      <testCaseId>Test Cases/SUNTEC/ADMIN/login_Dashboard</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5d836354-620a-4925-ace3-585d1d1d2000</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9cffe1fb-9c28-4d25-ad52-c2f54dffa818</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f58b5e3e-9ec5-48b5-8d0c-e9ab4a6e609b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>113e5407-e700-4dc2-9271-c44a7ed8d4b7</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>99783150-72a2-4c12-9225-672ff28fd056</guid>
@@ -32,13 +56,13 @@
    <testCaseLink>
       <guid>c2391454-ffdb-4442-acf9-f58180b0f269</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUNTEC/ADMIN/add_Category</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c26c1845-8eda-4689-8609-e2c9bb011d60</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUNTEC/ADMIN/add_CustomFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -50,7 +74,7 @@
    <testCaseLink>
       <guid>8e6bae1a-fc70-4aed-bccd-379dbb72da6e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

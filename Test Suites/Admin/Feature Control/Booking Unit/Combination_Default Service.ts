@@ -206,7 +206,7 @@
    <testCaseLink>
       <guid>52ce4b36-0b82-4218-bbdf-3ddbf7e0d64b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

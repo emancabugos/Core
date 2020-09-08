@@ -168,8 +168,6 @@ WebUI.delay(2)
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('SOC/Transaction/dropdown_PaymentStatus'), 'Paid', false, 0)
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.closeBrowser()
 
 WebUI.comment('Verify Merchant Details')

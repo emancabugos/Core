@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>101_validateAddresseeLName</name>
+   <tag></tag>
+   <comment>css validation</comment>
+   <testCaseGuid>de3a036a-b7f9-46bd-80a8-01a5f9de559d</testCaseGuid>
+</TestCaseEntity>
