@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Purchasable&quot; column title is present</description>
+   <name>C33337</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdaf1fec-d218-41c1-a0a4-44f3d351f3ef</testCaseGuid>
+</TestCaseEntity>

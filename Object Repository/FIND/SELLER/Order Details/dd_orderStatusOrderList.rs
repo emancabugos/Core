@@ -6,16 +6,16 @@
    <elementGuidId>e9e23943-e2dc-4adf-a28e-c3f0156c449e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[4]/div[3]/div[2]/div/div/div[9]/select[count(. | //select[@name = 'order-status']) = count(//select[@name = 'order-status'])]</value>
+         <key>XPATH</key>
+         <value>//select[@id='orderid-1']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#orderid-1</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='orderid-1']</value>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[3]/div[2]/div/div/div[8]/select[count(. | //select[@class = 'basic status-changer orderstatus']) = count(//select[@class = 'basic status-changer orderstatus'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -42,11 +42,11 @@
       <value>orderid-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>basic status-changer</value>
+      <value>basic status-changer orderstatus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[4]/div[3]/div[2]/div/div/div[9]/select</value>
+      <value>/html/body/div[4]/div[3]/div[2]/div/div/div[8]/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'diagnostics.sandbox.arcadier.io/'</initValue>
-      <name>FINDhomepageURL</name>
+      <initValue>'covid19sandbox.test-arcadier.com'</initValue>
+      <name>COVIDhomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'02seller'</initValue>
+      <initValue>'covidseller'</initValue>
       <name>sellerUsernameFIND</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -36,7 +36,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'01buyer'</initValue>
+      <initValue>'covidbuyer'</initValue>
       <name>buyerUsernameFIND</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'gdasandbox.test-arcadier.com'</initValue>
+      <name>GDAhomepageURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

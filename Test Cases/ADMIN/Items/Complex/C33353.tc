@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the counter for Non-purchasable will be updated correctly upon item deletion</description>
+   <name>C33353</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8fa8766-3ab9-4cb8-aab5-34acb28e8590</testCaseGuid>
+</TestCaseEntity>

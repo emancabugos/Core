@@ -6,18 +6,22 @@
    <elementGuidId>271448f3-5f6c-4014-b6ad-2e05338519cd</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick='orderNewDelivery.updateOrderNewDelivery(this)']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.full-btn-procced</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@onclick='orderNewDelivery.updateOrderNewDelivery(this)']</value>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div/div/div[3]/div/div[4]/a[2][count(. | //a[@class = 'full-btn-procced original']) = count(//a[@class = 'full-btn-procced original'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <value>/user/checkout/select-gateway?id=23026&amp;addressid=18157</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -45,14 +49,14 @@
       <value>orderNewDelivery.updateOrderNewDelivery(this)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>full-btn-procced</value>
+      <value>full-btn-procced original</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -61,11 +65,11 @@
                             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;page-package delievry-settings pace-done&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;checkout-detail grey_section&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;delivery_white_section&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-3 col-xs-12&quot;]/div[@class=&quot;last_stage_box&quot;]/div[@class=&quot;l_box btn-area mobile_fix&quot;]/a[@class=&quot;full-btn-procced&quot;]</value>
+      <value>/html/body/div[4]/div[2]/div/div/div/div[3]/div/div[4]/a[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

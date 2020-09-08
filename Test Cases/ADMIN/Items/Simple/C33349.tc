@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if item will be deleted from the list upon clicking &quot;Delete&quot; button</description>
+   <name>C33349</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2487c33-c42c-4b7d-91ec-d1c272015d83</testCaseGuid>
+</TestCaseEntity>

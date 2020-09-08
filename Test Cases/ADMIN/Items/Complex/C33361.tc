@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the Order Details (Merchant Order Details Page) of the deleted item will not be affected</description>
+   <name>C33361</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd31a9b0-df7f-4f4c-a69b-d72c6c51d023</testCaseGuid>
+</TestCaseEntity>

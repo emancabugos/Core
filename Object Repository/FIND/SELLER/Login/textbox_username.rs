@@ -6,6 +6,10 @@
    <elementGuidId>3845d7d4-c84b-4d6b-8a09-317f4a67c41e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'username']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='username']</value>
       </entry>
@@ -14,10 +18,10 @@
          <value>input[name=&quot;username&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

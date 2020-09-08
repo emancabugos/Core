@@ -15,88 +15,31 @@
       <guid>df7e75a2-fbc4-40f5-89ab-310113011130</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FIND/Seller/Seller Login</testCaseId>
+      <testCaseId>Test Cases/FIND/Seller/Seller Login COVID</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>118b6cd0-f6fb-41ba-92cc-8dbaf776f533</guid>
+      <guid>0410ea41-2a0c-4b22-bf44-3ca93235d32f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FIND/Seller/Seller Add Item Navigation</testCaseId>
+      <testCaseId>Test Cases/FIND/Seller/AddCOVID(AgencyDirect)</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c52dd3c2-3911-4333-a1b5-29faec8ad2f8</guid>
+      <guid>e1f237bf-e24a-49ec-ba5d-069775f88a1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FIND/Seller/Add Item FIND</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>8f61b067-9b47-40a5-aa02-db207f88f102</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/MERCHANT/Bespoke/MogozayFIND</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ItemName</value>
-         <variableId>e61e2526-b0d1-4533-885c-836a23411df0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Category</value>
-         <variableId>9f19ec03-f596-4281-9a99-aba6379957ed</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ItemImage</value>
-         <variableId>a09bd299-3999-4e30-bf93-8cba61b1399a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Price</value>
-         <variableId>99aa1fb1-2dad-4840-a306-2fbb1a9de4af</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>SKU</value>
-         <variableId>33eb6d3b-fab1-42bf-8fe9-ee6dd46c37e7</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Stock</value>
-         <variableId>d46404a1-175e-4274-b925-468def252138</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Description</value>
-         <variableId>c0709f25-f695-47b6-8b92-57d415dde051</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Variant</value>
-         <variableId>d4a8b772-3c9e-4e47-843a-76fdbc117208</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Variant</value>
-         <variableId>1a1555ef-1f71-49af-bc38-2a997e155b15</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>8f61b067-9b47-40a5-aa02-db207f88f102</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Delivery Method</value>
-         <variableId>7ff67388-eca0-49a4-b28a-afb55aa4b500</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/FIND/Seller/AddCOVID(AgencyFIND)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8770ace5-a912-4307-9af2-b98930977a8b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FIND/Seller/AddGDA(AgencyDirect)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>de89dff7-a2da-4a44-902e-94bdd4412dee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FIND/Seller/AddGDA(AgencyFIND)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>451b5c04-85b9-43ca-9ba3-3de2cd408851</guid>

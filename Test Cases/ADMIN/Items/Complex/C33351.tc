@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the counter for Items Found will be updated correctly upon item deletion</description>
+   <name>C33351</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>773a705c-282b-4900-a5f8-d6c06dc76758</testCaseGuid>
+</TestCaseEntity>

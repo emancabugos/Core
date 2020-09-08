@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if item deletion will be cancel upon clicking &quot;x&quot; button</description>
+   <name>C33347</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76ff1e7a-54be-4c8d-adcb-ea1f32a5bc3e</testCaseGuid>
+</TestCaseEntity>

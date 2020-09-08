@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Price&quot; column title is present</description>
+   <name>C33331</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d787736f-a1ae-4ad6-b481-5e89bb3565f7</testCaseGuid>
+</TestCaseEntity>

@@ -6,36 +6,40 @@
    <elementGuidId>a8854ec4-f32d-4e2d-8300-4089447e0ab7</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='MyPrintDiv']/div[2]/div[2]/div/div/div/div[4]/div/div/div[4]/span[2]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.delivery2-seller-items-container > div.ordr-dtls-item-bodyrow > div.purchase-history-container2 > div.ordr-dtls-item-status > span.payment-status</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='MyPrintDiv']/div[2]/div[2]/div/div/div/div[4]/div/div/div[4]/span[2]</value>
+         <key>BASIC</key>
+         <value>//p[@id = 'paymentstatus' and (text() = 'Payment Pending' or . = 'Payment Pending') and @class = 'delivery2-order-status']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>payment-status</value>
+      <value>paymentstatus</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Payment pending</value>
+      <value>Payment Pending</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -43,6 +47,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;order-detail-item-sec&quot;]/div[@class=&quot;ordr-dtls-item-body-sec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row ordr-dtls-item-bodyarea&quot;]/div[@class=&quot;sold_box&quot;]/div[@class=&quot;delivery2-seller-items-container&quot;]/div[@class=&quot;ordr-dtls-item-bodyrow&quot;]/div[@class=&quot;purchase-history-container2&quot;]/div[@class=&quot;ordr-dtls-item-status&quot;]/span[@class=&quot;payment-status&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>delivery2-order-status</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -4,12 +4,12 @@
    <name>Combination_OvernightUnit</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-06-18T14:13:47</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>acb257b1-2130-4e84-be33-add343458f92</testSuiteGuid>
    <testCaseLink>
       <guid>5c6f3f50-55b4-4b0d-a9e3-62db0e28f7ab</guid>

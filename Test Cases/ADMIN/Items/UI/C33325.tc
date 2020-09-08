@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Out of Stock&quot; value is present</description>
+   <name>C33325</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e24f071-3a95-4b02-93e7-43b911934124</testCaseGuid>
+</TestCaseEntity>

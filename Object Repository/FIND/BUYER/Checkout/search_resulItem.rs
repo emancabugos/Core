@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div/div/div[1]/div[2]/div/div[4]/div/div[count(. | //div[@class = 'item-box-inner']) = count(//div[@class = 'item-box-inner'])]</value>
+         <value>/html/body/div[4]/div/div/div[1]/div[2]/div/div[4]/div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +28,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -46,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[4]/div/div/div[1]/div[2]/div/div[4]/div/div</value>
+      <value>/html/body/div[4]/div/div/div[1]/div[2]/div/div[4]/div[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
