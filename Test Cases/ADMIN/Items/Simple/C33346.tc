@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Delete&quot; button is present in Popup</description>
+   <name>C33346</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d29f1fc2-19b4-4a51-a62f-a4fffc5b7128</testCaseGuid>
+</TestCaseEntity>

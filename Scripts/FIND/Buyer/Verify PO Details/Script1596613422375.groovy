@@ -50,7 +50,7 @@ File deliveryTmp = tmpDir.resolve('delivery.txt').toFile()
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
-WebUI.callTestCase(findTestCase('FIND/Buyer/Buyer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FIND/Buyer/Buyer Login COVID'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('FIND/BUYER/Usermenu/usermenu'), 0)
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Non-purchasable label is present</description>
+   <name>C33323</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>571a23cb-816e-4b36-8b7d-93db4ad49150</testCaseGuid>
+</TestCaseEntity>

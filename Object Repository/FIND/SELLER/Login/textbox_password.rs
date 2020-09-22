@@ -6,6 +6,10 @@
    <elementGuidId>58300e6c-c396-45c0-baf4-89b01cecd340</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'password' and @name = 'password']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@name='password']</value>
       </entry>
@@ -14,10 +18,10 @@
          <value>input[name=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Trash Icon is clickable</description>
+   <name>C33340</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4fef319-50b0-42c7-8355-befcd30cbbbd</testCaseGuid>
+</TestCaseEntity>

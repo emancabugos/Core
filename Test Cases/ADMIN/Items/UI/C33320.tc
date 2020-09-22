@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Purchasable label is present</description>
+   <name>C33320</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e35a5106-ed50-49a6-8147-45329d9c7d11</testCaseGuid>
+</TestCaseEntity>

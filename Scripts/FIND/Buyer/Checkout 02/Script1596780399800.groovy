@@ -55,7 +55,7 @@ File invoiceTmp = tmpDir.resolve('invoice.txt').toFile()
 
 File deliveryTmp = tmpDir.resolve('delivery.txt').toFile()
 
-WebUI.callTestCase(findTestCase('FIND/Buyer/Buyer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FIND/Buyer/Buyer Login COVID'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('FIND/BUYER/Checkout/searchbox_homepage'), 0)
 

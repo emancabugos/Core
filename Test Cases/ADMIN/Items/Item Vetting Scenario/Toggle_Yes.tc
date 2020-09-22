@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Toggle_Yes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>00a17cc2-1375-4b87-b738-50b2eff387cb</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('MERCHANT/Bespoke/Add Item')</defaultValue>
+      <description></description>
+      <id>1782abd2-175f-49e8-b3ce-d5dbb854584c</id>
+      <masked>false</masked>
+      <name>varItem</name>
+   </variable>
+</TestCaseEntity>

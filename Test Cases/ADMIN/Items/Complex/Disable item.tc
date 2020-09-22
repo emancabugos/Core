@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the Order Details (Merchant Order Details Page) of the deleted item will not be affected</description>
+   <name>Disable item</name>
+   <tag></tag>
+   <comment>Checkout Scenario</comment>
+   <testCaseGuid>b003c2b7-f1fe-4825-beab-6dcb140774e0</testCaseGuid>
+</TestCaseEntity>

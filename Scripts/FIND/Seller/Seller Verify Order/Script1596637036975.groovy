@@ -50,7 +50,7 @@ File deliveryTmp = tmpDir.resolve('delivery.txt').toFile()
 
 File sellerTotalTmp = tmpDir.resolve('sellerTotal.txt').toFile()
 
-WebUI.callTestCase(findTestCase('FIND/Seller/Seller Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('FIND/Seller/Seller Login COVID'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Login/seller_menu'), 0)
 
@@ -79,8 +79,8 @@ WebUI.click(findTestObject('FIND/SELLER/Order Details/textvalue_invoice'), Failu
 
 WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Order Details/textlabel_paymentStatus'), 0)
 
-String extractAdminFee = WebUI.getText(findTestObject('FIND/SELLER/Order Details/value_adminFee')).replaceAll('[^0-9.]', 
-    '')
+WebUI.verifyOptionSelectedByLabel(findTestObject('FIND/SELLER/Order Details/textlabel_paymentStatus'), 'Payment Pending', 
+    false, 0)
 
 String currency = currencyTmp.text.trim()
 
@@ -98,95 +98,15 @@ BigDecimal intsubtotal = new BigDecimal(subtotalValue)
 
 BigDecimal intdelivery = new BigDecimal(delivery)
 
-BigDecimal intadminFee = new BigDecimal(extractAdminFee)
+def finaltotal = intsubtotal + intdelivery
 
-String itemName = itemNameTmp.text.trim()
+DecimalFormat df = new DecimalFormat('#,###.00')
 
+def formatfinaltotal = df.format(finaltotal)
 
+WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/value_total'), currency + formatfinaltotal)
 
-if (itemName == 'Item_01') {
-    DecimalFormat df = new DecimalFormat('#,###.00')
-	
-	String comm1 = "0.00"
-	
-	BigDecimal intcomm1 = new BigDecimal(comm1)
-	
-    def partialTotal = intsubtotal + intdelivery
-	
-	BigDecimal intpartial = new BigDecimal(partialTotal)
-	
-	def commission = df.format(new BigDecimal(partialTotal.multiply(intcomm1)))
-	
-	BigDecimal intcomm = new BigDecimal(commission)
-
-    def finaltotal = intpartial - intcomm
-    WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/value_total'), currency+ finaltotal)
-	sellerTotalTmp.text = finaltotal
-		
-} else if (itemName == 'Item_02') {
-	
-	DecimalFormat df = new DecimalFormat('#,###.00')
-	
-	String comm1 = "0.01"
-	
-	BigDecimal intcomm1 = new BigDecimal(comm1)
-	
-    def partialTotal = intsubtotal + intdelivery
-	
-	BigDecimal intpartial = new BigDecimal(partialTotal)
-	
-	def commission = df.format(new BigDecimal(partialTotal.multiply(intcomm1)))
-	
-	BigDecimal intcomm = new BigDecimal(commission)
-
-    def finaltotal = intpartial - intcomm
-    WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/value_total'), currency+ finaltotal)
-	sellerTotalTmp.text = finaltotal
-		
-} else if (itemName == 'Item_03') {
-
-	DecimalFormat df = new DecimalFormat('#,###.00')
-	
-	String comm1 = "0.99"
-	
-	BigDecimal intcomm1 = new BigDecimal(comm1)
-	
-    def partialTotal = intsubtotal + intdelivery
-	
-	BigDecimal intpartial = new BigDecimal(partialTotal)
-	
-	def commission = new BigDecimal(partialTotal.multiply(intcomm1))
-	
-	BigDecimal intcomm = new BigDecimal(commission)
-
-    def finaltotal = intpartial - intcomm
-	
-	def DFfinaltotal = df.format (finaltotal)
-	
-    WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/value_total'), currency+DFfinaltotal)
-	sellerTotalTmp.text = finaltotal
-	
-} else if (itemName == 'Item_04') {
-    DecimalFormat df = new DecimalFormat('#,###.00')
-	
-	String comm1 = "1.00"
-	
-	BigDecimal intcomm1 = new BigDecimal(comm1)
-	
-    def partialTotal = intsubtotal + intdelivery
-	
-	BigDecimal intpartial = new BigDecimal(partialTotal)
-	
-	def commission = new BigDecimal(partialTotal.multiply(intcomm1))
-	
-	BigDecimal intcomm = new BigDecimal(commission)
-
-    def finaltotal = intpartial - intcomm
-	
-    WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/value_total'), currency+ finaltotal)
-	
-	sellerTotalTmp.text = finaltotal
-}
+sellerTotalTmp.text = formatfinaltotal
 
 WebUI.callTestCase(findTestCase('FIND/Seller/Seller Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -4,12 +4,12 @@
    <name>accountSuspended</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-12T09:54:05</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>c007e94e-aea2-4c5c-9957-67f024a14a02</testSuiteGuid>
    <testCaseLink>
       <guid>823512cd-20fd-49d0-8244-8bf84bfdb704</guid>
@@ -21,7 +21,7 @@
       <guid>6e9b5e34-a0b1-4bb7-a40a-a83b60078b2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/User Mgmt/Users/userAccess_No</testCaseId>
+      <testCaseId>Test Cases/ADMIN/User/Users/userAccess_No</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c7ea82d0-ef4c-4e92-b9f5-6a7351ae7130</guid>

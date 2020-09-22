@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Close&quot; button is present in Popup</description>
+   <name>C33345</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6d76b52-54e9-4e08-a2d5-58296a1f8763</testCaseGuid>
+</TestCaseEntity>

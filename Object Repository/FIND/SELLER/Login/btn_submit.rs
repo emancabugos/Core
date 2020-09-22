@@ -6,6 +6,10 @@
    <elementGuidId>f9f74124-a60e-456d-86cc-03e2c39d20e6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit' and @name = 'login-submit' and @id = 'login-submit']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//input[@id='login-submit']</value>
       </entry>
@@ -14,10 +18,10 @@
          <value>#login-submit</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

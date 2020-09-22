@@ -6,43 +6,47 @@
    <elementGuidId>2a74f8f2-5887-4df8-b22a-7866f5428439</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='MyPrintDiv']/div[2]/div[3]/div/div/div/div[4]/span[2]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.payment-status-in-table</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='MyPrintDiv']/div[2]/div[3]/div/div/div/div[4]/span[2]</value>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/div[1]/div/div[2]/div[1]/div[5]/p/select[count(. | //select[@class = 'basic status-changer']) = count(//select[@class = 'basic status-changer'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>payment-status-in-table</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>basic status-changer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Payment pending</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;order-detail-item-sec&quot;]/div[@class=&quot;ordr-dtls-item-body-sec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row ordr-dtls-item-bodyarea&quot;]/div[@class=&quot;ordr-dtls-item-bodyrow&quot;]/div[@class=&quot;ordr-dtls-item-status&quot;]/span[@class=&quot;payment-status-in-table&quot;]</value>
+      <value>/html/body/div[4]/div[1]/div[1]/div/div[2]/div[1]/div[5]/p/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
