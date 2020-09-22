@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[6]/div[2]/div/div/div[2]/a[count(. | //a[(text() = 'Add now' or . = 'Add now')]) = count(//a[(text() = 'Add now' or . = 'Add now')])]</value>
+         <value>//div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[6]/div[2]/div/div/div[2]/a[count(. | //*[@class = 'itmupld-loc-upldbtn']) = count(//*[@class = 'itmupld-loc-upldbtn'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,14 +27,14 @@
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>itmupld-loc-upldbtn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[6]/div[2]/div/div/div[2]/a</value>
+      <value>//div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[6]/div[2]/div/div/div[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

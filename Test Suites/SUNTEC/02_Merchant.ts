@@ -14,31 +14,31 @@
    <testCaseLink>
       <guid>ab4e9588-40ce-49a4-ab02-1e5901a2e151</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUNTEC/SELLER/gmail_Seller</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ce089902-eba6-4424-8067-dcc4d57155df</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUNTEC/SELLER/register_Seller</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6b2dabc5-3d47-44bc-a472-e77ff12feaab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUNTEC/SELLER/onboard_Seller</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a2429ddb-149f-4606-b83d-859749123de2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUNTEC/SELLER/add_ItemNoVariants</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>17475b5a-8df5-4eb6-b7a2-aab833e90ddd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SUNTEC/SELLER/add_ItemWithVariants</testCaseId>
    </testCaseLink>
    <testCaseLink>

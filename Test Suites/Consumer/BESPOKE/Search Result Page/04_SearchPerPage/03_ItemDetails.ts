@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>03_ItemDetails</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>cd7fb770-7760-47ab-b1da-da64662b5f2c</testSuiteGuid>
+   <testCaseLink>
+      <guid>ff615fbe-f0a3-4868-a41f-57b71060e39d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>06a39970-ba30-47f0-920b-feb328f6aefe</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/BESPOKE/Search Result Page/Search per Page/Item Details Page/a_NavigateToItemDetailsPage</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a7af72f4-9473-43e8-a54f-60f2b51d9650</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/SearchPerPage</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a7af72f4-9473-43e8-a54f-60f2b51d9650</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
+         <variableId>18f00ca8-7631-4053-a4d5-e50cfcc2da1a</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fd37f4f8-7e51-4196-9a81-ae39a0a85a8e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/BESPOKE/Search Result Page/Search per Page/Item Details Page/01_searchItemName</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>66f6da70-ad4b-4058-9d2a-b095a228e6dd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/SearchPerPage</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>66f6da70-ad4b-4058-9d2a-b095a228e6dd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
+         <variableId>1946e9c3-232a-4114-8120-e8b6eb34a809</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>191acd6c-e2ab-4ed9-b766-e71e7c097069</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/BESPOKE/Search Result Page/Search per Page/Item Details Page/02_searchItemDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>84ec03a1-c625-40e7-b899-f809ec690755</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/SearchPerPage</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>84ec03a1-c625-40e7-b899-f809ec690755</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescription</value>
+         <variableId>13cfa682-2d05-4309-91d4-66dd49f55fdb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>84ec03a1-c625-40e7-b899-f809ec690755</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
+         <variableId>a88243e4-19e1-496d-b8ca-f6802c34fb25</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>055c3a3c-2538-4208-b0cf-4363f6f99dcb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/BESPOKE/Search Result Page/Search per Page/Item Details Page/03_searchPartialItemName</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3ad21c14-41d1-4a0c-8fb4-0c65d3123cc2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/SearchPerPage</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3ad21c14-41d1-4a0c-8fb4-0c65d3123cc2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemNamePartial</value>
+         <variableId>26ac5ab6-65d3-4fb9-ad7d-793c492fff11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3ad21c14-41d1-4a0c-8fb4-0c65d3123cc2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
+         <variableId>8b59eb51-a3cf-444e-84f0-627dc359d2a4</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>db84ce4e-0393-4b41-be96-923e5a703e92</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/BESPOKE/Search Result Page/Search per Page/Item Details Page/04_searchPartialItemDescription</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fd775ecd-caaf-4915-a764-258e710ddd7d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/CONSUMER/BESPOKE/Search/SearchPerPage</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fd775ecd-caaf-4915-a764-258e710ddd7d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemDescriptionPartial</value>
+         <variableId>914ec186-fa4e-45bc-841c-bc835da0c0a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd775ecd-caaf-4915-a764-258e710ddd7d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>itemName</value>
+         <variableId>fa755413-73a7-4a1f-abc9-a695495fb5ed</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b7c53019-3f14-4268-a1c0-c03c2fd0996d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

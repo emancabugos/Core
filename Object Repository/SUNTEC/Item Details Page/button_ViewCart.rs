@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'cart-menu hover']</value>
+         <value>//*[@class = 'cart-menu hover' and @href = 'user/order/cart']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,5 +18,12 @@
       <name>class</name>
       <type>Main</type>
       <value>cart-menu hover</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>user/order/cart</value>
    </webElementProperties>
 </WebElementEntity>

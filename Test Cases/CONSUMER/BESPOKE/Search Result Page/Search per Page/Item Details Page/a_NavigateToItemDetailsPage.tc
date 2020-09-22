@@ -3,8 +3,14 @@
    <description></description>
    <name>a_NavigateToItemDetailsPage</name>
    <tag></tag>
-   <comment>Validation on Homepage
-Verify in Search Result Page
-Verify in Item Details Page</comment>
+   <comment>Search on Homepage
+Search Result Page</comment>
    <testCaseGuid>07cab3e7-662c-484b-8063-3a69889c9335</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>18f00ca8-7631-4053-a4d5-e50cfcc2da1a</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
 </TestCaseEntity>

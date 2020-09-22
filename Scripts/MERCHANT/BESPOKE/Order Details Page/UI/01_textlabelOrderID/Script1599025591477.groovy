@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Orders and Details/Order Details/textlabel_INVOICE ID'), 
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Orders and Details/Order Details/textlabel_ORDERID'), 
     0)
 
-WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Orders and Details/Order Details/textlabel_INVOICE ID'), 
+WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Orders and Details/Order Details/textlabel_ORDERID'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 

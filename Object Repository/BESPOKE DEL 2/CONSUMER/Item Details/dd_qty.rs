@@ -10,11 +10,15 @@
          <value>//select[@id='itemDetailQty']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'itemDetailQty' and @name = 'qty']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#itemDetailQty</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

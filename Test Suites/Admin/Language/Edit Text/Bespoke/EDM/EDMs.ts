@@ -161,7 +161,7 @@
    <testCaseLink>
       <guid>ea4b3f55-25bd-4aeb-ab51-005fa87ad74e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Message from Seller</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -182,13 +182,13 @@
    <testCaseLink>
       <guid>a8f02ace-b150-4db4-8f0a-3eaafc6e6881</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/New Order Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>004a276d-3b41-4aa7-ae14-b67ac73201b4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/New Order</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

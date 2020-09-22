@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Utilities/Image Cropper/button_Save Photo'), Failure
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_DisplayName'), 'socbuyer_01')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_DisplayName'), 'stbuyer_01')
 
 WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_FirstName'), 'Sophie')
 
