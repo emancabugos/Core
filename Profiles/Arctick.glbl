@@ -9,19 +9,9 @@
       <initValue>'https://www.test.arcadier.io'</initValue>
       <name>Server</name>
    </GlobalVariableEntity>
-<<<<<<< HEAD
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0723omp'</initValue>
-=======
-   <GlobalVariableEntity>
-<<<<<<< HEAD
-      <description></description>
-      <initValue>'0313st01'</initValue>
-=======
      <initValue>'0723omp'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -59,34 +49,14 @@
       <initValue>'Theme 1'</initValue>
       <name>Theme</name>
    </GlobalVariableEntity>
-<<<<<<< HEAD
    <GlobalVariableEntity>
       <description>remove https://</description>
       <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
-=======
-   <GlobalVariableEntity>
-<<<<<<< HEAD
-      <description>remove https://</description>
-      <initValue>'0313st01.test.arcadier.io/admin'</initValue>
-=======
-      <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
-<<<<<<< HEAD
    <GlobalVariableEntity>
       <description>remove https://</description>
       <initValue>'https://0723omp.test.arcadier.io'</initValue>
-=======
-   <GlobalVariableEntity>
-<<<<<<< HEAD
-      <description>remove https://</description>
-      <initValue>'mogozay.sandbox.arcadier.io/'</initValue>
-=======
-      <initValue>'https://0723omp.test.arcadier.io'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -100,17 +70,8 @@
       <name>StripeConnect</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-<<<<<<< HEAD
       <description></description>
       <initValue>'sellerbp01'</initValue>
-=======
-<<<<<<< HEAD
-      <description></description>
-      <initValue>'custommerchant1'</initValue>
-=======
-      <initValue>'sellerbp01'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -128,19 +89,9 @@
       <initValue>'arcadier.tester1@gmail.com'</initValue>
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
-<<<<<<< HEAD
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'buyer1595833862'</initValue>
-=======
-   <GlobalVariableEntity>
-<<<<<<< HEAD
       <description></description>
       <initValue>'buyer001'</initValue>
-=======
-      <initValue>'buyer1595833862'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -212,13 +163,10 @@
       <description></description>
       <initValue>'0601bp1.staging.arcadier.io/user/order/cart'</initValue>
       <name>cartURL</name>
-<<<<<<< HEAD
-=======
    </GlobalVariableEntity>
-      <GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'seller0002'</initValue>
       <name>CustomMerchant2</name>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
    </GlobalVariableEntity>
 </GlobalVariableEntities>
