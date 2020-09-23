@@ -9,17 +9,18 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>65ad9815-8c15-4739-9147-6c602e348eaa</testSuiteGuid>
    <testCaseLink>
       <guid>bee7fe73-1c1d-4ce3-a18c-468231aef038</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b309ac0a-bc6e-4af8-a469-06f0d5aa32ac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -40,13 +41,13 @@
    <testCaseLink>
       <guid>f8ce675f-d415-4554-8991-efec4333d7b1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Item List Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ed3195d5-51fd-4e5c-8c49-f06e139b76f7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Item List</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -67,13 +68,13 @@
    <testCaseLink>
       <guid>8328e977-5f9f-4c4f-9714-336891966c10</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Add_Edit Item Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7d48ddcd-3725-4f95-b72e-47aa3636baf9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Add_Edit Item</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -94,13 +95,13 @@
    <testCaseLink>
       <guid>0404f281-2290-4ef4-8144-bcc3c7c7bad0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Onboarding_Settings Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>29562af6-5404-41ba-bfd0-26eb345587dd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Onboarding_Settings</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -121,13 +122,13 @@
    <testCaseLink>
       <guid>29fe33dc-81c9-40d8-8075-5a94a8bbd141</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Dashboard Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c6c5b7b4-1999-42ae-97cc-49fb2f3baa24</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Dashboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -148,13 +149,13 @@
    <testCaseLink>
       <guid>ba62162e-c2b6-4971-b119-78eff3274121</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Order History Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>aa011a69-052c-4daf-a0e4-b7548f905170</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Order History</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -175,13 +176,13 @@
    <testCaseLink>
       <guid>6de56273-0d73-4de1-ac5e-2fea3ba08c1a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Order Details Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a55f22e8-fb7e-41d2-b8a5-6723e1d7a593</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Order Details</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -202,13 +203,13 @@
    <testCaseLink>
       <guid>f967ceeb-203d-49a8-9a59-7df6bb944835</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Item Translation Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>46a34f7e-b61e-4c69-8572-af5688305cf1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Item Translation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -229,13 +230,13 @@
    <testCaseLink>
       <guid>2075a248-f2a8-4365-b148-b43055749292</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Delivery Settings Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>18c1e6af-a752-4900-8231-a30c44c1e3b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Delivery Settings</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

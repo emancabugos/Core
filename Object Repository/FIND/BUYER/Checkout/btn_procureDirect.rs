@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class = 'add-cart-btn' and (text() = 'Procure directly from sellerLog in required to view prices or add to cart' or . = 'Procure directly from sellerLog in required to view prices or add to cart')]</value>
+         <value>//a[@class = 'add-cart-btn' and (text() = 'PROCURE THROUGH FIND' or . = 'PROCURE THROUGH FIND')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Procure directly from sellerLog in required to view prices or add to cart</value>
+      <value>PROCURE THROUGH FIND</value>
    </webElementProperties>
 </WebElementEntity>

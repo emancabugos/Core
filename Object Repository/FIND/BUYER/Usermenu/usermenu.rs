@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[7]/a[1]/img</value>
+         <value>//i[@class = 'icon icon-down']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[7]/a[1]/img</value>
+      <value>icon icon-down</value>
    </webElementProperties>
 </WebElementEntity>

@@ -68,13 +68,13 @@
    <testCaseLink>
       <guid>7c1fa18c-51bb-4062-82f5-279f84ca4892</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Terms Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>61d737da-ac06-4a3f-ad3c-54e1048339a9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Terms</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -95,13 +95,13 @@
    <testCaseLink>
       <guid>284faf98-d9f5-4337-a0ea-62fa40798796</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Privacy Policy Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a58095ed-49f4-4c55-8573-7da757bababa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Privacy Policy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -122,13 +122,13 @@
    <testCaseLink>
       <guid>8432a6ba-00b3-4952-9d2a-845ac46d96bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Returns Policy Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>20d7508a-d02b-441f-8bf4-7bfca26fbc2c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Returns Policy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -149,13 +149,13 @@
    <testCaseLink>
       <guid>aa744cf8-e778-49f0-a07a-bfd3aa8cc636</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/FAQ Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>310fd6ee-ac47-416a-a984-a1c6aa663815</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/FAQ</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
