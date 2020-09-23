@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'subadmin'</initValue>
+      <initValue>'0914B2B2'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'mogozay.sandbox.arcadier.io/admin'</initValue>
+      <initValue>'0914b2b2.staging.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'mogozay.sandbox.arcadier.io/'</initValue>
+      <initValue>'0914b2b2.staging.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'custommerchant1'</initValue>
+      <initValue>'b2bseller01'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -91,7 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'buyer001'</initValue>
+      <initValue>'b2bbuyer01'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
