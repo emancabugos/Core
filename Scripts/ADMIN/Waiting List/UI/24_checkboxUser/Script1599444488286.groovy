@@ -15,3 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Waiting List/textbox_search'), 0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Waiting List/checkbox'), 0)
+
