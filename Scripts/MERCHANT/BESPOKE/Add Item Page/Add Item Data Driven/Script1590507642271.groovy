@@ -38,7 +38,8 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_listing-name'), varListingName + " "+GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_listing-name'), (varListingName + ' ') + 
+    GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 
@@ -216,5 +217,5 @@ WebUI.comment('Save')
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/button_Upload Now'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/button_add item'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Item List/btn_Add Item'), 0)
 

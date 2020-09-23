@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>df7e75a2-fbc4-40f5-89ab-310113011130</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FIND/Seller/Seller Login COVID</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -44,7 +44,7 @@
    <testCaseLink>
       <guid>451b5c04-85b9-43ca-9ba3-3de2cd408851</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/FIND/Seller/Seller Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

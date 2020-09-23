@@ -4,10 +4,16 @@
    <name>input_SERVICE YOU ARE LOOKING FOR_service_looking_for</name>
    <tag></tag>
    <elementGuidId>37c05c02-2a3a-4c5f-8d46-9527346686e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @name = 'service_looking_for']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

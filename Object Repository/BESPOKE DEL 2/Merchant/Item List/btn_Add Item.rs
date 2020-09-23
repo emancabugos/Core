@@ -6,25 +6,29 @@
    <elementGuidId>b24bd63a-ff9d-4728-a3c0-d4aa6006eb3f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.seller-upload-btn</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@onclick='userItemListModule.GoToUpload()']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'seller-upload-btn' and (text() = 'Add Item' or . = 'Add Item')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.seller-upload-btn</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>userItemListModule.GoToUpload()</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -49,10 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-                        
-                        Add Item
-                    </value>
+      <value>Add Item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -50,6 +50,8 @@ File deliveryTmp = tmpDir.resolve('delivery.txt').toFile()
 
 File sellerTotalTmp = tmpDir.resolve('sellerTotal.txt').toFile()
 
+File orderNoTmp = tmpDir.resolve('orderNo.txt').toFile()
+
 WebUI.callTestCase(findTestCase('FIND/Seller/Seller Login COVID'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Login/seller_menu'), 0)
@@ -71,6 +73,10 @@ WebUI.click(findTestObject('FIND/SELLER/Order Details/icon_search'), FailureHand
 WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Order Details/textvalue_invoice'), 0)
 
 WebUI.verifyElementText(findTestObject('FIND/SELLER/Order Details/textvalue_invoice'), invoice)
+
+orderNo = WebUI.getText(findTestObject('FIND/SELLER/Order Details/value_orderNo'))
+
+orderNoTmp.text = orderNo
 
 WebUI.verifyOptionSelectedByLabel(findTestObject('FIND/SELLER/Order Details/dd_orderStatusOrderList'), 'PO Created', false, 
     0)

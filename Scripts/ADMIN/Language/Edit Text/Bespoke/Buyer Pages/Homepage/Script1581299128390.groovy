@@ -29,11 +29,6 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/inpu
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_SERVICE YOU ARE LOOKING FOR_service_looking_for'), 
     '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_OUR ITEMS_our_services'), '*')
-
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_What kind of items are you searching for_search_service'), 
-    '*')
-
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_BROWSE CATEGORIES_browse_cat_btn'), '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/input_HIDE CATEGORIES_hide_cat_btn'), '*')
