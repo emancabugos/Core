@@ -6,14 +6,18 @@
    <elementGuidId>3f319a0b-964d-46b9-a32f-b6be685bb8d8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/merchants/items' and (text() = 'Inventory' or . = 'Inventory')]</value>
+         <value>//*[@href = '/user/item/list' and (text() = 'Your Items' or . = 'Your Items')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,20 +28,20 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/merchants/items</value>
+      <value>/user/item/list</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Inventory</value>
+      <value>Your Items</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;header-section&quot;]/div[1]/div/div/ul[1]/li[2]/a</value>
+      <value>//div[2]/div/ul/li[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Google Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90c1bc14-fad5-47ec-b314-7a6f98dba10d</testCaseGuid>
+</TestCaseEntity>

@@ -19,5 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Your Items'))
+WebUI.click(findTestObject('Utilities/Header/Merchant Header/linktext_Your Items'))
 
