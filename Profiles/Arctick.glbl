@@ -10,8 +10,29 @@
       <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
       <description></description>
       <initValue>'0723omp'</initValue>
+=======
+      <description></description>
+<<<<<<< HEAD
+      <initValue>'0914b2c2'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0803time'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0813st1'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0613bpdiana'</initValue>
+=======
+      <initValue>'0723omp'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -50,13 +71,53 @@
       <name>Theme</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
       <description>remove https://</description>
+=======
+      <description>remove https://</description>
+<<<<<<< HEAD
+      <initValue>'0914b2c2.staging.arcadier.io/admin'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0803time.test.arcadier.io/admin/'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0813st1.staging.arcadier.io/admin'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0613bpdiana.test.arcadier.io/admin'</initValue>
+=======
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
       <description>remove https://</description>
+=======
+      <description>remove https://</description>
+<<<<<<< HEAD
+      <initValue>'0914spacetime1.staging.arcadier.io'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0803time.test.arcadier.io'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0717bp1.test.arcadier.io'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0613bpdiana.test.arcadier.io'</initValue>
+=======
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <initValue>'https://0723omp.test.arcadier.io'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +132,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
+      <initValue>'sellerapril01'</initValue>
+=======
       <initValue>'sellerbp01'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -90,8 +155,24 @@
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
       <description></description>
+=======
+      <description></description>
+<<<<<<< HEAD
+      <initValue>'buyer0002'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'buyer001'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'buyer0001'</initValue>
+=======
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <initValue>'buyer1595833862'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -163,5 +244,10 @@
       <description></description>
       <initValue>'0717bp1.test.arcadier.io/user/order/cart'</initValue>
       <name>cartURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'seller0002'</initValue>
+      <name>CustomMerchant2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
