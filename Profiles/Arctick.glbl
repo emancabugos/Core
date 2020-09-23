@@ -52,17 +52,11 @@
    <GlobalVariableEntity>
       <description>remove https://</description>
       <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
       <initValue>'https://0723omp.test.arcadier.io'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -98,8 +92,6 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'buyer1595833862'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -3,7 +3,8 @@
    <description></description>
    <name>02_searchItemDescription</name>
    <tag></tag>
-   <comment>Searc Exact Item Description</comment>
+   <comment>Search on Homepage
+Search Result Page</comment>
    <testCaseGuid>02e48556-fce6-4ef1-b6f6-bd80622be395</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>

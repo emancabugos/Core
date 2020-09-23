@@ -28,7 +28,7 @@ WebUI.waitForElementVisible(findTestObject('SUNTEC/Homepage/textfield_Search'), 
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('SUNTEC/Homepage/textfield_Search'), 'Macbook Pro')
+WebUI.setText(findTestObject('SUNTEC/Homepage/textfield_Search'), 'Item no Variants')
 
 WebUI.sendKeys(findTestObject('SUNTEC/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
@@ -212,7 +212,8 @@ WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History 
 
 WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textlabel_buyerPostalCode'), '1011')
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textabelvalue_TransctionTotal'), ftotal)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textabelvalue_TransctionTotal'), 
+    ftotal)
 
 WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textlabel_SubTotal'), fsubtotal)
 
@@ -275,7 +276,8 @@ WebUI.closeBrowser()
 
 WebUI.comment('Verify Admin Details')
 
-WebUI.callTestCase(findTestCase('SUNTEC/ADMIN/login_Admin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SUNTEC/ADMIN/login_Dashboard'), [('DashboardURL') : GlobalVariable.DashboardURL, ('dUsername') : GlobalVariable.dUsername
+        , ('dPassword') : GlobalVariable.dPassword, ('HomepageURL') : GlobalVariable.HomepageURL], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/18_redirectionTransactionList'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

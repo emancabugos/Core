@@ -14,15 +14,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 'Checkout Item 01 - Delivery - Stripe '
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('null'), itemName)
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemName)
 
-WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 
@@ -32,5 +33,5 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Result
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/btn_ADD TO CART'), 0)
 

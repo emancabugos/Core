@@ -203,7 +203,8 @@ WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History 
 
 WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textlabel_buyerPostalCode'), '1011')
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textabelvalue_TransctionTotal'), ftotal)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textabelvalue_TransctionTotal'), 
+    ftotal)
 
 WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/textlabel_SubTotal'), fsubtotal)
 

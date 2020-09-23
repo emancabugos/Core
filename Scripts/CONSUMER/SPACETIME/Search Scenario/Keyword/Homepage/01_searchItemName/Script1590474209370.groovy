@@ -18,18 +18,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
 WebUI.comment('Search Exact Item Name')
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
-WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), itemName)
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemName)
 
-WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Function/button_Search'))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Result Page/image_Item'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'), 0)
 
-WebUI.verifyElementText(findTestObject('SPACETIME/CONSUMER/Search Result Page/textlabel_SearchResultPageItemName'), itemName)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/textlabel_ItemName'), itemName)
 
 WebUI.back()
 

@@ -14,14 +14,14 @@
    <testCaseLink>
       <guid>10ab58b6-5d24-4a10-9fce-35de014c5eb0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3fb5d26c-85e5-46a3-8bac-bdc948b66a8f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Redirection</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin New Sidebar/Simple/24_redirectionCustomFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8a397337-1fb1-4e98-a42f-07bc9faa735a</guid>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>757fc9f7-90ab-45cf-8991-384297c5bcfc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

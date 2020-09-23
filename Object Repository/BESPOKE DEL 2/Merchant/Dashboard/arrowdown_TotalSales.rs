@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>arrowdown_TotalSales</name>
+   <tag></tag>
+   <elementGuidId>b8721b77-56c4-4e66-bf49-1e8d6a84bf4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react_0HM2IQGJ48CK9']/div/div/div/div/div[2]/ul/li/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'arrow-down']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.arrow-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>arrow-down</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HM2IQGJ48CK9&quot;)/div[1]/div[@class=&quot;dashboard-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;dashboard-content&quot;]/div[@class=&quot;dashboard-board&quot;]/ul[1]/li[@class=&quot;total-sale&quot;]/div[@class=&quot;high-low green&quot;]/div[@class=&quot;arrow-down&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HM2IQGJ48CK9']/div/div/div/div/div[2]/ul/li/div[2]/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,15 +6,16 @@
    <elementGuidId>ec06e018-f5f9-4c2a-b2e8-07359eaeedc1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='sellerapril01'])[1]/following::h4[1]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Item no Variants' or . = 'Item no Variants')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h4</value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[4]/div[2]/div/div/div/div[2]/div/div[2]/div[1]/div/div[2]/div/h4[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

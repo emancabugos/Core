@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabelvalue_OrderID</name>
+   <tag></tag>
+   <elementGuidId>0d14db44-5905-4086-be7b-7dd33f8a03bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[3]/div[2]/div/div[1]/div[2]/a/span[2][count(. | //*[@id = 'order-id']) = count(//*[@id = 'order-id'])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[3]/div[2]/div/div/div[2]/a/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>order-id</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/div[2]/div/div[1]/div[2]/a/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>

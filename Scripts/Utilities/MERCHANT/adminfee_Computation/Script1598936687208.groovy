@@ -17,6 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DecimalFormat as DecimalFormat
 import org.openqa.selenium.Keys as Keys
+import java.text.NumberFormat
 
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login Non Private'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -24,7 +25,7 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/text
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'item01')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'Item 0 Commission')
 
 WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
@@ -122,5 +123,96 @@ println(df.format(new BigDecimal(actualtotal)))
 
 WebUI.verifyEqual(totalcost, actualtotal)
 
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Review Details Page/button_ProceedPayment'))
 
+WebUI.comment('Payment Page')
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 0)
+
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.selectOptionByLabel(findTestObject('SPACETIME/CONSUMER/Payment Details Page/dropdown_Payment'), 'Stripe', true)
+
+WebUI.scrollToElement(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'), 0)
+
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/button_PayNow'))
+
+WebUI.delay(1)
+
+WebUI.waitForElementPresent(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe_New/textfield_Email'), 0)
+
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe_New/textfield_Email'), 'test321@gmail.com')
+
+WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe_New/textfield_CardNumber'), '4242 4242 4242 4242')
+
+WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe_New/textfield_DateExpiry'), '1123')
+
+WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe_New/textfield_CVC'), '123')
+
+WebUI.sendKeys(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe_New/textfield_Name'), 'Jane Doe')
+
+WebUI.delay(0.5)
+
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Payment Details Page/Stripe_New/button_Pay'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Thank You Page/button_PurchaseHistory'), 0)
+
+invoiceid = WebUI.getText(findTestObject('BESPOKE DEL 2/CONSUMER/Thank you Page/textlabel_inoviceID'))
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
+
+WebUI.callTestCase(findTestCase('Utilities/MERCHANT/Merchant Login Non Private'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Orders and Details/Order Details/menu_Orders'), 0)
+
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Orders and Details/Order Details/menu_Orders'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Order List/textlabelvalue_InvoiceID'), 
+    0)
+
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Order List/textlabelvalue_InvoiceID'), 
+    invoiceid)
+
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Order List/textlabelvalue_OrderID'))
+
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Order Details/value_AdminFee'), 
+    0)
+
+WebUI.comment('Computation Admin Fee')
+
+actualsellersub = WebUI.getText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Order Details/value_SubTotal'))
+
+actualsellerdel = WebUI.getText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Order Details/value_DeliveryCost'))
+
+WebUI.verifyEqual(subtotal, actualsellersub)
+
+WebUI.verifyEqual(deliverycost, actualsellerdel)
+
+float com = 0.20
+
+BigDecimal intcom = new BigDecimal(com)
+
+def adminfee = intsubtotal * intcom
+
+println(df.format(new BigDecimal(adminfee)))
+
+actualadminfee = WebUI.getText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Order Details/value_AdminFee'))
+
+WebUI.verifyEqual(adminfee, actualadminfee)
+
+WebUI.comment('Transaction Total')
+
+BigDecimal inttotalcost = new BigDecimal(totalcost)
+
+BigDecimal intadminfee = new BigDecimal(adminfee)
+
+def transactotal = inttotalcost - intadminfee
+
+println(df.format(new BigDecimal(transactotal)))
+
+actualtransactotal = WebUI.getText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Order Details/value_TransactionTotal'))
+
+WebUI.verifyEqual(transactotal, actualtransactotal)
 

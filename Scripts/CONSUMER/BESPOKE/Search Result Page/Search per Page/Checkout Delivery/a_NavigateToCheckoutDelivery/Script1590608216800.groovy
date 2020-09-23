@@ -26,14 +26,13 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-'Checkout Item 01 - Delivery - Stripe '
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 0)
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('null'), itemName)
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), itemName)
 
-WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForPageLoad(0)
 
@@ -43,17 +42,34 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Search Result
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Search Results Page/item_Result'))
 
-WebUI.waitForElementVisible(findTestObject('null'), 0)
+WebUI.waitForElementVisible(findTestObject('SUNTEC/Item Details Page/button_AddToCart'), 0)
 
 WebUI.comment('Item Details Page')
 
+if (variant == 'no') {
+    WebUI.delay(2)
+} else if (variant == 'yes') {
+    WebUI.selectOptionByLabel(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Item Details/dd_VarOpt1'), 
+        var1, false)
+
+    WebUI.delay(1)
+
+    WebUI.selectOptionByLabel(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Item Details/dd_VarOpt2'), 
+        'var2', false)
+
+    WebUI.delay(1)
+
+    WebUI.selectOptionByLabel(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Item Details/dd_VarOpt3'), 
+        'var3', false)
+}
+
 DecimalFormat df = new DecimalFormat('#,###.00')
 
-WebUI.selectOptionByLabel(findTestObject('null'), quantity, true)
+WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), qty, true)
 
-def itemprice = WebUI.getText(findTestObject('null'))
+def itemprice = WebUI.getText(findTestObject('SUNTEC/Item Details Page/textlabel_ItemPrice'))
 
-def quantity = WebUI.getAttribute(findTestObject('null'), 'value')
+def quantity = WebUI.getAttribute(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), 'value')
 
 BigDecimal intitemprice = new BigDecimal(itemprice)
 
@@ -63,9 +79,9 @@ def subtotal = intitemprice * intquantity
 
 println(df.format(new BigDecimal(subtotal)))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('SUNTEC/Item Details Page/button_AddToCart'))
 
-WebUI.waitForElementPresent(findTestObject('null'), 0)
+WebUI.delay(2)
 
 WebUI.navigateToUrl(GlobalVariable.cartURL)
 
@@ -80,4 +96,10 @@ WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Item Cart/button_Checkout'))
 WebUI.comment('Checkout - Delivery Page')
 
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Delivery Details Page/textfield_FirstName'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Delivery Details Page/button_SelectAddress'))
+
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Delivery Details Page/button_Selected'), 0)
 

@@ -4,18 +4,18 @@
    <name>02_searchItemDescription</name>
    <tag></tag>
    <comment>Searc Exact Item Description</comment>
-   <testCaseGuid>a0de9d9d-ccb5-41a5-bbe9-809c1c0c565b</testCaseGuid>
+   <testCaseGuid>845f9197-5940-43f8-816b-dddf091beab2</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>7fda0fde-d549-4da9-9965-97b934950794</id>
+      <id>13cfa682-2d05-4309-91d4-66dd49f55fdb</id>
       <masked>false</masked>
       <name>itemDescription</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>15f8f6cb-744d-4cf7-b509-ed1a41ad86e7</id>
+      <id>a88243e4-19e1-496d-b8ca-f6802c34fb25</id>
       <masked>false</masked>
       <name>itemName</name>
    </variable>

@@ -16,7 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SUNTEC/ADMIN/login_Admin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SUNTEC/ADMIN/login_Dashboard'), [('DashboardURL') : GlobalVariable.DashboardURL, ('dUsername') : GlobalVariable.dUsername
+        , ('dPassword') : GlobalVariable.dPassword, ('HomepageURL') : GlobalVariable.HomepageURL], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/13_redirectionUsers'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

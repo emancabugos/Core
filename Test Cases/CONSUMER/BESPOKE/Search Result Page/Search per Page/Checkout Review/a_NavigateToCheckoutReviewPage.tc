@@ -55,4 +55,11 @@ Payment Page</comment>
       <masked>false</masked>
       <name>COD</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ba5ee3ec-2f97-480a-b722-f45c57b16092</id>
+      <masked>false</masked>
+      <name>variant</name>
+   </variable>
 </TestCaseEntity>
