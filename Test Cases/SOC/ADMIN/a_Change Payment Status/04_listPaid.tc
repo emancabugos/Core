@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_listPaid</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Verify Admin Details
+Verify Merchant Details</comment>
+   <testCaseGuid>08b7d43e-2ee7-44b7-a7c5-75219492edd5</testCaseGuid>
+</TestCaseEntity>

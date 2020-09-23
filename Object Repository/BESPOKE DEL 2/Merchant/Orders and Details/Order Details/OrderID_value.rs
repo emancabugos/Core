@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[4]/div[1]/div[1]/div/div[1]/div[1]/div/div[1]/text()</value>
+         <value>//div[4]/div[2]/div[2]/div/div[1]/div[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,10 +17,10 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[4]/div[1]/div[1]/div/div[1]/div[1]/div/div[1]/text()</value>
+      <value>//div[4]/div[2]/div[2]/div/div[1]/div[2]</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_delete</name>
+   <tag></tag>
+   <elementGuidId>a4043ec0-1d16-469a-a88b-42b424ca71ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.icon-delete</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='MyPrintDiv']/div/div[2]/div/div/div/div/div[5]/ul/li[2]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-delete</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;seller-itemlist&quot;]/div[@class=&quot;itemlist-body&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;itemlist-body-r&quot;]/div[@class=&quot;item-row&quot;]/div[@class=&quot;item-actions&quot;]/ul[1]/li[2]/a[1]/i[@class=&quot;icon icon-delete&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='MyPrintDiv']/div/div[2]/div/div/div/div/div[5]/ul/li[2]/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>toggle_VariantsSOC</name>
+   <tag></tag>
+   <elementGuidId>9b2875f6-a71d-49d6-9071-63c7eb4e0f7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[4]/div/div/div/div[3]/div[1]/div[2]/div/label/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[4]/div/div/div/div[3]/div[1]/div[2]/div/label/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>

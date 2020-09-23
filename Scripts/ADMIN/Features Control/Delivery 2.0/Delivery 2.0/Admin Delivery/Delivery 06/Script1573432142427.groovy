@@ -51,8 +51,6 @@ WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_MinimumLeadT
 
 WebUI.setText(findTestObject('ADMIN/Admin Delivery Option/textfield_WhereAreYouDelivering'), 'MAKATI')
 
-WebUI.scrollToElement(findTestObject('ADMIN/Admin Delivery Option/textlabel_radioSelection'), 0)
-
 WebUI.callTestCase(findTestCase('ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Simple/click_PriceRadiobutton'), [:], 
     FailureHandling.CONTINUE_ON_FAILURE)
 

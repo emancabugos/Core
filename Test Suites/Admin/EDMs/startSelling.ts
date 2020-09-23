@@ -4,12 +4,12 @@
    <name>startSelling</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-11T14:26:58</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d7ed3b6a-09fe-44b1-8916-84f1fcde2a42</testSuiteGuid>
    <testCaseLink>
       <guid>283419e9-b7fc-4bbf-a1bd-6d1185feaea3</guid>
@@ -21,7 +21,7 @@
       <guid>40b5b4b5-74c2-48f6-b4fa-12bbfdf46acb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/User Mgmt/Users/userAccess_No</testCaseId>
+      <testCaseId>Test Cases/ADMIN/User/Users/userAccess_No</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0dd86784-c524-470b-98f5-706e1c3f708e</guid>

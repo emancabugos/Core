@@ -3,7 +3,13 @@
    <description></description>
    <name>textfield_Search</name>
    <tag></tag>
-   <elementGuidId>2d01fac5-d64a-488d-a3a1-08e949e480ef</elementGuidId>
+   <elementGuidId>13ceaaa6-4c4b-4d4e-bafb-3acfce058260</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @placeholder = 'What are you looking for?' and @name = 'KeyWords']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,20 +27,6 @@
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>KeyWords</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
@@ -44,8 +36,22 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header-search-textbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react_0HLMV18AAAER8&quot;)/div[1]/div[1]/div[@class=&quot;section home-banner banner-slider&quot;]/div[@class=&quot;home-serach&quot;]/form[1]/div[@class=&quot;search-controls&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>/html[@class=&quot;js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths&quot;]/body[@class=&quot;page-home  pace-done&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header-bottom&quot;]/div[@class=&quot;container&quot;]/ul[@class=&quot;header-menus&quot;]/li[@class=&quot;h-search&quot;]/div[@class=&quot;h-search-bar&quot;]/div[@class=&quot;h-search-input&quot;]/input[@class=&quot;header-search-textbox&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>KeyWords</value>
    </webElementProperties>
 </WebElementEntity>

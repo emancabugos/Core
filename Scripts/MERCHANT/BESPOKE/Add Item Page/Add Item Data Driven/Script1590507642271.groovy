@@ -38,7 +38,8 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page
 
 WebUI.comment('Listing Name')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_listing-name'), varListingName)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_listing-name'), (varListingName + ' ') + 
+    GlobalVariable.CustomMerchant)
 
 WebUI.comment('Categories')
 
@@ -54,24 +55,26 @@ if (varCategory == 'allcategory') {
     WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textlabel_Select all'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'category0') {
+    WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category Commission/category0'), 
+        0)
+
+    WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category Commission/category0'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'category1') {
-    WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category 1'), 0)
+    WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category Commission/category1'), 
+        0)
 
-    WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category 1'), FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category2.1') {
-    WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category 2.1'), 0)
+    WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category Commission/category1'), FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'category99') {
+    WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category Commission/category99'), 
+        0)
 
-    WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category 2.1'), FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category3.1') {
-    WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category 3.1.1'), 0)
+    WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category Commission/category99'), FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'category100') {
+    WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category Commission/category100'), 
+        0)
 
-    WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category 3.1.1'), FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'Category Name mAx 021!!@#$%^&!') {
-    WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/searchbar_category-name'), varCategory)
-
-    WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/maxcat'), 0)
-
-    WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/maxcat'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/Category Commission/category100'), FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 WebUI.comment('Item Cover Image')
@@ -200,13 +203,13 @@ if (varCategory == 'allcategory') {
     WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Add Item Page/CF_allcategory'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'multiplecategory') {
     WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Add Item Page/CF_allcategory'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'category0') {
+    WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Add Item Page/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varCategory == 'category1') {
-    WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Add Item Page/CF_Category1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category2.1') {
-    WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Add Item Page/CF_category2.1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'category3.1') {
-    WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Add Item Page/CF_3.1.1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-} else if (varCategory == 'Category Name mAx 021!!@#$%^&!') {
+    WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Add Item Page/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'category99') {
+    WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Add Item Page/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+} else if (varCategory == 'category100') {
     WebUI.callTestCase(findTestCase('MERCHANT/BESPOKE/Add Item Page/CF_categorymax'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 }
 
@@ -214,5 +217,5 @@ WebUI.comment('Save')
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/button_Upload Now'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/button_add item'), 0)
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Item List/btn_Add Item'), 0)
 

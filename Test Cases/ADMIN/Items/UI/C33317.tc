@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if Items found label is present</description>
+   <name>C33317</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eeb9befa-9d31-485c-b792-124d88a2f49d</testCaseGuid>
+</TestCaseEntity>

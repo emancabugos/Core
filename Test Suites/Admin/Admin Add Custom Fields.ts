@@ -19,8 +19,8 @@
    <testCaseLink>
       <guid>3fb5d26c-85e5-46a3-8bac-bdc948b66a8f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Content Mgmt/Custom Fields Page/Add Custom Item Fields/Redirection</testCaseId>
+     <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin New Sidebar/Simple/24_redirectionCustomFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8a397337-1fb1-4e98-a42f-07bc9faa735a</guid>

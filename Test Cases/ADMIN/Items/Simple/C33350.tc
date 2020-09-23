@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if toaster message will appear upon item deletion</description>
+   <name>C33350</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f69d5b29-e6e1-4a1a-b66b-a234261cb144</testCaseGuid>
+</TestCaseEntity>

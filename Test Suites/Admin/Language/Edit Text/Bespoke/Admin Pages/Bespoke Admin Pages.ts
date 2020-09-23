@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>46c97cab-f7cc-4be7-893a-82d7f9996caf</testSuiteGuid>
    <testCaseLink>
       <guid>110383c8-3462-4efb-bf1b-1803c84c5ca4</guid>
@@ -94,13 +95,13 @@
    <testCaseLink>
       <guid>284faf98-d9f5-4337-a0ea-62fa40798796</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Privacy Policy Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a58095ed-49f4-4c55-8573-7da757bababa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Privacy Policy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -121,13 +122,13 @@
    <testCaseLink>
       <guid>8432a6ba-00b3-4952-9d2a-845ac46d96bc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Returns Policy Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>20d7508a-d02b-441f-8bf4-7bfca26fbc2c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Returns Policy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -148,13 +149,13 @@
    <testCaseLink>
       <guid>aa744cf8-e778-49f0-a07a-bfd3aa8cc636</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/FAQ Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>310fd6ee-ac47-416a-a984-a1c6aa663815</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/FAQ</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

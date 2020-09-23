@@ -4,6 +4,12 @@
    <name>OrderStatus_dropdown</name>
    <tag></tag>
    <elementGuidId>ec4fb181-e6f8-488a-b8d2-6d8513fc3228</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'order-status' and @name = 'order-status']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -35,7 +41,7 @@
       <value>app.manageOrderDetailsController.order_multiple_itemstatus_popup(this);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

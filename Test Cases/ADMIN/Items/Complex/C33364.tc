@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if the Transaction (Admin TXN List Page) of the deleted item will not be affected</description>
+   <name>C33364</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1609e4d-f415-47c3-aa94-7ece0b224871</testCaseGuid>
+</TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div[4]/a[1]</value>
+         <value>/html/body/div[3]/div[2]/div[2]/div/div/div/div/div[3]/div[2]/div/div[4]/a[1][count(. | //a[(text() = 'Save' or . = 'Save')]) = count(//a[(text() = 'Save' or . = 'Save')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -41,7 +41,7 @@
       <value>pull-right my-btn btn-black</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

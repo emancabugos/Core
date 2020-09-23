@@ -23,5 +23,8 @@ WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Tran
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_TransactionList'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/ADMIN/Admin Transaction List/button_ExportCSV'), 0)
+WebUI.waitForElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History List/button_Apply'), 
+    0)
+
+WebUI.delay(3)
 

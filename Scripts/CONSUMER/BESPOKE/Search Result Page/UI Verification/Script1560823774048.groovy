@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('CONSUMER/Homepage/button_Search'))
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_Search'))
 
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/itembox_SearchResultPage'), 0)
 

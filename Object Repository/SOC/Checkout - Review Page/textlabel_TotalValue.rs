@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textlabel_TotalValue</name>
+   <tag></tag>
+   <elementGuidId>66aae904-fcb5-40cd-a257-ffe618d7d12c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[4]/div[3]/div/div/div/div[3]/div/div[3]/h4/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[4]/div[3]/div/div/div/div[3]/div/div[3]/h4/span</value>
+   </webElementProperties>
+</WebElementEntity>

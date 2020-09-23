@@ -18,16 +18,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Language Settings/a_Language'), 0)
-
-WebUI.click(findTestObject('ADMIN/Language Settings/a_Language'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Language Settings/a_Language Settings'), 0)
-
-WebUI.click(findTestObject('ADMIN/Language Settings/a_Language Settings'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Language Settings/i_icon icon-language'), 0)
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('ADMIN/Language Settings/h1_Language Settings'), 'Language Settings')
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC056</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b28e20b9-30bf-4e8d-b73d-7e7102d24a5a</testCaseGuid>
+   <variable>
+      <defaultValue>'0613BPD1595397692VKJ6'</defaultValue>
+      <description></description>
+      <id>c095cb40-176d-430d-b239-2b108081d402</id>
+      <masked>false</masked>
+      <name>deleteorder</name>
+   </variable>
+</TestCaseEntity>

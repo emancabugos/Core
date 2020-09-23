@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>search by Invoice Id</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1082cd76-d57f-4c47-bfdc-d5e8a74f7673</testCaseGuid>
+</TestCaseEntity>

@@ -4,28 +4,34 @@
    <name>button_Save</name>
    <tag></tag>
    <elementGuidId>6bc948d6-487c-41ba-984e-4ee37407814b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[3]/div[2]/div/div[1]/div[3]/div/div[1]/div[1]/div/div[2]/div/a[count(. | //*[@class = 'blue-btn']) = count(//*[@class = 'blue-btn'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mybtn btn-blue</value>
+      <value>blue-btn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,17 +41,17 @@
       <value>Save</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>save</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;addunit&quot;)/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;popup-body&quot;]/div[@class=&quot;popup-footer&quot;]/input[@class=&quot;mybtn btn-blue&quot;]</value>
+      <value>//div[3]/div[2]/div/div[1]/div[3]/div/div[1]/div[1]/div/div[2]/div/a</value>
    </webElementProperties>
 </WebElementEntity>

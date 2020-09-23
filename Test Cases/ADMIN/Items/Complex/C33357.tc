@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify if the item is not present Search Result Page</description>
+   <name>C33357</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a21f0fe-e24c-4ba9-a91c-4a7412797d59</testCaseGuid>
+</TestCaseEntity>

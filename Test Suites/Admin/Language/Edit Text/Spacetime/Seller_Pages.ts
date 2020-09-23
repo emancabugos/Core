@@ -9,11 +9,12 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>83ecd04a-6399-480d-8747-9f16a1eacd03</testSuiteGuid>
    <testCaseLink>
       <guid>8a5361bc-5713-49dd-9b50-a69f3358d474</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -79,7 +80,7 @@
    <testCaseLink>
       <guid>a88d520e-7986-4e0a-bc46-d283dd397a14</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Item Translation/edit_ItemTranslationPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -100,13 +101,13 @@
    <testCaseLink>
       <guid>acf3d56c-859b-42be-a968-241707d97482</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing/navigateTo_Listing</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5a21d971-06de-410e-adf2-6cf626303855</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing/edit_ListingPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -127,13 +128,13 @@
    <testCaseLink>
       <guid>16b8e089-2665-49f8-8cd0-4d0315e7c065</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing Upload Edit Page/navigateTo_Listing</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>352e9513-9842-43be-ad6f-1b5d68d98005</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing Upload Edit Page/edit_ListingUpoaldEditPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

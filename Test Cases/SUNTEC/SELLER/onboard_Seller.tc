@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>onboard_Seller</name>
+   <tag></tag>
+   <comment>Profile
+Address
+Payment - Custom Payment</comment>
+   <testCaseGuid>463ef69b-708f-413d-befc-664d3d6140da</testCaseGuid>
+</TestCaseEntity>

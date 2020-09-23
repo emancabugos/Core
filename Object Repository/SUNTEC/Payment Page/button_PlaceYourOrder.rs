@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_PlaceYourOrder</name>
+   <tag></tag>
+   <elementGuidId>d40f7559-5b55-4726-a908-d9717ab38473</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[1]/div[1]/div/div[2]/div[1]/div[2]/div/div/div[2]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[1]/div[1]/div/div[2]/div[1]/div[2]/div/div/div[2]/div/button</value>
+   </webElementProperties>
+</WebElementEntity>

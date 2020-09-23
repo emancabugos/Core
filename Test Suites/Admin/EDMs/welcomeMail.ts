@@ -4,12 +4,12 @@
    <name>welcomeMail</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-07-11T13:01:36</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d7c27840-39e0-4423-a0fc-22147901149a</testSuiteGuid>
    <testCaseLink>
       <guid>fe5dcb35-3f25-41c0-bbb3-013604d941c4</guid>

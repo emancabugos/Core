@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Seller Add Item</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>2847f877-1769-45ba-afdd-c768d66bcf8a</testSuiteGuid>
+   <testCaseLink>
+      <guid>809e6a8e-3021-4779-b6c3-ece6a29d7455</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MOGOZAY/Seller/seller login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>79075a3d-a3d8-4313-a402-d77467a3f09b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/MOGOZAY/Seller/Add Item Mogo</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>27b26a9b-f4c5-45be-938e-503203dfd9ea</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/MERCHANT/Bespoke/MogozayFIND</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ItemName</value>
+         <variableId>595e7b50-ed4a-4181-901b-0bab563736cb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Category</value>
+         <variableId>a9abb3f5-3bfa-4a6a-a832-fae2de80e375</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ItemImage</value>
+         <variableId>64ba78a0-8765-4502-81d0-3258d71b067b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Price</value>
+         <variableId>2f277152-2a00-4d62-9a2f-7397a9189b36</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>SKU</value>
+         <variableId>f3faf2d7-830f-4680-99b9-de3cc84b7185</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Stock</value>
+         <variableId>b506f640-e33d-4592-83fe-9184b199d8e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
+         <variableId>bf59589d-93d9-46d5-bb90-eb380d992c31</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Variant</value>
+         <variableId>0ce3a423-6652-49ba-8070-2f9d25fe04eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Variant</value>
+         <variableId>c56652d3-a0e3-452f-a8e1-41446265cc24</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>27b26a9b-f4c5-45be-938e-503203dfd9ea</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Delivery Method</value>
+         <variableId>9efe6495-9b67-4473-be47-6c5e8912f143</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

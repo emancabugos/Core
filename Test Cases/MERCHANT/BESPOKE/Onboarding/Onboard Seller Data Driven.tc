@@ -4,7 +4,8 @@
    <name>Onboard Seller Data Driven</name>
    <tag></tag>
    <comment>Profile
-Address</comment>
+Address
+Payment</comment>
    <testCaseGuid>7694c2f8-0d1f-4ead-8040-d1e0d4cc36cc</testCaseGuid>
    <variable>
       <defaultValue>findTestData('MERCHANT/Bespoke/Seller')</defaultValue>

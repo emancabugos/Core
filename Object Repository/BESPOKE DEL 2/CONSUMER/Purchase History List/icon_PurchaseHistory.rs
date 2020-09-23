@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_PurchaseHistory</name>
+   <tag></tag>
+   <elementGuidId>ee4169b0-37f1-494f-aa8b-2b7246049f79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h1/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'icon icon-historylist']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.icon-historylist</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-historylist</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;pace-done&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;seller-titlearea&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/h1[1]/i[@class=&quot;icon icon-historylist&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/i</value>
+   </webElementXpaths>
+</WebElementEntity>

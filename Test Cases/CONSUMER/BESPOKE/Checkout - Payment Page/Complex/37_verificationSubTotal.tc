@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>37_verificationSubTotal</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost</comment>
+   <testCaseGuid>69625102-756e-43d8-abe8-8cd4cea3a393</testCaseGuid>
+</TestCaseEntity>

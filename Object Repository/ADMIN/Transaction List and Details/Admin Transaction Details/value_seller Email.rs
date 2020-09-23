@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;transaction-detail-view&quot;)/div[@class=&quot;panel-box panel-order&quot;]/div[@class=&quot;panel-box-content&quot;]/div[@class=&quot;panelcontent-top&quot;]/div[@class=&quot;panel-row&quot;]/div[@class=&quot;details-col col-md-4&quot;]/div[@class=&quot;bottom-small-margin&quot;]/p[1]</value>
+         <value>//div[3]/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[2]/div[1]/div/div[2]/div[1]/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;transaction-detail-view&quot;)/div[@class=&quot;panel-box panel-order&quot;]/div[@class=&quot;panel-box-content&quot;]/div[@class=&quot;panelcontent-top&quot;]/div[@class=&quot;panel-row&quot;]/div[@class=&quot;details-col col-md-4&quot;]/div[@class=&quot;bottom-small-margin&quot;]/p[1]</value>
+      <value>//div[3]/div[2]/div[1]/div[2]/div/div[2]/div[3]/div[2]/div[1]/div/div[2]/div[1]/p</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

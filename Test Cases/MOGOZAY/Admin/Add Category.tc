@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9019fc0-73dc-4ff5-9669-4cbe651be986</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Category/MogozayFIND Category')</defaultValue>
+      <description></description>
+      <id>1cae9e76-6d27-4824-9e1a-d575d1350026</id>
+      <masked>false</masked>
+      <name>CategoryNametext</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Category/MogozayFIND Category')</defaultValue>
+      <description></description>
+      <id>e8e85792-4755-43ca-a04a-ba11d2e309b7</id>
+      <masked>false</masked>
+      <name>ParentName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Category/MogozayFIND Category')</defaultValue>
+      <description></description>
+      <id>490f4cf9-9ca8-4bca-8d7c-94ef00ff0345</id>
+      <masked>false</masked>
+      <name>CategoryImageUpload</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Category/MogozayFIND Category')</defaultValue>
+      <description></description>
+      <id>56b3b9b9-80bf-48f5-8c15-5ad57f3a136f</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

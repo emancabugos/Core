@@ -4,6 +4,12 @@
    <name>button_AddACategory</name>
    <tag></tag>
    <elementGuidId>d57b0bcc-05d2-4c96-bd56-6ce6c3405c0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'blue-btn' and @id = 'cat_add' and (text() = 'Add a Category ' or . = 'Add a Category ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,7 +34,7 @@
       <value>blue-btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

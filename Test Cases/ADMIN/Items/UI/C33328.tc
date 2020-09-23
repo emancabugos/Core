@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Sort By&quot; Dropdown is present</description>
+   <name>C33328</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>68ccec4b-086e-4617-a3d0-ed02da36fd2f</testCaseGuid>
+</TestCaseEntity>

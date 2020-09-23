@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_Category</name>
+   <tag></tag>
+   <comment>Add Parent Category
+Add Child Category</comment>
+   <testCaseGuid>f3172227-c025-4a53-bce7-98025b4fb868</testCaseGuid>
+</TestCaseEntity>

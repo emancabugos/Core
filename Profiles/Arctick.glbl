@@ -10,8 +10,7 @@
       <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'0914B2B2'</initValue>
+     <initValue>'0723omp'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -50,13 +49,11 @@
       <name>Theme</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>remove https://</description>
-      <initValue>'0914b2b2.staging.arcadier.io/admin'</initValue>
+      <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>remove https://</description>
-      <initValue>'0914b2b2.staging.arcadier.io'</initValue>
+      <initValue>'https://0723omp.test.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -70,8 +67,7 @@
       <name>StripeConnect</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'b2bseller01'</initValue>
+      <initValue>'sellerbp01'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -90,8 +86,7 @@
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
-      <initValue>'b2bbuyer01'</initValue>
+      <initValue>'buyer1595833862'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -161,7 +156,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0601bp1.staging.arcadier.io/user/order/cart'</initValue>
+      <initValue>'0717bp1.test.arcadier.io/user/order/cart'</initValue>
       <name>cartURL</name>
+   </GlobalVariableEntity>
+      <GlobalVariableEntity>
+      <description></description>
+      <initValue>'seller0002'</initValue>
+      <name>CustomMerchant2</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

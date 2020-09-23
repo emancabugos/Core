@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Download CSV&quot; button is present</description>
+   <name>C33327</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc9cea7f-4961-4833-b91d-87a6c05be068</testCaseGuid>
+</TestCaseEntity>

@@ -45,6 +45,9 @@ if (varAccountType == 'custom') {
 
     WebUI.setText(findTestObject('ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Textbox_Reconfirm_Password'), 'welcome8')
 
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up'), 
+        0)
+
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Admin Onboarding CustomAcc/Button_Sign_Up'))
 } else if (varAccountType == 'google') {
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Signup_Google'))

@@ -23,9 +23,9 @@ WebUI.waitForElementVisible(findTestObject('CONSUMER/Search Result Page/linktext
 
 WebUI.click(findTestObject('CONSUMER/Search Result Page/linktext_Home'))
 
-WebUI.waitForElementVisible(findTestObject('CONSUMER/Homepage/button_ViewMoreCategories'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_ViewMoreCategories'), 0)
 
-WebUI.verifyElementVisible(findTestObject('CONSUMER/Homepage/button_ViewMoreCategories'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/button_ViewMoreCategories'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.back()
 

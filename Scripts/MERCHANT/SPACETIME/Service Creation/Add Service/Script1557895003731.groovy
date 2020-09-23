@@ -264,7 +264,7 @@ if (varDelivery == 'Delivery 1') {
 } else if (varDelivery == 'Pickup 2') {
     WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Delivery/pickup2'), FailureHandling.CONTINUE_ON_FAILURE)
 } else if (varDelivery == 'none') {
-    WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.delay(5, FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Delivery/button_Upload now'), FailureHandling.CONTINUE_ON_FAILURE)

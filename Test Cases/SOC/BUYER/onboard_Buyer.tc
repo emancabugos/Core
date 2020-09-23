@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>onboard_Buyer</name>
+   <tag></tag>
+   <comment>Navigate to User Settings
+Profile
+Address</comment>
+   <testCaseGuid>f7e10a3a-4b45-4d79-9a33-286c16948fdd</testCaseGuid>
+</TestCaseEntity>

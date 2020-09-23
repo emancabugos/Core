@@ -52,6 +52,8 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Sales_Sales'), '*')
 
+WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_delivery'), '*')
+
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_Browse_Browse'), '*')
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Header_Footer/input_SELLER_sell1'), '*')

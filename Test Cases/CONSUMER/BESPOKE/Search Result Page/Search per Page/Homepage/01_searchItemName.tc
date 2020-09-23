@@ -3,7 +3,8 @@
    <description></description>
    <name>01_searchItemName</name>
    <tag></tag>
-   <comment>Search Exact Item Name</comment>
+   <comment>Search on Homepage
+Search Result Page</comment>
    <testCaseGuid>a8f72fd6-8b61-470f-8c06-a83fa76dd16b</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>

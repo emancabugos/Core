@@ -7,11 +7,7 @@
 Search Result Page
 Item Details Page
 Cart Page
-Checkout - Delivery Page
-Checkout Review Page
-Get Consumer Details
-Computation of Total Cost
-Payment Page</comment>
+Checkout - Delivery Page</comment>
    <testCaseGuid>f2e0720f-120a-487a-bafc-f13ae00feab5</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
@@ -25,7 +21,7 @@ Payment Page</comment>
       <description></description>
       <id>229c873f-ef95-4a22-9f96-39f6598f8ba3</id>
       <masked>false</masked>
-      <name>quantity</name>
+      <name>qty</name>
    </variable>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
@@ -54,5 +50,12 @@ Payment Page</comment>
       <id>23cd922e-a599-41dd-ae65-1fdaf6748d37</id>
       <masked>false</masked>
       <name>COD</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>db207d41-f6b4-41ed-a8c5-11ee4df640c3</id>
+      <masked>false</masked>
+      <name>variant</name>
    </variable>
 </TestCaseEntity>

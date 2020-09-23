@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sub_deleteIcon</name>
+   <tag></tag>
+   <elementGuidId>a70cc316-8317-4e15-a61d-ecdb05f1e59e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.icon-delete</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-delete</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page-seller access-permission-page pace-done&quot;]/div[@class=&quot;main&quot;]/div[1]/div[@class=&quot;order-list list-access-permission x-table-responsive&quot;]/div[@class=&quot;order-list-body-sec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;order-read-box&quot;]/div[@class=&quot;column-permission&quot;]/a[@class=&quot;btn-delete-permission&quot;]/i[@class=&quot;icon icon-delete&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

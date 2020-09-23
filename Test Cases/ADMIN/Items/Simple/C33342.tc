@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if &quot;Confirmation!&quot; title is present in Popup</description>
+   <name>C33342</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2671ab82-6b71-4cea-9c12-451883d8191e</testCaseGuid>
+</TestCaseEntity>

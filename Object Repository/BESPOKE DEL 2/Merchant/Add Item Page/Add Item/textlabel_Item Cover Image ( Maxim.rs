@@ -4,6 +4,12 @@
    <name>textlabel_Item Cover Image ( Maxim</name>
    <tag></tag>
    <elementGuidId>ce8c9f33-a564-475c-b70b-325be13829d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'ITEM COVER IMAGE *' or . = 'ITEM COVER IMAGE *')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Item Cover Image* ( Maximum 5 images ) </value>
+      <value>ITEM COVER IMAGE *</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

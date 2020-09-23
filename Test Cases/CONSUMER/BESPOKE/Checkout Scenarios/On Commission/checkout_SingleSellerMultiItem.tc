@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkout_SingleSellerMultiItem</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Payment Page
+Computation Admin Fee
+Computation Transaction Total</comment>
+   <testCaseGuid>96a23291-b636-4104-9549-af7f15e8912b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>09e03572-cc2b-49f7-bd71-9c8d2c236722</id>
+      <masked>false</masked>
+      <name>itemName1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>013b097b-8e1d-456d-8e41-e41ef687b2d7</id>
+      <masked>false</masked>
+      <name>itemName2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ef476f6f-6177-425d-b5f3-ce6835952d72</id>
+      <masked>false</masked>
+      <name>qty</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7b4ce421-20a2-440c-9427-b37092999547</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>89f467d4-3252-4c91-860d-cbc1537dd2ab</id>
+      <masked>false</masked>
+      <name>payment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>53134e44-4e82-481c-bee1-d435728a4e48</id>
+      <masked>false</masked>
+      <name>com</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>37233e07-4773-4df8-b65b-21522f13a048</id>
+      <masked>false</masked>
+      <name>variant1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>623be75b-0762-4e51-9b04-a3f829c5a666</id>
+      <masked>false</masked>
+      <name>variant2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>6bc57451-ff40-4293-84d9-05d6e3f8401b</id>
+      <masked>false</masked>
+      <name>var1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>7c4f86e0-04c1-4eaf-bf1e-fdddfe8a8f1f</id>
+      <masked>false</masked>
+      <name>var2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>47056a19-289f-4971-8181-de82bed22830</id>
+      <masked>false</masked>
+      <name>var3</name>
+   </variable>
+</TestCaseEntity>

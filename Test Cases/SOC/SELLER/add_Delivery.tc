@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add_Delivery</name>
+   <tag></tag>
+   <comment>Add Delivery - Weight
+Add Delivery - Price</comment>
+   <testCaseGuid>d18f185a-22a9-42ac-8cf8-913d10ba854b</testCaseGuid>
+</TestCaseEntity>
