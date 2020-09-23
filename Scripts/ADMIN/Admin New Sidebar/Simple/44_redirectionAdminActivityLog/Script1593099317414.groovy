@@ -23,7 +23,7 @@ WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Acti
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_ActivityLog'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Admin Permission/Admin Activity Log/button_Export Log'), 0)
+WebUI.waitForElementPresent(findTestObject('ADMIN/Admin Activity Logs/button_ExportLog'), 0)
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Admin Permission/Admin Activity Log/button_Export Log'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin Activity Logs/button_ExportLog'), 0)
 

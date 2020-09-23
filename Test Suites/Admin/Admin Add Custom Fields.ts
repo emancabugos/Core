@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>3168f53d-b9e9-4dfc-a8fe-07a326b2ffd3</testSuiteGuid>
    <testCaseLink>
       <guid>10ab58b6-5d24-4a10-9fce-35de014c5eb0</guid>
@@ -20,7 +19,7 @@
    <testCaseLink>
       <guid>3fb5d26c-85e5-46a3-8bac-bdc948b66a8f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+     <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Admin New Sidebar/Simple/24_redirectionCustomFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
