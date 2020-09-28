@@ -10,6 +10,7 @@
       <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description></description>
      <initValue>'0723omp'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
@@ -49,10 +50,12 @@
       <name>Theme</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>remove https://</description>
       <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description>remove https://</description>
       <initValue>'https://0723omp.test.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
@@ -67,6 +70,7 @@
       <name>StripeConnect</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+      <description></description>
       <initValue>'sellerbp01'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
@@ -86,7 +90,8 @@
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <initValue>'buyer1595833862'</initValue>
+      <description></description>
+      <initValue>'buyer001'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -156,10 +161,10 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0717bp1.test.arcadier.io/user/order/cart'</initValue>
+      <initValue>'0601bp1.staging.arcadier.io/user/order/cart'</initValue>
       <name>cartURL</name>
    </GlobalVariableEntity>
-      <GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description></description>
       <initValue>'seller0002'</initValue>
       <name>CustomMerchant2</name>
