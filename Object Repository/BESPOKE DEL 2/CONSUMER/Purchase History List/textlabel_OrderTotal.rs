@@ -6,19 +6,19 @@
    <elementGuidId>1a5f6db1-ae79-4aac-8056-c18812c40116</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='react_0HM1S9FREQQK0']/div/div[3]/div/div/div/div/div/div[4]/span[2]</value>
+         <key>BASIC</key>
+         <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[1]/div[4]/span[2]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//div[4]/div[2]/div/div/div[3]/div/div/div/div/div[1]/div[4]/span[2]</value>
+         <key>XPATH</key>
+         <value>//div[4]/div[2]/div/div/div[4]/div/div/div/div/div[2]/div[5]/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>span.order-total</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

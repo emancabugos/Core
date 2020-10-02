@@ -4,6 +4,16 @@
    <name>dropdown_OrderStatus</name>
    <tag></tag>
    <elementGuidId>b5f23aa0-3886-42da-a725-4fcd4384be6f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[3]/div[2]/div/div[1]/div[9]/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
