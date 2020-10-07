@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -14,40 +13,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.nio.file.Files as Files
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Purchase History List/Pre Requisite/checkout_singleItem'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+// create directory to locate a temporary file
+Path projectDir = Paths.get(RunConfiguration.getProjectDir())
 
-invoiceid = WebUI.getText(findTestObject('BESPOKE DEL 2/CONSUMER/Thank you Page/textlabel_inoviceID'))
+Path tmpDir = projectDir.resolve('tmp')
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Bespoke Usermenu/icon_usermenu'), 0)
+if (!(Files.exists(tmpDir))) {
+    Files.createDirectory(tmpDir)
+}
 
-WebUI.click(findTestObject('Utilities/Bespoke Usermenu/icon_usermenu'))
+// Prepare File object
+File OrderTotal1Tmp = tmpDir.resolve('OrderTotal1.txt').toFile()
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Bespoke Usermenu/linktext_Purchases'), 0)
+File OrderTotal2Tmp = tmpDir.resolve('OrderTotal2.txt').toFile()
 
-WebUI.click(findTestObject('Utilities/Bespoke Usermenu/linktext_Purchases'), FailureHandling.CONTINUE_ON_FAILURE)
+File seller01Tmp = tmpDir.resolve('seller01.txt').toFile()
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/icon_PurchaseHistory'), 0)
+File seller02Tmp = tmpDir.resolve('seller02.txt').toFile()
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/textfield_Search'), invoiceid)
+File invoiceTmp = tmpDir.resolve('invoice.txt').toFile()
+
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/textfield_Search'), invoiceTmp.text)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/button_Search'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/linktext_invoiceID'), 0)
-
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/textlabelvalue_Date'), 0)
-
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/textlabelvalue_Time'), 0)
-
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/textlabel_Quantity'), 0)
-
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/textlabel_OrderTotal'), 0)
-
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/textlabel_PaymentMethod'), 0)
-
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/textlabel_PaymentStatus'), 0)
-
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/linktext_invoiceID'), invoiceid)
 

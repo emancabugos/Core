@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>24_redirectionUploadedNotice</name>
+   <tag></tag>
+   <comment>Event_Notice
+Event_Update
+Event_News</comment>
+   <testCaseGuid>f5131bcc-199f-47ff-ba17-ec08252e3a84</testCaseGuid>
+</TestCaseEntity>
