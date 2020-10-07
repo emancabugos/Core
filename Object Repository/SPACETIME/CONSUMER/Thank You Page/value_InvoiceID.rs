@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>value_InvoiceID</name>
+   <tag></tag>
+   <elementGuidId>daa83add-2fb5-4e5d-82f5-3bb9b4db7532</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '0902SPA1601531329J1KJ' or . = '0902SPA1601531329J1KJ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>invoice-id</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0902SPA1601531329J1KJ</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page pace-done&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;delivery_white_section payment&quot;]/div[@class=&quot;delivery-line-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;white_section_thankyou&quot;]/div[@class=&quot;thank-page-invoice&quot;]/p[@class=&quot;thank-small-id&quot;]/span[@class=&quot;invoice-id&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

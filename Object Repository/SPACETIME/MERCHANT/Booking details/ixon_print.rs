@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ixon_print</name>
+   <tag></tag>
+   <elementGuidId>0495e509-d318-405f-95f2-8e93dac5f5ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='MyPrintDiv']/div/div/div/div[2]/div/div[5]/div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon-print</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MyPrintDiv&quot;)/div[@class=&quot;ordr-dtls-toptit-area&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row ordr-dtls-top-section&quot;]/div[@class=&quot;ordr-dtls-top-left ordr-dtls-topleft-sec1&quot;]/div[@class=&quot;ordr-dtls-top-title&quot;]/div[@class=&quot;ordr-dtls-invoiceid&quot;]/div[@class=&quot;ordr-dtls-prnt-btnarea&quot;]/a[1]/i[@class=&quot;icon icon-print&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='MyPrintDiv']/div/div/div/div[2]/div/div[5]/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send Multi email without comma</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f272de2-f2bc-452e-97e8-c3f793baed9b</testCaseGuid>
+</TestCaseEntity>
