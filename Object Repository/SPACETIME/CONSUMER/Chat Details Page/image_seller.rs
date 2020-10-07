@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_seller</name>
+   <tag></tag>
+   <elementGuidId>98e03b4f-2f7a-4965-a7a8-8d39e898c54b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;page-buy-chat-offer&quot;)/div[@class=&quot;view-chat chat-active&quot;]/div[@class=&quot;view-chat-left col-sm-5&quot;]/div[@class=&quot;view-chat-left-inner&quot;]/div[1]/div[@class=&quot;chat-offer-section&quot;]/div[@class=&quot;chat-offer-navigation&quot;]/a[2]/img[@class=&quot;user-avtar&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>user-avtar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://0902space.test.arcadier.io/images/user/profile-image-017d4274-c997-4c1c-b89e-44690edfd560-kl0xf0c48x.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-buy-chat-offer&quot;)/div[@class=&quot;view-chat chat-active&quot;]/div[@class=&quot;view-chat-left col-sm-5&quot;]/div[@class=&quot;view-chat-left-inner&quot;]/div[1]/div[@class=&quot;chat-offer-section&quot;]/div[@class=&quot;chat-offer-navigation&quot;]/a[2]/img[@class=&quot;user-avtar&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

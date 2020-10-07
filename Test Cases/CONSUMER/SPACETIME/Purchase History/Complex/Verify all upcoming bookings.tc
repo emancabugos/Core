@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify all upcoming bookings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f2b80925-2ed2-4fd5-9def-9bb32d15e5f1</testCaseGuid>
+</TestCaseEntity>

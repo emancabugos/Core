@@ -3,6 +3,12 @@
    <description></description>
    <name>checkout_singleItem</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Search Item1
+Search Result Page
+Items no Variants - Seller 01
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Payment Page</comment>
    <testCaseGuid>7db7088a-6f17-4e76-bfbc-fc281066d939</testCaseGuid>
 </TestCaseEntity>

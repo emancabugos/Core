@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify textfield search accepts alphanumeric</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d95a78fa-af1d-40bb-8bfa-dadd1fa84eaa</testCaseGuid>
+</TestCaseEntity>

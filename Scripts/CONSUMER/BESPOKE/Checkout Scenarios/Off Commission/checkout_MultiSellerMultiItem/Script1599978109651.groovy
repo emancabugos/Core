@@ -348,7 +348,7 @@ def totalcost1 = intcsubtotal1 + intdel1
 
 println(df.format(new BigDecimal(totalcost1)))
 
-// Seller 01 Total Cost
+// Seller 02 Total Cost
 def totalcost2 = intcsubtotal2 + intdel2
 
 println(df.format(new BigDecimal(totalcost2)))

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify textfield search accepts special chars</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e88d055b-e089-4f5e-ad15-496b05789384</testCaseGuid>
+</TestCaseEntity>

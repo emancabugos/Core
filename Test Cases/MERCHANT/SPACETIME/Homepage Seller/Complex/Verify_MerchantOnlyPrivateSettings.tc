@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify_MerchantOnlyPrivateSettings</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8d00c7c-2cd0-40c9-99e7-8592cc4efb21</testCaseGuid>
+</TestCaseEntity>

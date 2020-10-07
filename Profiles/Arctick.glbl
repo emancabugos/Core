@@ -161,7 +161,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0601bp1.staging.arcadier.io/user/order/cart'</initValue>
+      <initValue>'0717bp1.test.arcadier.io/user/order/cart'</initValue>
       <name>cartURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

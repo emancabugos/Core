@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>value_serviceImage</name>
+   <tag></tag>
+   <elementGuidId>402fdb20-c401-4957-b458-9e01adc4e10e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;content&quot;)/div[1]/div[@class=&quot;main-content&quot;]/div[@class=&quot;inbox-view&quot;]/div[@class=&quot;row-inbox&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;row-table&quot;]/div[@class=&quot;inbox-cell inbox-meta&quot;]/img[@class=&quot;message-placeholder&quot;][count(. | //*[@src = 'https://0902space.test.arcadier.io/images/items/item-121586-637371910090432067-7i3r9l.jpg']) = count(//*[@src = 'https://0902space.test.arcadier.io/images/items/item-121586-637371910090432067-7i3r9l.jpg'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>message-placeholder</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://0902space.test.arcadier.io/images/items/item-121586-637371910090432067-7i3r9l.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>square</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[1]/div[@class=&quot;main-content&quot;]/div[@class=&quot;inbox-view&quot;]/div[@class=&quot;row-inbox&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;row-table&quot;]/div[@class=&quot;inbox-cell inbox-meta&quot;]/img[@class=&quot;message-placeholder&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
