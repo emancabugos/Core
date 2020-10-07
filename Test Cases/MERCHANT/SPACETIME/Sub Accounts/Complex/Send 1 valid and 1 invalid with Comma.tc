@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Send 1 valid and 1 invalid with Comma</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a15001a5-4cdc-4a0b-943f-8e1de04120e5</testCaseGuid>
+</TestCaseEntity>
