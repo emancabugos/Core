@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Login Username value</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d53b756-112c-444a-b24d-1c1aefb6e15b</testCaseGuid>
+</TestCaseEntity>

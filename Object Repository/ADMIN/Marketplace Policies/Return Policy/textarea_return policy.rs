@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_return policy</name>
+   <tag></tag>
+   <elementGuidId>864fb156-cbcb-41e4-bb7b-00aec9f9469c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>body.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>body</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cke_editable cke_editable_themed cke_contents_ltr cke_show_borders</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Returns and Refund Policy1. Application for Returns/Refunds1.1 Subject to the terms and conditions in this Refund and Return Policy and the Terms of Service, Buyer may apply for return of the purchased items (“Item”) and/or refund for an item purchased on 0723OMP.1.2 Before you apply for a return/refund with us, we encourage you to contact the other party and try to resolve the dispute amicably.1.3 As a Buyer, you may apply for a refund/return in 2 cases. One, where the 'item is not delivered'. Two, where the 'item is significantly not as described'.1.3.1 'Item is not delivered' is when the buyer has not received the item within a reasonable timeframe.1.3.2 'Item is significantly not as described' is defined when the Seller has delivered an Item that does not match the agreed specification (e.g. wrong size, colour, etc.) to Buyer. Or, The Item delivered to Buyer is materially different from the description provided by Seller in the listing of the Item.1.3.3 If the item has been damaged during shipping, please contact your seller to raise this issue with the shipping company.1.4 Buyer may not apply for the return of the Item and/or refund due to a change of mind.2. Disputes2.1 As a Buyer2.1.1 You may pursue a report about a transaction or contact your card provider to pursue any chargeback options that may be available to you from your card provider. However, you may not pursue both options at the same time or seek double recovery in respect of the same transaction. If you raise a dispute with us and subsequently file a chargeback with your card provider, we will close your report.2.1.2 If you have receives a refund/exchange from the seller, you may not report that transaction.2.1.3 If the 'item is not delivered' we will ask the seller to provide proof of shipping and delivery that can be tracked online. If the seller fails to do so, we will resolve the dispute in you favour.2.1.4 If the 'item is significantly not as described', and both parties cannot agree as to the difference between the item/service that was sold and what was described, we will make a fair decision based on all the information we hold about the item. We will exercise our decision-making authority based on numerous factors, which include the description of the item at the point of purchase, communications between you and the seller as well as any documentation provided. All decisions made by us are final.2.2 Disputes as a Seller2.2.1 As a seller, we encourage you to communicate actively with your buyer especially if there are any exceptional circumstances. We encourage you to be prompt in responding to your Buyers in order to avoid any unnecessary disputes.2.2.2 For 'items that are not delivered' we will contact you to request for proof of shipping. The documentation must clearly show that you have shipped the item to the buyer's address as reflected on the sales receipt. The documentation must be able to be tracked online showing the date the item was sent and the official acceptance of the item by the shipping company and the status update that the item was delivered (buyer's acceptance). This is the only evidence that we will accept as proof of delivery. If proof of delivery cannot be provided then we may resolve the dispute in favour of the buyer.2.2.3 For 'items not as described' disputes, we will be reviewing the item description and images that were provided at the time of purchase. If both parties cannot agree as to the difference between the item/service that was sold and what was described, we will make a fair decision based on all the information we hold about the item. We will exercise our decision-making authority based on numerous factors, which include the description of the item at the point of purchase, communications between you and the buyer as well as any documentation provided. All decisions made by us are final.2.2.4 If the buyer attempts to pursue any chargeback options, we will close the dispute in order to prevent double recovery.3. Returns3.1 When returning the Item, Buyer should ensure that the Item, including any complimentary items such as accessories that come with the Item, must be returned to Seller in the condition received by Buyer on delivery. We will recommend Buyer to take a photo of the Item upon receipt.3.2 The cost of returning the item will be mutually agreed on between the Buyer and Seller4. Refunds4.1 We will do our best to facilitate the refund from the Seller. If the Seller refuses to comply or has taken an unreasonable amount of time (more than 2 weeks) to do the refund, we encourage our Buyers to employ the chargeback option. If you need help with this, please contact us./html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/ADMIN/Marketplace Policies/Return Policy/iframe_return policy</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_seller</name>
+   <tag></tag>
+   <elementGuidId>c05a9572-6ec1-454e-91a1-396fd6132dd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[contains(@src,'https://0902space.test.arcadier.io/images/user/profile-image-017d4274-c997-4c1c-b89e-44690edfd560-kl0xf0c48x.jpg')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://0902space.test.arcadier.io/images/user/profile-image-017d4274-c997-4c1c-b89e-44690edfd560-kl0xf0c48x.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;page page-search pace-done&quot;]/div[@class=&quot;main&quot;]/div[1]/div[@class=&quot;wrapper-section&quot;]/div[@class=&quot;storefront-top-sec&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;tableWrapper&quot;]/div[@class=&quot;storefron-top-left&quot;]/div[@class=&quot;store-merchant-profile-img&quot;]/img[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://0902space.test.arcadier.io/images/user/profile-image-017d4274-c997-4c1c-b89e-44690edfd560-kl0xf0c48x.jpg')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/img</value>
+   </webElementXpaths>
+</WebElementEntity>

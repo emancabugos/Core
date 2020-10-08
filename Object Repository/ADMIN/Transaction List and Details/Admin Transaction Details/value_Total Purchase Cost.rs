@@ -7,31 +7,31 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[3]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/h4</value>
+         <value>/html/body/div[3]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/h4/span[3][count(. | //span[@class = 'priceAmount']) = count(//span[@class = 'priceAmount'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>class</name>
       <type>Main</type>
-      <value>USD $360.45</value>
+      <value>priceAmount</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/h4</value>
+      <value>/html/body/div[3]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[1]/div/div[2]/h4/span[3]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
