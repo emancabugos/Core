@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_setTextWelcomeTo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce534c16-df1f-414e-8aed-af486d913b1b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ce100cdb-9c4a-4744-9377-a4aefadd2f1c</id>
+      <masked>false</masked>
+      <name>column2</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_privacy policy</name>
+   <tag></tag>
+   <elementGuidId>287a9bee-b446-49e9-a3ba-78e9e49f0631</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>body.cke_editable.cke_editable_themed.cke_contents_ltr.cke_show_borders</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>body</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>contenteditable</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cke_editable cke_editable_themed cke_contents_ltr cke_show_borders</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>spellcheck</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Individual Marketplace Privacy Policy1. Introduction1.1. Welcome to 0723OMP. This policy is a part of our Terms of Service. By visiting the Site or using the Apps, you consent to our use of your personal information in the ways set out in this policy and in our Terms of Use. We take our responsibilities under applicable privacy laws and regulations (&quot;Privacy Laws&quot;) seriously. We are committed to respecting the privacy rights and concerns of all Users of our Site.1.2. We recognize the importance of the personal data you have entrusted to us and believe that it is our responsibility to properly manage, protect and process your personal data. This Privacy Policy (“Privacy Policy” or “Policy”) is designed to assist you in understanding how we collect, use, disclose and/or process the personal data you have provided to us and/or we possess about you, whether now or in the future, as well as to assist you in making an informed decision before providing us with any of your personal data. If you have any questions regarding this information or our privacy practices, please contact us.1.3. By using the Services, registering for an account with us, visiting our website, or accessing the Services, you acknowledge and agree that you accept the practices, requirements, and/or policies outlined in this Privacy Policy, and you hereby consent to us collecting, using, disclosing and/or processing your personal data as described herein. We may revise this Privacy Policy but the most current version will always be at this link.2. Information collected or received2.1 To use our platform to transact, you will need to provide us with a valid email address. Depending on the services you choose, we may collect additional information, for example: If you are a seller, we will collect additional information such as payment information, contact number and an address. Please note that for security and performance reasons, such content may need to be accessed by internal personnel from time to time.2.2 Your username is publicly displayed. Other people may see the date you joined; ratings, reviews and related photos for items you are selling or have sold; your profile information; items you listed for sale; your shop pages.2.3 We use technologies such as cookies, clear gifs, log files and flash cookies for several purposes, including to help understand how you interact with our site and services, in order to provide a better experience. The information we collect may include, without limitation, your Internet Protocol (IP) address, computer/mobile device operating system and browser type, type of mobile device, the characteristics of the mobile device, the address of a referring web site (if any), and the pages you visit on our website and mobile applications and the times of visit.2.4 We automatically receive and record information (for example: an email address or IP address, cookies, and data) about a person who is not yet registered in connection with certain features.2.5 We may contact individual shop owners to confidentially request more information about their shops or items listed on the Site, or to ensure compliance with our rules and applicable law.2.6 When you connect to us or register an account using external third-party applications or services, such as Facebook, using an application programming interface (API), you will be granting us permission to receive information from these third-party applications. You can also choose to share some of your activity to certain social media networks which are connected to your account.3. Uses and Sharing3.1 We respect your privacy. We will not sell or disclose your your name, email address or other personal information to third parties without your consent, except as specified in our Privacy Policy.3.2 We generally use the information to provide and improve our services and products, for billing and payments, for identification and authentication, for targeted online and offline marketing, to contact members or interested parties, and for general research and aggregate reporting. For example, we could use your feedback to improve our services; we use data analytics and work with certain third-party service providers for targeted online and offline marketing; and of course, we use your email address to communicate with you. We also partner with service providers and other third parties that collect, use, promote, and analyse information about our marketplace.3.3 As part of the buying and selling process, we will facilitate the sharing of information between the two users involved in the transaction, such as the other buyer’s email address, shipping address, and payment information. By making a sale or a purchase on 0723OMP you are directing us to share your information in this way. We expect you to respect the privacy of the member whose information you received. Your ability to use this information extend to all marketplace related communication or for any transaction related communications. You have not be granted the ability to use the information for unsolicited commercial messages or unauthorised transactions. Without express consent from that person, you must not add any user to your email or physical mailing list or misuse any user’s personal information.3.4 We may use your information to contact you. Primarily, these messages are delivered by email or by push notifications, and every account is required to keep a valid email address on file to receive messages. We may contact you by telephone to provide support or for transaction related purposes.3.5 Some messages from us are service-related and required for users. Examples of service-related messages include an email address confirmation/welcome email when you register your account, notification of an order, and correspondence with the site. You may not opt out of receiving service-related messages from us, unless you close your account.3.6 We may release your personal information to a third party in the following circumstances: to protect, establish, or exercise our legal rights or defend against legal claims or we that such disclosure is necessary to comply with the law, such as investigations into illegal activities.3.7 We may share demographic information with business partners, but it will always be aggregated and anonymised, so personally-identifiable information is not revealed.4. Community4.1 We are both a marketplace and a community. We offer several feature that allow users to communicate in public such as reviews or private means such as contacting the seller. Please use common sense and good judgment when posting or sharing your personal information with others. Be aware that any personal information you submit there can be read, collected, or used by others, or could be used to send you unsolicited messages. You are responsible for the personal information you choose to post.5. Security5.1 The security of your personal information is important to us. Your account information is protected by a password. It is important that you protect against unauthorised access to your account and information by choosing your password carefully, and keeping your password and computer secure, such as by signing out after using our services.5.2 We encrypt sensitive information (such as credit card numbers) using secure socket layer technology (SSL) which is then handled by our payment processing partners. We follow generally accepted industry standards to protect the personal information submitted to us, both during transmission and once we receive it. Your payment information is safe even from us.5.3 Unfortunately, no method of transmission over the Internet, or method of electronic storage, is 100% secure. Therefore, while we strive to protect your personal information, we can't guarantee its absolute security.6. Data Retention6.1 We will retain your information only for as long as is necessary s needed to provide you services. If you no longer want us to use your information to provide you services, you may close your account. We will retain and use your information to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our agreements.7. Changing Data7.1 As a user, you can access, correct, change, and delete certain personal information associated with your account by visiting your account settings./html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;cke_editable cke_editable_themed cke_contents_ltr cke_show_borders&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/ADMIN/Marketplace Policies/Privacy Policy/iframe_privacy policy</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body</value>
+   </webElementXpaths>
+</WebElementEntity>

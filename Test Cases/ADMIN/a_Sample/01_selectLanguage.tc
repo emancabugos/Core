@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_selectLanguage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99111fe9-770c-44c1-9a23-b7507f20ca4b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null)</defaultValue>
+      <description></description>
+      <id>c73c1e09-94e4-4bab-abe3-27c35b9408d1</id>
+      <masked>false</masked>
+      <name>column1</name>
+   </variable>
+</TestCaseEntity>

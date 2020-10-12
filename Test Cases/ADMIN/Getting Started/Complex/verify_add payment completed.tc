@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify_add payment completed</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f03cca5d-105e-46ce-80f6-7a8fe8f4e3dd</testCaseGuid>
+</TestCaseEntity>
