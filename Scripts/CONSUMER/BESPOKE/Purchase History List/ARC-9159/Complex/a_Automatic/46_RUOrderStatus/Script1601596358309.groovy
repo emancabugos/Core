@@ -17,13 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Language Dropdown/button_Language'))
 
+WebUI.scrollToElement(findTestObject('BESPOKE DEL 2/CONSUMER/Language Dropdown/textlabel_RU'), 0)
+
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Language Dropdown/textlabel_RU'), 0)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Language Dropdown/textlabel_RU'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/column_OrderStatus'), 'СТАТУС ЗАКАЗА')
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/column_OrderStatus'), 'СТАТУС ЗАКАЗА*')
 
 WebUI.refresh()
 

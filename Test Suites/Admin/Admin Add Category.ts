@@ -27,7 +27,7 @@
       <guid>5116bc30-3d9b-4458-95fe-074c57242326</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category Add-Edit/Add Category</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Configuration/Categories/Category Add-Edit/Add Category</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ec586017-cfcc-4a7e-878b-0a93302b3951</id>
