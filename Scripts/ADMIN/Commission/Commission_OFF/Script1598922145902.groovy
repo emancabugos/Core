@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('ADMIN/Commission/Navigation'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementNotClickable(findTestObject('ADMIN/Page_0803time/button_Save'))
+WebUI.verifyElementNotClickable(findTestObject('ADMIN/Commission/Page_0803time/button_Save'))
 
 WebUI.click(findTestObject('ADMIN/Page_0803time/toggle_Commission'))
 

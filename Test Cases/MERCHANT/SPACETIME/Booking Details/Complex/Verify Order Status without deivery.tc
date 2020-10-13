@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Order Status without deivery</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24426584-43ae-4c88-8060-58e9f072b256</testCaseGuid>
+</TestCaseEntity>
