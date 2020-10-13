@@ -24,5 +24,5 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Admin New Sidebar/submenu_Comm
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_Commission'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/Page_0803time/toggle_Commission'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/Commission/Page_0902space/textlabel_Commission header'), 0)
 
