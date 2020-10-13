@@ -11,11 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'0717bp1'</initValue>
-=======
      <initValue>'0723omp'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -55,20 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-<<<<<<< HEAD
-      <initValue>'0717bp1.test.arcadier.io/admin'</initValue>
-=======
       <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-<<<<<<< HEAD
-      <initValue>'0717bp1.test.arcadier.io'</initValue>
-=======
       <initValue>'https://0723omp.test.arcadier.io'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -83,11 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'seller0001'</initValue>
-=======
       <initValue>'sellerbp01'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -107,11 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'buyer0002'</initValue>
-=======
       <initValue>'buyer001'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -183,13 +163,10 @@
       <description></description>
       <initValue>'0717bp1.test.arcadier.io/user/order/cart'</initValue>
       <name>cartURL</name>
-<<<<<<< HEAD
-=======
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'seller0002'</initValue>
       <name>CustomMerchant2</name>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
    </GlobalVariableEntity>
 </GlobalVariableEntities>
