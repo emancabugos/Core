@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_OnboardSettings</name>
+   <tag></tag>
+   <comment>Clear all textfield
+Verification highlight textfield</comment>
+   <testCaseGuid>c14d1d06-99f5-4ba4-b2f1-e09c6306c7dc</testCaseGuid>
+</TestCaseEntity>
