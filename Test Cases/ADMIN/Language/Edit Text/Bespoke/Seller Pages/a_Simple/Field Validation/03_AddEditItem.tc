@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03_AddEditItem</name>
+   <tag></tag>
+   <comment>Clear all textfield
+Verification highlight textfield</comment>
+   <testCaseGuid>13ab0506-ab84-40fa-989d-811b82687251</testCaseGuid>
+</TestCaseEntity>

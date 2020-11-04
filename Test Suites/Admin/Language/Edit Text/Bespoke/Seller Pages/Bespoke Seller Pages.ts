@@ -15,13 +15,13 @@
       <guid>bee7fe73-1c1d-4ce3-a18c-468231aef038</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales Navigation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Sales Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b309ac0a-bc6e-4af8-a469-06f0d5aa32ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Sales</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Sales</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a24b8c82-08b3-49ce-8ee0-fadcafbbc231</id>
@@ -42,13 +42,13 @@
       <guid>f8ce675f-d415-4554-8991-efec4333d7b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Item List Navigation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Item List Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ed3195d5-51fd-4e5c-8c49-f06e139b76f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Item List</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Item List</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7be00ba9-a4f8-42a8-8a0f-e3051833b01a</id>
@@ -69,13 +69,13 @@
       <guid>8328e977-5f9f-4c4f-9714-336891966c10</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Add_Edit Item Navigation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Add_Edit Item Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7d48ddcd-3725-4f95-b72e-47aa3636baf9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Add_Edit Item</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Add_Edit Item</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c0a7cf95-b198-4a4f-a566-61fc75a1eeac</id>
@@ -96,13 +96,13 @@
       <guid>0404f281-2290-4ef4-8144-bcc3c7c7bad0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Onboarding_Settings Navigation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Onboarding_Settings Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>29562af6-5404-41ba-bfd0-26eb345587dd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Onboarding_Settings</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Onboarding_Settings</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b31a6514-9051-4294-9658-592898b89479</id>
@@ -123,13 +123,13 @@
       <guid>29fe33dc-81c9-40d8-8075-5a94a8bbd141</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Dashboard Navigation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Dashboard Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c6c5b7b4-1999-42ae-97cc-49fb2f3baa24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Dashboard</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Dashboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5ce5f87e-f018-4bf7-993d-09e68dca4fbf</id>
@@ -150,13 +150,13 @@
       <guid>ba62162e-c2b6-4971-b119-78eff3274121</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Order History Navigation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Order History Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>aa011a69-052c-4daf-a0e4-b7548f905170</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Order History</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Order History</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ae874c65-882e-47e7-a278-313a9d1a6806</id>
@@ -177,13 +177,13 @@
       <guid>6de56273-0d73-4de1-ac5e-2fea3ba08c1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Order Details Navigation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Order Details Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a55f22e8-fb7e-41d2-b8a5-6723e1d7a593</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Order Details</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Order Details</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>10959072-a894-44ad-9964-809c0b75e46f</id>
@@ -204,13 +204,13 @@
       <guid>f967ceeb-203d-49a8-9a59-7df6bb944835</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Item Translation Navigation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Item Translation Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>46a34f7e-b61e-4c69-8572-af5688305cf1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Item Translation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Item Translation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f088c1d5-a2dc-451e-b3f7-c7e693563785</id>
@@ -231,13 +231,13 @@
       <guid>2075a248-f2a8-4365-b148-b43055749292</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Delivery Settings Navigation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Delivery Settings Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>18c1e6af-a752-4900-8231-a30c44c1e3b3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Delivery Settings</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Delivery Settings</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3b2e2960-3ff0-456d-b61e-09f8ddfd8f31</id>
