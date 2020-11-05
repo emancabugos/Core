@@ -230,13 +230,13 @@
    <testCaseLink>
       <guid>2075a248-f2a8-4365-b148-b43055749292</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Delivery Settings Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>18c1e6af-a752-4900-8231-a30c44c1e3b3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Delivery Settings</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

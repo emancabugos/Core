@@ -21,7 +21,7 @@
       <guid>20d4c1e2-2637-4cbd-b1c2-dfc2cc3bf209</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/edit_HeaderFooterLanguage</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/Marketplace HeaderFooter/edit_HeaderFooterLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2ef13cc0-6172-4a53-9890-82eecfd39063</id>
@@ -42,7 +42,7 @@
       <guid>f1a88de5-8194-4842-b639-7a6ec35d6eb8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/navigateTo_MarketplaceHeaderFooter</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/Marketplace HeaderFooter/navigateTo_MarketplaceHeaderFooter</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>90afe13a-0bcc-4816-a708-8f5d90f5203a</guid>
