@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Language Dropdown/button_Language'))
 
+WebUI.scrollToElement(findTestObject('BESPOKE DEL 2/CONSUMER/Language Dropdown/textlabel_IT'), 0)
+
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Language Dropdown/textlabel_IT'), 0)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Language Dropdown/textlabel_IT'), FailureHandling.CONTINUE_ON_FAILURE)

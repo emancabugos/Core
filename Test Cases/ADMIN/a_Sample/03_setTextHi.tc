@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03_setTextHi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8f7a2ea-54b1-4471-be91-6bf454a0a101</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>0e14c32d-59d6-4203-afe6-8a4188927159</id>
+      <masked>false</masked>
+      <name>column3</name>
+   </variable>
+</TestCaseEntity>
