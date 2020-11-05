@@ -20,13 +20,13 @@
    <testCaseLink>
       <guid>6fc54f17-1300-480d-b649-fae8f9569091</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Account Suspended Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>972ce4b2-9c10-48aa-90c0-66bf577d8074</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Account Suspended</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -47,13 +47,13 @@
    <testCaseLink>
       <guid>a64fc239-e1e1-4160-883c-2e980267b08e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Acknowledged Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0cd85030-2494-4d87-997f-5e56f8a4d920</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Acknowledged</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -74,7 +74,7 @@
    <testCaseLink>
       <guid>8760a160-e501-4289-aaa8-972d7f214f8b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Buyer Invite Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>

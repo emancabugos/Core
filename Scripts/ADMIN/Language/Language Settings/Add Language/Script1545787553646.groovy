@@ -22,8 +22,6 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.verifyElementText(findTestObject('ADMIN/Language Settings/h1_Language Settings'), 'Language Settings')
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Language Settings/select_Select New Language'), 'French', false)

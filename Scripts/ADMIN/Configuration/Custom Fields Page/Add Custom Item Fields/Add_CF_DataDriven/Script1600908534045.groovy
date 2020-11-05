@@ -74,17 +74,19 @@ if (varCustomFieldType == 'Checkbox') {
 
     WebUI.delay(2)
 
-    WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/icon_addoptio'), 0)
+    WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt'), 0)
 
     for (int r = 0; r <= 7; r++) {
-        WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/icon_addoptio'), FailureHandling.STOP_ON_FAILURE)
+        WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/button_addOpt'), FailureHandling.STOP_ON_FAILURE)
     }
     
     WebUI.comment('Add Option')
 
-    WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option1'), varCustomFieldName + 'DD1')
+    WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt1'), varCustomFieldName + 
+        'DD1')
 
-    WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option2'), varCustomFieldName + 'DD2')
+    WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Dropdown/textfield_dropdownOpt2'), varCustomFieldName + 
+        'DD2')
 
     WebUI.setText(findTestObject('ADMIN/Custom Item Fields Page/a_Checkbox/textfield_option3'), varCustomFieldName + 'DD3')
 
