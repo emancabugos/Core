@@ -14,14 +14,19 @@
    <testCaseLink>
       <guid>0a2291c0-53ac-4892-a4b5-90124213d529</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>20d4c1e2-2637-4cbd-b1c2-dfc2cc3bf209</guid>
       <isReuseDriver>false</isReuseDriver>
+<<<<<<< HEAD
       <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/Marketplace HeaderFooter/edit_HeaderFooterLanguage</testCaseId>
+=======
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/edit_HeaderFooterLanguage</testCaseId>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2ef13cc0-6172-4a53-9890-82eecfd39063</id>
@@ -41,19 +46,24 @@
    <testCaseLink>
       <guid>f1a88de5-8194-4842-b639-7a6ec35d6eb8</guid>
       <isReuseDriver>false</isReuseDriver>
+<<<<<<< HEAD
       <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/Marketplace HeaderFooter/navigateTo_MarketplaceHeaderFooter</testCaseId>
+=======
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Admin Pages/navigateTo_MarketplaceHeaderFooter</testCaseId>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
    </testCaseLink>
    <testCaseLink>
       <guid>90afe13a-0bcc-4816-a708-8f5d90f5203a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/About Us Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9a4e3f6f-26d6-4b47-bad6-7bdd004cf8c8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/About Us</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -74,13 +84,13 @@
    <testCaseLink>
       <guid>a986cfef-ac1c-4198-93f6-f95a9b4a1939</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b09ee3be-bd92-4989-9fed-f297aa8a8c8b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -101,13 +111,13 @@
    <testCaseLink>
       <guid>21511d17-f7c5-4112-a15f-7768f75f479f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/FAQ Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c904192e-dad9-467b-bfde-71b46a03452c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/FAQ</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
