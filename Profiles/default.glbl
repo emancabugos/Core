@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0902space'</initValue>
+      <initValue>'0914spacetime1'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,17 +46,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0902space.test.arcadier.io/admin'</initValue>
+      <initValue>'0914spacetime1.staging.arcadier.io/admin/'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'arcstaging.rachrah.com'</initValue>
+      <initValue>'arctest.rachrah.com'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'unmerchant'</initValue>
+      <initValue>'adianaseller_02'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
