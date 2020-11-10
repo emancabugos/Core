@@ -42,13 +42,6 @@ WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase Hist
 
 WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Pick-up_search-by-dlrvy'), '*')
 
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Search by item name_search-by-txt'), 
-    '*')
-
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_Sold By_sold-by'), '*')
-
-WebUI.sendKeys(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Purchase History/input_SUBMIT_btn_apply'), '*')
-
 WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/toaster_success'), 0)

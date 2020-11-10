@@ -15,14 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Logout/icon_usermenu homepage'), 0)
-
-WebUI.mouseOver(findTestObject('FIND/SELLER/Logout/icon_usermenu homepage'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('FIND/SELLER/Logout/text_settings'), 0)
-
-WebUI.click(findTestObject('FIND/SELLER/Logout/text_settings'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.comment('Profile')
 
 WebUI.waitForElementVisible(findTestObject('FIND/SELLER/onboardingProfile/btn_change'), 0)

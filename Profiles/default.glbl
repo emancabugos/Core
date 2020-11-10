@@ -11,7 +11,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'0914spacetime1'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0914bespoke1'</initValue>
+=======
+      <initValue>'0902space'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -46,17 +54,33 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
+<<<<<<< HEAD
       <initValue>'0914spacetime1.staging.arcadier.io/admin/'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'https://0914bespoke1.staging.arcadier.io/admin/'</initValue>
+=======
+      <initValue>'0902space.test.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
+<<<<<<< HEAD
       <initValue>'arctest.rachrah.com'</initValue>
+=======
+      <initValue>'https://0914bespoke1.staging.arcadier.io'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'adianaseller_02'</initValue>
+=======
+      <initValue>'AdminADD'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
