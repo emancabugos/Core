@@ -9,27 +9,25 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.waitForElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/logo_Marketplace'), 0)
 
-WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/button_SignInAsBuyer'))
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Private Register Page/textfield_YourEmailUsername'), 0)
 
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), 0)
+WebUI.clearText(findTestObject('BESPOKE DEL 2/CONSUMER/Private Register Page/textfield_YourEmailUsername'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), 'tester123')
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Private Register Page/button_CreateAccount'))
 
-WebUI.verifyElementAttributeValue(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), 
-    'value', 'tester123', 0)
-
-css_color = WebUI.getCSSValue(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourPassword'), 'color')
+css_color = WebUI.getCSSValue(findTestObject('BESPOKE DEL 2/CONSUMER/Private Register Page/textfield_YourEmailUsername'), 
+    'color')
 
 println(css_color)
 
-WebUI.verifyEqual(css_color, rgb(204, 204, 204))
+WebUI.verifyEqual(css_color, rgb(255, 0, 0))
 

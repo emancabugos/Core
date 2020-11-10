@@ -9,27 +9,36 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
-WebUI.waitForElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/logo_Marketplace'), 0)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/button_SignInAsBuyer'))
+WebUI.maximizeWindow()
 
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), 0)
+WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), 'tester123')
+WebUI.waitForPageLoad(0)
 
-WebUI.verifyElementAttributeValue(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), 
-    'value', 'tester123', 0)
+WebUI.delay(5)
 
-css_color = WebUI.getCSSValue(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourPassword'), 'color')
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/button_SignInAsBuyer'), 0)
 
-println(css_color)
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/button_SignInAsBuyer'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyEqual(css_color, rgb(204, 204, 204))
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/button_ContinueWithFacebook'), 0)
+
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), '')
+
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourPassword'), '')
+
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/button_SignIn'))
+
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/icon_cart'), 0)
+
+WebUI.closeBrowser()
 
