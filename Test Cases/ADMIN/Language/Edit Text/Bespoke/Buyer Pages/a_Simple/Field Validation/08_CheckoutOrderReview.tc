@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08_CheckoutOrderReview</name>
+   <tag></tag>
+   <comment>Clear all textfield
+Verification highlight textfield</comment>
+   <testCaseGuid>f4dcf9f1-c8e4-40b4-af00-f7ca0ff2619f</testCaseGuid>
+</TestCaseEntity>

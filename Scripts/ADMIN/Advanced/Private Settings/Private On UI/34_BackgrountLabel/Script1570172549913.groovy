@@ -19,9 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyElementPresent(findTestObject('ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings'), 0)
-
-WebUI.click(findTestObject('ADMIN/Private Settings/Private Off UI/sidemenu_Private Settings'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.verifyElementPresent(findTestObject('ADMIN/Private Settings/Private On UI/textlabel_Background Image'), 0)
 

@@ -19,13 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Permission'), 0)
-
-WebUI.click(findTestObject('ADMIN/New Sidebar Menu/sidemenu_Permission'), FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('ADMIN/Merchant Sub Account/sidemenu_Merchant Sub-Accounts'), 0)
-
-WebUI.click(findTestObject('ADMIN/Merchant Sub Account/sidemenu_Merchant Sub-Accounts'), FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.verifyElementPresent(findTestObject('ADMIN/Merchant Sub Account/icon_merchant sub header'), 0)
 

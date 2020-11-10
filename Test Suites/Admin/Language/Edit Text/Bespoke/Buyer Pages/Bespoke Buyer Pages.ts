@@ -350,13 +350,13 @@
    <testCaseLink>
       <guid>edfd7ff0-1cbf-4272-9a9d-fc74e1cf7f6e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Inbox Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>83b9323d-d602-4859-ad8e-3d298b2da443</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Inbox</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -377,13 +377,13 @@
    <testCaseLink>
       <guid>0b05b949-7c46-452d-941f-5ea1c4224e3f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Chat Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>54cbb584-2ed3-47bc-97b1-4ce44ea5dad4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Buyer Pages/Chat</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

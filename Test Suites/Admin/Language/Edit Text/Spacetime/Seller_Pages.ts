@@ -20,13 +20,13 @@
    <testCaseLink>
       <guid>27f011ef-3b39-4e57-92ad-ac05581a0abb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Bookings/navigateTo_Bookings</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9d875083-603e-42ad-b7a2-79565430afe9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Bookings/edit_BookingsPerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -47,13 +47,13 @@
    <testCaseLink>
       <guid>a9b9b474-d33a-4737-bfa7-533cb656c061</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Dashboard/navigateTo_Dashboard</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>31b344bf-06af-4a2e-a1fd-cba05e4e854e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Dashboard/edit_DashboardPerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -74,13 +74,13 @@
    <testCaseLink>
       <guid>91c17a51-c7c0-44d4-9e74-6d008e991a46</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Item Translation/navigateTo_ItemTranslation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a88d520e-7986-4e0a-bc46-d283dd397a14</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Item Translation/edit_ItemTranslationPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -101,13 +101,13 @@
    <testCaseLink>
       <guid>acf3d56c-859b-42be-a968-241707d97482</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing/navigateTo_Listing</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5a21d971-06de-410e-adf2-6cf626303855</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing/edit_ListingPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -128,13 +128,13 @@
    <testCaseLink>
       <guid>16b8e089-2665-49f8-8cd0-4d0315e7c065</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing Upload Edit Page/navigateTo_Listing</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>352e9513-9842-43be-ad6f-1b5d68d98005</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing Upload Edit Page/edit_ListingUpoaldEditPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -182,7 +182,7 @@
    <testCaseLink>
       <guid>79a841da-5da4-46d8-87d8-0ecf5b82b7b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

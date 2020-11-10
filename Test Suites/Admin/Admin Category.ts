@@ -21,13 +21,13 @@
       <guid>8f413c03-1f59-461e-b023-591525029116</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category Add-Edit/UI Verification</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Configuration/Categories/Category Add-Edit/UI Verification</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5116bc30-3d9b-4458-95fe-074c57242326</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category Add-Edit/Add Category</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Configuration/Categories/Category Add-Edit/Add Category</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ec586017-cfcc-4a7e-878b-0a93302b3951</id>
@@ -66,13 +66,13 @@
       <guid>ec799779-093a-4091-b125-98e8a944f83e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category Add-Edit/Edit Category</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Configuration/Categories/Category Add-Edit/Edit Category</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>85521475-521a-42b3-9568-2783fcb6a3cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Content Mgmt/Categories/Category Add-Edit/Delete Category</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Configuration/Categories/Category Add-Edit/Delete Category</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5a0a138f-de82-4f61-a81a-a4fc1eeb65f8</guid>

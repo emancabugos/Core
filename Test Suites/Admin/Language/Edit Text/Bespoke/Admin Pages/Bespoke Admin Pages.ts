@@ -176,13 +176,13 @@
    <testCaseLink>
       <guid>72a2782e-e246-47d6-9a7e-ab1e4fe32880</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f1ee09b9-fdd9-4ad8-afde-1fd50ebdae89</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Contact Us</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -203,13 +203,13 @@
    <testCaseLink>
       <guid>37b1d2ca-8647-4ffa-9162-e20bd5f85f10</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Private Login Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>bf51747f-f64f-4b4c-83f0-dd1bb006ff11</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Private Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -230,13 +230,13 @@
    <testCaseLink>
       <guid>06284709-7f71-460a-b3f6-9a1769ad5dc6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>26befb8f-e7a5-42a8-806f-cceba6ab44a2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_deleteAddress</name>
+   <tag></tag>
+   <elementGuidId>9fa41777-3d75-4b37-8621-b5bdaa39a52e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-times</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='checkout_address_del']/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-times</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;delivery-page&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;grey_section&quot;]/div[@class=&quot;delivery_white_section&quot;]/div[@class=&quot;delivery-line-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;delivery-address-sec&quot;]/div[@class=&quot;saved-address&quot;]/div[@class=&quot;address-box col-md-4 col-sm-6 gutter-30&quot;]/div[@class=&quot;svd-adrsbox-inner&quot;]/div[@class=&quot;action&quot;]/span[@class=&quot;remove-address&quot;]/a[@id=&quot;checkout_address_del&quot;]/span[@class=&quot;icon-close&quot;]/i[@class=&quot;fa fa-times&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='checkout_address_del']/span/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/i</value>
+   </webElementXpaths>
+</WebElementEntity>

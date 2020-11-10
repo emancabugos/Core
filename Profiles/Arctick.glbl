@@ -12,10 +12,10 @@
    <GlobalVariableEntity>
       <description></description>
 <<<<<<< HEAD
-      <initValue>'0723omp'</initValue>
+      <initValue>'1022bespoke'</initValue>
 =======
 <<<<<<< HEAD
-      <initValue>'0717bp1'</initValue>
+      <initValue>'0914spacetime1'</initValue>
 =======
      <initValue>'0723omp'</initValue>
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
@@ -60,22 +60,22 @@
    <GlobalVariableEntity>
       <description>remove https://</description>
 <<<<<<< HEAD
-      <initValue>'0717bp1.test.arcadier.io/admin'</initValue>
+      <initValue>'https://1022bespoke.staging.arcadier.io/admin'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0914spacetime1.staging.arcadier.io/admin'</initValue>
 =======
       <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
 <<<<<<< HEAD
-      <initValue>'0902space.test.arcadier.io'</initValue>
-=======
-<<<<<<< HEAD
       <initValue>'0717bp1.test.arcadier.io'</initValue>
 =======
       <initValue>'https://0723omp.test.arcadier.io'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
@@ -116,13 +116,9 @@
    <GlobalVariableEntity>
       <description></description>
 <<<<<<< HEAD
-      <initValue>'buyerwena'</initValue>
-=======
-<<<<<<< HEAD
       <initValue>'buyer0002'</initValue>
 =======
       <initValue>'buyer001'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
