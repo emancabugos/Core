@@ -11,15 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-     <<<<<<< HEAD
-      <initValue>'0914spacetime1'</initValue>
-=======
-<<<<<<< HEAD
-      <initValue>'0914bespoke1'</initValue>
-=======
       <initValue>'0902space'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -59,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>change URL/ Remove &quot;https://&quot;</description>
-      <initValue>'0902space.test.arcadier.io'</initValue>
+      <initValue>'arcstaging.rachrah.com'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
