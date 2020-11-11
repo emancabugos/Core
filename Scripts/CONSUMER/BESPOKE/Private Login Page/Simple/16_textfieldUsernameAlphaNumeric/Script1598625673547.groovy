@@ -14,8 +14,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.waitForElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/logo_Marketplace'), 0)
+
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/button_SignInAsBuyer'))
 
 WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), 0)
 
@@ -24,7 +27,7 @@ WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfiel
 WebUI.verifyElementAttributeValue(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), 
     'value', 'tester123', 0)
 
-css_color = WebUI.getCSSValue(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourEmailUsername'), 'color')
+css_color = WebUI.getCSSValue(findTestObject('BESPOKE DEL 2/CONSUMER/Private Login Page/textfield_YourPassword'), 'color')
 
 println(css_color)
 
