@@ -11,20 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'1022bespoke'</initValue>
-=======
-<<<<<<< HEAD
-      <initValue>'0914spacetime1'</initValue>
-=======
-     <initValue>'0723omp'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+      <initValue>'0717bp1'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'arcadierteam@gmail.com'</initValue>
+      <initValue>'arcqatester02@gmail.com'</initValue>
       <name>AdminGoogle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -39,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'welcome8'</initValue>
+      <initValue>'20_P@s$w0rd'</initValue>
       <name>GooglePass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -59,24 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-<<<<<<< HEAD
-      <initValue>'https://1022bespoke.staging.arcadier.io/admin'</initValue>
-=======
-<<<<<<< HEAD
-      <initValue>'0914spacetime1.staging.arcadier.io/admin'</initValue>
-=======
-      <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+      <initValue>'0717bp1.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-<<<<<<< HEAD
-      <initValue>'0717bp1.test.arcadier.io'</initValue>
-=======
-      <initValue>'https://0723omp.test.arcadier.io'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+      <initValue>'0717bp1.test.arcadier.io/admin'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -91,11 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'seller0001'</initValue>
-=======
-      <initValue>'sellerbp01'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+      <initValue>'sellerapril01'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -115,11 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
-      <initValue>'buyer0002'</initValue>
-=======
       <initValue>'buyer001'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -189,15 +161,127 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0717bp1.test.arcadier.io/user/order/cart'</initValue>
+      <initValue>'0601bp1.staging.arcadier.io/user/order/cart'</initValue>
       <name>cartURL</name>
-<<<<<<< HEAD
-=======
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
+Collapse
+
+
+
+8:50
+ipaste mo to
+8:50
+default.glbl 
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Change to: test, staging, live</description>
+      <initValue>'https://www.test.arcadier.io'</initValue>
+      <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'seller0002'</initValue>
-      <name>CustomMerchant2</name>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+      <initValue>'0902space'</initValue>
+      <name>AdminCustom</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arcadierteam'</initValue>
+      <name>AdminGoogle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arcadierteam@gmail.com'</initValue>
+      <name>AdminFacebook</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'welcome8'</initValue>
+      <name>CustomPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Welcome08!'</initValue>
+      <name>GooglePass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'welcome8'</initValue>
+      <name>FacebookPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>AdminEmailNotif</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>change URL/ Remove &quot;https://&quot;</description>
+      <initValue>'0902space.test.arcadier.io/admin'</initValue>
+      <name>AdminURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>change URL/ Remove &quot;https://&quot;</description>
+      <initValue>'arcstaging.rachrah.com'</initValue>
+      <name>HomepageURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'unmerchant'</initValue>
+      <name>CustomMerchant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arcadierteam@gmail.com'</initValue>
+      <name>FacebookMerchant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arcadierteam@gmail.com'</initValue>
+      <name>GoogleMerchant</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'arcadier.tester1@gmail.com'</initValue>
+      <name>MerchantNotif</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'buyer_april'</initValue>
+      <name>CustomConsumer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>FacebookConsumer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>GoogleConsumer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>ConsumerNotif</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CHANGE TO: custom, google, facebook</description>
+      <initValue>'custom'</initValue>
+      <name>AdminAccountType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CHANGE TO: custom, google, facebook</description>
+      <initValue>'custom'</initValue>
+      <name>ConsumerAccountType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>CHANGE TO: custom, google, facebook</description>
+      <initValue>'custom'</initValue>
+      <name>MerchantAccountType</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
