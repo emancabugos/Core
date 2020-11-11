@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>textfield_UsernameAlphaNumeric</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>afb34a1b-fa6d-4b2b-ad21-9d2f8e569b80</testCaseGuid>
+</TestCaseEntity>

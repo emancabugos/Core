@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0717bp1'</initValue>
+      <initValue>'0723omp'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0717bp1.test.arcadier.io/admin'</initValue>
+      <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0717bp1.test.arcadier.io/admin'</initValue>
+      <initValue>'https://0723omp.test.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'sellerapril01'</initValue>
+      <initValue>'sellerbp01'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -274,14 +274,7 @@ default.glbl
       <initValue>'custom'</initValue>
       <name>AdminAccountType</name>
    </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>CHANGE TO: custom, google, facebook</description>
-      <initValue>'custom'</initValue>
-      <name>ConsumerAccountType</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>CHANGE TO: custom, google, facebook</description>
-      <initValue>'custom'</initValue>
-      <name>MerchantAccountType</name>
-   </GlobalVariableEntity>
+ <initValue>'seller0002'</initValue>
+      <name>CustomMerchant2</name>
+       </GlobalVariableEntity>
 </GlobalVariableEntities>
