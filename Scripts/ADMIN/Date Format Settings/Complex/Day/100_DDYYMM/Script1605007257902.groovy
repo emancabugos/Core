@@ -20,6 +20,10 @@ WebUI.click(findTestObject('ADMIN/Date Format Settings/button_DD'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
 
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Day', false)
+
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Day with leading zero (05)', 
@@ -76,4 +80,8 @@ WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/tex
     0)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
 

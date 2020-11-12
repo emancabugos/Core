@@ -74,7 +74,7 @@ WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/but
 
 def date = new Date()
 
-def formattedDate = date.format('MMMM/dd/yyyy')
+def formattedDate = date.format('MMMM/dd/yy')
 
 println(formattedDate)
 
@@ -82,4 +82,8 @@ WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/tex
     0)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
 

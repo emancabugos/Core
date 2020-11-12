@@ -25,7 +25,8 @@ WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_Pi
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Full numeric year (1930)', false)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Full numeric year (1930)', 
+    false)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Apply'))
 
@@ -41,8 +42,8 @@ WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_Pi
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Month as full name (August)',
-	false)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Month as full name (August)', 
+    false)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Apply'))
 
@@ -58,8 +59,8 @@ WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_Pi
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Day with leading zero (05)',
-	false)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Day with leading zero (05)', 
+    false)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Apply'))
 
@@ -77,8 +78,12 @@ def formattedDate = date.format('yyyy/MMMM/dd')
 
 println(formattedDate)
 
-WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', formattedDate,
-	0)
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', formattedDate, 
+    0)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
 
