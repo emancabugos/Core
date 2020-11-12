@@ -101,7 +101,12 @@ def formattedDate = date.format('M/d/yy')
 
 println(formattedDate)
 
-WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', formattedDate, 0)
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', formattedDate, 
+    0)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
 

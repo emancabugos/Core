@@ -39,16 +39,14 @@ File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
 
 
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('bootstrap.arcadier.com/hivebox_new/date-format.html')
-
-WebUI.maximizeWindow()
-
 'Day: Day without leading zero (5) , Month: Month without leading zero (8), Year: Two digit year (30)'
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_DD'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
+
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Day', false)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
@@ -63,6 +61,10 @@ WebUI.click(findTestObject('ADMIN/Date Format Settings/button_MM'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
 
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Month', false)
+
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Month without leading zero (8)', 
@@ -76,6 +78,10 @@ WebUI.click(findTestObject('ADMIN/Date Format Settings/button_YYYY'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
 
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Year', false)
+
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Full numeric year (1930)', 
@@ -87,13 +93,13 @@ WebUI.delay(1)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/button_DD'), 'value', 'DO', 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/button_MM'), 'value', 'MM', 0)
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/button_MM'), 'value', 'M', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/button_YYYY'), 'value', 'YYYY', 0)
 
 def date = new Date()
 
-def formattedDate = date.format('d/MM/yy')
+def formattedDate = date.format('d/M/yy')
 
 println(formattedDate)
 
@@ -135,4 +141,8 @@ WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/tex
     0)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
 

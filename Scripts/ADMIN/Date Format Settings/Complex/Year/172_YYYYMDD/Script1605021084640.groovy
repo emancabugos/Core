@@ -107,3 +107,7 @@ WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/tex
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Save'))
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+

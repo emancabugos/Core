@@ -42,6 +42,10 @@ WebUI.click(findTestObject('ADMIN/Date Format Settings/button_DD'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
 
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Day', false)
+
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Day without leading zero (5)', 
@@ -55,6 +59,10 @@ WebUI.click(findTestObject('ADMIN/Date Format Settings/button_MM'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
 
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Month', false)
+
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Month as full name (August)', 
@@ -67,6 +75,10 @@ WebUI.delay(1)
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_YYYY'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
+
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Year', false)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
@@ -92,4 +104,8 @@ WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/tex
     0)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
 
