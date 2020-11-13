@@ -6,6 +6,10 @@
    <elementGuidId>c1e0c2cf-bd43-4dad-bd61-f970f27ff196</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'dateJoined']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//p[@id='dateJoined']</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>#dateJoined</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>dateJoined</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

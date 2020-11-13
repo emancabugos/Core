@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -27,7 +26,7 @@ Path projectDir = Paths.get(RunConfiguration.getProjectDir())
 Path tmpDir = projectDir.resolve('tmp')
 
 if (!(Files.exists(tmpDir))) {
-	Files.createDirectory(tmpDir)
+    Files.createDirectory(tmpDir)
 }
 
 // Prepare File object
@@ -35,4 +34,6 @@ File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
 
 String formattedDate = PreviewDatetmp.text.trim()
 
-WebUI.verifyElementText(findTestObject('ADMIN/Transaction List/textlabel_Timestamp'), formattedDate)
+WebUI.verifyElementText(findTestObject('ADMIN/Transaction List and Details/Admin Transaction Details/value_timestamp'), 
+    formattedDate)
+
