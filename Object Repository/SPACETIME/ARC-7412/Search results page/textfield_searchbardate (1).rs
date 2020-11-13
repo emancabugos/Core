@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textfield_searchbardate</name>
+   <name>textfield_searchbardate (1)</name>
    <tag></tag>
    <elementGuidId>62f470ba-05f0-4e6e-b181-26bf7b1c21fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='dateRangePicker']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.lala > #dateRangePicker</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='dateRangePicker']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

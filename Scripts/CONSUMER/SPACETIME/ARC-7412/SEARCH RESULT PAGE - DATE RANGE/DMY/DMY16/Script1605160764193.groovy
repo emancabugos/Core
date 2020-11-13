@@ -2,7 +2,6 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -15,20 +14,65 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+import org.junit.After as After
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.nio.file.Files as Files
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.comment('DD/AUGUST/YYYY')
+WebUI.comment('D/M/YY')
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/textfield_datesearch'), 0)
+Path projectDir = Paths.get(RunConfiguration.getProjectDir())
 
-WebUI.click(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/textfield_datesearch'))
+Path tmpDir = projectDir.resolve('tmp')
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/button_Apply'), 0)
+if (!(Files.exists(tmpDir))) {
+    Files.createDirectory(tmpDir)
+}
 
-WebUI.click(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/button_Apply'))
+// Prepare File object
+File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
 
-dategalingspace = WebUI.getAttribute(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/textfield_datesearch'), 'value')
+def date = new Date()
+
+def formattedDate = date.format('d/M/yy')
+
+PreviewDatetmp.text = formattedDate
+
+String finaldate = PreviewDatetmp.text.trim()
+
+println(finaldate)
+
+WebUI.refresh()
+
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/button_Search'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Search results page/checkbox_All Dates'), 0)
+
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Search results page/checkbox_All Dates'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Search results page/textfield_searchbardate'), 0)
+
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Search results page/textfield_searchbardate'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Search results page/button_Apply'), 0)
+
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Search results page/button_Apply'))
+
+dategalingspace = WebUI.getAttribute(findTestObject('SPACETIME/ARC-7412/Search results page/textfield_searchbardate'), 'value')
 
 println(dategalingspace)
 
 WebUI.verifyMatch(dategalingspace, (finaldate + ' - ') + finaldate, false)
+
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Search results page/textfield_searchbardate'))
+
+dategalingdatepicker = WebUI.getText(findTestObject('SPACETIME/ARC-7412/Search results page/datepicker_previewselecteddate'))
+
+println(dategalingdatepicker)
+
+WebUI.verifyMatch(dategalingdatepicker, (finaldate + ' - ') + finaldate, false)
 

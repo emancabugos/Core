@@ -23,7 +23,7 @@ import java.nio.file.Paths as Paths
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.comment('D/M/YYYY')
+WebUI.comment('D/M/YY')
 
 Path projectDir = Paths.get(RunConfiguration.getProjectDir())
 
@@ -38,7 +38,7 @@ File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
 
 def date = new Date()
 
-def formattedDate = date.format('d/M/yyyy')
+def formattedDate = date.format('d/M/yy')
 
 PreviewDatetmp.text = formattedDate
 
@@ -46,17 +46,33 @@ String finaldate = PreviewDatetmp.text.trim()
 
 println(finaldate)
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/textfield_datesearch'), 0)
+WebUI.refresh()
 
-WebUI.click(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/textfield_datesearch'))
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/button_Search'))
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/button_Apply'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Search results page/checkbox_All Dates'), 0)
 
-WebUI.click(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/button_Apply'))
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Search results page/checkbox_All Dates'))
 
-dategalingspace = WebUI.getAttribute(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/textfield_datesearch'), 'value')
+WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Search results page/textfield_searchbardate'), 0)
+
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Search results page/textfield_searchbardate'))
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Search results page/button_Apply'), 0)
+
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Search results page/button_Apply'))
+
+dategalingspace = WebUI.getAttribute(findTestObject('SPACETIME/ARC-7412/Search results page/textfield_searchbardate'), 'value')
 
 println(dategalingspace)
 
 WebUI.verifyMatch(dategalingspace, (finaldate + ' - ') + finaldate, false)
+
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Search results page/textfield_searchbardate'))
+
+dategalingdatepicker = WebUI.getText(findTestObject('SPACETIME/ARC-7412/Search results page/datepicker_previewselecteddate'))
+
+println(dategalingdatepicker)
+
+WebUI.verifyMatch(dategalingdatepicker, (finaldate + ' - ') + finaldate, false)
 

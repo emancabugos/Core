@@ -3,6 +3,6 @@
    <description></description>
    <name>DMY04</name>
    <tag></tag>
-   <comment></comment>
+   <comment>D/MM/YYYY</comment>
    <testCaseGuid>2b1dbbe9-f845-45b6-9620-a67ea8e26025</testCaseGuid>
 </TestCaseEntity>

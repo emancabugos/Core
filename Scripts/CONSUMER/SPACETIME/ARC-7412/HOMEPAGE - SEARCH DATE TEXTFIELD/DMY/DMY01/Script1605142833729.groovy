@@ -60,3 +60,11 @@ println(dategalingspace)
 
 WebUI.verifyMatch(dategalingspace, (finaldate + ' - ') + finaldate, false)
 
+WebUI.click(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/textfield_datesearch'))
+
+dategalingdatepicker = WebUI.getText(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/datepicker_previewselecteddate'))
+
+println(dategalingdatepicker)
+
+WebUI.verifyMatch(dategalingdatepicker, (finaldate + ' - ') + finaldate, false)
+
