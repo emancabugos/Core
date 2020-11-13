@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ST_Homepage Date</name>
+   <tag></tag>
+   <comment>Verify Value - D/M/YY
+Day without leading zero (5)
+Month without leading zero (8)
+Two digit year (30)
+Split ung dalawang dates
+Split firstdate values
+Split seconddate values
+Check DAY</comment>
+   <testCaseGuid>b0190e97-1ba1-46dc-a9e4-1f993f34b6f0</testCaseGuid>
+</TestCaseEntity>
