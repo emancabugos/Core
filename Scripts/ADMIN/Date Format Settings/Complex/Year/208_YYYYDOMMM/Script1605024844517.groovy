@@ -102,6 +102,8 @@ def formattedDate = date.format('yyyy/d/MMM')
 
 println(formattedDate)
 
+PreviewDatetmp.text = formattedDate
+
 def datevalues = formattedDate.split('/')
 
 def year = datevalues[0]

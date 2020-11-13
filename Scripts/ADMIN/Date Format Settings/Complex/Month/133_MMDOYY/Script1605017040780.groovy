@@ -101,6 +101,8 @@ def formattedDate = date.format('MM/d/yy')
 
 println(formattedDate)
 
+PreviewDatetmp.text = formattedDate
+
 def datevalues = formattedDate.split('/')
 
 def month = datevalues[0]

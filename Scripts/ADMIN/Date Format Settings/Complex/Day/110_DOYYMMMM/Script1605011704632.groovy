@@ -94,6 +94,8 @@ def formattedDate = date.format('d/yy/MMMM')
 
 println(formattedDate)
 
+PreviewDatetmp.text = formattedDate
+
 def datevalues = formattedDate.split('/')
 
 def day = datevalues[0]
