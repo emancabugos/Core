@@ -14,13 +14,13 @@
    <testCaseLink>
       <guid>10ab58b6-5d24-4a10-9fce-35de014c5eb0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3fb5d26c-85e5-46a3-8bac-bdc948b66a8f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Admin New Sidebar/Simple/24_redirectionCustomFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -35,7 +35,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ADMIN/Custom Field/Custom Field List</testDataId>
+         <testDataId>Data Files/MERCHANT/Bespoke/Add Item</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>f36ed05d-0ae3-4d4c-81a5-4b925e6e3c0c</testDataLinkId>
@@ -65,7 +65,7 @@
    <testCaseLink>
       <guid>757fc9f7-90ab-45cf-8991-384297c5bcfc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
