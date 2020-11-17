@@ -95,8 +95,6 @@ def formattedDate = date.format('d/yyyy/MMM')
 
 println(formattedDate)
 
-PreviewDatetmp.text = formattedDate
-
 def datevalues = formattedDate.split('/')
 
 def day = datevalues[0]
@@ -130,6 +128,8 @@ switch (true) {
         converted_date = (((((day + 'th') + '/') + year) + '/') + month)
 
         println(converted_date)}
+
+PreviewDatetmp.text = converted_date
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', converted_date, 
     0)

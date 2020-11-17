@@ -137,6 +137,8 @@ switch (true) {
 
         println(converted_date)}
 
+PreviewDatetmp.text = converted_date
+
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', converted_date, 
     0)
 
