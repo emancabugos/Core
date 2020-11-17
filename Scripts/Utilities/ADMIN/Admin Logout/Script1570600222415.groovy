@@ -23,5 +23,3 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Admin Logout/button_Logout
 
 WebUI.click(findTestObject('Utilities/Admin Logout/button_Logout'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.closeBrowser()
-
