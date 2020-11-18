@@ -3077,7 +3077,6 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
 			<id>1605655450600</id>
 			<name></name>
 			<type>10</type>
@@ -3088,8 +3087,6 @@
 		</filter>
 		<filter>
 			<id>1605655450799</id>
-=======
-			<id>1605232686659</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -3333,7 +3330,6 @@
 		</filter>
 		<filter>
 			<id>1605568669959</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 			<name></name>
 			<type>6</type>
 			<matcher>
