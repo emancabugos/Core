@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Next</name>
+   <name>button_viewCart</name>
    <tag></tag>
-   <elementGuidId>8101d443-15c0-4d32-a2cf-b1e1d924be22</elementGuidId>
+   <elementGuidId>8458d925-7308-4735-b515-9bbac99ff19a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@id = 'next-tab' and @class = 'my-btn btn-red']</value>
+         <value>//a[@href = '/user/order/cart' and (text() = 'VIEW CART' or . = 'VIEW CART')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,15 +22,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>next-tab</value>
+      <value>/user/order/cart</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>text</name>
       <type>Main</type>
-      <value>my-btn btn-red</value>
+      <value>VIEW CART</value>
    </webElementProperties>
 </WebElementEntity>

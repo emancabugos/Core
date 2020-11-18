@@ -6,29 +6,33 @@
    <elementGuidId>4075e130-f49c-4bb9-b6bc-801e14b0882f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//label[@id='checkout_address_sel'])[4]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.svd-adrsbox-inner.active > div.action > span.fancy-radio.address-sel > #checkout_address_sel</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//label[@id='checkout_address_sel'])[4]</value>
+         <key>BASIC</key>
+         <value>//label[@for = 'delivery1' and (text() = 'SELECTED' or . = 'SELECTED')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>delivery4</value>
+      <value>delivery1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +42,7 @@
       <value>selected_address</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -49,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Selected</value>
+      <value>SELECTED</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
