@@ -6,16 +6,16 @@
    <elementGuidId>c1e0c2cf-bd43-4dad-bd61-f970f27ff196</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'dateJoined']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//p[@id='dateJoined']</value>
+         <value>//p[@id='dateJoined']//p[@id='dateJoined']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#dateJoined</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'dateJoined']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -19,7 +19,7 @@ WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_Items'),
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/menu_Items'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/ADMIN/New Item List/button_Export CSV'), 0)
+WebUI.waitForElementPresent(findTestObject('ADMIN/New Item List/button_Export CSV'), 0)
 
-WebUI.verifyElementPresent(findTestObject('SUPERBABY/ADMIN/New Item List/textlabel_Items'), 0)
+WebUI.verifyElementPresent(findTestObject('ADMIN/New Item List/button_Export CSV'), 0)
 
