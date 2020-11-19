@@ -4,6 +4,12 @@
    <name>link_Upload</name>
    <tag></tag>
    <elementGuidId>16ae41a6-b7dd-44f5-82e5-8cc61fbb4dd6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/user/item/upload' and (text() = 'Add Item' or . = 'Add Item')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Upload</value>
+      <value>Add Item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

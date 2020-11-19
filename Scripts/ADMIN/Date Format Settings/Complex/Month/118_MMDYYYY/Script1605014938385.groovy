@@ -103,6 +103,8 @@ def formattedDate = date.format('MM/d/yyyy')
 
 println(formattedDate)
 
+PreviewDatetmp.text = formattedDate
+
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', formattedDate, 
     0)
 

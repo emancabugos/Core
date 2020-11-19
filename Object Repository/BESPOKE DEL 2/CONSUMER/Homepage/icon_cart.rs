@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//i[@class = 'icon icon-cart']</value>
+         <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[2]/a[1]/i[count(. | //i[@class = 'icon icon-cart']) = count(//i[@class = 'icon icon-cart'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,5 +25,12 @@
       <name>class</name>
       <type>Main</type>
       <value>icon icon-cart</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[2]/a[1]/i</value>
    </webElementProperties>
 </WebElementEntity>
