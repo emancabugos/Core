@@ -36,10 +36,15 @@ String formattedDate = PreviewDatetmp.text.trim()
 
 actualFD = WebUI.getText(findTestObject('ADMIN/New Item List/1stvalue_last updated'), FailureHandling.CONTINUE_ON_FAILURE)
 
+println(actualFD)
+
 def FactualFD = actualFD.split(' ')
 
-println(FactualFD[0])
+def lastActualDate = FactualFD[0]
 
-WebUI.verifyMatch(formattedDate, FactualFD, false)
+println(lastActualDate)
 
+println(formattedDate)
+
+WebUI.verifyMatch(formattedDate, lastActualDate, false)
 

@@ -23,7 +23,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.comment('Create Account')
-
+/*
 WebUI.openBrowser('')
 
 if (varServer == 'Test') {
@@ -75,7 +75,7 @@ if (varAccountType == 'custom') {
 
     WebUI.click(findTestObject('ADMIN/Admin Onboarding Page/Create_Account_Page/Button_Login_Facebook'))
 }
-
+*/
 WebUI.comment('Step 1')
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Onboarding Page/Admin_Onboarding_Step1/1stDropdown_Please select one...Im'), 

@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-19/11/2020
-=======
-17/11/20
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+19th/November/20

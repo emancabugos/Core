@@ -9,7 +9,6 @@
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d0a98404-7e15-456c-86a7-9166fd6968e4</testSuiteGuid>
    <testCaseLink>
       <guid>76c6d8c6-e528-4333-b733-8253ec4cc577</guid>
@@ -33,7 +32,7 @@
       <guid>1efbab36-9420-4440-9920-e8247926ade4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Date Format Settings/Complex/Day/68_DMYYY</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Date Format Settings/Complex/Year/168_YYYYMMMD</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>46af71c2-2a24-4602-9bba-477acfec531b</guid>
