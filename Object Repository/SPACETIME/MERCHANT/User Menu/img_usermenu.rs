@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[8]/a[1]/img</value>
+         <value>//li[@class = 'user-login dropdown']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,20 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/images/user/custommerchant1-bp1y2s6rvk.jpg</value>
+      <value>li</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath</name>
+      <name>class</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[8]/a[1]/img</value>
+      <value>user-login dropdown</value>
    </webElementProperties>
 </WebElementEntity>

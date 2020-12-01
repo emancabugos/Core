@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>redirection_addService</name>
+   <tag></tag>
+   <comment>Select Category
+Service Duration
+Unlimited Bookings
+Schedule</comment>
+   <testCaseGuid>e603e2ee-b6cc-4ee9-9d77-b954cc6b0b75</testCaseGuid>
+</TestCaseEntity>

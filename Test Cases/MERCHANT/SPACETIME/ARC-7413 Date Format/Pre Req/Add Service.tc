@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Service</name>
+   <tag></tag>
+   <comment>Select Category
+Service Duration
+Unlimited Bookings
+Schedule
+Image
+Add Ons
+Custom Fields
+Location
+Delivery Method
+END</comment>
+   <testCaseGuid>8b1032a1-a2c0-490b-88bf-b6874106b1c3</testCaseGuid>
+</TestCaseEntity>
