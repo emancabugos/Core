@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>id(&quot;dtTimeStamp&quot;)[count(. | //p[@id = 'dtTimeStamp']) = count(//p[@id = 'dtTimeStamp'])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div[1]/p</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

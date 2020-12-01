@@ -99,7 +99,7 @@ WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/but
 
 def date = new Date()
 
-def formattedDate = date.format('d/M/yy')
+def formattedDate = date.format('d/M/yyyy')
 
 println(formattedDate)
 

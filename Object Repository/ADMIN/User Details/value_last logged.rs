@@ -6,16 +6,16 @@
    <elementGuidId>b9635417-0cc1-4e5a-9766-40ec003b1847</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'lastLogin']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//p[@id='lastLogin']</value>
+         <value>//div[3]/div[3]/div[2]/div[3]/div[2]/div/ul/li[3]/div/div[2]/p</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#lastLogin</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'lastLogin']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
