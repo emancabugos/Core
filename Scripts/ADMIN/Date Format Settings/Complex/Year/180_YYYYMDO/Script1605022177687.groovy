@@ -37,7 +37,7 @@ if (!(Files.exists(tmpDir))) {
 // Prepare File object
 File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
 
-
+File DateFormattmp = tmpDir.resolve('DateFormat.txt').toFile()
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_DD'))
 
@@ -139,6 +139,7 @@ switch (true) {
         println(converted_date)}
 
 PreviewDatetmp.text = converted_date
+DateFormattmp.text = 'yyyy/M/d'
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', converted_date, 
     0)

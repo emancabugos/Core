@@ -36,7 +36,7 @@ if (!(Files.exists(tmpDir))) {
 
 // Prepare File object
 File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
-
+File DateFormattmp = tmpDir.resolve('DateFormat.txt').toFile()
 
 
 'Day: Day without leading zero (5) , Month: Month without leading zero (8), Year: Two digit year (30)'
@@ -103,6 +103,7 @@ def formattedDate = date.format('M/dd/yy')
 println(formattedDate)
 
 PreviewDatetmp.text = formattedDate
+DateFormattmp.text = 'M/dd/yy'
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', formattedDate, 
     0)
