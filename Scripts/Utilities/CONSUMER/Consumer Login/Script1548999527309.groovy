@@ -27,8 +27,6 @@ WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
 WebUI.waitForPageLoad(0)
 
-WebUI.delay(5)
-
 WebUI.waitForElementVisible(findTestObject('CONSUMER/Landing Page/button_Buyer Sign in'), 0)
 
 WebUI.click(findTestObject('CONSUMER/Landing Page/button_Buyer Sign in'), FailureHandling.STOP_ON_FAILURE)

@@ -4,6 +4,12 @@
    <name>button_CHANGE</name>
    <tag></tag>
    <elementGuidId>b1c11b15-b571-42ed-b0be-12f54d85daec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[1]/div/div/div[2]/a[count(. | //a[@href = '#' and (text() = 'CHANGE' or . = 'CHANGE')]) = count(//a[@href = '#' and (text() = 'CHANGE' or . = 'CHANGE')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -63,10 +69,10 @@
       <value>CHANGE</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;profile&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;seller-common-box&quot;]/form[1]/div[@class=&quot;item-form-group&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;img-wrapper image-upload-container&quot;]/div[@class=&quot;change-profile&quot;]/a[@class=&quot;my-btn btn-black model-btn&quot;]</value>
+      <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[1]/div/div/div[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

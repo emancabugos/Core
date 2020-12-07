@@ -6,32 +6,36 @@
    <elementGuidId>50bc4800-bcd1-4fda-8db0-0e3767017c84</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//label[@id='checkout_address_sel']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#checkout_address_sel</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@id='checkout_address_sel']</value>
+         <key>BASIC</key>
+         <value>//label[@for = 'delivery1' and (text() = 'SELECT ADDRESS' or . = 'SELECT ADDRESS')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
       <value>delivery1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -42,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Select Address</value>
+      <value>SELECT ADDRESS</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

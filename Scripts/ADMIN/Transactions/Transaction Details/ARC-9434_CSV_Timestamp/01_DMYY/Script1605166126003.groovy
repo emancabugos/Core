@@ -21,6 +21,10 @@ import com.kms.katalon.core.testdata.CSVData
 
 CSVData csvData = new CSVData("C:\\Users\\April\\Downloads\\Invoice.csv", true, CSVSeparator.COMMA)
 
-def valuetimestamp = csvData.getValue(1,2)
+def valuetimestamp = csvData.getValue(1,1)
 
-println(valuetimestamp)
+def datevalues1 = valuetimestamp.split(' ');
+
+println(datevalues1[0]);
+
+

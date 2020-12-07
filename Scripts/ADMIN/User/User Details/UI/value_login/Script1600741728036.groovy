@@ -17,3 +17,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/User Details/value_login'), 0)
 
+WebUI.click(findTestObject('ADMIN/User Details/value_login'), FailureHandling.CONTINUE_ON_FAILURE)
+

@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Bespoke Usermenu/icon_usermenu'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/User Menu/img_usermenu'), 0)
 
-WebUI.click(findTestObject('Utilities/Bespoke Usermenu/icon_usermenu'))
+WebUI.click(findTestObject('SPACETIME/MERCHANT/User Menu/img_usermenu'))
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Bespoke Usermenu/linktext_Logout'), 0)
 

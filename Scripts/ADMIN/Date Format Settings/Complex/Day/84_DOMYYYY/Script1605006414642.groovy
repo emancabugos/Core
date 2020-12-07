@@ -36,7 +36,7 @@ if (!(Files.exists(tmpDir))) {
 
 // Prepare File object
 File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
-
+File DateFormattmp = tmpDir.resolve('DateFormat.txt').toFile()
 
 
 'Day: Day without leading zero (5) , Month: Month without leading zero (8), Year: Two digit year (30)'
@@ -99,11 +99,12 @@ WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/but
 
 def date = new Date()
 
-def formattedDate = date.format('d/M/yy')
+def formattedDate = date.format('d/M/yyyy')
 
 println(formattedDate)
 
 PreviewDatetmp.text = formattedDate
+DateFormattmp.text = 'd/M/yyyy'
 
 def datevalues = formattedDate.split('/')
 
