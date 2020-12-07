@@ -37,30 +37,26 @@ if (!(Files.exists(tmpDir))) {
 // Prepare File object
 File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
 
-def date = new Date()
+//def date = new Date()
 
-def formattedDate = date.format('d/M/yy')
+//def formattedDate = date.format('d/M/yy')
 
-PreviewDatetmp.text = formattedDate
+//PreviewDatetmp.text = formattedDate
 
 String finaldate = PreviewDatetmp.text.trim()
 
 println(finaldate)
-
-WebUI.click(findTestObject('SPACETIME/ARC-7412/Inbox and Chat/a_Contact seller'))
-
-WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Inbox and Chat/Page_0613stdiana/textarea_chat'), 0)
-
-WebUI.setText(findTestObject('SPACETIME/ARC-7412/Inbox and Chat/Page_0613stdiana/textarea_chat'), 'test')
-
-WebUI.sendKeys(findTestObject('SPACETIME/ARC-7412/Inbox and Chat/Page_0613stdiana/textarea_chat'), Keys.chord(Keys.ENTER))
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Inbox and Chat/Page_0613stdiana/textlabel_chattimestamp'), 
     0)
 
 chattimestamp = WebUI.getText(findTestObject('SPACETIME/ARC-7412/Inbox and Chat/Page_0613stdiana/textlabel_chattimestamp'))
 
-WebUI.verifyMatch(chattimestamp, finaldate, false)
+datesplit = chattimestamp.split(' ')
+
+def chatmsg = datesplit[0]
+
+WebUI.verifyMatch(chatmsg, finaldate, false)
 
 WebUI.getText(findTestObject('SPACETIME/ARC-7412/Inbox and Chat/Page_0613stdiana/textlabel_NegoFrom'))
 

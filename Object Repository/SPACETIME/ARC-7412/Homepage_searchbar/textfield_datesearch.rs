@@ -6,15 +6,19 @@
    <elementGuidId>627f9568-8529-4e24-a469-8bb697a12291</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.lala > #dateRangePicker</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='dateRangePicker']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'date-range' and @id = 'dateRangePicker']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.lala > #dateRangePicker</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

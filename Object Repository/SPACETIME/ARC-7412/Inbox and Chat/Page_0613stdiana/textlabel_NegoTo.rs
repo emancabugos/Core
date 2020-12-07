@@ -6,12 +6,15 @@
    <elementGuidId>df46e706-5c40-4351-af10-b882e00f46c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='page-buy-chat-offer']/div/div/div/div/div[3]/p/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;page-buy-chat-offer&quot;]/div/div[1]/div/div/div[3]/p[1]/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

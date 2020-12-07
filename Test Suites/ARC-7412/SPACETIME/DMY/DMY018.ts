@@ -81,12 +81,18 @@
       <guid>d13e07cd-d48a-4683-8ac2-b5f312bf5750</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/SPACETIME/ARC-7412/PURCHASE LIST - DATE OF BOOKING/DMY/PURCHASE LIST - DATE OF BOOKING</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/ARC-7412/PURCHASE LIST - DATE OF BOOKING/Index Day/PURCHASE LIST - DATE OF BOOKING</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5658fbb6-1535-4b17-9fdb-a7abbff74dbc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/SPACETIME/ARC-7412/PURCHASE DETAILS - DATE OF BOOKING/DMY/PURCHASE DETAILS - DATE OF BOOKING</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40d51023-9f6c-49df-b5f6-252d789e0b86</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/ARC-7412/Precons/Navigate to Item Details</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

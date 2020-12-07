@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PURCHASE LIST - DATE OF BOOKING index 2</name>
+   <tag></tag>
+   <comment>D/M/YY
+Ongoing/Past</comment>
+   <testCaseGuid>ee562e98-69e2-470e-aa69-90b57f2ac729</testCaseGuid>
+</TestCaseEntity>

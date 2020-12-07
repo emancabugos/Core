@@ -38,9 +38,9 @@ File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
 
 def date = new Date()
 
-def formattedDate = date.format('d/M/yy')
+//def formattedDate = date.format('d/M/yyyy')
 
-PreviewDatetmp.text = formattedDate
+//PreviewDatetmp.text = formattedDate
 
 String finaldate = PreviewDatetmp.text.trim()
 

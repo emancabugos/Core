@@ -36,11 +36,11 @@ if (!(Files.exists(tmpDir))) {
 // Prepare File object
 File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
 
-def date = new Date()
+//def date = new Date()
 
-def formattedDate = date.format('d/M/yy')
+//def formattedDate = date.format('d/M/yy')
 
-PreviewDatetmp.text = formattedDate
+//PreviewDatetmp.text = formattedDate
 
 String finaldate = PreviewDatetmp.text.trim()
 

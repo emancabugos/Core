@@ -6,12 +6,16 @@
    <elementGuidId>1c271357-28db-438b-8b60-1fd58befd82f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#sBookingStartDate</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[@id='sBookingStartDate']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'sBookingStartDate']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#sBookingStartDate</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +35,7 @@
       <value>sBookingStartDate</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

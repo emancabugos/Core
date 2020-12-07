@@ -21,7 +21,7 @@ WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/ARC-7412/Page_0704bpdiana/img
 
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/ARC-7412/Page_0613bpdiana/textfield_search'), 0)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/ARC-7412/Page_0613bpdiana/textfield_search'), 'Item_03')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/ARC-7412/Page_0613bpdiana/textfield_search'), 'Item 04')
 
 WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/ARC-7412/Page_0613bpdiana/textfield_search'), Keys.chord(Keys.ENTER))
 

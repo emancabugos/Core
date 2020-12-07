@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>13f3c8b7-3a1e-42cc-b658-de9847558b93</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/ARC-7412/Create Chat</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -76,5 +76,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/ARC-7412/CHAT DETAILS - TIMESTAMP OF MESSAGE/DMY/CHAT DETAILS - TIMESTAMP OF MESSAGE</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d21304e-8d88-4dc4-8c94-125989517df5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
