@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div[3]/div[2]/div/div[1]/div[3]/a/span[2][count(. | //span[@class = 'timestamp-display']) = count(//span[@class = 'timestamp-display'])]</value>
+         <value>//span[@class = 'timestamp-display']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <value>timestamp-display</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

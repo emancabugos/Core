@@ -15,7 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.setText(findTestObject('ADMIN/Users/textbox_search'), 'buyer_lisa')
+WebUI.setText(findTestObject('ADMIN/Users/textbox_search'), 'buyer001')
 
 WebUI.delay(2)
 

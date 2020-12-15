@@ -9,11 +9,12 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>46c97cab-f7cc-4be7-893a-82d7f9996caf</testSuiteGuid>
    <testCaseLink>
       <guid>5451872c-bc21-4076-9894-e88c12fe43c0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -235,13 +236,13 @@
    <testCaseLink>
       <guid>06284709-7f71-460a-b3f6-9a1769ad5dc6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>26befb8f-e7a5-42a8-806f-cceba6ab44a2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -262,7 +263,7 @@
    <testCaseLink>
       <guid>9d73bff3-cb72-488d-81eb-ee56788622cf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Admin Pages/Categories Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>

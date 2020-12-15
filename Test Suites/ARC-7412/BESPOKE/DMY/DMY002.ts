@@ -14,31 +14,31 @@
    <testCaseLink>
       <guid>ee446f2d-74fd-49f7-b705-5c2a4939e6f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dc289def-f65e-469e-9e7b-f87d3c175446</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Admin New Sidebar/Simple/29_redirectionFeatureToggle</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c98f7d81-6032-4273-8a2c-b18e41ac1d82</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Date Format Settings/Pre requisite/click_EditButtonBP</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2aeab891-f2d0-43f4-8597-b5000802f29b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Date Format Settings/Complex/Day/68_DMYYY</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6d1ed9ea-285a-4248-aa7c-33f2d7edf902</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -48,13 +48,13 @@
       <testCaseId>Test Cases/Utilities/CONSUMER/Consumer Login Non Private</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>61c18347-6bce-4dc2-a60d-4a921d6a006a</guid>
+      <guid>dadd3119-0c30-46f2-a726-8b54b73b62ab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/ARC-7412/PURCHASE LIST - TIMESTAMP/DMY/PURCHASE LIST - TIMESTAMP</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>dadd3119-0c30-46f2-a726-8b54b73b62ab</guid>
+      <guid>61c18347-6bce-4dc2-a60d-4a921d6a006a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/ARC-7412/PURCHASE DETAILS - TIMESTAMP/DMY/PURCHASE DETAILS - TIMESTAMP</testCaseId>

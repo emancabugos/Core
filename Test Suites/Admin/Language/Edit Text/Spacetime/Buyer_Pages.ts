@@ -75,13 +75,13 @@
       <guid>ac738570-c15c-44bd-a418-6f72a5c5f1a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Buyer Pages/Homepage/navigateTo_Homepage</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Buyer Pages/Homepage/Simple/Modify/navigateTo_Homepage</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>32b915ac-589f-4e6d-9c2d-617ac8306602</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Buyer Pages/Homepage/edit_HomepagePerLanguage</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Buyer Pages/Homepage/Simple/Modify/edit_HomepagePerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>654c3e74-8ea0-4f72-80f4-44e391edcd6e</id>
