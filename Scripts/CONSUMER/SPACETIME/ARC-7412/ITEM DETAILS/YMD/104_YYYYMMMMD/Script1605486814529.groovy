@@ -16,3 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/textfield_datefrom'), 0)
+
+From = WebUI.getAttribute(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/textfield_datefrom'), placeholder)
+
+To = WebUI.getText(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/textlabel_dateTo'))
+
+WebUI.verifyMatch(From, 'YYYY/MMMM/D', false)
+
+WebUI.verifyMatch(To, 'YYYY/MMMM/D', false)
+

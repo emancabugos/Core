@@ -71,4 +71,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/ARC-7412/CHAT DETAILS - TIMESTAMP OF MESSAGE/DMY/CHAT DETAILS - TIMESTAMP OF MESSAGE</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>98976158-488d-4219-8eb5-80a24205852b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

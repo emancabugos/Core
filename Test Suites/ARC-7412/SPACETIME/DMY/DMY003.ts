@@ -60,6 +60,12 @@
       <testCaseId>Test Cases/CONSUMER/SPACETIME/ARC-7412/SEARCH RESULT PAGE - DATE RANGE/DMY/SEARCH RESULT PAGE - DATE RANGE TC</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>5236eeb0-c2ae-4bc8-bbcd-e197629bb2a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/ARC-7412/Precons/Navigate to Item Details</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>8258a6ee-2f88-4699-9f45-af125a6200fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -81,7 +87,7 @@
       <guid>d13e07cd-d48a-4683-8ac2-b5f312bf5750</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/SPACETIME/ARC-7412/PURCHASE LIST - DATE OF BOOKING/DMY/PURCHASE LIST - DATE OF BOOKING</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/SPACETIME/ARC-7412/PURCHASE LIST - DATE OF BOOKING/Index Day/PURCHASE LIST - DATE OF BOOKING</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5658fbb6-1535-4b17-9fdb-a7abbff74dbc</guid>

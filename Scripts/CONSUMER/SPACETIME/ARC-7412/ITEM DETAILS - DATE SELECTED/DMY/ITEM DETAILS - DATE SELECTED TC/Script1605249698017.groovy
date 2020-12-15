@@ -37,30 +37,12 @@ if (!(Files.exists(tmpDir))) {
 // Prepare File object
 File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
 
-def date = new Date()
-
-def formattedDate = date.format('d/M/yy')
-
-PreviewDatetmp.text = formattedDate
-
+//def date = new Date()
+//def formattedDate = date.format('d/M/yy')
+//PreviewDatetmp.text = formattedDate
 String finaldate = PreviewDatetmp.text.trim()
 
 println(finaldate)
-
-WebUI.click(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/img'))
-
-WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/textfield_Searchbar'), 0)
-
-WebUI.setText(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/textfield_Searchbar'), 'diana new item 2')
-
-WebUI.click(findTestObject('SPACETIME/ARC-7412/Homepage_searchbar/button_Search'))
-
-WebUI.delay(3)
-
-WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/div_Gringotts (with duration and location)shakuntala'), 
-    0)
-
-WebUI.click(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/div_Gringotts (with duration and location)shakuntala'))
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/textfield_datefrom'), 0)
 

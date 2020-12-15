@@ -22,7 +22,7 @@ From = WebUI.getAttribute(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0
 
 To = WebUI.getText(findTestObject('SPACETIME/ARC-7412/Item Details/Page_0613stdiana/textlabel_dateTo'))
 
-WebUI.verifyMatch(From, 'DO/MMMM/YY', false)
+WebUI.verifyMatch(From, 'Do/MMMM/YY', false)
 
-WebUI.verifyMatch(To, 'DO/MMMM/YY', false)
+WebUI.verifyMatch(To, 'Do/MMMM/YY', false)
 

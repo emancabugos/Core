@@ -3,6 +3,7 @@
    <description></description>
    <name>CHAT DETAILS - TIMESTAMP OF MESSAGE</name>
    <tag></tag>
-   <comment>D/M/YY</comment>
+   <comment>D/M/YY
+navigate to inbox</comment>
    <testCaseGuid>ad47f3fe-df17-4cec-a7f3-4a14e907fe66</testCaseGuid>
 </TestCaseEntity>
