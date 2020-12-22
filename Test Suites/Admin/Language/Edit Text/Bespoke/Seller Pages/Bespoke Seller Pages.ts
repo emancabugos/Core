@@ -203,13 +203,13 @@
    <testCaseLink>
       <guid>f967ceeb-203d-49a8-9a59-7df6bb944835</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Item Translation Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>46a34f7e-b61e-4c69-8572-af5688305cf1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Item Translation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -230,24 +230,8 @@
    <testCaseLink>
       <guid>2075a248-f2a8-4365-b148-b43055749292</guid>
       <isReuseDriver>false</isReuseDriver>
-<<<<<<< HEAD
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Delivery Settings Navigation</testCaseId>
-=======
-      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Delivery Settings Navigation</testCaseId>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
-   </testCaseLink>
-   <testCaseLink>
-      <guid>18c1e6af-a752-4900-8231-a30c44c1e3b3</guid>
-      <isReuseDriver>false</isReuseDriver>
-<<<<<<< HEAD
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller/Delivery Settings</testCaseId>
-=======
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/Seller Pages/Delivery Settings</testCaseId>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3b2e2960-3ff0-456d-b61e-09f8ddfd8f31</id>
