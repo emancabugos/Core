@@ -6,12 +6,12 @@
    <elementGuidId>12234ab0-7496-4ac6-a6b8-e9df4ddb6f1b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;videoBannerBG&quot;]/div[1]/div/div[2]/div/ul/li[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.hidden-xs > img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[6]/a[1]/img</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -39,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;videoBannerBG&quot;]/div[1]/div/div[2]/div/ul/li[5]</value>
+      <value>/html/body/div[3]/div[1]/div/div[2]/div/ul/li[6]/a[1]/img</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
