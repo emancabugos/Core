@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Hebrew</name>
+   <tag></tag>
+   <comment>Header - Guest
+Header - Logged in
+Mobile Header
+Footer</comment>
+   <testCaseGuid>689a75be-8af0-4c87-898e-7cf7f754243a</testCaseGuid>
+</TestCaseEntity>
