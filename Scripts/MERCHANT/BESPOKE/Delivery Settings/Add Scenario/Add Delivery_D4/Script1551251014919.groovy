@@ -23,7 +23,8 @@ WebUI.waitForElementVisible(findTestObject('Utilities/Header/BESPOKE/Merchant He
 
 WebUI.click(findTestObject('Utilities/Header/BESPOKE/Merchant Header v2/header_Delivery'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/icon_delivery settings'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/icon_delivery settings'), 
+    0)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/button_Add Delivery Option'), FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -31,7 +32,7 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Sett
     0)
 
 WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textbox_delivery option name'), 
-    'Delivery 4')
+    'Merchant Delivery 4')
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/dd_coutnry'))
 
@@ -43,9 +44,11 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Sett
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/Add Delivery Rate/checkbox_AU'), 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textbox_minimumLeadTime'), '1 - 7 days')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textbox_minimumLeadTime'), 
+    '1 - 7 days')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textbox_deliveryFrom'), 'Philippines')
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textbox_deliveryFrom'), 
+    'Philippines')
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/button_Add Delivery Rate'))
 
@@ -127,5 +130,6 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/button_Save'))
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/button_Add Delivery Option'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Settings/button_Add Delivery Option'), 
+    0)
 

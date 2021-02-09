@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>edit_MerchantStorefrontPerLanguage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a15fbb88-7d9e-4f0b-b1d2-61286e4c6dec</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>ef6f8cc4-2da8-496a-acab-84d694733735</id>
+      <masked>false</masked>
+      <name>selectLanguage</name>
+   </variable>
+</TestCaseEntity>
