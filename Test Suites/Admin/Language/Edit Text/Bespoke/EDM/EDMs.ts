@@ -9,23 +9,24 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f4e176bd-0a4a-499b-941f-f06a653070e8</testSuiteGuid>
    <testCaseLink>
       <guid>3fd5e661-bb36-414b-86dd-cd4a0387efaa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6fc54f17-1300-480d-b649-fae8f9569091</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Account Suspended Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>972ce4b2-9c10-48aa-90c0-66bf577d8074</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Account Suspended</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -46,13 +47,13 @@
    <testCaseLink>
       <guid>a64fc239-e1e1-4160-883c-2e980267b08e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Acknowledged Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0cd85030-2494-4d87-997f-5e56f8a4d920</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Acknowledged</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -100,13 +101,13 @@
    <testCaseLink>
       <guid>c4317f40-5dce-46a9-9907-0d82f3bc4b4e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Change of Payments Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5d18e87f-4167-4ca7-be1a-ad94ad8bec9d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Change of Payments</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -156,6 +157,15 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Message From Seller Navigation</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7caf916e-0184-4e1a-b272-c3e4f8b12014</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ADMIN/Language/Language</testDataId>
+      </testDataLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ea4b3f55-25bd-4aeb-ab51-005fa87ad74e</guid>

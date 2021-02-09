@@ -11,12 +11,20 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'1216spacetime'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'1204b2bctry'</initValue>
+=======
+      <initValue>'0723omp'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'arcqatester02@gmail.com'</initValue>
+      <initValue>'arcadierteam@gmail.com'</initValue>
       <name>AdminGoogle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +59,28 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
+<<<<<<< HEAD
       <initValue>'https://1216spacetime.test.arcadier.io/admin'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'1204b2bctry.staging.arcadier.io/admin'</initValue>
+=======
+      <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
+<<<<<<< HEAD
       <initValue>'https://0128del2.staging.arcadier.io/'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'b2bctrysb.rachrah.com'</initValue>
+=======
+      <initValue>'https://0723omp.test.arcadier.io'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +95,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'01Seller'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'adianaseller01'</initValue>
+=======
+      <initValue>'sellerbp01'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
