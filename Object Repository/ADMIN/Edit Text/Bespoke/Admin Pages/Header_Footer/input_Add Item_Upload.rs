@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_CHANGE STATUS_btn_upload</name>
+   <name>input_Add Item_Upload</name>
    <tag></tag>
-   <elementGuidId>a8d0e0f2-b376-4c3a-90ef-ab0487404ff9</elementGuidId>
+   <elementGuidId>0fbb71c1-677d-45db-a6c9-96ede94b30d7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div[2]/input[count(. | //*[@type = 'text' and @name = 'btn_upload']) = count(//*[@type = 'text' and @name = 'btn_upload'])]</value>
+         <key>XPATH</key>
+         <value>//input[@name='Upload']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>btn_upload</value>
+      <value>Upload</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,41 +45,48 @@
       <matchCondition>equals</matchCondition>
       <name>data-resource-key</name>
       <type>Main</type>
-      <value>strSeller_OrderHistory_ChangeStatus</value>
+      <value>strAdmin_MarketplaceHeaderFooter_AddItem</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>CHANGE STATUS</value>
+      <value>Add Item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-original-database-value</name>
       <type>Main</type>
-      <value>CHANGE STATUS</value>
+      <value>Add Item</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div[2]/input</value>
+      <value>id(&quot;main&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row mt-10&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='btn_upload']</value>
+      <value>//input[@name='Upload']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div[4]/div/div[5]/div[4]/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/input</value>
+      <value>//div[5]/div[4]/div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>

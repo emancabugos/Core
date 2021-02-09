@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_CHANGE STATUS_btn_upload</name>
+   <name>input_EXPORT CSV_btn_upload</name>
    <tag></tag>
-   <elementGuidId>a8d0e0f2-b376-4c3a-90ef-ab0487404ff9</elementGuidId>
+   <elementGuidId>997de53b-3ce1-4bce-90a2-549986538084</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div[2]/input[count(. | //*[@type = 'text' and @name = 'btn_upload']) = count(//*[@type = 'text' and @name = 'btn_upload'])]</value>
+         <key>XPATH</key>
+         <value>//input[@name='btn_upload']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,13 +18,6 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,28 +38,35 @@
       <matchCondition>equals</matchCondition>
       <name>data-resource-key</name>
       <type>Main</type>
-      <value>strSeller_OrderHistory_ChangeStatus</value>
+      <value>strSeller_OrderHistory_BP_ExportCSV</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>CHANGE STATUS</value>
+      <value>EXPORT CSV</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-original-database-value</name>
       <type>Main</type>
-      <value>CHANGE STATUS</value>
+      <value>EXPORT CSV</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div[2]/input</value>
+      <value>id(&quot;main&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row&quot;]/div[@class=&quot;col-sm-3&quot;]/div[@class=&quot;btn-wrapper&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,6 +74,13 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='btn_upload']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div[4]/div/div[2]/div/div[2]/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

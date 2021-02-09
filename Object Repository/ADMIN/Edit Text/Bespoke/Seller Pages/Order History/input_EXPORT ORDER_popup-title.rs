@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_CHANGE STATUS_btn_upload</name>
+   <name>input_EXPORT ORDER_popup-title</name>
    <tag></tag>
-   <elementGuidId>a8d0e0f2-b376-4c3a-90ef-ab0487404ff9</elementGuidId>
+   <elementGuidId>032cf895-a37e-4f1d-a9b9-e8f913fc4bc8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div[2]/input[count(. | //*[@type = 'text' and @name = 'btn_upload']) = count(//*[@type = 'text' and @name = 'btn_upload'])]</value>
+         <key>XPATH</key>
+         <value>(//input[@name='popup-title'])[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,16 +22,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>btn_upload</value>
+      <value>popup-title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,45 +34,59 @@
       <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-resource-key</name>
       <type>Main</type>
-      <value>strSeller_OrderHistory_ChangeStatus</value>
+      <value>strSeller_OrderHistory_Popup_ExportOrder</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>CHANGE STATUS</value>
+      <value>EXPORT ORDER</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-original-database-value</name>
       <type>Main</type>
-      <value>CHANGE STATUS</value>
+      <value>EXPORT ORDER</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div[2]/input</value>
+      <value>id(&quot;main&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;panel-box language-section&quot;]/div[@class=&quot;language-row&quot;]/div[@class=&quot;col-sm-5&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='btn_upload']</value>
+      <value>(//input[@name='popup-title'])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div[5]/div[2]/div/div[2]/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/input</value>
+      <value>//div[2]/div/div[2]/div/div[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
