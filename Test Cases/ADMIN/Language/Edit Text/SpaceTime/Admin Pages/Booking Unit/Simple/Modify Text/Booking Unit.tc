@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Booking Unit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1770e6a-97bd-42a1-95ac-3f759a6d38d2</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('ADMIN/Language/Language')</defaultValue>
+      <description></description>
+      <id>d5e37f6d-9190-4870-9d6d-27acd29f38de</id>
+      <masked>false</masked>
+      <name>varLanguage</name>
+   </variable>
+</TestCaseEntity>

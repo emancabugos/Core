@@ -4,11 +4,11 @@
    <name>edit_MerchantStorefrontPerLanguage</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a15fbb88-7d9e-4f0b-b1d2-61286e4c6dec</testCaseGuid>
+   <testCaseGuid>8b30a649-3b78-4bd2-a553-65094aeb18f1</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
       <description></description>
-      <id>ef6f8cc4-2da8-496a-acab-84d694733735</id>
+      <id>f9c91d4b-dab9-436b-a8d1-c0aca05f703d</id>
       <masked>false</masked>
       <name>selectLanguage</name>
    </variable>

@@ -65,5 +65,3 @@ WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buye
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Search Results Page/textfield_NoResult'), 
     'value', '', 0)
 
-WebUI.click(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Pages/Homepage/button_save'), FailureHandling.CONTINUE_ON_FAILURE)
-

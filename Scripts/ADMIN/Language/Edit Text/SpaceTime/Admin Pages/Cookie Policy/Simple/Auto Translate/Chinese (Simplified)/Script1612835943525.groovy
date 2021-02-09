@@ -15,3 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), 0)
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), 'Chinese (Simplified)', 
+    false)
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Cookie Policy/input_This website uses cookies to'), 
+    'value', '本网站使用cookie来确保您在我们的网站上获得最佳体验。', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Cookie Policy/input_Learn More_later_btn'), 
+    'value', '学到更多', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Cookie Policy/input_Accept Cookies_add_translations_btn'), 
+    'value', '接受饼干', 0)
+
