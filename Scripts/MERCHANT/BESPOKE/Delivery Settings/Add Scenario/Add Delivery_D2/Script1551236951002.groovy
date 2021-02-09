@@ -25,7 +25,7 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Sett
     0)
 
 WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/textbox_delivery option name'), 
-    'Delivery 2')
+    'Merchant Delivery 2')
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Delivery Settings/Add Edit Delivery Option/dd_coutnry'))
 

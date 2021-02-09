@@ -95,7 +95,7 @@
    <testCaseLink>
       <guid>5bf6e3b3-344a-4dc5-a74d-4f4ea114b1fb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/MERCHANT/Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
