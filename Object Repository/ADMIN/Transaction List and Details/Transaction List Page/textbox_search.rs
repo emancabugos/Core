@@ -4,6 +4,12 @@
    <name>textbox_search</name>
    <tag></tag>
    <elementGuidId>1e4aca88-201e-44c6-8d59-a79122d6685e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@name = 'keywords' and @class = 'form-control' and @placeholder = 'Search']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,17 +24,17 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>filter_item</value>
+      <value>keywords</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Search by buyer name, invoice ID or order ID</value>
+      <value>Search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
