@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[2]</value>
+         <value>id(&quot;no-more-tables&quot;)/tbody[1]/tr[1]/td[2]/a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/div/div[2]/div[3]/table/tbody/tr[1]/td[2]</value>
+      <value>id(&quot;no-more-tables&quot;)/tbody[1]/tr[1]/td[2]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

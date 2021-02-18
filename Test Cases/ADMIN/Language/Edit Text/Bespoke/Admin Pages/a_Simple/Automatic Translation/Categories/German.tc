@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>German</name>
+   <tag></tag>
+   <comment>CATEGORY 2
+CATEGORY 3
+CATEGORY 4
+CATEGORY 5
+CATEGORY 5</comment>
+   <testCaseGuid>07a259c8-5dc8-405a-9d44-0361283d78a7</testCaseGuid>
+</TestCaseEntity>
