@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div/div/div/div[2]/form/div[2]/div[1]/div/fieldset/div/div[3]/div/span/input</value>
+         <value>//div[2]/section/span[2]/div/div/main/form/div/div/div/div/div/div[1]/div[2]/fieldset/div[1]/div[2]/div[2]/div[1]/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'tel' and @id = '6b686980-785c-11e9-9c4e-a5ae269e21ca' and @placeholder = 'CVC' and @ref_element = 'Object Repository/SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/popup_Stripe']</value>
+         <value>//input[@placeholder = 'CVC']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,7 +24,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -38,7 +38,7 @@
       <value>Fieldset-input Textbox-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -105,6 +105,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/popup_Stripe</value>
+      <value>Object Repository/SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/iframe_stripe</value>
    </webElementProperties>
 </WebElementEntity>

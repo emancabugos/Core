@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_textabelPaymentOrderRelease</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e2e2eb9b-66d6-4476-8b72-0d3a130c0d58</testCaseGuid>
+</TestCaseEntity>

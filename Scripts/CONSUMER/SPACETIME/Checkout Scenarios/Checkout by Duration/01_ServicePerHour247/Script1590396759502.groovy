@@ -53,12 +53,28 @@ WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow')
 
 if (delivery == 'del1') {
     WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery1'))
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
 } else if (delivery == 'del2') {
     WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Delivery2'))
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
 } else if (delivery == 'pickup1') {
     WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_PickUp1'))
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
 } else if (delivery == 'pickup2') {
     WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_PickUp2'))
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('SPACETIME/CONSUMER/Delivery Popup Window/button_Checkout'))
 } else if (delivery == 'none') {
     WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Delivery Details Page/button_SelectAddress'), 0)
 }

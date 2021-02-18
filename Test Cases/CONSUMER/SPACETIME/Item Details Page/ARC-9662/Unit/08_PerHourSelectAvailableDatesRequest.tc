@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08_PerHourSelectAvailableDatesRequest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>135c3e63-6fb1-4f50-86d0-86d9058c32fc</testCaseGuid>
+</TestCaseEntity>
