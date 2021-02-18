@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Arabic</name>
+   <tag></tag>
+   <comment>allCat_Check Box_NM1
+allCat_Check Box_NM2
+allCat_Drop Down_NM1
+allCat_Drop Down_NM2
+other all cat
+SP Custom
+SP_Check Box_M1
+SP_Check Box_M2
+SP_Drop Down_M1
+SP_Drop Down_M2
+other SP
+SPC Custom
+SPC_Check Box_M1
+SPC_Check Box_M2
+SPC_Drop Down_M1
+SPC_Drop Down_M2
+other SP</comment>
+   <testCaseGuid>b450af93-e3c0-4cad-81d1-f66a4ab9c2f3</testCaseGuid>
+</TestCaseEntity>

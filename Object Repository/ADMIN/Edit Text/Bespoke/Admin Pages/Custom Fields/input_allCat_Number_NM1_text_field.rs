@@ -4,6 +4,12 @@
    <name>input_allCat_Number_NM1_text_field</name>
    <tag></tag>
    <elementGuidId>ec4edc14-992d-45e1-a8c1-7555da56698c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'text_field' and @value = 'allCat_Number_NM1']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -56,7 +62,7 @@
       <value>False</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>

@@ -18,6 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.comment('Contact Us')
 
+WebUI.callTestCase(findTestCase('ADMIN/Language/Edit Text/Bespoke/Admin Pages/Cookie Policy Navigation'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language'), 0)
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Bespoke/Buyer Navigation/dd_language'), 'Arabic', false)
+
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/Page_1009bespoke2/input_This website uses cookies to'), 
     'value', 'Ce site Web utilise des cookies pour vous garantir la meilleure expérience sur notre site Web.', 0)
 
