@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03_checkoutUnit</name>
+   <tag></tag>
+   <comment>Validation on Homepage
+Verify in Search Result Page
+Verify in Item Details Page
+Checkout - Delivery Page
+Checkout - Review Page
+Checkout - Payment Page</comment>
+   <testCaseGuid>6d718db7-529a-46cc-a776-6d0fd05e9ca1</testCaseGuid>
+</TestCaseEntity>

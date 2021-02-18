@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div/div/div/div[2]/form/div[1]/div/div/fieldset/div/div[1]/div/span/input</value>
+         <value>//div[2]/section/span[2]/div/div/main/form/div/div/div/div/div/div[1]/div[1]/div/div/div/fieldset/span/div/div[1]/input</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//input[@type = 'email' and @class = 'Fieldset-input Textbox-control' and @placeholder = 'Email' and @autocomplete = 'email' and @ref_element = 'Object Repository/CONSUMER/Payment Details Page/Stripe Payment/main_0401ST1Email  Envelope  C']</value>
+         <value>//input[@placeholder = 'Email']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -24,14 +24,14 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -59,7 +59,7 @@
       <value>Email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
@@ -98,6 +98,6 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/popup_Stripe</value>
+      <value>Object Repository/SPACETIME/CONSUMER/Payment Details Page/Stripe Payment/iframe_stripe</value>
    </webElementProperties>
 </WebElementEntity>

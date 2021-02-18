@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_negoUnit</name>
+   <tag></tag>
+   <comment>Validation on Homepage
+Verify in Search Result Page
+Verify in Item Details Page
+Validation on Homepage
+Checkout - Delivery Page
+Checkout - Review Page
+Checkout - Payment Page</comment>
+   <testCaseGuid>77626ae4-5c6e-46b1-89b6-bf4ba1b11ccf</testCaseGuid>
+</TestCaseEntity>

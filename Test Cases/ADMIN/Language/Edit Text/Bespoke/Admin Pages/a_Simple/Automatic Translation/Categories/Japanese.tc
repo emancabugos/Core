@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Japanese</name>
+   <tag></tag>
+   <comment>CATEGORY 2
+CATEGORY 3
+CATEGORY 4
+CATEGORY 5
+CATEGORY 5</comment>
+   <testCaseGuid>44d0cdc0-bccc-411b-a135-8cb781da759c</testCaseGuid>
+</TestCaseEntity>

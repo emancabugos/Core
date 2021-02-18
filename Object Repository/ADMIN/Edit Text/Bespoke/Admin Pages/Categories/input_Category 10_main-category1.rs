@@ -4,6 +4,12 @@
    <name>input_Category 10_main-category1</name>
    <tag></tag>
    <elementGuidId>705e61f0-fe9b-4f96-9a8c-7c2ae2b571be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'main-category1' and @value = 'Category 10' and @data-original-database-value = 'Category 10']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -49,14 +55,14 @@
       <value>24305</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Category 10</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-original-database-value</name>
       <type>Main</type>

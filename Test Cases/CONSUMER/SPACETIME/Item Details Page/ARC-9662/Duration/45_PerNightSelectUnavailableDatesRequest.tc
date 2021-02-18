@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>45_PerNightSelectUnavailableDatesRequest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aeb2a677-d1b1-46b2-a298-6ca9fd6eaad8</testCaseGuid>
+</TestCaseEntity>
