@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+<<<<<<< HEAD
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 
 WebUI.delay(1)
@@ -23,6 +24,10 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Transaction List and Details/T
 
 WebUI.waitForElementClickable(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/button_Export CSV'), 
     0)
+=======
+
+WebUI.delay(1)
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 
 WebUI.click(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/button_Export CSV'))
 

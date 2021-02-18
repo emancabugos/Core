@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p[@id='lastLogin']</value>
+         <value>//div[3]/div[3]/div[2]/div[3]/div[2]/div/ul/li[3]/div/div[2]/p</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#lastLogin</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'lastLogin']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>lastLogin</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

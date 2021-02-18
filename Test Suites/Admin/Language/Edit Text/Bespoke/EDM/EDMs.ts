@@ -14,19 +14,19 @@
    <testCaseLink>
       <guid>3fd5e661-bb36-414b-86dd-cd4a0387efaa</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6fc54f17-1300-480d-b649-fae8f9569091</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Account Suspended Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>972ce4b2-9c10-48aa-90c0-66bf577d8074</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Account Suspended</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -47,13 +47,13 @@
    <testCaseLink>
       <guid>a64fc239-e1e1-4160-883c-2e980267b08e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Acknowledged Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0cd85030-2494-4d87-997f-5e56f8a4d920</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Acknowledged</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -74,7 +74,7 @@
    <testCaseLink>
       <guid>8760a160-e501-4289-aaa8-972d7f214f8b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Buyer Invite Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -157,6 +157,15 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Message From Seller Navigation</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7caf916e-0184-4e1a-b272-c3e4f8b12014</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ADMIN/Language/Language</testDataId>
+      </testDataLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ea4b3f55-25bd-4aeb-ab51-005fa87ad74e</guid>

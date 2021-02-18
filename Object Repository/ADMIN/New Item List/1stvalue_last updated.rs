@@ -4,7 +4,17 @@
    <name>1stvalue_last updated</name>
    <tag></tag>
    <elementGuidId>8e4a0d41-9053-49a5-9025-83174750245c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '08/05/2020 02:41' or . = '08/05/2020 02:41')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[3]/div/div[3]/table/tbody/tr[1]/td[7]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

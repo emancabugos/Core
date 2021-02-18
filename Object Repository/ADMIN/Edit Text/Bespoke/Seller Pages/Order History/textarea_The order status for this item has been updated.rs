@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>/html/body/div[3]/div[2]/div[6]/div/div/div[3]/div[1]/div[2]/textarea[count(. | //*[@name = 'popup-desc']) = count(//*[@name = 'popup-desc'])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@name='popup-desc']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +45,7 @@
       <value>strSeller_OrderHistory_ItemOrderStatus</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -49,11 +53,11 @@
                             </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[6]/div/div/div[3]/div[1]/div[2]/textarea</value>
+      <value>id(&quot;main&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;panel-box language-section&quot;]/div[@class=&quot;language-row&quot;]/div[@class=&quot;col-sm-8&quot;]/div[@class=&quot;form-group&quot;]/textarea[@class=&quot;lng-text-area&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,6 +65,13 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@name='popup-desc']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div[6]/div/div/div[3]/div/div[2]/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

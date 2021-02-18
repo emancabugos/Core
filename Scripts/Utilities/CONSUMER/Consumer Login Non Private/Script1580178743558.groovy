@@ -36,10 +36,9 @@ if (GlobalVariable.ConsumerAccountType == 'custom') {
 
     WebUI.click(findTestObject('SPACETIME/CONSUMER/Login Buyer/a_Sign In'), FailureHandling.STOP_ON_FAILURE)
 
-    if (WebUI.verifyElementPresent(findTestObject('Utilities/Cookies/button_Accept Cookies'), 3) == true) {
-        WebUI.waitForElementVisible(findTestObject('Utilities/Cookies/button_Accept Cookies'), 0)
-
-        WebUI.click(findTestObject('Utilities/Cookies/button_Accept Cookies'), FailureHandling.CONTINUE_ON_FAILURE)
+    if (WebUI.verifyElementPresent(findTestObject('FIND/SELLER/Login/btn_acceptCookies'), 2, FailureHandling.OPTIONAL) == 
+    true) {
+        WebUI.click(findTestObject('FIND/SELLER/Login/btn_acceptCookies'))
     } else {
         WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
     }

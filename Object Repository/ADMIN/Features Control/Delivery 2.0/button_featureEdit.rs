@@ -7,20 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[2]/div/div[3]/div/div[2]/a[count(. | //*[@class = 'black-bg-btn edit-area' and (text() = 'Edit' or . = 'Edit')]) = count(//*[@class = 'black-bg-btn edit-area' and (text() = 'Edit' or . = 'Edit')])]</value>
+         <value>/html/body/div[3]/div[2]/div[2]/div/div[3]/div/div[2]/a[count(. | //a[@href = '/admin/delivery2/index' and @class = 'black-bg-btn edit-area' and (text() = 'Edit' or . = 'Edit')]) = count(//a[@href = '/admin/delivery2/index' and @class = 'black-bg-btn edit-area' and (text() = 'Edit' or . = 'Edit')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -39,5 +39,12 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[3]/div[2]/div[2]/div/div[3]/div/div[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

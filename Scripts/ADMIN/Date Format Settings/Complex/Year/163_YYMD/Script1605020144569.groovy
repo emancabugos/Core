@@ -14,6 +14,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+import org.junit.After as After
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.nio.file.Files as Files
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+
+// create directory to locate a temporary file
+Path projectDir = Paths.get(RunConfiguration.getProjectDir())
+
+Path tmpDir = projectDir.resolve('tmp')
+
+if (!(Files.exists(tmpDir))) {
+	Files.createDirectory(tmpDir)
+}
+
+// Prepare File object
+File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
+File DateFormattmp = tmpDir.resolve('DateFormat.txt').toFile()
+
+
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_DD'))
 
@@ -77,8 +102,15 @@ def formattedDate = date.format('yy/M/d')
 
 println(formattedDate)
 
+PreviewDatetmp.text = formattedDate
+DateFormattmp.text = 'yy/M/d'
+
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', formattedDate, 
     0)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
 

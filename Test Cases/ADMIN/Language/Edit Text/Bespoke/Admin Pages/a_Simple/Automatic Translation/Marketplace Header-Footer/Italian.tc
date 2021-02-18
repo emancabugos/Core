@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Italian</name>
+   <tag></tag>
+   <comment>Header - Guest
+Header - Logged in
+Mobile Header
+Footer</comment>
+   <testCaseGuid>c564bc8c-d1e8-4334-9fd0-c2ca23f06b13</testCaseGuid>
+</TestCaseEntity>

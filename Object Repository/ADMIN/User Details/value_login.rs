@@ -6,12 +6,15 @@
    <elementGuidId>6aafd0c5-d6c3-4331-89b0-46199de9e9fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='userDetailContainer']/div[3]/div[2]/div/ul/li[2]/p</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Custom Login' or . = 'Custom Login')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div[3]/div[3]/table/tbody/tr[1]/td[1]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

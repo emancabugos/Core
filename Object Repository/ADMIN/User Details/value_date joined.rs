@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p[@id='dateJoined']</value>
+         <value>//p[@id='dateJoined']//p[@id='dateJoined']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#dateJoined</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'dateJoined']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <value>dateJoined</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

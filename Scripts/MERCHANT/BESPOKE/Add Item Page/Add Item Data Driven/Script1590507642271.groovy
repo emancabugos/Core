@@ -217,5 +217,5 @@ WebUI.comment('Save')
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/button_Upload Now'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/Item List/btn_Add Item'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item List/btn_Add Item'), 0)
 

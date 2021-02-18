@@ -10,8 +10,13 @@
       <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
       <description/>
       <initValue>'1119time'</initValue>
+=======
+      <description></description>
+      <initValue>'0613bpdiana'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -45,8 +50,13 @@
       <name>AdminEmailNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
+<<<<<<< HEAD
       <description>change URL/ Remove "https://"</description>
       <initValue>'1119time.test.arcadier.io/admin'</initValue>
+=======
+      <description>change URL/ Remove &quot;https://&quot;</description>
+      <initValue>'0613bpdiana.test.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PURCHASE DETAILS - DATE OF BOOKING</name>
+   <tag></tag>
+   <comment>D/M/YY
+date of booking</comment>
+   <testCaseGuid>1b410f9d-3eaa-4e44-bdfa-af58373aad31</testCaseGuid>
+</TestCaseEntity>

@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Where would you like this service to be delivered to?'])[1]/following::label[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[(text() = 'Select address' or . = 'Select address')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -39,6 +43,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;delivery-page pace-done&quot;]/div[@class=&quot;main&quot;]/div[@class=&quot;grey_section&quot;]/div[@class=&quot;delivery_white_section&quot;]/div[@class=&quot;delivery-line-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;delivery-address-sec&quot;]/div[@class=&quot;saved-address&quot;]/div[@class=&quot;address-box col-md-4 col-sm-6 gutter-30&quot;]/div[@class=&quot;svd-adrsbox-inner&quot;]/div[@class=&quot;action&quot;]/span[@class=&quot;fancy-radio address-sel&quot;]/label[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Select address</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

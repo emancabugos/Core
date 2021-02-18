@@ -6,32 +6,32 @@
    <elementGuidId>308e9fdf-eb9b-48ba-ad5d-371f208d3f89</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='main']/div[2]/div/div[9]/div/div[2]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[3]/div[2]/div[2]/div/div[5]/div/div[2]/a[count(. | //*[@class = 'black-bg-btn' and (text() = 'Edit' or . = 'Edit')]) = count(//*[@class = 'black-bg-btn' and (text() = 'Edit' or . = 'Edit')])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>//a[@href = '/admin/featurecontrol/date-format-settings-edit' and @class = 'black-bg-btn' and (text() = 'Edit' or . = 'Edit')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>date-format.html</value>
+      <value>/admin/featurecontrol/date-format-settings-edit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,11 +48,11 @@
       <value>Edit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[3]/div[2]/div[2]/div/div[5]/div/div[2]/a</value>
+      <value>/html/body/div[3]/div[2]/div[2]/div/div[5]/div/div[2]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

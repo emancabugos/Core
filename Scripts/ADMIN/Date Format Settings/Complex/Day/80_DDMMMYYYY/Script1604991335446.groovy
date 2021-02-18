@@ -14,17 +14,39 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+import org.junit.After as After
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import java.nio.file.Files as Files
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.openBrowser('')
+// create directory to locate a temporary file
+Path projectDir = Paths.get(RunConfiguration.getProjectDir())
 
-WebUI.navigateToUrl('bootstrap.arcadier.com/hivebox_new/date-format.html')
+Path tmpDir = projectDir.resolve('tmp')
 
-WebUI.maximizeWindow()
+if (!(Files.exists(tmpDir))) {
+	Files.createDirectory(tmpDir)
+}
+
+// Prepare File object
+File PreviewDatetmp = tmpDir.resolve('PreviewDate.txt').toFile()
+File DateFormattmp = tmpDir.resolve('DateFormat.txt').toFile()
+
 
 'Day: Day without leading zero (5), Month: Month as abbreviation (Aug), Year: Full Numeric Year (1930)'
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_DD'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
+
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Day', false)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
@@ -39,6 +61,10 @@ WebUI.click(findTestObject('ADMIN/Date Format Settings/button_MM'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
 
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Month', false)
+
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'), 'Month as abbreviation (Aug)', 
@@ -51,6 +77,10 @@ WebUI.delay(1)
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_YYYY'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/textlabel_PickADateType'), 0)
+
+WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'))
+
+WebUI.selectOptionByLabel(findTestObject('ADMIN/Date Format Settings/dropdown_PickDateType'), 'Year', false)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/dropdown_SelectFormat'))
 
@@ -73,8 +103,15 @@ def formattedDate = date.format('dd/MMM/yyyy')
 
 println(formattedDate)
 
+PreviewDatetmp.text = formattedDate
+DateFormattmp.text = 'dd/MMM/yyyy'
+
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Date Format Settings/textfield_Preview'), 'value', formattedDate, 
     0)
 
 WebUI.click(findTestObject('ADMIN/Date Format Settings/button_Save'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
+
+WebUI.waitForElementNotPresent(findTestObject('ADMIN/Date Format Settings/toaster_message'), 0)
 

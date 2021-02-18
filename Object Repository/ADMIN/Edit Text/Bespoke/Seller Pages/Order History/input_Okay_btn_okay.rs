@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>/html/body/div[3]/div[2]/div[6]/div/div/div[4]/div[1]/div[2]/input[count(. | //*[@type = 'text' and @name = 'btn_okay']) = count(//*[@type = 'text' and @name = 'btn_okay'])]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name='btn_okay'])[3]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,18 +66,25 @@
       <value>Okay</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[6]/div/div/div[4]/div[1]/div[2]/input</value>
+      <value>id(&quot;main&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;panel-box language-section&quot;]/div[@class=&quot;language-row&quot;]/div[@class=&quot;col-sm-3&quot;]/div[@class=&quot;btn-wrapper&quot;]/input[@class=&quot;form-control&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@name='btn_okay'])[2]</value>
+      <value>(//input[@name='btn_okay'])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main']/div[6]/div/div/div[4]/div/div[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

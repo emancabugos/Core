@@ -19,41 +19,55 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/button_Upload'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Header/link_Upload'), 0)
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), 0)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Header/link_Upload'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Item Upload/searchbar_category-name'), varCategory)
+WebUI.comment('Category')
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/checkbox_cat1'), 0)
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textlabel_Category(s)'), 0)
 
-WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/checkbox_cat1'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/searchbar_category-name'), 'Category Name mAx 021!!@#$%^&!')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/input_item-name'), varItemName)
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Category/maxcat'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_item-price'), varPrice)
+WebUI.comment('Item Name')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_sku-field'), varSKU)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_listing-name'), 'Item Date Settings')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textarea_item-description'), varDescription)
+WebUI.comment('Price')
 
-WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_price'), '10')
 
-WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/button_BROWSE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.comment('SKU')
+
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_SKU'), 'SKUDATEFORMAT')
+
+WebUI.comment('Item Description')
+
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_item-description'), 'ITEM DATE FORMAT SETTINGS VERIFICATION')
+
+WebUI.comment('Image')
+
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/icon_browse'))
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('Utilities/Image Cropper/image_container'), varImage)
+WebUI.uploadFile(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/image_container'), 'C:\\\\Katalon\\\\Core\\\\Images\\\\UN Items\\\\item1.jpg')
 
-WebUI.waitForElementVisible(findTestObject('Utilities/Image Cropper/button_ok'), 0)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Utilities/Image Cropper/button_ok'), FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(1)
 
-WebUI.delay(2)
+WebUI.comment('Variants & Quantity')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/textbox_item-quantity'), varQuantity)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/textbox_qty'), '100')
 
-WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Upload Page (1)/button_SAVE'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.comment('Custom Fields')
 
-WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/button_Upload'), 0)
+WebUI.delay(1)
+
+WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Add Item Page/Add Item/btn_SAVE'))
+
+WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Item List/btn_Add Item'), 0)
 

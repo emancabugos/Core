@@ -14,31 +14,31 @@
    <testCaseLink>
       <guid>8a10765a-db0e-4a1f-a1a2-164681373bd1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 01</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>80715f29-a88b-4c11-8431-82fb2e67b048</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 02</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>11c42419-9aa7-4671-a1ce-1342643e2961</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 03</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0930b1a9-63c8-4ff7-b694-3257d8519359</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 04</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>48fc4f28-3590-4e85-8a44-8947c3b00dea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 05</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -62,7 +62,7 @@
    <testCaseLink>
       <guid>4722336c-2ef7-4e75-b01f-6d7c225ba6be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery 09</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>a848e2f9-d9bb-489b-8c33-8211c8111778</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Features Control/Delivery 2.0/Delivery 2.0/Admin Delivery/Delivery Maximum Char</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

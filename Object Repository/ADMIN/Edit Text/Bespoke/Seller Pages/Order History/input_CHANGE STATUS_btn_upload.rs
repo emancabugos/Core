@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[2]/div[2]/input[count(. | //*[@type = 'text' and @name = 'btn_upload']) = count(//*[@type = 'text' and @name = 'btn_upload'])]</value>
+         <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div[2]/input[count(. | //*[@type = 'text' and @name = 'btn_upload']) = count(//*[@type = 'text' and @name = 'btn_upload'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -66,7 +66,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[2]/div[2]/input</value>
+      <value>/html/body/div[3]/div[2]/div[4]/div/div[2]/div[1]/div[3]/div[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

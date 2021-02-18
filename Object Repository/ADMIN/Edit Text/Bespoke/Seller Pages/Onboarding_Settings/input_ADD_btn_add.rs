@@ -6,16 +6,15 @@
    <elementGuidId>564ea827-1f45-4280-aed2-0d4974dc6ffc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//input[@name='btn_add'])[3]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'text' and @name = 'btn_add']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@name='btn_add'])[3]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -74,7 +73,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;language-section&quot;]/div[@class=&quot;language-row&quot;]/div[@class=&quot;col-sm-3&quot;]/div[@class=&quot;btn-wrapper&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[12]/div/div[1]/div[4]/div[4]/div[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

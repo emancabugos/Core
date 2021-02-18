@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']/div[3]/div/div[2]/div[2]/div/div[2]/ul/li/div/div</value>
+         <value>//div[3]/div[2]/div[2]/div/div[2]/div[2]/div/div[2]/ul/li[1]/div/div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.custom-list-box > div.sdt</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'sdt']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
