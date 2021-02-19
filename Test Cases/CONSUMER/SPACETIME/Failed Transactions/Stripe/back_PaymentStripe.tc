@@ -3,6 +3,11 @@
    <description></description>
    <name>back_PaymentStripe</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Validation on Homepage
+Verify in Search Result Page
+Verify in Item Details Page
+Checkout - Delivery Page
+Checkout - Review Page
+Checkout - Payment Page</comment>
    <testCaseGuid>99394e26-8705-40c4-9262-92a4f9963465</testCaseGuid>
 </TestCaseEntity>

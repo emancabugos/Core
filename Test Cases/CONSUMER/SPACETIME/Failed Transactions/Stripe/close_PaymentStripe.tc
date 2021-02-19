@@ -3,6 +3,11 @@
    <description></description>
    <name>close_PaymentStripe</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Validation on Homepage
+Verify in Search Result Page
+Verify in Item Details Page
+Checkout - Delivery Page
+Checkout - Review Page
+Checkout - Payment Page</comment>
    <testCaseGuid>08ebddef-9888-453d-a1c3-469e15c0efe1</testCaseGuid>
 </TestCaseEntity>
