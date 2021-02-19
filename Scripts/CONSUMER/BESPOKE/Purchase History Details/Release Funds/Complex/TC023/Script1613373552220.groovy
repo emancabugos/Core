@@ -16,6 +16,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'With Variants'
+WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Checkout Scenarios/Holding Funds/With Variants/checkout_SingleItem'), 
+    [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/18_redirectionTransactionList'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+'Acknowledged'
+WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/value_PaymentStatus'), 
+    0)
+
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Purchase History List/Pre Requisite/navigate_PurchaseList'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Purchase History List/Simple/25_redirectionPaymentStatus'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/Release Funds/button_Release Payment'), 
     0)
 
