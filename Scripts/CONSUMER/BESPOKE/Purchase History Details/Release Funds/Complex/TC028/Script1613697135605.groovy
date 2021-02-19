@@ -16,9 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'With Variants'
-WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Checkout Scenarios/Holding Funds/With Variants/checkout_SingleItem'), 
-    [:], FailureHandling.CONTINUE_ON_FAILURE)
+'Without Variants'
+WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Checkout Scenarios/Holding Funds/No Variants/checkout_SingleItem'), [:], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

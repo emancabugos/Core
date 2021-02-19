@@ -16,17 +16,35 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'With Variants'
-WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Checkout Scenarios/Holding Funds/With Variants/checkout_SingleItem'), 
-    [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/28_redirectionSetupPayment'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Setup Payments/a_Stripe Holding Funds/button_Holding Funds_Not Added'), 
+    0)
+
+WebUI.click(findTestObject('ADMIN/Setup Payments/a_Stripe Holding Funds/button_Holding Funds_Not Added'))
+
+'input 0'
+WebUI.callTestCase(findTestCase('ADMIN/Setup Payments/ARC-9834/SIMPLE/TC074'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+'Without Variants'
+WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Checkout Scenarios/Holding Funds/No Variants/checkout_SingleItem'), [:], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/18_redirectionTransactionList'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/28_redirectionSetupPayment'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-'Acknowledged'
-WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/value_PaymentStatus'), 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Setup Payments/a_Stripe Holding Funds/button_Holding Funds_Not Added'), 
     0)
+
+WebUI.click(findTestObject('ADMIN/Setup Payments/a_Stripe Holding Funds/button_Holding Funds_Not Added'))
+
+'Edit 1'
+WebUI.callTestCase(findTestCase('ADMIN/Setup Payments/ARC-9834/SIMPLE/TC074'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -43,6 +61,6 @@ WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/Rele
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/Release Funds/errorMsg_There is an error with the payment release'), 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/Release Funds/button_Greyed Release Payment'), 
     0)
 

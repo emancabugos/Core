@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHand
 
 WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/18_redirectionTransactionList'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-'Acknowledged'
+'Refunded'
 WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/value_PaymentStatus'), 
     0)
 

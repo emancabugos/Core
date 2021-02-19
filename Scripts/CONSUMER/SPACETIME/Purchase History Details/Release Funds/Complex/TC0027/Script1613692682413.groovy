@@ -16,15 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'With Variants'
-WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Checkout Scenarios/Holding Funds/With Variants/checkout_SingleItem'), 
-    [:], FailureHandling.CONTINUE_ON_FAILURE)
+'Book by Duration'
+WebUI.callTestCase(findTestCase('CONSUMER/SPACETIME/Checkout Scenarios/Holding Funds/01_checkoutDuration'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/18_redirectionTransactionList'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-'Acknowledged'
+'Refunded'
 WebUI.verifyElementPresent(findTestObject('ADMIN/Transaction List and Details/Transaction List Page/value_PaymentStatus'), 
     0)
 
@@ -32,17 +31,18 @@ WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Logout'), [:], FailureHan
 
 WebUI.callTestCase(findTestCase('Utilities/CONSUMER/Consumer Login'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Purchase History List/Pre Requisite/navigate_PurchaseList'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CONSUMER/SPACETIME/Purchase History/Simple/Redirection to Purchase History'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CONSUMER/BESPOKE/Purchase History List/Simple/25_redirectionPaymentStatus'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CONSUMER/SPACETIME/Purchase History Details/Redirection to Purchase History details'), 
+    [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/Release Funds/button_Release Payment'), 
+WebUI.verifyElementPresent(findTestObject('SPACETIME/CONSUMER/Purchase History Details/Release Funds/button_Release Payment'), 
     0)
 
-WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/Release Funds/button_Release Payment'))
+WebUI.click(findTestObject('SPACETIME/CONSUMER/Purchase History Details/Release Funds/button_Release Payment'))
 
 WebUI.delay(1, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History Details/Release Funds/errorMsg_There is an error with the payment release'), 
+WebUI.verifyElementPresent(findTestObject('SPACETIME/CONSUMER/Purchase History Details/Release Funds/errorMsg_There is an error with the payment release'), 
     0)
 
