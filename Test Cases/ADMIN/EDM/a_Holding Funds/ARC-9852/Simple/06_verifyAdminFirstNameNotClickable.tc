@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>06_verifyAdminFirstNameNotClickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f802703b-b61d-40ca-9475-b0f2ecea3292</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01_checkoutDuration</name>
+   <tag></tag>
+   <comment>Validation on Homepage
+Verify in Search Result Page
+Verify in Item Details Page
+Checkout - Delivery Page
+Checkout - Review Page
+Checkout - Payment Page</comment>
+   <testCaseGuid>b70de0ae-a15a-43eb-9f2b-67c6c7802f2d</testCaseGuid>
+</TestCaseEntity>

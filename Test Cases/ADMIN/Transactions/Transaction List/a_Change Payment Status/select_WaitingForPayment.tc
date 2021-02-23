@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>select_WaitingForPayment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acd55658-89be-49fc-a035-6dc18080a243</testCaseGuid>
+</TestCaseEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//iframe[@name = 'stripe_checkout_app' and @class = 'stripe_checkout_app']</value>
+         <value>//iframe[@name = 'stripe_checkout_app']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -48,7 +48,7 @@
       <value>stripe_checkout_app</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

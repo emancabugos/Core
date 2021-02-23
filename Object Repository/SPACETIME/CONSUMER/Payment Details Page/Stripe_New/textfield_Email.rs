@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@id='email']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'email' and @name = 'email']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -62,7 +66,7 @@
       <value>email</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>

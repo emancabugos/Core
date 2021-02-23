@@ -9,7 +9,6 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>6f2e3ecd-6082-4a30-a472-4bc064e2f5b3</testSuiteGuid>
    <testCaseLink>
       <guid>5e4b985d-8316-401c-abb2-09fd073eccc4</guid>
@@ -26,97 +25,97 @@
    <testCaseLink>
       <guid>99c3a73c-4c81-4a8a-895d-d74f7e51f647</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/21_ENSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dad2317b-a04b-40af-a1b2-87069bd5eabe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/22_FRSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f42aface-c123-42b4-9c9c-d8ad6c85c94c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/23_ESSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>06d7b58e-6a96-4cfa-81ee-5e192511de7f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/24_HISellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>fe5164fb-8ddb-480b-b05a-2ea9463a664d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/25_DESellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>389c7264-eef1-4f78-9e8f-5ac2462c3baf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/26_JASellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>27d0b846-07ee-41de-92db-f60bd06df00d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/27_ZHTWSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5cca7832-5352-4cd4-a32f-c29d683ad962</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/28_ZHCNSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5b2055ed-b173-4a7e-92a2-e915caa09162</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/29_PTSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a84268c4-aced-48c8-9b30-64162d535d93</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/30_IDSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>21e4cd64-c00f-418d-8194-c4dfbe9de987</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/31_RUSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2ad5467c-cb7f-49f0-b5a5-ca4fa4e277b6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/32_ITSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4a66db36-cfcb-440a-9f75-8299afe6d028</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/33_ARSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>883adf3e-c38d-4937-851f-877ba2071666</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/34_THSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>963782d9-fd22-443c-b5a2-0a3fe8eaecd9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/35_NLSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1d069bc5-24a6-4ed0-a6bf-95a79c6605e5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/CONSUMER/BESPOKE/Purchase History List/ARC-9159/Complex/a_Automatic/36_USSellerName</testCaseId>
    </testCaseLink>
    <testCaseLink>

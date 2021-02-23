@@ -6,11 +6,15 @@
    <elementGuidId>80a8a836-64eb-4a10-baa7-7610f5832132</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @id = 'settlement-released' and (text() = 'Release Payment' or . = 'Release Payment')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//button[@id='settlement-released']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
