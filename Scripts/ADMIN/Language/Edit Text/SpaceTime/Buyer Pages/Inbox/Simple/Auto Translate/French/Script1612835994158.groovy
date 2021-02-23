@@ -20,26 +20,26 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language M
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), 'French', false)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Inbox/textfield_Inbox'), 'value', 
-    '关于我们', 0)
+    'Boîte de réception', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Inbox/textfield_SearchByService'), 
-    'value', '关于我们', 0)
+    'value', 'Recherche par service', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Inbox/textfield_Buying'), 'value', 
-    '关于我们', 0)
+    'Achat', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Inbox/textfield_Selling'), 'value', 
-    '关于我们', 0)
+    'Vente', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Inbox/textfield_Accepted'), 'value', 
-    '关于我们', 0)
+    'Accepté', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Inbox/textfield_PreApproved'), 'value', 
-    '关于我们', 0)
+    'Pré-approuvé', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Inbox/textfield_Enquiry'), 'value', 
-    '关于我们', 0)
+    'Enquête', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Inbox/textfield_Declined'), 'value', 
-    '关于我们', 0)
+    'Diminué', 0)
 

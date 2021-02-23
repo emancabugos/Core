@@ -20,62 +20,62 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language M
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), 'Hebrew', false)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_ViewAll'), 'value', 
-    '关于我们', 0)
+    'View All', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_ChannelLoading'), 
-    'value', '关于我们', 0)
+    'value', 'Please wait while channel is loading', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_TotalPrice'), 'value', 
-    '关于我们', 0)
+    'Total Price', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_SpecialOffer'), 'value', 
-    '关于我们', 0)
+    'Special Offer', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_CreateOffer'), 'value', 
-    '关于我们', 0)
+    'Create offer', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_PurchaseThisOffer'), 
-    'value', '关于我们', 0)
+    'value', 'Would you like to purchase this offer?', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_Decline'), 'value', 
-    '关于我们', 0)
+    'Decline', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_AcceptedTheOffer'), 
-    'value', '关于我们', 0)
+    'value', 'You have accepted the offer!', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_ViewDetails'), 'value', 
-    '关于我们', 0)
+    'View Details', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_TypeMessage'), 'value', 
-    '关于我们', 0)
+    'Type Message', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_Send'), 'value', 
-    '关于我们', 0)
+    'SEND', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_SentAnOffer'), 'value', 
-    '关于我们', 0)
+    'Sent an offer', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_ServiceRate'), 'value', 
-    '关于我们', 0)
+    'Service rate', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_OfferHasAccepted'), 
-    'value', '关于我们', 0)
+    'value', 'Offer has been accepted!', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_OfferHasDeclined'), 
-    'value', '关于我们', 0)
+    'value', 'Offer has been declined!', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_SelectDateTime'), 
-    'value', '关于我们', 0)
+    'value', 'Select your dates & times', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_PickAdditionalService'), 
-    'value', '关于我们', 0)
+    'value', 'Pick one or more additional services.', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_Optional'), 'value', 
-    '关于我们', 0)
+    'Optional', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_Back'), 'value', 
-    '关于我们', 0)
+    'Back', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_SendNow'), 'value', 
-    '关于我们', 0)
+    'Send now', 0)
 

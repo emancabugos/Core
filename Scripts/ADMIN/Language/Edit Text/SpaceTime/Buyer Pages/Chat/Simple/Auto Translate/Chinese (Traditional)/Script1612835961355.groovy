@@ -21,62 +21,62 @@ WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language Men
     false)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_ViewAll'), 'value', 
-    '关于我们', 0)
+    '查看全部', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_ChannelLoading'), 
-    'value', '关于我们', 0)
+    'value', '正在加載頻道，請稍候', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_TotalPrice'), 'value', 
-    '关于我们', 0)
+    '總價', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_SpecialOffer'), 'value', 
-    '关于我们', 0)
+    '特價', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_CreateOffer'), 'value', 
-    '关于我们', 0)
+    '創建優惠', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_PurchaseThisOffer'), 
-    'value', '关于我们', 0)
+    'value', '您要購買此優惠嗎？', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_Decline'), 'value', 
-    '关于我们', 0)
+    '下降', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_AcceptedTheOffer'), 
-    'value', '关于我们', 0)
+    'value', '您已接受報價！', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_ViewDetails'), 'value', 
-    '关于我们', 0)
+    '查看詳情', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_TypeMessage'), 'value', 
-    '关于我们', 0)
+    '鍵入消息', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_Send'), 'value', 
-    '关于我们', 0)
+    '發送', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_SentAnOffer'), 'value', 
-    '关于我们', 0)
+    '發送報價', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_ServiceRate'), 'value', 
-    '关于我们', 0)
+    '服務費率', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_OfferHasAccepted'), 
-    'value', '关于我们', 0)
+    'value', '優惠已被接受！', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_OfferHasDeclined'), 
-    'value', '关于我们', 0)
+    'value', '優惠已被拒絕！', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_SelectDateTime'), 
-    'value', '关于我们', 0)
+    'value', '選擇您的日期', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_PickAdditionalService'), 
-    'value', '关于我们', 0)
+    'value', '選擇一個或多個附加服務。', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_Optional'), 'value', 
-    '关于我们', 0)
+    '可選的', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_Back'), 'value', 
-    '关于我们', 0)
+    '背部', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Chat/textfield_SendNow'), 'value', 
-    '关于我们', 0)
+    '現在發送', 0)
 

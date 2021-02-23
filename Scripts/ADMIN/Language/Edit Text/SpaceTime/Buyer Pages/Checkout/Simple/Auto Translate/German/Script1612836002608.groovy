@@ -20,80 +20,80 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language M
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), 'German', false)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_Delivery'), 'value', 
-    '关于我们', 0)
+    'Lieferung', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_Review'), 'value', 
-    '关于我们', 0)
+    'Überprüfung', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_Pay'), 'value', 
-    '关于我们', 0)
+    'Zahlen', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_AlreadyRegistered'), 
-    'value', '关于我们', 0)
+    'value', 'Schon bei uns registriert?', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_SignInNow'), 
-    'value', '关于我们', 0)
+    'value', 'Schreib dich jetzt ein', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_FillUpInformation'), 
-    'value', '关于我们', 0)
+    'value', 'Füllen Sie Ihre persönlichen Daten aus', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_ServiceToDelivered'), 
-    'value', '关于我们', 0)
+    'value', 'Wohin möchten Sie diesen Service zu liefern?', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_Selected'), 'value', 
-    '关于我们', 0)
+    'Ausgewählt', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_SelectAddress'), 
-    'value', '关于我们', 0)
+    'value', 'Adresse auswählen', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_EnterNewAddress'), 
-    'value', '关于我们', 0)
+    'value', 'Geben Sie eine neue Adresse ein', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_Change'), 'value', 
-    '关于我们', 0)
+    'Veränderung', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_OrderSummary'), 
-    'value', '关于我们', 0)
+    'value', 'Bestellübersicht', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_DeliveryCost'), 
-    'value', '关于我们', 0)
+    'value', 'Versandkosten', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_Total'), 'value', 
-    '关于我们', 0)
+    'Gesamt', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_AmountPay'), 
-    'value', '关于我们', 0)
+    'value', 'Zu zahlender Betrag', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_SelectAPaymentMethod'), 
-    'value', '关于我们', 0)
+    'value', 'Wählen Sie eine Zahlungsmethode aus', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_ContinueWithTransaction'), 
-    'value', '关于我们', 0)
+    'value', 'Wenn Sie auf die Schaltfläche ', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_PayNow'), 'value', 
-    '关于我们', 0)
+    'Zahl jetzt', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_ThankYouPurchase'), 
-    'value', '关于我们', 0)
+    'value', 'Danke für Ihren Einkauf!', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_YourInvoice'), 
-    'value', '关于我们', 0)
+    'value', 'Ihre Rechnungs-ID', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_ConfirmationEmail'), 
-    'value', '关于我们', 0)
+    'value', 'Sie erhalten in Kürze eine Bestellbestätigung per E-Mail. Wenn Sie irgendeine Anfrage haben, bitte', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_ContactUs'), 
-    'value', '关于我们', 0)
+    'value', 'Kontaktiere uns', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_Homepage'), 'value', 
-    '关于我们', 0)
+    'Startseite', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_PurchaseHistory'), 
-    'value', '关于我们', 0)
+    'value', 'Kaufhistorie', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_SignUpSaveAddress'), 
-    'value', '关于我们', 0)
+    'value', 'Melden Sie sich jetzt an, um Ihre Adresse für das nächste Mal zu speichern!', 0)
 
 WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Buyer Pages/Checkout/textfield_SignUp'), 'value', 
-    '关于我们', 0)
+    'Anmelden', 0)
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>weekNOT247</name>
+   <tag></tag>
+   <comment>Basic Details
+Description
+Custom Fields
+Pricing
+Location
+Schedule
+Location
+Shipping</comment>
+   <testCaseGuid>d37ec34d-f70a-4e27-891b-f4241f5eb2c8</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>custom1night</name>
+   <tag></tag>
+   <comment>Basic Details
+Description
+Custom Fields
+Pricing
+Location
+Shipping</comment>
+   <testCaseGuid>783513de-f7d7-41dc-b849-3b7ea28f59ae</testCaseGuid>
+</TestCaseEntity>
