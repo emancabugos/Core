@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>09_PerHourSelectUnavailableDatesRequest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87e82845-b59f-4d17-a0c9-0efe9e8c51d9</testCaseGuid>
+</TestCaseEntity>

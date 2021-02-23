@@ -4,6 +4,12 @@
    <name>input_Category EDITED_main-category1</name>
    <tag></tag>
    <elementGuidId>83f54191-fd81-4dd0-a66d-c598fa2f3307</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @name = 'main-category1' and @value = 'Category EDITED' and @data-original-database-value = 'Category EDITED']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -49,14 +55,14 @@
       <value>24317</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Category EDITED</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-original-database-value</name>
       <type>Main</type>

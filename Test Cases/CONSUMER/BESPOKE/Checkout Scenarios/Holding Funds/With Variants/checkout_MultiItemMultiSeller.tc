@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkout_MultiItemMultiSeller</name>
+   <tag></tag>
+   <comment>Search Item1
+Search Result Page
+Items no Variants - Seller 01
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Payment Page</comment>
+   <testCaseGuid>794ccb83-c734-45b6-a484-5502db9569ee</testCaseGuid>
+</TestCaseEntity>

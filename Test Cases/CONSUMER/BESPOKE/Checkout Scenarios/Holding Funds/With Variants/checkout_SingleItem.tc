@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkout_SingleItem</name>
+   <tag></tag>
+   <comment>Search Item1
+Search Result Page
+Items no Variants - Seller 01
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Payment Page</comment>
+   <testCaseGuid>4ce63358-67d3-4cd3-93e4-44ba3d869f4d</testCaseGuid>
+</TestCaseEntity>

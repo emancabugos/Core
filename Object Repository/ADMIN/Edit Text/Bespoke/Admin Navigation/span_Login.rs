@@ -4,6 +4,12 @@
    <name>span_Login</name>
    <tag></tag>
    <elementGuidId>1208852a-0723-419e-b4d3-9dabe94ac117</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Login Page' or . = 'Login Page')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
+      <value>Login Page</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
