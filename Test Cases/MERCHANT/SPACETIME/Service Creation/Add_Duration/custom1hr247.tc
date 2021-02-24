@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>custom1hr247</name>
+   <tag></tag>
+   <comment>Basic Details
+Description
+Custom Fields
+Pricing
+Location
+Shipping</comment>
+   <testCaseGuid>f6ce494f-e727-4316-b6d6-073517697be5</testCaseGuid>
+</TestCaseEntity>
