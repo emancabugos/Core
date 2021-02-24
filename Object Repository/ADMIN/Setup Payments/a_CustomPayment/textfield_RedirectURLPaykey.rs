@@ -6,15 +6,18 @@
    <elementGuidId>2812a372-d6c0-4b3e-b9a1-f8b5277a8ee9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[@type = 'text']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@value='REDIRECT {your defined endpoint above}?invoiceNo=ARCTICK-1234567&amp;paykey=jR46zZRser']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
