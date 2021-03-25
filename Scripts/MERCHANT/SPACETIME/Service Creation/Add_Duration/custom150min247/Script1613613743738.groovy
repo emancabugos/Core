@@ -23,7 +23,7 @@ WebUI.click(findTestObject('SPACETIME/MERCHANT/Header/header_Add Service'), Fail
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/textbox_service name'), 0)
 
-WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/textbox_service name'), 'per Custom 150min 24/7 D')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/textbox_service name'), 'per Custom 150min 24/7 U')
 
 WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/checkbox_cat1'), FailureHandling.CONTINUE_ON_FAILURE)
 
