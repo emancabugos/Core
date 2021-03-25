@@ -14,7 +14,7 @@
       <guid>fa7dd392-efd3-4d85-9194-d46302c76e7b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Holding Funds/With Variants/checkout_SingleItem</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Holding Funds/No Variants/checkout_SingleItem</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>388505ec-0949-4a3e-a7f8-591a4217061a</guid>
