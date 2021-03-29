@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown_Merchant Groups_search</name>
+   <name>input_Search Merchant Groups</name>
    <tag></tag>
-   <elementGuidId>33e4e1bf-65b3-49a2-becc-b6261b1be7a6</elementGuidId>
+   <elementGuidId>877d5c93-1445-45dc-84ee-8e8231faffb6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'text' and @placeholder = 'Search Merchant Groups']</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//input[@type='text'])[2]</value>
@@ -53,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;merchant-commission-form&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;custom-field-form&quot;]/div[2]/div[@class=&quot;advanced-select choosen&quot;]/div[@class=&quot;dropdown open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[@class=&quot;skip-li&quot;]/input[@class=&quot;q&quot;]</value>
+      <value>id(&quot;merchant-commission-form&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;custom-field-form&quot;]/div[2]/div[@class=&quot;advanced-select&quot;]/div[@class=&quot;dropdown open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[@class=&quot;skip-li&quot;]/input[@class=&quot;q&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

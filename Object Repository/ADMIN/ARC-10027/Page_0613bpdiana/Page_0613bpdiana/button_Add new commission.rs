@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Add new commission</name>
+   <name>button_Add new commission</name>
    <tag></tag>
-   <elementGuidId>addc8f61-3163-4820-82ff-83bf4259db56</elementGuidId>
+   <elementGuidId>cdda69dd-12ef-4309-88c9-a5cc3b1680ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'merchant-commission-add.html' and @class = 'blue-btn pull-right' and (text() = 'Add new commission' or . = 'Add new commission')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div[3]/div/div/div/div/div[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>a.blue-btn.pull-right</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main']/div[2]/div/div/div/div/div[2]/a</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,10 +28,10 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>merchant-commission-add.html</value>
+      <value>/Admin/Commissions/CreateMerchantCommission</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -60,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='main']/div[2]/div/div/div/div/div[2]/a</value>
+      <value>//div[@id='main']/div[3]/div/div/div/div/div[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'merchant-commission-add.html')]</value>
+      <value>//a[contains(@href, '/Admin/Commissions/CreateMerchantCommission')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
