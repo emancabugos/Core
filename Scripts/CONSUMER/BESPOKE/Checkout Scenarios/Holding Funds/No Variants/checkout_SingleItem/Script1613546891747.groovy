@@ -87,6 +87,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('SUNTEC/Item Details Page/button_AddToCart'))
 
+WebUI.delay(2)
+
 WebUI.navigateToUrl(GlobalVariable.cartURL)
 
 WebUI.comment('Cart Page')

@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='settlement-release']/div/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'date-format color-red']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -20,14 +24,14 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>date-format color-red</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

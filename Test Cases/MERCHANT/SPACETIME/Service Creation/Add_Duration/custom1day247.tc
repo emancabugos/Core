@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>custom1day247</name>
+   <tag></tag>
+   <comment>Basic Details
+Description
+Custom Fields
+Pricing
+Location
+Shipping</comment>
+   <testCaseGuid>dca1b819-ce88-43cf-8ab0-46f39633a903</testCaseGuid>
+</TestCaseEntity>

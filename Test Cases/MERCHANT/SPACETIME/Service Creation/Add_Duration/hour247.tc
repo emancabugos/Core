@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>hour247</name>
+   <tag></tag>
+   <comment>Basic Details
+Description
+Custom Fields
+Pricing
+Location
+Shipping</comment>
+   <testCaseGuid>b41761c9-aeb2-4651-aa9c-d9a27aab608f</testCaseGuid>
+</TestCaseEntity>

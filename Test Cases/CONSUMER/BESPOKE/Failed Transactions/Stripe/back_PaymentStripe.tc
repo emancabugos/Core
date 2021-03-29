@@ -3,6 +3,12 @@
    <description></description>
    <name>back_PaymentStripe</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Search Item1
+Search Result Page
+Items no Variants - Seller 01
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Payment Page</comment>
    <testCaseGuid>5799f6d3-62df-47dd-8ca0-9747343303e8</testCaseGuid>
 </TestCaseEntity>
