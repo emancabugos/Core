@@ -30,9 +30,20 @@ WebUI.click(findTestObject('ADMIN/Create New Group/textarea dd_Search Merchants'
 
 WebUI.setText(findTestObject('ADMIN/Create New Group/textarea dd_Search Merchants'), '01Seller')
 
-WebUI.sendKeys(findTestObject('ADMIN/Create New Group/textarea dd_Search Merchants'), Keys.chord(Keys.ENTER))
+WebUI.delay(1)
 
+//WebUI.sendKeys(findTestObject('ADMIN/Create New Group/textarea dd_Search Merchants'), Keys.chord(Keys.ENTER))
 WebUI.click(findTestObject('ADMIN/Create New Group/dd_Merchants 1'))
+
+WebUI.waitForElementClickable(findTestObject('ADMIN/Create New Group/Btn_Save'), 2)
+
+WebUI.click(findTestObject('ADMIN/Create New Group/textlabel_Group Name'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('ADMIN/Create New Group/Btn_Save'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('ADMIN/Create New Group/Btn_Save'))
 
