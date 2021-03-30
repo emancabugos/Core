@@ -33,21 +33,31 @@ WebUI.delay(3)
 WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Search Merchant Groups'), 'User Group A', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_1st value'), 0)
+
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_1st value'))
 
 WebUI.clearText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Search Merchant Groups'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Search Merchant Groups'), 'User Group B', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_1st value'))
+WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_2nd value'), 0)
+
+WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_2nd value'))
 
 WebUI.clearText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Search Merchant Groups'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Search Merchant Groups'), 'User Group C', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_1st value'))
+WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_3rd value'), 0)
+
+WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_3rd value'))
 
 WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'), 0)
 

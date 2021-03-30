@@ -33,11 +33,9 @@ WebUI.delay(3)
 WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Search Merchant Groups'), 'User Group G', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_1st value'))
+WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_7th value'))
 
 WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'), 0)
-
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'))
 
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'))
 
