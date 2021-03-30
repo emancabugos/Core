@@ -17,11 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/button_Add new commission'))
+WebUI.comment('Delete MErchant Group F')
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/a_Back'), 0)
+WebUI.verifyTextPresent('Merchant Group F', false)
 
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Commission Name'), 'Merchant Group F')
+WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/delete button_Merchant F'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10025 Merchant level commission/Page_0613bpdiana/div_Are you sure you want to delete this'), 
+    0)
+
+WebUI.click(findTestObject('ADMIN/ARC-10025 Merchant level commission/Page_0613bpdiana/button_Okay'))
+
+WebUI.verifyTextNotPresent('Merchant Group F', false)
+
+WebUI.comment('Edit Merchant Group G')
+
+WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/edit button_Merchant F'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Merchant Groups_Merchants'), 
     0)
@@ -35,27 +46,9 @@ WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/
 
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_1st value'))
 
-WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'), 0)
-
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'))
-
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'))
-
-WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), 0)
-
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), '0')
-
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_Onwards'))
-
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Commission fee'), '0')
-
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/button_Save Total Range'))
-
-WebUI.delay(2)
-
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/button_Save Commission'))
 
 WebUI.delay(0)
 
-WebUI.verifyTextPresent('Merchant Group F', false)
+WebUI.verifyTextPresent('Merchant Group G', false)
 
