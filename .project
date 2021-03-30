@@ -18,6 +18,15 @@
 	<filteredResources>
 		<filter>
 <<<<<<< HEAD
+			<id>1616717426864</id>
+=======
+<<<<<<< HEAD
+			<id>1616716034032</id>
+=======
+<<<<<<< HEAD
+			<id>1616714257184</id>
+=======
+<<<<<<< HEAD
 			<id>1616634972018</id>
 =======
 <<<<<<< HEAD
@@ -50,6 +59,9 @@
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -58,6 +70,15 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1616717426896</id>
+=======
+<<<<<<< HEAD
+			<id>1616716034044</id>
+=======
+<<<<<<< HEAD
+			<id>1616714257190</id>
+=======
 <<<<<<< HEAD
 			<id>1616634972033</id>
 =======
@@ -90,6 +111,9 @@
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -110,6 +134,15 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
@@ -118,7 +151,18 @@
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 		<filter>
 <<<<<<< HEAD
+			<id>1617011019954</id>
+=======
+<<<<<<< HEAD
+			<id>1616924381998</id>
+=======
+<<<<<<< HEAD
+			<id>1616734050161</id>
+=======
+<<<<<<< HEAD
 			<id>1616656685541</id>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -127,7 +171,11 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1616656685573</id>
+<<<<<<< HEAD
+			<id>1617011019970</id>
+=======
+			<id>1616924382021</id>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -135,6 +183,12 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		<filter>
+			<id>1616974954518</id>
+=======
 =======
 <<<<<<< HEAD
 			<id>1614308698023</id>
@@ -156,6 +210,8 @@
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -165,10 +221,9 @@
 		</filter>
 		<filter>
 <<<<<<< HEAD
-			<id>1614308698027</id>
+			<id>1616974954581</id>
 =======
-			<id>1616631287395</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1616734050180</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -176,15 +231,8 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 		<filter>
-			<id>1614318914835</id>
+			<id>1616972980864</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -193,7 +241,8 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1614318914845</id>
+			<id>1616972980872</id>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -201,6 +250,28 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+<<<<<<< HEAD
+		<filter>
+			<id>1617009276120</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1617009276138</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+=======
+<<<<<<< HEAD
+=======
 		<filter>
 			<id>1614321095735</id>
 			<name></name>
@@ -934,6 +1005,9 @@
 =======
 =======
 =======
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 >>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
