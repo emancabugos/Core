@@ -6,11 +6,15 @@
    <elementGuidId>7e1242b2-135f-421b-a69d-16ca4ae1c5f8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[2]/div/form/div/div[1]/div[2]/div/div/ul/li[4]/a/label</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='main']/div[2]/div/div[2]/div/form/div/div/div[2]/div/div/ul/li[3]/a/label</value>
+         <value>//div[3]/div[2]/div/div[2]/div/div[2]/div/form/div/div[1]/div[2]/div/div/ul/li[4]/a/label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,18 +31,25 @@
       <value>Merchants_1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Merchants 1 </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;page-content&quot;]/div[@class=&quot;gutter-wrapper&quot;]/div[@class=&quot;panel-box&quot;]/div[@class=&quot;page-content-btm user-group-create-body&quot;]/form[@class=&quot;form-field-controler&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;form-element&quot;]/div[@class=&quot;advanced-select&quot;]/div[@class=&quot;dropdown open&quot;]/ul[@class=&quot;dropdown-menu&quot;]/li[3]/a[@class=&quot;x-check&quot;]/label[1]</value>
+      <value>//*[@id=&quot;main&quot;]/div[2]/div/div[2]/div/form/div/div[1]/div[2]/div/div/ul/li[4]/a/label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>defb25ee-d2b3-4e16-ac41-4a0f1341fe54</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

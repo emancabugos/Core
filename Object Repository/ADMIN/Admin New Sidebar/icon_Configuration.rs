@@ -4,6 +4,12 @@
    <name>icon_Configuration</name>
    <tag></tag>
    <elementGuidId>f68f8709-7f31-4b4c-b0b7-49b2ea7894f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mySidebar&quot;)/div[@class=&quot;setion-wrapper&quot;]/div[@class=&quot;section-sidebar&quot;]/ul[@class=&quot;section-links&quot;]/li[6]/a[1]/i[@class=&quot;icon icon-Configration&quot;][count(. | //*[@class = 'icon icon-Configration']) = count(//*[@class = 'icon icon-Configration'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>i</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

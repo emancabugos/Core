@@ -6,11 +6,15 @@
    <elementGuidId>0437a176-e4f4-43f2-ae29-afbc242033e2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'javascript:void(0);' and @class = 'blue-btn' and (text() = 'Save' or . = 'Save')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//a[@onclick='save_create_group();']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +38,7 @@
       <value>save_create_group();</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
