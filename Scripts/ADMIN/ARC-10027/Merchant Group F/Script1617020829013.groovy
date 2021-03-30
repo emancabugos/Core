@@ -21,7 +21,7 @@ WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/bu
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/a_Back'), 0)
 
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Commission Name'), 'Merchant Group B')
+WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Commission Name'), 'Merchant Group F')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Merchant Groups_Merchants'), 
     0)
@@ -30,14 +30,12 @@ WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/in
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Search Merchant Groups'), 'User Group D', 
+WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Search Merchant Groups'), 'User Group H', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_1st value'))
+WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_8th value'))
 
 WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'), 0)
-
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'))
 
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'))
 
@@ -47,7 +45,7 @@ WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'),
 
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/checkbox_Onwards'))
 
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Commission fee'), '0')
+WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Commission fee'), '20')
 
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/button_Save Total Range'))
 
@@ -57,5 +55,5 @@ WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/button_Save Commiss
 
 WebUI.delay(0)
 
-WebUI.verifyTextPresent('Merchant Group B', false)
+WebUI.verifyTextPresent('Merchant Group F', false)
 

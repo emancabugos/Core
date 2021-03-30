@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>checkbox_1st value</name>
+   <name>checkbox_7th value</name>
    <tag></tag>
-   <elementGuidId>8be135b0-556f-4166-b54f-d4afc7a4c0b0</elementGuidId>
+   <elementGuidId>dcedf6a2-6ce4-4fb8-ae9d-5928b5570c3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[3]/div[2]/div[1]/div[3]/div/div[2]/div/form/div/div[2]/div[2]/div/div/ul/li[3]/a/label</value>
+         <value>//*[@id=&quot;merchant-commission-form&quot;]/div/div[2]/div[2]/div/div/ul/li[9]/a/label</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -46,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[3]/div[2]/div[1]/div[3]/div/div[2]/div/form/div/div[2]/div[2]/div/div/ul/li[3]/a/label</value>
+      <value>//*[@id=&quot;merchant-commission-form&quot;]/div/div[2]/div[2]/div/div/ul/li[9]/a/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
