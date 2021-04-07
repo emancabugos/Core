@@ -11,11 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
       <initValue>'0218wenabp'</initValue>
-=======
-      <initValue>'0613bpdiana'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -55,24 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-<<<<<<< HEAD
       <initValue>'https://0405spacetimetheme1.test.arcadier.io/admin'</initValue>
-=======
-<<<<<<< HEAD
-      <initValue>'0218wenabp.test.arcadier.io/admin'</initValue>
-=======
-      <initValue>'0613bpdiana.test.arcadier.io/admin'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-<<<<<<< HEAD
       <initValue>'https://0405spacetimetheme1.test.arcadier.io/'</initValue>
-=======
-      <initValue>'0218wenabp.test.arcadier.io'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
