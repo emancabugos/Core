@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC024</name>
+   <tag></tag>
+   <comment>Precon: kunin ung suite na magiinstall ng discount 
+Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Payment Page
+Computation Admin Fee
+Computation Transaction Total</comment>
+   <testCaseGuid>695659ca-f167-4f57-b21d-80784a7430fa</testCaseGuid>
+</TestCaseEntity>

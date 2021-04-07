@@ -23,8 +23,12 @@ WebUI.click(findTestObject('SPACETIME/MERCHANT/Header/header_Add Service'), Fail
 
 WebUI.comment('Select Category')
 
+<<<<<<< HEAD
 WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/Category Commission/category0'), 
     0)
+=======
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/textbox_service name'), 'per Custom 150min 24/7 U')
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 
 WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/Category Commission/category0'), FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -3,6 +3,12 @@
    <description></description>
    <name>close_PaymentStripe</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Search Item1
+Search Result Page
+Items no Variants - Seller 01
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Payment Page</comment>
    <testCaseGuid>59afbfcb-c96d-47fc-9a8b-6840cc5f2e69</testCaseGuid>
 </TestCaseEntity>
