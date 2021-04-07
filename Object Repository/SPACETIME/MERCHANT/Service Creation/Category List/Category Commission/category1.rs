@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>category1</name>
+   <tag></tag>
+   <elementGuidId>9dca471b-5221-416f-bbf3-fbe1fafe6929</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[1]/div[2]/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div/div[2]/ul/li[8]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[1]/div[2]/div/div/div[1]/div/div/div/div/div/div/div[2]/div/div/div[2]/ul/li[8]/label</value>
+   </webElementProperties>
+</WebElementEntity>

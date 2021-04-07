@@ -17,15 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-<<<<<<< HEAD
-			<id>1612912733191</id>
-=======
-<<<<<<< HEAD
-			<id>1613629492056</id>
-=======
-			<id>1613632590876</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1614058582149</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -34,15 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1612912733200</id>
-=======
-<<<<<<< HEAD
-			<id>1613629492067</id>
-=======
-			<id>1613632590887</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1614058582157</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -50,16 +34,8 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 		<filter>
-<<<<<<< HEAD
-			<id>1612939127484</id>
-=======
-			<id>1614047412615</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1614087198280</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -68,11 +44,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1612939127495</id>
-=======
-			<id>1614047412618</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1614087198340</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -81,11 +53,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1613000504804</id>
-=======
-			<id>1614056379722</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1614121885164</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -94,8 +62,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1613000504863</id>
+			<id>1614121885312</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -104,7 +71,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613128383285</id>
+			<id>1614133504401</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -113,7 +80,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613128383297</id>
+			<id>1614133504411</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -122,7 +89,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613130825929</id>
+			<id>1614520575710</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -131,7 +98,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613130825937</id>
+			<id>1614520575722</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -140,7 +107,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613311527465</id>
+			<id>1614554215220</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -149,7 +116,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613311527480</id>
+			<id>1614554215232</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -158,7 +125,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613343955750</id>
+			<id>1614563994262</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -167,7 +134,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613343955768</id>
+			<id>1614563994270</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -176,7 +143,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613354301896</id>
+			<id>1614641667448</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -185,7 +152,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613354301905</id>
+			<id>1614641667685</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -194,7 +161,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613395878570</id>
+			<id>1614726385171</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -203,7 +170,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613395878585</id>
+			<id>1614726385221</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -212,7 +179,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613430263029</id>
+			<id>1614825848635</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -221,7 +188,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613430263046</id>
+			<id>1614825848645</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -230,7 +197,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613484764181</id>
+			<id>1614837059669</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -239,7 +206,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613484764203</id>
+			<id>1614837059677</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -248,7 +215,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613517681594</id>
+			<id>1615170095842</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -257,7 +224,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613517681609</id>
+			<id>1615170095852</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -266,7 +233,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613543273125</id>
+			<id>1615173954008</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -275,7 +242,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613543273140</id>
+			<id>1615173954021</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -284,7 +251,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613607689270</id>
+			<id>1615250294944</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -293,7 +260,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613607689286</id>
+			<id>1615250294962</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -302,7 +269,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613609585575</id>
+			<id>1615255426036</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -311,7 +278,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613609585595</id>
+			<id>1615255426044</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -320,7 +287,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613689966034</id>
+			<id>1615257866262</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -329,7 +296,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613689966050</id>
+			<id>1615257866272</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -338,7 +305,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613700317033</id>
+			<id>1616046258431</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -347,10 +314,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1613700317042</id>
-=======
-			<id>1614056379731</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1616046258443</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -359,11 +323,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1613920719811</id>
-=======
-			<id>1613630653259</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1616979152131</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -372,11 +332,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1613920719821</id>
-=======
-			<id>1613630653269</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1616979152141</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -385,11 +341,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1613999034771</id>
-=======
-			<id>1613650337861</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1617060826469</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -398,11 +350,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1613999034780</id>
-=======
-			<id>1613650337877</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1617060826478</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -411,11 +359,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1614035348595</id>
-=======
-			<id>1613660286214</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1617147404539</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -424,11 +368,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1614035348620</id>
-=======
-			<id>1613660286221</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1617147404548</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -437,11 +377,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1614048043083</id>
-=======
-			<id>1613689245637</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1617584634259</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -450,8 +386,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1614048043100</id>
+			<id>1617584634283</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -460,7 +395,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1614050763516</id>
+			<id>1617663796080</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -469,7 +404,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1614050763535</id>
+			<id>1617663796095</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -478,7 +413,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1614053625721</id>
+			<id>1617721250995</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -487,7 +422,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1614053625729</id>
+			<id>1617721251198</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -495,8 +430,17 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-=======
-			<id>1613689245647</id>
+		<filter>
+			<id>1617726180038</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1617726180053</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -504,9 +448,41 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-=======
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+		<filter>
+			<id>1617750479238</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1617750479255</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1617758285360</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1617758285376</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
 	</filteredResources>
 </projectDescription>

@@ -20,6 +20,21 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Edit Text/Spacetime/Language M
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Edit Text/Spacetime/Language Menu/dd_English'), 'Chinese (Simplified)', 
     false)
 
-WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Bespoke/Admin Pages/About Us/input_ABOUT_lbl_title'), 
-    'value', '关于我们', 0)
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/textfield_YourListings'), 
+    'value', 'Your listings', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/textfield_AddListings'), 
+    'value', 'Add listings', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/textfield_SearchByListings'), 
+    'value', 'Search by listings', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/textfield_Listings'), 
+    'value', 'Listings', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/textfield_Purchasable'), 
+    'value', 'Purchasable', 0)
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Edit Text/Spacetime/Seller Pages/Listings/textfield_Translate'), 
+    'value', 'Translate', 0)
 

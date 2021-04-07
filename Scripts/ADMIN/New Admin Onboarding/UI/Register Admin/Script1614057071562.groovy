@@ -29,7 +29,8 @@ WebUI.click(findTestObject('ADMIN/New Admin Onboarding/Admin Register Page/btn_C
 WebUI.waitForElementVisible(findTestObject('ADMIN/New Admin Onboarding/Custom Register Form/input_Your Email  Username'), 
     0)
 
-WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Custom Register Form/input_Your Email  Username'), dateToday+'BespokeTheme1')
+WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Custom Register Form/input_Your Email  Username'), dateToday + 
+    'TestMP')
 
 WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Custom Register Form/input_Your Password'), 'welcome8')
 
