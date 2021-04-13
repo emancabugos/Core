@@ -15,3 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.refresh()
+
+WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Your Marketplace Commission'), '0')
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Your Marketplace Commission'), 
+    'value', '0', 0)
+

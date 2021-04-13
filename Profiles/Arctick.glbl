@@ -11,11 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-<<<<<<< HEAD
       <initValue>'0218wenabp'</initValue>
-=======
-      <initValue>'0613bpdiana'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -55,16 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-<<<<<<< HEAD
-      <initValue>'0218wenabp.test.arcadier.io/admin'</initValue>
-=======
-      <initValue>'0613bpdiana.test.arcadier.io/admin'</initValue>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+      <initValue>'https://0405spacetimetheme1.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0218wenabp.test.arcadier.io'</initValue>
+      <initValue>'https://0405spacetimetheme1.test.arcadier.io/'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -79,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'sellerapril01'</initValue>
+      <initValue>'01seller'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -99,7 +91,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'buyerapril01'</initValue>
+      <initValue>'buyer'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

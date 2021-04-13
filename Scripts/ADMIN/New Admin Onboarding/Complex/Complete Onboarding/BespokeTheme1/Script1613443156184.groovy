@@ -14,10 +14,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import java.text.SimpleDateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 
 def date = new Date()
-def sdf = new SimpleDateFormat("MMdd")
+
+def sdf = new SimpleDateFormat('MMdd')
+
 String dateToday = sdf.format(date)
 
 WebUI.comment('Step 1')
@@ -25,14 +27,10 @@ WebUI.comment('Step 1')
 WebUI.waitForElementVisible(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 1/text_Tell us a little about yourself'), 
     0)
 
-WebUI.selectOptionByIndex(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 1/dd_Wich statement'), '2', FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.selectOptionByIndex(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 1/dd_Which industry'), '2', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.selectOptionByIndex(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 1/dd_What type of marketplace'), '2', 
     FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.selectOptionByIndex(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 1/dd_How did you hear'), '2', FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 1/button_NEXT Step 1'))
 
@@ -71,10 +69,9 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/New Admin Onboarding/Onboardin
 
 WebUI.click(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/btn_selectRetailGoods'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Give Your Marketplace'), dateToday+'BespokeTheme1')
+WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Give Your Marketplace'), dateToday + 'BespokeTheme1')
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/dd_currency'), 'Singapore Dollar', 
-    false)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/dd_currency'), 'US Dollar', false)
 
 WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Your Marketplace Commission'), '0')
 

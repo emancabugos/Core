@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='add-item-area']/div/div[5]/div/div/div[2]/div/div[5]/label[count(. | //label[@for = 'serviceDurationCustom' and (text() = 'custom' or . = 'custom')]) = count(//label[@for = 'serviceDurationCustom' and (text() = 'custom' or . = 'custom')])]</value>
+         <value>//label[(text() = 'custom' or . = 'custom')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -20,7 +20,7 @@
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
@@ -34,7 +34,7 @@
       <value>custom</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

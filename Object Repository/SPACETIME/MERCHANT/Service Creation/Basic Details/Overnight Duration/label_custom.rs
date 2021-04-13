@@ -4,6 +4,12 @@
    <name>label_custom</name>
    <tag></tag>
    <elementGuidId>549003e6-cd6f-4db3-9584-e6f3936f4b71</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[1]/div[2]/div/div/div[5]/div/div[1]/div[2]/div[1]/div[4]/label[count(. | //label[(text() = 'custom' or . = 'custom')]) = count(//label[(text() = 'custom' or . = 'custom')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -28,10 +34,10 @@
       <value>custom</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-item-area&quot;)/div[@class=&quot;box-shadow&quot;]/div[@class=&quot;item-upload-service-sec&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;itmupld-srvcs-durationsec&quot;]/div[@class=&quot;itmupld-srvcs-durationlst-sec&quot;]/div[@class=&quot;itmupld-srvcs-duration-ind&quot;]/div[@class=&quot;addon-checkbox-sec&quot;]/label[1]</value>
+      <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[1]/div[2]/div/div/div[5]/div/div[1]/div[2]/div[1]/div[4]/label</value>
    </webElementProperties>
 </WebElementEntity>

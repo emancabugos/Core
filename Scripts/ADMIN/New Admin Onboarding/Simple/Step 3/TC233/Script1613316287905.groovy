@@ -15,3 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.refresh()
+
+WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Your Marketplace Commission'), '101')
+
+WebUI.click(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/button_NEXT Step 3'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Your Marketplace Commission'), 
+    'value', '100', 0)
+

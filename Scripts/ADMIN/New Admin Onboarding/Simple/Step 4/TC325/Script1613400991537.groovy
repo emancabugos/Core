@@ -15,3 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 4/text_Preview  pick out your marketplace theme'), 
+    0)
+
+WebUI.click(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 4/btn_selectRetailTheme1'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 4/cb_Terms'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 4/btn_NEXT Step 4'), FailureHandling.CONTINUE_ON_FAILURE)
+

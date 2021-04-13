@@ -75,8 +75,7 @@ WebUI.click(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/btn_sel
 
 WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Give Your Marketplace'), dateToday + 'SpacetimeTheme1')
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/dd_currency'), 'Singapore Dollar', 
-    false)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/dd_currency'), 'US Dollar', false)
 
 WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Your Marketplace Commission'), '0')
 

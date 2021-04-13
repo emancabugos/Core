@@ -14,12 +14,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import java.text.SimpleDateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 
 def date = new Date()
-def sdf = new SimpleDateFormat("MMdd")
-String dateToday = sdf.format(date)
 
+def sdf = new SimpleDateFormat('MMdd')
+
+String dateToday = sdf.format(date)
 
 WebUI.comment('Step 1')
 
@@ -74,8 +75,7 @@ WebUI.click(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/btn_sel
 
 WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Give Your Marketplace'), dateToday + 'SpacetimeTheme2')
 
-WebUI.selectOptionByLabel(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/dd_currency'), 'Singapore Dollar', 
-    false)
+WebUI.selectOptionByLabel(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/dd_currency'), 'US Dollar', false)
 
 WebUI.setText(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/input_Your Marketplace Commission'), '0')
 
