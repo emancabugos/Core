@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkout_MultiItemMultiSellerHoldingFunds</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8a41024-c375-47a7-a3ef-bfb1a9286cae</testCaseGuid>
+</TestCaseEntity>
