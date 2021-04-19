@@ -6,22 +6,22 @@
    <elementGuidId>dea8b93e-6446-4211-8bf8-ea119e36e3d4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div/div/div/div[2]/h1</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//h1[(text() = 'Merchant level commission' or . = 'Merchant level commission')]</value>
+         <value>//*[(text() = 'Merchant Level Commission' or . = 'Merchant Level Commission')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h1.title-dashboard</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main']/div/div/div/div[2]/h1</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -39,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Merchant level commission</value>
+      <value>Merchant Level Commission</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

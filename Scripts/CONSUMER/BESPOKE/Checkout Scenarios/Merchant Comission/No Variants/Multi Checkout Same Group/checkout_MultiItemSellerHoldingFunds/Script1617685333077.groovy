@@ -25,7 +25,7 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/text
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'ItemName_02')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'Item_02 01seller')
 
 WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
@@ -43,7 +43,7 @@ WebUI.comment('Item Details Page')
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
-WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), qty, true)
+WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), '2', true)
 
 def itemprice1 = WebUI.getText(findTestObject('SUNTEC/Item Details Page/textlabel_ItemPrice'))
 
@@ -63,7 +63,7 @@ WebUI.delay(2)
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'ItemName_04')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'Item_02 02seller')
 
 WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
@@ -79,7 +79,7 @@ WebUI.waitForElementVisible(findTestObject('SUNTEC/Item Details Page/button_AddT
 
 WebUI.comment('Item Details Page')
 
-WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), qty, true)
+WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), '2', true)
 
 def itemprice2 = WebUI.getText(findTestObject('SUNTEC/Item Details Page/textlabel_ItemPrice'))
 
@@ -233,7 +233,7 @@ BigDecimal fnewSub = new BigDecimal(newSubld)
 
 println(fnewSub)
 
-def com = 0.01
+def com = 0.100
 
 //Convert string commission to float
 String fcom = com

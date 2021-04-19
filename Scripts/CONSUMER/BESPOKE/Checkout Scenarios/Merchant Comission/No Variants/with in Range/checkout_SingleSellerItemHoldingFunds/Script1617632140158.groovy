@@ -45,7 +45,7 @@ WebUI.delay(2)
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
-WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), '1', true)
+WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), '2', true)
 
 def itemprice = WebUI.getText(findTestObject('SUNTEC/Item Details Page/textlabel_ItemPrice'))
 

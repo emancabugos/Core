@@ -6,16 +6,16 @@
    <elementGuidId>a492505d-c35d-43d8-9319-13b6562e64a2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div[2]/div/div[2]/div/table/thead/tr/th</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Name' or . = 'Name')]</value>
+         <value>//*[(text() = 'Commission Name' or . = 'Commission Name')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>th</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main']/div[2]/div/div[2]/div/table/thead/tr/th</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Name</value>
+      <value>Commission Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

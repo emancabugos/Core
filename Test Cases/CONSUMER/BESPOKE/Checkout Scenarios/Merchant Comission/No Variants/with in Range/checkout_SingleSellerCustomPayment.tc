@@ -5,12 +5,15 @@
    <tag></tag>
    <comment>Search on Homepage
 Search Result Page
+Item Details Page
 Cart Page
 Checkout - Delivery Page
 Checkout Review Page
 Get Consumer Details
 Computation of Total Cost
 Payment Page
-Payment Page</comment>
+Payment Page
+Computation Admin Fee
+Computation Transaction Total</comment>
    <testCaseGuid>e0540fdd-0af2-4324-856b-3562a45457f0</testCaseGuid>
 </TestCaseEntity>

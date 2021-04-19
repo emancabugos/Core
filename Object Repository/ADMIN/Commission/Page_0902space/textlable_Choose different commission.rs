@@ -6,15 +6,19 @@
    <elementGuidId>91e42bcd-0e7e-431c-bb21-7e22f778ca15</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main']/div[3]/div/div/div/div/div[2]/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Configure discrete commissions for different categories and sub-categories. If the commission box is left empty, it will be set to your deafult commission rate.' or . = 'Configure discrete commissions for different categories and sub-categories. If the commission box is left empty, it will be set to your deafult commission rate.')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Choose different commission for different category. If you leave the commission box empty, it will set to the default commission</value>
+      <value>Configure discrete commissions for different categories and sub-categories. If the commission box is left empty, it will be set to your deafult commission rate.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -3,6 +3,19 @@
    <description></description>
    <name>checkout_MultiItemSellerHoldingFunds</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Payment Page
+Computation Admin Fee
+Computation Transaction Total</comment>
    <testCaseGuid>840a9f9f-ac34-4186-8665-44563c989c28</testCaseGuid>
 </TestCaseEntity>

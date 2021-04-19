@@ -10,11 +10,15 @@
          <value>//div[@id='main']/div/div/div/div[2]/h1</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Merchant level commission' or . = 'Merchant level commission')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>h1.title-dashboard</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Merchant level commission</value>
+      <value>Merchant Level Commission</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

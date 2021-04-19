@@ -14,6 +14,8 @@ Checkout Review Page
 Get Consumer Details
 Computation of Total Cost
 Payment Page
-Payment Page</comment>
+Payment Page
+Computation Admin Fee
+Computation Transaction Total</comment>
    <testCaseGuid>d5e940cd-8045-45da-aed1-de2dcca5005d</testCaseGuid>
 </TestCaseEntity>

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main']/div[3]/div[3]/div/div/div/div/div/h6</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = concat('To enable this feature, please ensure that you have installed a Plug-in that allows discount on orders. You can use the ' , &quot;'&quot; , 'Discount Coupon Generator' , &quot;'&quot; , ' in the Plug-In marketplace, or create your own.') or . = concat('To enable this feature, please ensure that you have installed a Plug-in that allows discount on orders. You can use the ' , &quot;'&quot; , 'Discount Coupon Generator' , &quot;'&quot; , ' in the Plug-In marketplace, or create your own.'))]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>You will need to be able to install a plug-in that can have discounts on the orders first</value>
+      <value>To enable this feature, please ensure that you have installed a Plug-in that allows discount on orders. You can use the 'Discount Coupon Generator' in the Plug-In marketplace, or create your own.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

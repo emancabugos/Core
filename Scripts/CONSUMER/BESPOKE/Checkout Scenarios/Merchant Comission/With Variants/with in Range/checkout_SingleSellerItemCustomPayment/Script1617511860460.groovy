@@ -56,7 +56,7 @@ WebUI.selectOptionByLabel(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW 
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
-WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), '1', true)
+WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), '4', true)
 
 def itemprice = WebUI.getText(findTestObject('SUNTEC/Item Details Page/textlabel_ItemPrice'))
 
@@ -204,7 +204,7 @@ BigDecimal fnewSub = new BigDecimal(newSubld)
 
 println(fnewSub)
 
-def com = 0.00
+def com = 0.100
 
 //Convert string commission to float
 String fcom = com

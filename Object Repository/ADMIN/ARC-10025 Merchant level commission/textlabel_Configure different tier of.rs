@@ -6,16 +6,16 @@
    <elementGuidId>56cfc753-e81d-4b1b-a522-34a9bbe48a26</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div[2]/div/div/div/div/div/div/h5</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Configure different tier of Merchant commission on your marketplace. ' or . = 'Configure different tier of Merchant commission on your marketplace. ')]</value>
+         <value>//*[(text() = 'Create different commission rates based on Merchant Groups.' or . = 'Create different commission rates based on Merchant Groups.')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h5</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main']/div[2]/div/div/div/div/div/div/h5</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Configure different tier of Merchant commission on your marketplace. </value>
+      <value>Create different commission rates based on Merchant Groups.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

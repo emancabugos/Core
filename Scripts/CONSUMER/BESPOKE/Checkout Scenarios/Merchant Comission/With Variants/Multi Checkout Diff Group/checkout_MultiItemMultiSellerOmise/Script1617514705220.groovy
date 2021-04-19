@@ -25,7 +25,7 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/text
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'ItemName_02')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'Item_01 01seller')
 
 WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
@@ -76,7 +76,7 @@ WebUI.delay(2)
 
 WebUI.navigateToUrl(GlobalVariable.HomepageURL)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'ItemName_04')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'Item_01 17seller')
 
 WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 

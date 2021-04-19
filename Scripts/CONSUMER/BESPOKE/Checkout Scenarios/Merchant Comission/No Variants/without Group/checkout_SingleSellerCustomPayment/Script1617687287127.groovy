@@ -25,7 +25,7 @@ WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/text
 
 WebUI.comment('Search on Homepage')
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'Item_02 01seller')
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), 'Item_02 18seller')
 
 WebUI.sendKeys(findTestObject('BESPOKE DEL 2/CONSUMER/Homepage/textfield_Search'), Keys.chord(Keys.ENTER))
 
@@ -45,7 +45,7 @@ WebUI.delay(2)
 
 DecimalFormat df = new DecimalFormat('#,###.00')
 
-WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), '1', true)
+WebUI.selectOptionByValue(findTestObject('BESPOKE DEL 2/CONSUMER/Item Details/dd_qty'), '2', true)
 
 def itemprice = WebUI.getText(findTestObject('SUNTEC/Item Details Page/textlabel_ItemPrice'))
 
@@ -195,7 +195,7 @@ BigDecimal fnewSub = new BigDecimal(newSubld)
 
 println(fnewSub)
 
-def com = 0.01
+def com = 0.10
 
 //Convert string commission to float
 String fcom = com

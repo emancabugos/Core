@@ -204,7 +204,7 @@ BigDecimal fnewSub = new BigDecimal(newSubld)
 
 println(fnewSub)
 
-def com = 0.00
+def com = 0.10
 
 //Convert string commission to float
 String fcom = com

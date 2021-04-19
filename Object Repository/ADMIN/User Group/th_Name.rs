@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main']/div[2]/div/div[2]/div/table/thead/tr/th</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Group Name' or . = 'Group Name')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Name</value>
+      <value>Group Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -3,6 +3,17 @@
    <description></description>
    <name>checkout_SingleSellerItemHoldingFunds</name>
    <tag></tag>
-   <comment></comment>
+   <comment>Search on Homepage
+Search Result Page
+Item Details Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Payment Page
+Computation Admin Fee
+Computation Transaction Total</comment>
    <testCaseGuid>a31d0938-a139-4a9c-be53-1b05f7a711ee</testCaseGuid>
 </TestCaseEntity>
