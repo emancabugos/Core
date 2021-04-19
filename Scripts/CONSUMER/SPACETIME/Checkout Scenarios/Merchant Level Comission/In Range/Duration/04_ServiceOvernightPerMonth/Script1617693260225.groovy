@@ -27,8 +27,7 @@ WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Search Function/t
 
 WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), '')
 
-WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), ('per Night Month D' + 
-    ' ') + GlobalVariable.CustomMerchant)
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Search Function/textfield_Keyword'), ('per Night Month D' + ' ') + GlobalVariable.CustomMerchant)
 
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Search Function/button_Search'))
 
@@ -52,7 +51,7 @@ WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Da
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), '1')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), '31')
 
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow'), FailureHandling.STOP_ON_FAILURE)
 
@@ -110,7 +109,7 @@ println(df.format(new BigDecimal(actualtotal)))
 
 WebUI.verifyEqual(totalcost, actualtotal)
 
-WebUI.callTestCase(findTestCase('CONSUMER/SPACETIME/Payment Page/pay_Stripe'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CONSUMER/SPACETIME/Payment Page/pay_HoldingFunds'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Thank You Page/button_PurchaseHistory'), 0)
 
@@ -165,7 +164,7 @@ BigDecimal fnewSub = new BigDecimal(newSubld)
 
 println(fnewSub)
 
-def com = 0.01
+def com = 0.100
 
 //Convert string commission to float
 String fcom = com
@@ -227,15 +226,15 @@ WebUI.callTestCase(findTestCase('Utilities/ADMIN/Admin Login'), [:], FailureHand
 
 WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/18_redirectionTransactionList'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History List/search_textfield'),
-	invoiceid)
+WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History List/search_textfield'), 
+    invoiceid)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History List/button_Apply'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History List/Seller 01/textlabelvalue_InvoiceID'),
-	invoiceid)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History List/Seller 01/textlabelvalue_InvoiceID'), 
+    invoiceid)
 
 apadminfee = WebUI.getText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History List/Seller 01/textlabelvalue_AdminFee'))
 
@@ -255,20 +254,20 @@ WebUI.verifyMatch(laptotalcost, aptotalcost, false)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History List/Seller 01/textlabelvalue_Timestamp'))
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_TotalOrderPayout01'),
-	ltransactotal)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_TotalOrderPayout01'), 
+    ltransactotal)
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_TotalOrderPayOut02'),
-	ltransactotal)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_TotalOrderPayOut02'), 
+    ltransactotal)
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_OrderAdminFee01'),
-	ladminfee)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_OrderAdminFee01'), 
+    ladminfee)
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_OrderAdminFee02'),
-	ladminfee)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_OrderAdminFee02'), 
+    ladminfee)
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_DeliveryCost'),
-	deliverycost)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_DeliveryCost'), 
+    deliverycost)
 
 String fsubtotal = subtotal
 
@@ -282,8 +281,8 @@ apsubtotal = WebUI.getText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW
 
 WebUI.verifyMatch(lsubtotal, apsubtotal, false)
 
-WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_InvoiceID'),
-	invoiceid)
+WebUI.verifyElementText(findTestObject('BESPOKE DEL 2/CONSUMER/MAJOR WORKFLOW - DO NOT DELETE/Transaction History Details/textlabelvalue_InvoiceID'), 
+    invoiceid)
 
 WebUI.delay(2)
 

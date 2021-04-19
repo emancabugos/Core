@@ -6,9 +6,11 @@
    <comment>Validation on Homepage
 Verify in Search Result Page
 Verify in Item Details Page
-Checkout - Delivery Page
 Checkout - Review Page
-Checkout - Payment Page</comment>
+Checkout - Payment Page
+Computation of Total Cost
+Computation Admin Fee
+Computation Transaction Total</comment>
    <testCaseGuid>11f803df-47c0-429c-bdb2-2790ff13a20a</testCaseGuid>
    <variable>
       <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>

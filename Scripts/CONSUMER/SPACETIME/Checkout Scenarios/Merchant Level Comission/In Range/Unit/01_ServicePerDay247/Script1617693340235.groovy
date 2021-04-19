@@ -51,7 +51,7 @@ WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/datepicker_Da
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Unit'), '1')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Unit'), '5')
 
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow'), FailureHandling.STOP_ON_FAILURE)
 
@@ -160,7 +160,7 @@ BigDecimal fnewSub = new BigDecimal(newSubld)
 
 println(fnewSub)
 
-def com = 0.01
+def com = 0.00
 
 //Convert string commission to float
 String fcom = com

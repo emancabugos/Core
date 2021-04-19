@@ -71,6 +71,12 @@
       <testCaseId>Test Cases/ADMIN/User Group/Create User Group/User Group I</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>a5dbc3e8-6f6e-4614-a8e8-0895d3f2446c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/ARC-10027/a_navigateMLC</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9d465ea7-836b-4e20-aafc-fb4cc7f841ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -111,5 +117,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/ARC-10027/Merchant Group G</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b764a350-1e05-4484-a4b5-5ebd3a48e924</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

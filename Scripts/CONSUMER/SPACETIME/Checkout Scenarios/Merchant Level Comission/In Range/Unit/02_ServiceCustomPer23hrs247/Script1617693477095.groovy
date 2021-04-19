@@ -54,7 +54,7 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/timepicker_Time'), '10:00 AM')
 
-WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Unit'), '1')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Unit'), '6')
 
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow'), FailureHandling.STOP_ON_FAILURE)
 
@@ -106,7 +106,7 @@ println(df.format(new BigDecimal(actualtotal)))
 
 WebUI.verifyEqual(totalcost, actualtotal)
 
-WebUI.callTestCase(findTestCase('CONSUMER/SPACETIME/Payment Page/pay_Stripe'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CONSUMER/SPACETIME/Payment Page/pay_CustomPayment'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Thank You Page/button_PurchaseHistory'), 0)
 

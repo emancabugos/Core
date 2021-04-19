@@ -53,7 +53,7 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Unit'), '1')
 
-WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), '1')
+WebUI.setText(findTestObject('SPACETIME/CONSUMER/Item Details Page/textfield_Duration'), '21')
 
 WebUI.click(findTestObject('SPACETIME/CONSUMER/Item Details Page/button_BuyNow'), FailureHandling.STOP_ON_FAILURE)
 
@@ -107,7 +107,7 @@ println(df.format(new BigDecimal(actualtotal)))
 
 WebUI.verifyEqual(totalcost, actualtotal)
 
-WebUI.callTestCase(findTestCase('CONSUMER/SPACETIME/Payment Page/pay_Stripe'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CONSUMER/SPACETIME/Payment Page/pay_Omise'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/CONSUMER/Thank You Page/button_PurchaseHistory'), 0)
 
@@ -162,7 +162,7 @@ BigDecimal fnewSub = new BigDecimal(newSubld)
 
 println(fnewSub)
 
-def com = 0.01
+def com = 0.99
 
 //Convert string commission to float
 String fcom = com

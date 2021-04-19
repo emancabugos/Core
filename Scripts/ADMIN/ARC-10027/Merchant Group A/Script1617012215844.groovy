@@ -67,7 +67,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/tex
 
 WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), 0)
 
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), '0')
+WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), '50')
 
 WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_To'), '100')
 
