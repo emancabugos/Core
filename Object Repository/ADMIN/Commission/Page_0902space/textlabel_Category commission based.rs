@@ -6,15 +6,19 @@
    <elementGuidId>6f949581-4623-4710-b794-1fbc04209ae1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h4</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main']/div[3]/div/div/div/div/div[2]/h4</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Category commission based' or . = 'Category commission based')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

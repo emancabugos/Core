@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkout_SingleSellerItemHoldingFunds</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63411dbe-c548-417b-9349-913d7a519a12</testCaseGuid>
+</TestCaseEntity>

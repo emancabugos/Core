@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main']/div[2]/div/div[2]/div/form/div/div/div/label</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Group Name' or . = 'Group Name')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

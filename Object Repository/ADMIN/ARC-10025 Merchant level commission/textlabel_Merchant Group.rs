@@ -6,16 +6,15 @@
    <elementGuidId>043ed200-585d-4e9c-98f3-5676ea96865d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main']/div[2]/div/div[2]/div/table/thead/tr/th[2]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[(text() = 'Merchant Group' or . = 'Merchant Group')]</value>
+         <value>//*[(text() = 'Merchant Groups' or . = 'Merchant Groups')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='main']/div[2]/div/div[2]/div/table/thead/tr/th[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -32,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Merchant Group</value>
+      <value>Merchant Groups</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main']/div[3]/div[3]/div/div/div/div/div/h5</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Commission to include  discounted pricing' or . = 'Commission to include  discounted pricing')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Include discount into the commission</value>
+      <value>Commission to include  discounted pricing</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

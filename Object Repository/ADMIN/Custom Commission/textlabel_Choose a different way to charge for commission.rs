@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='main']/div[3]/div/div/div/div/div/div/h5</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Choose a different way to charge commission. You can customise per category, sub-category, or merchant group. If no custom commission is set, your default commission will be used.' or . = 'Choose a different way to charge commission. You can customise per category, sub-category, or merchant group. If no custom commission is set, your default commission will be used.')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Choose a different way to charge for commission. You can customise per category or per merchant group, otherwise it will set to default commission.</value>
+      <value>Choose a different way to charge commission. You can customise per category, sub-category, or merchant group. If no custom commission is set, your default commission will be used.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

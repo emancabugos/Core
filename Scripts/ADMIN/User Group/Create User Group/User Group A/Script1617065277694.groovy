@@ -18,6 +18,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('ADMIN/User Group/Navigate to User Group'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(1)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/User Group/Button_Create new Group'), 0)
+
 WebUI.click(findTestObject('ADMIN/User Group/Button_Create new Group'))
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Create New Group/textlabel_Group Name'), 0)

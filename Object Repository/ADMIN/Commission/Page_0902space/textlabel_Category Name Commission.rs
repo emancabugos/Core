@@ -6,15 +6,19 @@
    <elementGuidId>4a9070b2-058e-4d54-972d-cd3f7da899f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.panel-info-l > h4</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='main']/div[3]/div[2]/div/div[2]/div/h4</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Category Name' or . = 'Category Name')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.panel-info-l > h4</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Category Name Commission</value>
+      <value>Category Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

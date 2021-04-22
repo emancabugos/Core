@@ -10,11 +10,15 @@
          <value>//form[@id='merchant-commission-form']/div/div/div/label</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>label</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,11 +28,11 @@
       <value>label</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Commission name</value>
+      <value>Commission Name</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

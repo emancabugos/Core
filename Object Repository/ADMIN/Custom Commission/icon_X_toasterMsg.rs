@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='enable_discount']/div/div/a/i</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;enable_discount&quot;)/div[@class=&quot;popup-wrapper&quot;]/div[@class=&quot;pull-right&quot;]/a[@class=&quot;close-popup&quot;]/i[@class=&quot;icon icon-close&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='enable_discount']/div/div[2]/h4</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Enable discount into the admin fee?' or . = 'Enable discount into the admin fee?')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

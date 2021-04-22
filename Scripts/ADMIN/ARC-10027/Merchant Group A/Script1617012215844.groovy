@@ -21,7 +21,7 @@ WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/bu
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/a_Back'), 0)
 
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Commission Name'), 'Merchant Group A')
+WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Commission Name'), 'Merchant Group 1')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/input_Merchant Groups_Merchants'), 
     0)
@@ -67,7 +67,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/tex
 
 WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), 0)
 
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), '0')
+WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), '50')
 
 WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_To'), '100')
 
@@ -78,6 +78,8 @@ WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/button_Save Total R
 WebUI.delay(2)
 
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'))
+
+WebUI.delay(2)
 
 WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), 0)
 
@@ -93,6 +95,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'))
 
+WebUI.delay(2)
+
 WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), 0)
 
 WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), '201')
@@ -106,6 +110,8 @@ WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/button_Save Total R
 WebUI.delay(2)
 
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/a_ Add commission configuration'))
+
+WebUI.delay(2)
 
 WebUI.scrollToElement(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_From'), 0)
 
@@ -122,6 +128,9 @@ WebUI.delay(2)
 WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/button_Save Commission'))
 
 WebUI.delay(0)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/Page_0613bpdiana/button_Add new commission'), 
+    0)
 
 WebUI.verifyTextPresent('Merchant Group A', false)
 

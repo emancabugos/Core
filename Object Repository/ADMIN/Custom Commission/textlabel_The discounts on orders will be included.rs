@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='enable_discount']/div/div[2]/p</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'All discounts on orders will be included in the Admin Commission Fee calculation.' or . = 'All discounts on orders will be included in the Admin Commission Fee calculation.')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>The discounts on orders will be included in the admin fee calculation. You will need to install a plug-in that can have discounts on the orders first to use this.</value>
+      <value>All discounts on orders will be included in the Admin Commission Fee calculation.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
