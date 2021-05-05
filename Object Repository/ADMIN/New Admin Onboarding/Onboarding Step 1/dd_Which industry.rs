@@ -6,18 +6,22 @@
    <elementGuidId>a012cbe2-9090-4ebd-9965-d6df0df63ed1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='which-indusry-from-list']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#which-indusry-from-list</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'which-indusry-from-list']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='which-indusry-from-list']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,14 +42,14 @@
       <value>form-control required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>EntityType</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

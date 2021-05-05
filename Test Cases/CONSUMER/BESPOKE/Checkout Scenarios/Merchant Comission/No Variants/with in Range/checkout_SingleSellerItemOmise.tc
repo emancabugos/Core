@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkout_SingleSellerItemOmise</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Payment Page</comment>
+   <testCaseGuid>12fa79fd-35d0-4705-b227-7c8cf7c9f2b3</testCaseGuid>
+</TestCaseEntity>

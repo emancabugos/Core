@@ -4,6 +4,12 @@
    <name>label_ week</name>
    <tag></tag>
    <elementGuidId>d38ed1a8-6c59-4ef5-a912-81fc021a572a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[1]/div[2]/div/div/div[5]/div/div[1]/div[2]/div[1]/div[2]/label</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,17 +27,17 @@
       <value>itmupld-srcs-duation3</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> / week </value>
+      <value>week</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;add-item-area&quot;)/div[@class=&quot;box-shadow&quot;]/div[@class=&quot;item-upload-service-sec&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;itmupld-srvcs-durationsec&quot;]/div[@class=&quot;itmupld-srvcs-durationlst-sec&quot;]/div[@class=&quot;itmupld-srvcs-duration-ind&quot;]/div[@class=&quot;addon-checkbox-sec&quot;]/label[1]</value>
+      <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[1]/div[2]/div/div/div[5]/div/div[1]/div[2]/div[1]/div[2]/label</value>
    </webElementProperties>
 </WebElementEntity>

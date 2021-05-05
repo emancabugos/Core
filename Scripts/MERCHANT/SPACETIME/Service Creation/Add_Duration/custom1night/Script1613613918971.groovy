@@ -15,86 +15,109 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.comment('Basic Details')
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Header/header_Add Service'), 0)
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), 0)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Header/header_Add Service'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sidemenu_createListing'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.comment('Select Category')
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_listingName'), 0)
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/Category Commission/category0'), 
+    0)
 
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_listingName'), 'per Custom 1night D')
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/Category Commission/category0'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/01_Category/Category 01'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/textbox_service name'), ('Custom per 1night D' + 
+    ' ') + GlobalVariable.CustomMerchant)
 
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_Negotiate'))
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/textbox_description'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
 
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/browse_img'))
+WebUI.selectOptionByLabel(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/dropdown_booking type'), 'Default Overnight', 
+    false)
+
+WebUI.comment('Service Duration')
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/Overnight Duration/label_custom'), 
+    0)
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/Overnight Duration/label_custom'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/Default Duration/textbox_price custom'), 
+    '20')
+
+WebUI.comment('Unlimited Bookings')
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/toggle_unlimited bookings'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/textbox_max bookings'), '2')
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/button_ Negotiation'))
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Basic Details/button_Next basic details'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.comment('Schedule')
+
+WebUI.callTestCase(findTestCase('MERCHANT/SPACETIME/Service Creation/schedule'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Schedule/button_Next schedule'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.comment('Image')
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/button_Browse'), 0)
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/button_Browse'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.uploadFile(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/img_container'), 'C:\\\\Katalon\\\\BespokeAPI\\\\Images\\\\UN Items\\\\item9.jpg')
-
-WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/btn_OK'), 0)
-
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/03_Add Image/btn_OK'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.uploadFile(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/img_upload container'), 'C:\\\\Katalon\\\\Core\\\\Images\\\\UN Items\\\\item9.jpg')
 
 WebUI.delay(1)
 
-WebUI.comment('Description')
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/browse_img/button_ok'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Item Description'), 0)
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Item Description'), 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
+WebUI.scrollToElement(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/button_Next images'), 0)
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Images/button_Next images'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.comment('Add Ons')
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Add Ons/textbox_add on name'), 0)
+
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Add Ons/textbox_add on name'), 'Extra Service')
+
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Add Ons/textbox_surcharge'), '20')
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Add Ons/button_Add'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Custom Fields')
 
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/02_Custom Fields/m_textfield'), 'Textfield')
-
-WebUI.comment('Pricing')
-
-WebUI.selectOptionByLabel(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_bookingType'), 'Default Overnight', false)
-
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/sd_Custom'))
-
-WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_specifyServiceDuration'), 0)
-
-WebUI.delay(1)
-
-WebUI.selectOptionByLabel(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_specifyServiceDuration'), 'Night(s)', 
-    false)
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_price'), '25.52')
-
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_maximumBookings'), '2')
-
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Add-On Name'), 'Extra Service')
-
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_Surcharge'), '10.01')
-
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_ADD addOns'))
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Add Ons/button_Next add ons'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.comment('Location')
 
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_address'), '29th floor Rufino Pacific Tower')
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Location/textbox_address'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('SPACETIME API/MERCHANT/Create Listing/dd_country'), 'Philippines', false)
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Location/textbox_address'), '600 E Benson Blvd')
 
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/text_State'), 'N/A')
+WebUI.selectOptionByLabel(findTestObject('SPACETIME/MERCHANT/Service Creation/Location/dropdown_(SELECT COUNTRY)'), 'United States', 
+    false)
 
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textboxcity'), 'Makati')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Location/textbox_state'), 'AK')
 
-WebUI.setText(findTestObject('SPACETIME API/MERCHANT/Create Listing/textbox_postalcode'), '1200')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Location/textbox_city'), 'Anchorage')
 
-WebUI.comment('Shipping')
+WebUI.setText(findTestObject('SPACETIME/MERCHANT/Service Creation/Location/textbox_postalcode'), '99503')
 
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/cb_availablePickup'))
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Location/button_Next location'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/cb_availableShipping'))
+WebUI.comment('Delivery Method')
 
-WebUI.click(findTestObject('SPACETIME API/MERCHANT/Create Listing/btn_Add Item'))
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Delivery/textlabel_Delivery'), 0)
 
-WebUI.waitForElementVisible(findTestObject('SPACETIME API/MERCHANT/Create Listing/text_Inventory'), 0)
+WebUI.click(findTestObject('SPACETIME/MERCHANT/Service Creation/Delivery/button_Upload now'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.comment('END')
+
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Listing Page/button_Add listings'), 0)
 

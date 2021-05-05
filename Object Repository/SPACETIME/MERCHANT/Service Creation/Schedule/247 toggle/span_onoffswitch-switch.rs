@@ -4,6 +4,12 @@
    <name>span_onoffswitch-switch</name>
    <tag></tag>
    <elementGuidId>409fd357-bc4d-4d3e-bd09-524671502333</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[2]/div[2]/div[1]/div/div[1]/div/label/span[2][count(. | //span[@class = 'onoffswitch-switch']) = count(//span[@class = 'onoffswitch-switch'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;schedule&quot;)/div[@class=&quot;seller-common-box itmuplodpg-schedule-sec&quot;]/div[@class=&quot;col-md-8&quot;]/div[@class=&quot;operate-24-sec&quot;]/div[@class=&quot;onoffswitch&quot;]/label[@class=&quot;onoffswitch-label&quot;]/span[@class=&quot;onoffswitch-switch&quot;]</value>
+      <value>/html/body/div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[2]/div[2]/div[1]/div/div[1]/div/label/span[2]</value>
    </webElementProperties>
 </WebElementEntity>

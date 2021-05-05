@@ -6,15 +6,19 @@
    <elementGuidId>483fa74a-7eda-4239-966e-725f82e1722d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='no-sub-title']/div/div/div[2]/h1</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Commission' or . = 'Commission')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

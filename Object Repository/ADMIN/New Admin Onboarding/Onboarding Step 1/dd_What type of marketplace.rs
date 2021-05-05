@@ -6,18 +6,22 @@
    <elementGuidId>4428849a-1a0a-43ad-98b3-9eab2b05f82a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='TypeMarketplace']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#TypeMarketplace</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'TypeMarketplace']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='TypeMarketplace']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,14 +42,14 @@
       <value>TypeMarketplace</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
       <value>MarketplaceType</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

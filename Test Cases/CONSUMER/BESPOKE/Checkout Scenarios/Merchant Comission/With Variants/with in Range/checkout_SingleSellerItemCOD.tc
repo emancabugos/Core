@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkout_SingleSellerItemCOD</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Payment Page
+Computation Admin Fee
+Computation Transaction Total</comment>
+   <testCaseGuid>6e50b6f7-4faf-4a06-afd2-e10ee3540ec6</testCaseGuid>
+</TestCaseEntity>

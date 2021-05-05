@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
-   <description/>
+   <description></description>
    <name>default</name>
-   <tag/>
+   <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description>Change to: test, staging, live</description>
@@ -10,87 +10,87 @@
       <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
-      <initValue>'1119time'</initValue>
+      <description></description>
+      <initValue>'0413rgkth01'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>'arcadierteam'</initValue>
       <name>AdminGoogle</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>'arcadierteam@gmail.com'</initValue>
       <name>AdminFacebook</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>'welcome8'</initValue>
       <name>CustomPass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>'Welcome08!'</initValue>
       <name>GooglePass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>'welcome8'</initValue>
       <name>FacebookPass</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>''</initValue>
       <name>AdminEmailNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>change URL/ Remove "https://"</description>
-      <initValue>'1119time.test.arcadier.io/admin'</initValue>
+      <description>change URL/ Remove &quot;https://&quot;</description>
+      <initValue>'0413rgkth1.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>change URL/ Remove "https://"</description>
-      <initValue>'1119time.test.arcadier.io'</initValue>
+      <description>change URL/ Remove &quot;https://&quot;</description>
+      <initValue>'0413rgkth1.test.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
-      <initValue>'seller'</initValue>
+      <description></description>
+      <initValue>'seller01'</initValue>
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>'arcadierteam@gmail.com'</initValue>
       <name>FacebookMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>'arcadierteam@gmail.com'</initValue>
       <name>GoogleMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>'arcadier.tester1@gmail.com'</initValue>
       <name>MerchantNotif</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
-      <initValue>'buyer_april'</initValue>
+      <description></description>
+      <initValue>'buyerapril01'</initValue>
       <name>CustomConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>''</initValue>
       <name>FacebookConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>''</initValue>
       <name>GoogleConsumer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
+      <description></description>
       <initValue>''</initValue>
       <name>ConsumerNotif</name>
    </GlobalVariableEntity>
@@ -110,8 +110,8 @@
       <name>MerchantAccountType</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description/>
-      <initValue>'null'</initValue>
-      <name>name</name>
+      <description></description>
+      <initValue>'0325bpth01.test.arcadier.io/user/order/cart'</initValue>
+      <name>cartURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

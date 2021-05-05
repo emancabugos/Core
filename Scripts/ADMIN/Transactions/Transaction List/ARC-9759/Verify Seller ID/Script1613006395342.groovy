@@ -47,5 +47,5 @@ def valuesellerid = csvData.getValue(1, 8)
 
 println(sellerid[0])
 
-WebUI.verifyMatch(GlobalVariable.name, findTestData(null).getValue(1, 8), false)
+WebUI.verifyMatch(GlobalVariable.cartURL, findTestData(null).getValue(1, 8), false)
 
