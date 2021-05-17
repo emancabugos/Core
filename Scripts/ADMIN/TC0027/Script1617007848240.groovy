@@ -17,13 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027/a_Back'), 0)
+WebUI.waitForElementVisible(findTestObject('ADMIN/ARC-10027_ADD MLC/a_Back'), 0)
 
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Commission Name'), 'Merchant Group A')
+WebUI.setText(findTestObject('ADMIN/ARC-10027_ADD MLC/Page_0613bpdiana/textfield_Commission Name'), 'Merchant Group A')
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/dropdown_Merchant Groups_search'), 0)
+WebUI.waitForElementPresent(findTestObject('ADMIN/ARC-10027_ADD MLC/Page_0613bpdiana/dropdown_Merchant Groups_search'), 0)
 
-WebUI.click(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/dropdown_Merchant Groups_search'))
+WebUI.click(findTestObject('ADMIN/ARC-10027_ADD MLC/Page_0613bpdiana/dropdown_Merchant Groups_search'))
 
-WebUI.setText(findTestObject('ADMIN/ARC-10027/Page_0613bpdiana/textfield_Merchant Groups_Merchants'), '')
+WebUI.setText(findTestObject('ADMIN/ARC-10027_ADD MLC/Page_0613bpdiana/textfield_Merchant Groups_Merchants'), '')
 

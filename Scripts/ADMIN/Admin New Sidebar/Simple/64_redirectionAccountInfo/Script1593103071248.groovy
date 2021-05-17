@@ -25,7 +25,3 @@ WebUI.scrollToElement(findTestObject('ADMIN/Admin New Sidebar/submenu_AccountInf
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_AccountInfo'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Account Info/label_Billing Information'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ADMIN/Account Info/label_Billing Information'), 0)
-

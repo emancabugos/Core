@@ -4,6 +4,12 @@
    <name>submenu_CustomCode</name>
    <tag></tag>
    <elementGuidId>a1ed4c25-4782-4539-aa65-430e4eaf9179</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Custom Codes' or . = 'Custom Codes')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Custom Code</value>
+      <value>Custom Codes</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
