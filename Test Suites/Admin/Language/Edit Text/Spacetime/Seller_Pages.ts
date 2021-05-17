@@ -17,19 +17,19 @@
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>27f011ef-3b39-4e57-92ad-ac05581a0abb</guid>
+      <guid>c1b95e32-b052-451b-b56a-994d7a0f9bf6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Bookings/navigateTo_Bookings</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Bookings/Simple/Modify Text/navigateTo_Bookings</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9d875083-603e-42ad-b7a2-79565430afe9</guid>
+      <guid>e5af8c59-ce32-4c3a-ac4d-4018644d39b0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Bookings/edit_BookingsPerLanguage</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Bookings/Simple/Modify Text/edit_BookingsPerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>78fad88e-78ae-4897-ac45-dbc5f69533b8</id>
+         <id>c53e4ae7-19fc-4b3a-a211-d104daecc5ec</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -37,26 +37,26 @@
          <testDataId>Data Files/ADMIN/Language/Language</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>78fad88e-78ae-4897-ac45-dbc5f69533b8</testDataLinkId>
+         <testDataLinkId>c53e4ae7-19fc-4b3a-a211-d104daecc5ec</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Language</value>
          <variableId>a12d045c-9c6b-435e-a37b-475bdf6f552a</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a9b9b474-d33a-4737-bfa7-533cb656c061</guid>
+      <guid>eeedd622-5b1b-4145-a0fb-9ac31a2cfb43</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Dashboard/navigateTo_Dashboard</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Dashboard/Simple/Modify Text/navigateTo_Dashboard</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>31b344bf-06af-4a2e-a1fd-cba05e4e854e</guid>
+      <guid>46153685-b039-4af8-a6da-f07017475f82</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Dashboard/edit_DashboardPerLanguage</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Dashboard/Simple/Modify Text/edit_DashboardPerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>5afdb2ec-5875-4caf-a13c-92ddb0a33768</id>
+         <id>3aaa16ce-67e9-4c65-919c-35c757c6a9d4</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -64,26 +64,26 @@
          <testDataId>Data Files/ADMIN/Language/Language</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>5afdb2ec-5875-4caf-a13c-92ddb0a33768</testDataLinkId>
+         <testDataLinkId>3aaa16ce-67e9-4c65-919c-35c757c6a9d4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Language</value>
          <variableId>99d174b5-234b-4734-867a-30bbf4494d69</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>91c17a51-c7c0-44d4-9e74-6d008e991a46</guid>
+      <guid>fcedaf1b-79e4-4f18-93b8-5daefd9d2313</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Item Translation/navigateTo_ItemTranslation</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Item Translation/Simple/Modify Text/navigateTo_ItemTranslation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a88d520e-7986-4e0a-bc46-d283dd397a14</guid>
+      <guid>38761737-0806-4101-8eb3-6d32602ad619</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Item Translation/edit_ItemTranslationPerLangauge</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Item Translation/Simple/Modify Text/edit_ItemTranslationPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>a064bb7c-3356-436e-bced-0166176c4ee9</id>
+         <id>9c4a6ce6-4909-4be0-a0db-1885d7d5977d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -91,26 +91,26 @@
          <testDataId>Data Files/ADMIN/Language/Language</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>a064bb7c-3356-436e-bced-0166176c4ee9</testDataLinkId>
+         <testDataLinkId>9c4a6ce6-4909-4be0-a0db-1885d7d5977d</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Language</value>
          <variableId>3aab09ad-9b26-42d4-a878-b7812ea1442c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>acf3d56c-859b-42be-a968-241707d97482</guid>
+      <guid>db76ef41-3759-4fd3-8499-dbed0b4be1b8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing/navigateTo_Listing</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing/Simple/Modify Text/navigateTo_Listing</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5a21d971-06de-410e-adf2-6cf626303855</guid>
+      <guid>f88bc801-aa4e-4a42-919a-8171fc32dcd6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing/edit_ListingPerLangauge</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing/Simple/Modify Text/edit_ListingPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>bb5a709f-de21-4e53-a448-784fd93e21a8</id>
+         <id>1aed6d36-d166-4586-8afb-315e0fcb123e</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -118,26 +118,26 @@
          <testDataId>Data Files/ADMIN/Language/Language</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>bb5a709f-de21-4e53-a448-784fd93e21a8</testDataLinkId>
+         <testDataLinkId>1aed6d36-d166-4586-8afb-315e0fcb123e</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Language</value>
          <variableId>4271cb60-211d-468c-b3ef-dd3c544fe448</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>16b8e089-2665-49f8-8cd0-4d0315e7c065</guid>
+      <guid>f1a2ca60-db76-47a1-a34b-9a6cd68b0a68</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing Upload Edit Page/navigateTo_Listing</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing Upload Edit Page/Simple/Modify Text/navigateTo_Listing</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>352e9513-9842-43be-ad6f-1b5d68d98005</guid>
+      <guid>ecf66a95-9938-45f9-b1f3-75ac5df4f956</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing Upload Edit Page/edit_ListingUpoaldEditPerLangauge</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/Listing Upload Edit Page/Simple/Modify Text/edit_ListingUpoaldEditPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>a8b548e8-9c5b-427f-9567-807b479fdcac</id>
+         <id>12454a90-80a5-411c-958e-a97c3dd6b037</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -145,26 +145,26 @@
          <testDataId>Data Files/ADMIN/Language/Language</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>a8b548e8-9c5b-427f-9567-807b479fdcac</testDataLinkId>
+         <testDataLinkId>12454a90-80a5-411c-958e-a97c3dd6b037</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Language</value>
          <variableId>9a02ec67-f83f-4596-8a79-a60ff1b40876</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>fe5ac2cc-9c4a-4f08-895c-80920b513a97</guid>
+      <guid>76a5db07-0325-4d3d-b9ab-ec643b5a692d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/OnboardingSettings/navigateTo_Onboarding</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/OnboardingSettings/Simple/Modify Text/navigateTo_Onboarding</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>84bb48c3-4b62-4b40-bdb7-8a85a6f56493</guid>
+      <guid>e1d57055-c022-40b6-a8d3-4505a74b03a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/OnboardingSettings/edit_OnboardingPerLanguage</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Seller Pages/OnboardingSettings/Simple/Modify Text/edit_OnboardingPerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>d9c0c36a-0b5b-4e06-9e6c-1550a8f4b440</id>
+         <id>f67b82c1-b978-4792-a7fa-1a827e5dba50</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -172,7 +172,7 @@
          <testDataId>Data Files/ADMIN/Language/Language</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>d9c0c36a-0b5b-4e06-9e6c-1550a8f4b440</testDataLinkId>
+         <testDataLinkId>f67b82c1-b978-4792-a7fa-1a827e5dba50</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Language</value>
          <variableId>0173a9bf-6948-4814-95ab-38a5583521b3</variableId>
