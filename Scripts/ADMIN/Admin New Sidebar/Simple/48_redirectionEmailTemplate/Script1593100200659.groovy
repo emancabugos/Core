@@ -23,7 +23,3 @@ WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Emai
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_EmailTemplate'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Email Notifications/Welcome Mail/icon_Infotext'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ADMIN/Email Notifications/Welcome Mail/icon_Infotext'), 0)
-

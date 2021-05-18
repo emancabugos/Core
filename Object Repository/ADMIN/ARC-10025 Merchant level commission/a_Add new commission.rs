@@ -6,16 +6,16 @@
    <elementGuidId>addc8f61-3163-4820-82ff-83bf4259db56</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'merchant-commission-add.html' and @class = 'blue-btn pull-right' and (text() = 'Add new commission' or . = 'Add new commission')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.blue-btn.pull-right</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='main']/div[2]/div/div/div/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Add new commission' or . = 'Add new commission')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,14 +28,14 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>merchant-commission-add.html</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

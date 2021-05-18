@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>7f7f2f62-adf1-42a5-9c3b-5a51820e9ed4</testSuiteGuid>
    <testCaseLink>
       <guid>ded4d850-b6ae-4e59-93ef-eba8ec9fd812</guid>
@@ -74,49 +75,49 @@
       <guid>56bac3ab-d5ed-4868-8524-39438284e996</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/ARC-10027/a_navigateMLC</testCaseId>
+      <testCaseId>Test Cases/ADMIN/ARC-10027_ADD MLC/a_navigateMLC</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9d465ea7-836b-4e20-aafc-fb4cc7f841ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/ARC-10027/Merchant Group A</testCaseId>
+      <testCaseId>Test Cases/ADMIN/ARC-10027_ADD MLC/Merchant Group A</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c49007c3-7eb2-4277-8b1c-953c9633ba59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/ARC-10027/Merchant Group B</testCaseId>
+      <testCaseId>Test Cases/ADMIN/ARC-10027_ADD MLC/Merchant Group B</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4a437d8f-987d-4378-84ac-1d2546091ec2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/ARC-10027/Merchant Group C</testCaseId>
+      <testCaseId>Test Cases/ADMIN/ARC-10027_ADD MLC/Merchant Group C</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3ae33fd5-387b-4da6-ab4e-1ce3edbcb415</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/ARC-10027/Merchant Group D</testCaseId>
+      <testCaseId>Test Cases/ADMIN/ARC-10027_ADD MLC/Merchant Group D</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>12fd9eb5-3e27-4f47-b2c9-53151a0c5122</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/ARC-10027/Merchant Group E</testCaseId>
+      <testCaseId>Test Cases/ADMIN/ARC-10027_ADD MLC/Merchant Group E</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e63e4ab0-13b0-43bc-a470-a3b07a70e6c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/ARC-10027/Merchant Group F</testCaseId>
+      <testCaseId>Test Cases/ADMIN/ARC-10027_ADD MLC/Merchant Group F</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9f194f1d-4874-432d-b4ef-f6ea792e79db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/ARC-10027/Merchant Group G</testCaseId>
+      <testCaseId>Test Cases/ADMIN/ARC-10027_ADD MLC/Merchant Group G</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>86666033-e497-4763-b156-33cb2e7dc0c5</guid>

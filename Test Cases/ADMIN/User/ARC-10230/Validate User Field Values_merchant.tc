@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate User Field Values_merchant</name>
+   <tag></tag>
+   <comment>dropdown
+chkbox
+pdf
+date
+image
+Hyperlink</comment>
+   <testCaseGuid>70401498-39f5-4c52-8bde-18ddf1034526</testCaseGuid>
+</TestCaseEntity>

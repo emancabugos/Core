@@ -23,7 +23,3 @@ WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Goog
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_GoogleAnalytics'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Google Analytics/button_Go to Google Developers'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ADMIN/Google Analytics/button_Go to Google Developers'), 0)
-
