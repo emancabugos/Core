@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create UserFields_Checkbox</name>
+   <tag></tag>
+   <comment>Admin_dropdwn_Consum_Yes
+Admin_dropdwn_Merch_Yes
+Admin_dropdwn_ConsMer_Yes
+Admin_dropdwn_Consum_No
+Admin_dropdwn_Merch_No
+Admin_dropdwn_ConsMer_No</comment>
+   <testCaseGuid>2d235d20-73e4-4bbc-b1a5-007863cdf245</testCaseGuid>
+</TestCaseEntity>

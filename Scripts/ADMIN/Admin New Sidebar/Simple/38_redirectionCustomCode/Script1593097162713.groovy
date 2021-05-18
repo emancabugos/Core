@@ -23,7 +23,3 @@ WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Cust
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_CustomCode'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Custom Code/header_Custom Code'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ADMIN/Custom Code/header_Custom Code'), 0)
-
