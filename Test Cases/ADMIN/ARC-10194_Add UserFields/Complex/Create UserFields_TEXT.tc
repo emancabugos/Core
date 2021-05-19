@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create UserFields_TEXT</name>
+   <tag></tag>
+   <comment>Admin_textfield_Consum_Yes
+Admin_textfield_Merch_Yes
+Admin_textfield_ConsMer_YES
+Admin_textfield_Consum_No
+Admin_textfield_Merch_No
+Admin_textfield_ConsMer_No</comment>
+   <testCaseGuid>8081e341-07c1-4478-a5a5-f625547de22a</testCaseGuid>
+</TestCaseEntity>

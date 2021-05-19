@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[3]/div[2]/div[3]/div/div[2]/div[2]/ul/li[1]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/admin/emailcustomisation/edit?templateId=23']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -41,7 +45,7 @@
       <value>Edit</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -28,7 +28,7 @@ for (int pos = 1; pos <= 50; pos++) {
 
 	WebUI.waitForElementVisible(findTestObject('ADMIN/Users/Invite Consumer Popup/textarea_email'), 0)
 
-	WebUI.setText(findTestObject('ADMIN/Users/Invite Consumer Popup/textarea_email'), 'arcadier.tester1@gmail.com')
+	WebUI.setText(findTestObject('ADMIN/Users/Invite Consumer Popup/textarea_email'), 'arcadierteam1@gmail.com')
 
 	WebUI.click(findTestObject('ADMIN/Users/Invite Consumer Popup/btn_send'), FailureHandling.CONTINUE_ON_FAILURE)
 }

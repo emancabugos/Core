@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validate User Field Textlabel_consumer</name>
+   <tag></tag>
+   <comment>dropdown
+chkbox
+pdf
+date
+image
+Hyperlink</comment>
+   <testCaseGuid>3b729582-4a8b-44bc-8445-69f31737d64a</testCaseGuid>
+</TestCaseEntity>
