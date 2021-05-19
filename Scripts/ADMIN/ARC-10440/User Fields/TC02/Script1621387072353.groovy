@@ -17,15 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementNotClickable(findTestObject('ADMIN/User Fields/btn_Add Field'))
+WebUI.verifyElementClickable(findTestObject('ADMIN/User Fields/btn_Add Field'))
 
-WebUI.mouseOver(findTestObject('ADMIN/User Fields/btn_Add Field'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Tooltip/User Fields/Add Tooltip'))
-
-WebUI.verifyElementNotClickable(findTestObject('ADMIN/User Fields/btn_edit1st'))
-
-WebUI.mouseOver(findTestObject('ADMIN/User Fields/btn_edit1st'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Tooltip/User Fields/Edit Tooltip'))
+WebUI.verifyElementClickable(findTestObject('ADMIN/User Fields/btn_edit1st'))
 

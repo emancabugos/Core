@@ -17,15 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementNotClickable(findTestObject('ADMIN/User Fields/btn_Add Field'))
+WebUI.verifyElementClickable(findTestObject('ADMIN/Page_Document Number/toggle_Order_onoffswitch-inner'))
 
-WebUI.mouseOver(findTestObject('ADMIN/User Fields/btn_Add Field'))
+WebUI.verifyElementClickable(findTestObject('ADMIN/Page_Document Number/toggle_Invoice_onoffswitch-inner'))
 
-WebUI.verifyElementVisible(findTestObject('ADMIN/Tooltip/User Fields/Add Tooltip'))
-
-WebUI.verifyElementNotClickable(findTestObject('ADMIN/User Fields/btn_edit1st'))
-
-WebUI.mouseOver(findTestObject('ADMIN/User Fields/btn_edit1st'))
-
-WebUI.verifyElementVisible(findTestObject('ADMIN/Tooltip/User Fields/Edit Tooltip'))
+WebUI.verifyElementClickable(findTestObject('ADMIN/Page_Document Number/Button_Save'))
 
