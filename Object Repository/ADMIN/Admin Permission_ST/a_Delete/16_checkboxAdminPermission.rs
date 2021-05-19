@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>03_checkboxDelete</name>
+   <name>16_checkboxAdminPermission</name>
    <tag></tag>
-   <elementGuidId>96381ef5-4a8c-4f74-a5ab-a4ebae20e888</elementGuidId>
+   <elementGuidId>93ed56c9-5077-4ff0-817d-17a387e79bbb</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[3]/div[2]/div/div[3]/div/div[4]/div/table/tbody/tr[12]/td[5]/div/label</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[2]/div/div[3]/div/div[4]/div/table/tbody/tr[50]/td[5]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
