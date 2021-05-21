@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create UserFields_PDF</name>
+   <tag></tag>
+   <comment>Admin_PDF_Consum_Yes
+Admin_PDF_Merch_Yes
+Admin_PDF_ConsMer_Yes
+Admin_PDF_Consum_No
+Admin_PDF_Merch_No
+Admin_PDF_ConsMer_No</comment>
+   <testCaseGuid>10e5fc43-c93e-42ee-ad23-c5e6cf4b3f27</testCaseGuid>
+</TestCaseEntity>

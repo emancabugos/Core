@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create UserFields_Dropdown</name>
+   <tag></tag>
+   <comment>Admin_dropdwn_Consum_Yes
+Admin_dropdwn_Merch_Yes
+Admin_dropdwn_ConsMer_Yes
+Admin_dropdwn_Consum_No
+Admin_dropdwn_Merch_No
+Admin_dropdwn_ConsMer_No</comment>
+   <testCaseGuid>06a31bf1-492d-4779-9f6e-850a72b8ac4b</testCaseGuid>
+</TestCaseEntity>

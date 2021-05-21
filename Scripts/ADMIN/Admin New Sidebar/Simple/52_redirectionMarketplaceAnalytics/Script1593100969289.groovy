@@ -25,7 +25,3 @@ WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_MarketplaceAnalytics
 
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('ADMIN/Marketplace Analytics/textlabel_headerDashboard'), 0)
-
-WebUI.verifyElementPresent(findTestObject('ADMIN/Marketplace Analytics/textlabel_headerDashboard'), 0)
-
