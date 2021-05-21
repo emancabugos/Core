@@ -4,6 +4,12 @@
    <name>icon_Transactions</name>
    <tag></tag>
    <elementGuidId>03e042c0-c210-43de-9fc0-5fcfc851daed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mySidebar&quot;)/div[@class=&quot;setion-wrapper&quot;]/div[@class=&quot;section-sidebar&quot;]/ul[@class=&quot;section-links&quot;]/li[5]/a[1]/i[@class=&quot;icon icon-startselling&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
