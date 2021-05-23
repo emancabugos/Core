@@ -15,5 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('https://bootstrap.arcadier.com/adminportal_pre/transaction-detail.html')
+
+WebUI.maximizeWindow()
+
 WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/menu_Transactions'), 0)
+
+WebUI.verifyElementText(findTestObject('ADMIN/Admin New Sidebar/menu_Transactions'), 'Sales')
 
