@@ -15,3 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/Add Categories/tab_Add Categories'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Home Page/Add Categories/tab_Add Categories'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/Add Categories/text_Create categories so that merchants can list items on them and consumers can navigate by clicking on them'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin Home Page/Add Categories/text_Create categories so that merchants can list items on them and consumers can navigate by clicking on them'), 
+    0)
+

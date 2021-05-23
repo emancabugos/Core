@@ -6,18 +6,21 @@
    <elementGuidId>56ca7d55-a1e4-4864-96e3-8d6cfc87fc64</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='profile']/div/div/form/div[6]/div[7]/div[2]/div/div[3]/label</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[7]/div[2]/div/div[3]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,18 +34,18 @@
       <value>124724-Admin_checkbx_ConsMer_Yes-dRwkmXwUs8_2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>cb_option3_ConsMer_Yes</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;profile&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;seller-common-box&quot;]/form[1]/div[@class=&quot;item-form-group&quot;]/div[@class=&quot;item-form-groupcheckbox-design&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;fancy-checkbox checkbox-sm&quot;]/label[1]</value>
+      <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[7]/div[2]/div/div[3]/label</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -6,18 +6,22 @@
    <elementGuidId>21dff631-64e2-449a-a7e1-e74a7a0ffec2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#124724-Admin_Date_Merch_Yes-U5Rn2IFubL-time</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='124724-Admin_Date_Merch_Yes-U5Rn2IFubL-time']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[11]/div[2]/div/input[count(. | //input[@type = 'text' and @name = 'time']) = count(//input[@type = 'text' and @name = 'time'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#124724-Admin_Date_Merch_Yes-U5Rn2IFubL-time</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <value>input-text required cmn_date_time datepicker-txt</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -52,18 +56,18 @@
       <value>time</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>00:00</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;124724-Admin_Date_Merch_Yes-U5Rn2IFubL-time&quot;)</value>
+      <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[11]/div[2]/div/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

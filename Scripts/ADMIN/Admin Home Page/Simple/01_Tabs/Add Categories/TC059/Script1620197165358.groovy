@@ -15,3 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/Add Categories/tab_Add Categories'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Home Page/Add Categories/tab_Add Categories'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/Add Categories/icon_infoLearn'), 0)
+
+WebUI.verifyElementClickable(findTestObject('ADMIN/Admin Home Page/Add Categories/icon_infoLearn'), FailureHandling.CONTINUE_ON_FAILURE)
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://support.arcadier.com/hc/en-us/articles/115001558873-Adding-Categories', false)
+
