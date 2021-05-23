@@ -6,25 +6,29 @@
    <elementGuidId>74acf57e-5cc9-4358-89d5-4879d06b1f61</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#124724-Admin_dropdwn_ConsMer_Yes-mHv3CDKY2N</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@id='124724-Admin_dropdwn_ConsMer_Yes-mHv3CDKY2N']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[5]/div[2]/span/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#124724-Admin_dropdwn_ConsMer_Yes-mHv3CDKY2N</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -38,25 +42,25 @@
       <value>get-text valid required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>124724-Admin_dropdwn_ConsMer_Yes-mHv3CDKY2N</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Selectdd_option1_ConsMer_Yesdd_option2_ConsMer_Yesdd_option3_ConsMer_Yesdd_option4_ConsMer_Yesdd_option5_ConsMer_Yes</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;124724-Admin_dropdwn_ConsMer_Yes-mHv3CDKY2N&quot;)</value>
+      <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[5]/div[2]/span/select</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

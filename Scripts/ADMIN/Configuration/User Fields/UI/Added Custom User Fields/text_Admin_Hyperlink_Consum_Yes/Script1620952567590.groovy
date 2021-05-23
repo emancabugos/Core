@@ -15,3 +15,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.verifyElementPresent(findTestObject('ADMIN/User Fields/Added User Fields/div_Admin_Hyperlink_Consum_Yes'), 0)
+

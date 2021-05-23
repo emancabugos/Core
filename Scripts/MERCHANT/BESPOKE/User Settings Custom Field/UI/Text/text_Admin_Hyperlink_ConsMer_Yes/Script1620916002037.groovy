@@ -15,3 +15,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.verifyElementPresent(findTestObject('BESPOKE DEL 2/MERCHANT/User Custom Fields/label_Admin_Hyperlink_ConsMer_Yes'), 
+    0)
+

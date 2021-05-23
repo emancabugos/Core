@@ -6,18 +6,22 @@
    <elementGuidId>29b67be2-181a-44b9-94a4-2fa872663d7c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#124724-Admin_Hyperlink_ConsMer_Yes-4Cfn7FiZZz</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='124724-Admin_Hyperlink_ConsMer_Yes-4Cfn7FiZZz']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[15]/div[2]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#124724-Admin_Hyperlink_ConsMer_Yes-4Cfn7FiZZz</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,25 +42,25 @@
       <value>input-text required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>124724-Admin_Hyperlink_ConsMer_Yes-4Cfn7FiZZz</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>https://</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;124724-Admin_Hyperlink_ConsMer_Yes-4Cfn7FiZZz&quot;)</value>
+      <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[15]/div[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

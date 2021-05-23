@@ -6,18 +6,22 @@
    <elementGuidId>e9760e13-384e-4f89-9a8d-b26d58c04211</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#124724-Admin_PDF_Merch_Yes-QeWyR4VN6e</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='124724-Admin_PDF_Merch_Yes-QeWyR4VN6e']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[9]/div[1]/div[2]/div/input[1][count(. | //input[@type = 'file']) = count(//input[@type = 'file'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#124724-Admin_PDF_Merch_Yes-QeWyR4VN6e</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -45,18 +49,18 @@
       <value>application/pdf</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>124724-Admin_PDF_Merch_Yes-QeWyR4VN6e</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;124724-Admin_PDF_Merch_Yes-QeWyR4VN6e&quot;)</value>
+      <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[9]/div[1]/div[2]/div/input[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

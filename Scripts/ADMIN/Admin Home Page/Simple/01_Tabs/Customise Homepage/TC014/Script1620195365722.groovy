@@ -15,6 +15,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/Customise Layout/tab_Customise Homepage Layout'), 0)
 
 WebUI.verifyElementClickable(findTestObject('ADMIN/Admin Home Page/Customise Layout/tab_Customise Homepage Layout'), FailureHandling.CONTINUE_ON_FAILURE)

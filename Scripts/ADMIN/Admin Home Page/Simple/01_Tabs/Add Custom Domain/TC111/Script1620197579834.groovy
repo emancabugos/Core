@@ -15,3 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/Add Custom Domain/tab_Add Custom Domain'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Home Page/Add Custom Domain/tab_Add Custom Domain'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/Add Custom Domain/text_Strengthen your brand with a custom domain'), 
+    0)
+
+WebUI.verifyElementPresent(findTestObject('ADMIN/Admin Home Page/Add Custom Domain/text_Strengthen your brand with a custom domain'), 
+    0)
+
