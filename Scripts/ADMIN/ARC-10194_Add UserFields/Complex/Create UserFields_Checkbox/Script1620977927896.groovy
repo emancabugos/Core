@@ -124,6 +124,8 @@ WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldNa
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Checkbox', false)
 
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
+
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_choption1'), 'cb_option1_Consum_No')
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/i_ADD OPTION_icon icon-addopt_checkbx'))
@@ -158,6 +160,8 @@ WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldNa
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Checkbox', false)
 
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
+
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_choption1'), 'cb_option1_Merch_No')
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/i_ADD OPTION_icon icon-addopt_checkbx'))
@@ -189,6 +193,8 @@ WebUI.comment('Admin_checkbx_ConsMer_No')
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_checkbx_ConsMer_No')
+
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Checkbox', false)
 

@@ -3,11 +3,11 @@
    <description></description>
    <name>Create UserFields_DateTimeON</name>
    <tag></tag>
-   <comment>Admin_Hyperlink_Consum_Yes
-Admin_Hyperlink_Merch_Yes
-Admin_Hyperlink_ConsMer_Yes
-Admin_Hyperlink_Consum_No
-Admin_Hyperlink_Merch_No
-Admin_Hyperlink_ConsMer_No</comment>
+   <comment>Admin_Date_Consum_Yes
+Admin_Date_Merch_Yes
+Admin_Date_ConsMer_Yes
+Admin_Date_Consum_No
+Admin_Date_Merch_No
+Admin_Date_ConsMer_No</comment>
    <testCaseGuid>71a93c07-820f-48e5-b6d6-1be1f3714291</testCaseGuid>
 </TestCaseEntity>
