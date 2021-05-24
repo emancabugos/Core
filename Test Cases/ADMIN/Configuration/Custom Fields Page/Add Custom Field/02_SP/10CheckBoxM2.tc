@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10CheckBoxM2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce22686f-d872-4eec-8a4f-798c8896a2d5</testCaseGuid>
+   <variable>
+      <defaultValue>'allCat_Check Box_NM2\r\n'</defaultValue>
+      <description></description>
+      <id>fa2e68bd-d9d0-4822-b06b-94cba9ccb435</id>
+      <masked>false</masked>
+      <name>varCustomFieldName</name>
+   </variable>
+</TestCaseEntity>

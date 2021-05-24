@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>48_addEmailDomainWhitelist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>166cfaf2-7ced-4c0e-ba03-576b09024eb8</testCaseGuid>
+</TestCaseEntity>

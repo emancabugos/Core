@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>53_addIPAddressBlacklist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff424c4c-802a-4edf-b3a2-0af426f82f0f</testCaseGuid>
+</TestCaseEntity>
