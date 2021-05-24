@@ -16,9 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/redirection_UserFields'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/redirection_Document Number'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
-
-WebUI.verifyTextPresent('Create custom fields to gather additional user information.', false)
+WebUI.verifyTextPresent('Document Reference Number', false)
 

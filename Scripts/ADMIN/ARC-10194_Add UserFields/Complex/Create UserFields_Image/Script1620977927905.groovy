@@ -68,6 +68,8 @@ WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_Image_Consum_No')
 
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
+
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Image', false)
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/checkbox_Consumer'))
@@ -84,6 +86,8 @@ WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_Image_Merch_No')
 
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
+
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Image', false)
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/checkbox_Merchant'))
@@ -97,6 +101,8 @@ WebUI.verifyTextPresent('Admin_Image_Merch_No', false)
 WebUI.comment('Admin_Image_ConsMer_No')
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
+
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_Image_ConsMer_No')
 
