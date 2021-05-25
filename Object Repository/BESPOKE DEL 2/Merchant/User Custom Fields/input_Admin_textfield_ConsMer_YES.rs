@@ -6,18 +6,22 @@
    <elementGuidId>6a95a383-78a4-4941-aa95-ec5a0c963711</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#124724-Admin_textfield_ConsMer_YES-vuozvOACh9</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='124724-Admin_textfield_ConsMer_YES-vuozvOACh9']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[3]/div[2]/input[count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#124724-Admin_textfield_ConsMer_YES-vuozvOACh9</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,18 +42,18 @@
       <value>input-text required</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>124724-Admin_textfield_ConsMer_YES-vuozvOACh9</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;124724-Admin_textfield_ConsMer_YES-vuozvOACh9&quot;)</value>
+      <value>/html/body/div[4]/div[2]/div/div[1]/div/div[1]/form/div[6]/div[3]/div[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

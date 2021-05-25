@@ -15,3 +15,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Home Page/sidebar_Home'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/Add Custom Domain/tab_Add Custom Domain'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Home Page/Add Custom Domain/tab_Add Custom Domain'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Home Page/Add Custom Domain/icon_Info'), 0)
+
+WebUI.verifyElementClickable(findTestObject('ADMIN/Admin Home Page/Add Custom Domain/icon_Info'), FailureHandling.CONTINUE_ON_FAILURE)
+
+url = WebUI.getUrl()
+
+WebUI.verifyMatch(url, 'https://support.arcadier.com/hc/en-us/articles/115001757613-Linking-your-custom-domain-to-Arcadier', 
+    false)
+

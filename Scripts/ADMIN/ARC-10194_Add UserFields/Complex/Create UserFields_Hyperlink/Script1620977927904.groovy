@@ -68,6 +68,8 @@ WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_Hyperlink_Consum_No')
 
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
+
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Hyperlink', false)
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/checkbox_Consumer'))
@@ -84,6 +86,8 @@ WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_Hyperlink_Merch_No')
 
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
+
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Hyperlink', false)
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/checkbox_Merchant'))
@@ -99,6 +103,8 @@ WebUI.comment('Admin_Hyperlink_ConsMer_No')
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_Hyperlink_ConsMer_No')
+
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Hyperlink', false)
 

@@ -17,3 +17,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementPresent(findTestObject('ADMIN/Admin New Sidebar/icon_Transactions'), 0)
 
+WebUI.verifyElementAttributeValue(findTestObject('ADMIN/Admin New Sidebar/icon_Transactions'), 'class', 'icon icon-startselling', 
+    0)
+
