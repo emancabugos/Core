@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = '/admin/payments/select-payment-methods' and (text() = 'Setup Payments' or . = 'Setup Payments')]</value>
+         <value>//*[@href = '/admin/payments/select-payment-methods' and (text() = 'Payment Methods' or . = 'Payment Methods')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Setup Payments</value>
+      <value>Payment Methods</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

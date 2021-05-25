@@ -4,6 +4,12 @@
    <name>submenu_Robot</name>
    <tag></tag>
    <elementGuidId>7be6ea0f-d45f-4c44-b22a-5ab71bfb2adb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;analytics-seo&quot;)/ul[@class=&quot;flex-column nav pl-25&quot;]/li[@class=&quot;nav-item&quot;]/a[1]/span[1][count(. | //*[(text() = 'Robots' or . = 'Robots')]) = count(//*[(text() = 'Robots' or . = 'Robots')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -25,14 +31,14 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Robot</value>
+      <value>Robots</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;analytics-seo&quot;)/ul[@class=&quot;flex-column nav pl-25&quot;]/li[@class=&quot;nav-item&quot;]/a[1]</value>
+      <value>id(&quot;analytics-seo&quot;)/ul[@class=&quot;flex-column nav pl-25&quot;]/li[@class=&quot;nav-item&quot;]/a[1]/span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

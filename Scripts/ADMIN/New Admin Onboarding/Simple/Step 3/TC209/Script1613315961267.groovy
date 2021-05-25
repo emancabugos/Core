@@ -15,3 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.refresh()
+
+WebUI.verifyElementClickable(findTestObject('ADMIN/New Admin Onboarding/Onboarding Step 3/btn_selectBookingListings'))
+

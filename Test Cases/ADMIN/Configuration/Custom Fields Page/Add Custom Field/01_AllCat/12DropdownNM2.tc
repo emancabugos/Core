@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>12DropdownNM2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f727d277-18d0-4797-8a39-b767b053e75f</testCaseGuid>
+   <variable>
+      <defaultValue>'allCat_Drop Down_NM2'</defaultValue>
+      <description></description>
+      <id>11c568bc-c925-4ada-b6c5-8af91ba6720a</id>
+      <masked>false</masked>
+      <name>varCustomFieldName</name>
+   </variable>
+</TestCaseEntity>

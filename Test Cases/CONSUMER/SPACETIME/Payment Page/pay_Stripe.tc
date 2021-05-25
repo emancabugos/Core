@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>pay_Stripe</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5e19042-282f-4f1b-a9e2-e8ae9795a615</testCaseGuid>
+</TestCaseEntity>

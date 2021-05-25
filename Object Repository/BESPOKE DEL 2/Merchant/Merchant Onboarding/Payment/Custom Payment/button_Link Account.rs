@@ -6,11 +6,15 @@
    <elementGuidId>d26ffdc9-1bc4-449d-a9e3-39bd8c5080f5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[2]/div/div[3]/div/div[1]/div/div[6]/div[3]/div</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>/html/body/div[4]/div[2]/div/div[3]/div/div[1]/div/div[4]/div[3]/div[count(. | //div[@class = 'btn-link-payment']) = count(//div[@class = 'btn-link-payment'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -23,5 +23,5 @@ WebUI.waitForElementPresent(findTestObject('ADMIN/Admin New Sidebar/submenu_Fail
 
 WebUI.click(findTestObject('ADMIN/Admin New Sidebar/submenu_FailedTransactions'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('SUPERBABY/ADMIN/Failed Transaction List/button_ExportCSV'), 0)
+WebUI.verifyTextPresent('Admin Fees', false)
 

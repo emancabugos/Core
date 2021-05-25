@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FolderEntity>
+<<<<<<< HEAD
+   <description></description>
+=======
+   <description>folder</description>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+   <name>ARC-10440_BP</name>
+   <tag></tag>
+   <folderType>TESTCASE</folderType>
+</FolderEntity>

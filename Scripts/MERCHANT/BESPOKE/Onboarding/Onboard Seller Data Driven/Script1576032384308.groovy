@@ -75,7 +75,7 @@ WebUI.click(findTestObject('Utilities/Image Cropper/button_Save Photo'), Failure
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_DisplayName'), varFname)
+WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_DisplayName'), varSellerUsername)
 
 WebUI.setText(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/textbox_description'), varDescription)
 
@@ -132,6 +132,8 @@ WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/C
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/button_save'), 0)
 
 WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Payment/button_save'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('BESPOKE DEL 2/MERCHANT/Your Items/textlabel_YOUR ITEMS'), 0)
 

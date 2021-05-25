@@ -4,6 +4,12 @@
    <name>textlabel_Transaction History</name>
    <tag></tag>
    <elementGuidId>506ee38b-0745-4320-9a02-3d819cc71558</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'no-sub-title']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>h1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -26,6 +32,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;no-sub-title&quot;)/div[@class=&quot;pull-left&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;page-title&quot;]/h1[1]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>no-sub-title</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03_ServicePerDayNot247</name>
+   <tag></tag>
+   <comment>Validation on Homepage
+Verify in Search Result Page
+Verify in Item Details Page
+Validation on Homepage
+Checkout - Delivery Page
+Checkout - Review Page
+Checkout - Payment Page
+Computation of Total Cost
+Computation Admin Fee
+Computation Transaction Total</comment>
+   <testCaseGuid>582dc451-cc82-4fe2-a292-5fd7f0fd3cc3</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>92f56e7e-9ee9-4dc2-9f0c-c8edcc160af8</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>dc2aec84-1780-4c0f-956d-3e2e02e20c7d</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>9f8b3b3a-c70c-420d-9ed6-37f1939a5377</id>
+      <masked>false</masked>
+      <name>duration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>16933a01-bcda-4a6f-b948-6eb8a3cfee01</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>143c0217-3bbc-4441-8979-c6fdcde1c9b5</id>
+      <masked>false</masked>
+      <name>payment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>912e057a-aefb-4ef8-a634-36423a06fdc7</id>
+      <masked>false</masked>
+      <name>unit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>796e0c93-9d1a-4afc-a995-9c0fac005fa8</id>
+      <masked>false</masked>
+      <name>offerDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c8323a3a-620d-405e-b2e0-89727317aea1</id>
+      <masked>false</masked>
+      <name>offerTime</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>96402971-a537-4d92-8b08-178492f3aa52</id>
+      <masked>false</masked>
+      <name>offerDuration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>a3ddb554-c4c2-48ae-ae10-98d198eefd73</id>
+      <masked>false</masked>
+      <name>offerUni</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>c5edc566-dc3e-41c0-8cab-0b927b52b066</id>
+      <masked>false</masked>
+      <name>offerPrice</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>584e941d-52dc-4703-a779-1eedec1f64f7</id>
+      <masked>false</masked>
+      <name>Custom</name>
+   </variable>
+</TestCaseEntity>

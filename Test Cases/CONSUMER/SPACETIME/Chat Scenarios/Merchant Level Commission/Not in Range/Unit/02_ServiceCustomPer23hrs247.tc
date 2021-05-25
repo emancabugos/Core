@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02_ServiceCustomPer23hrs247</name>
+   <tag></tag>
+   <comment>Validation on Homepage
+Verify in Search Result Page
+Verify in Item Details Page
+Validation on Homepage
+Checkout - Delivery Page
+Checkout - Review Page
+Checkout - Payment Page
+Computation of Total Cost
+Computation Admin Fee
+Computation Transaction Total</comment>
+   <testCaseGuid>fe8a58ff-54c7-459c-b34c-9f86b2969d2b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d876677a-f1f1-4707-a4d3-079442051f82</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>840fddba-b835-403c-b245-290294420efc</id>
+      <masked>false</masked>
+      <name>date</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>51c41817-f30d-4add-9005-2c4fd2b5acaa</id>
+      <masked>false</masked>
+      <name>duration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>81b4138b-f587-4099-ac62-f113ec9c9c4e</id>
+      <masked>false</masked>
+      <name>delivery</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>18dc5e23-b720-4493-83a5-269a50dd3259</id>
+      <masked>false</masked>
+      <name>payment</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>0dcb580d-1dfa-440d-b949-f1d5f47eba81</id>
+      <masked>false</masked>
+      <name>unit</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>48a4c435-03f7-4f23-9187-e3d80a278cde</id>
+      <masked>false</masked>
+      <name>offerDate</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>d4847624-bcae-4ba9-a532-07b776c3185f</id>
+      <masked>false</masked>
+      <name>offerTime</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>cddcf1ef-459e-40e1-8864-a39783808a7a</id>
+      <masked>false</masked>
+      <name>offerDuration</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>fe76e2da-9c80-49a4-959f-380fd52ea5a9</id>
+      <masked>false</masked>
+      <name>offerUni</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>e505d419-0dfe-489e-b700-97a262ca766d</id>
+      <masked>false</masked>
+      <name>offerPrice</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData(null).getValue(1, 1)</defaultValue>
+      <description></description>
+      <id>392343d8-2c73-416b-91ac-1ea042572305</id>
+      <masked>false</masked>
+      <name>Custom</name>
+   </variable>
+</TestCaseEntity>

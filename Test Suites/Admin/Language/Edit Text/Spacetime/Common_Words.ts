@@ -20,13 +20,13 @@
       <guid>1f9a5004-a145-497b-b66b-54d3d34abee1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Common Words/navigateTo_CommonWords</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Common Words/Simple/Modify Text/navigateTo_CommonWords</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>780d9247-e6e0-4fb0-8600-12759df5eb14</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Common Words/edit_CommonWordsPerLanguage</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Common Words/Simple/Modify Text/edit_CommonWordsPerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>34e9d638-ec6b-4a38-a3b6-5107671546de</id>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>checkout_SingleSellerItemPaypal</name>
+   <tag></tag>
+   <comment>Search on Homepage
+Search Result Page
+Cart Page
+Checkout - Delivery Page
+Checkout Review Page
+Get Consumer Details
+Computation of Total Cost
+Payment Page
+Payment Page
+Computation Admin Fee
+Computation Transaction Total</comment>
+   <testCaseGuid>dfa77669-e42a-45ee-9216-186b2b54d4e6</testCaseGuid>
+</TestCaseEntity>
