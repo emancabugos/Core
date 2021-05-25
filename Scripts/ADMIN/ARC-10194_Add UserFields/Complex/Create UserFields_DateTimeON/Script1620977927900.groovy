@@ -68,6 +68,8 @@ WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_Date_Consum_No')
 
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
+
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Date', false)
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/checkbox_Consumer'))
@@ -81,6 +83,8 @@ WebUI.verifyTextPresent('Admin_Date_Consum_No', false)
 WebUI.comment('Admin_Date_Merch_No')
 
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
+
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_Date_Merch_No')
 
@@ -99,6 +103,8 @@ WebUI.comment('Admin_Date_ConsMer_No')
 WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/button_Add Field'))
 
 WebUI.setText(findTestObject('ADMIN/Admin Permission/ARC-10194/textfield_FieldName'), 'Admin_Date_ConsMer_No')
+
+WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/toggle_Mandatory Field'))
 
 WebUI.selectOptionByLabel(findTestObject('ADMIN/Admin Permission/ARC-10194/dropdown_FieldType'), 'Date', false)
 

@@ -18,5 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('ADMIN/Admin New Sidebar/Simple/64_redirectionAccountInfo'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyTextPresent('', false)
+WebUI.verifyTextPresent('Your Personal Details', false)
 

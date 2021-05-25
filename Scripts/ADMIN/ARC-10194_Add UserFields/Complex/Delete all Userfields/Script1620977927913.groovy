@@ -16,3 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+while (WebUI.verifyElementPresent(findTestObject('ADMIN/Admin Permission/ARC-10194/i_Yes_icon icon-delete-btn-user'), 2, FailureHandling.OPTIONAL) == 
+true) {
+    WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/i_Yes_icon icon-delete-btn-user'))
+
+    WebUI.click(findTestObject('ADMIN/Admin Permission/ARC-10194/input_Are you sure you want to delete this_cancel'))
+}
+
