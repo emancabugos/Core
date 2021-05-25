@@ -51,13 +51,13 @@
       <guid>dbfed0de-0223-4eda-91ca-c803aeabe0d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SOC/ADMIN/add_Category</testCaseId>
+      <testCaseId>Test Cases/Order List/SOC/ADMIN/add_Category</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0efeb390-0b22-41e4-bc71-cba5aad69b43</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SOC/ADMIN/add_CustomFields</testCaseId>
+      <testCaseId>Test Cases/Order List/SOC/ADMIN/add_CustomFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a2fd7d0a-790f-499b-9828-64734f4f1ab5</guid>

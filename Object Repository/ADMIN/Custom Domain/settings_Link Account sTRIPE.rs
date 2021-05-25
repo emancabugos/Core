@@ -3,7 +3,7 @@
    <description></description>
    <name>settings_Link Account sTRIPE</name>
    <tag></tag>
-   <elementGuidId>24fc101f-576d-43f2-9738-162207160fd7</elementGuidId>
+   <elementGuidId>0c0200ad-a82f-4fdf-927f-4c53fb7184dc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

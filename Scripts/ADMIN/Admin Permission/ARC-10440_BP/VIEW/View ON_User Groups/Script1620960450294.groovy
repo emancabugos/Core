@@ -16,3 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('ADMIN/User Group/Navigate to User Group'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyTextPresent('Specify groupings for your users. Search by display name to add your users to the group.', false)
+
+WebUI.click(findTestObject('ADMIN/User Group/Button_Create new Group'))
+
+WebUI.verifyTextPresent('Group Name', false)
+
