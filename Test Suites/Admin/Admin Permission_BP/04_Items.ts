@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>01_Home</name>
+   <name>04_Items</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>24cbf347-eca6-4fce-a8f4-5422f1ed0691</testSuiteGuid>
+   <testSuiteGuid>58117152-14df-4a55-9c73-272d16a4c2f4</testSuiteGuid>
    <testCaseLink>
       <guid>85ae0b8e-0f35-4c97-8bbe-16c8d2b98b57</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -36,10 +36,22 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>a6d3892b-0c3c-4102-9aa0-172477277967</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/140_checkboxHome</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_View/143_checkboxItems</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dcf77358-38c9-4e52-8645-a0d9d8f79c89</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_Edit/320_checkboxItems</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aec3b015-f2c0-404a-9f0a-5da64cd290db</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_Delete/440_checkboxItems</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -63,7 +75,13 @@
       <guid>60345d35-2591-4f09-a09f-5a42b1f2b462</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Home</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Items</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>755938e2-48a6-46c0-a2d0-27e7af8649e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/DELETE/with permission/002_Items</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>aa407bfe-2d07-48a0-87e5-b41167465cdb</guid>
@@ -84,10 +102,16 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a39cdbcd-493a-4de7-9fba-b9d2e1f7b9f9</guid>
+      <guid>955fde92-def8-4ba5-886e-60adffeaa41c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/140_checkboxHome</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_Edit/320_checkboxItems</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ebb182b1-eb06-48e9-ba48-0bfe36aa54df</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_Delete/440_checkboxItems</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>
@@ -108,16 +132,16 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/login_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>56095c6c-f961-4ccc-9fdb-0aaee46caa68</guid>
+      <guid>b3ca7b25-b785-4d80-ba39-7d981742ab3b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10360/Complex/via sidebar menu/No access_View_Home</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Items</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b214b235-5828-423a-b2be-9850cbf05038</guid>
+      <guid>35e1cd25-f998-4bfc-a6ac-a3bf1950ab38</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10360/Complex/via URL/No access_View_Home</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/DELETE/without permission/002_Items_Off</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8aaff030-da0d-4b94-bc4e-129ccd785fa7</guid>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>01_Home</name>
+   <name>09_FailedTransactionDetailsPage</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>24cbf347-eca6-4fce-a8f4-5422f1ed0691</testSuiteGuid>
+   <testSuiteGuid>1479cf50-5516-4da0-8b04-18164e54adb3</testSuiteGuid>
    <testCaseLink>
       <guid>85ae0b8e-0f35-4c97-8bbe-16c8d2b98b57</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -36,10 +36,16 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>a6d3892b-0c3c-4102-9aa0-172477277967</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/140_checkboxHome</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_View/148_checkboxFailedTransactionDetails</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bce95793-3c8c-40f7-9c21-cd9af1cfb974</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_Edit/324_checkboxFailedTransactionDetails</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -63,7 +69,7 @@
       <guid>60345d35-2591-4f09-a09f-5a42b1f2b462</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Home</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Failed Txn Details</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>aa407bfe-2d07-48a0-87e5-b41167465cdb</guid>
@@ -84,10 +90,10 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a39cdbcd-493a-4de7-9fba-b9d2e1f7b9f9</guid>
+      <guid>56f22be8-59ae-4db3-8c35-019188b25f3c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/140_checkboxHome</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_Edit/324_checkboxFailedTransactionDetails</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>
@@ -106,18 +112,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/login_SubAdmin</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>56095c6c-f961-4ccc-9fdb-0aaee46caa68</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10360/Complex/via sidebar menu/No access_View_Home</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b214b235-5828-423a-b2be-9850cbf05038</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10360/Complex/via URL/No access_View_Home</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8aaff030-da0d-4b94-bc4e-129ccd785fa7</guid>

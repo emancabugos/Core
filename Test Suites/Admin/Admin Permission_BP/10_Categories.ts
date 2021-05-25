@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>01_Home</name>
+   <name>10_Categories</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>24cbf347-eca6-4fce-a8f4-5422f1ed0691</testSuiteGuid>
+   <testSuiteGuid>1d4e7a1c-ddbd-436a-be95-bde7963447cb</testSuiteGuid>
    <testCaseLink>
       <guid>85ae0b8e-0f35-4c97-8bbe-16c8d2b98b57</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -39,7 +39,25 @@
       <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/140_checkboxHome</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/149_checkboxCategories</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d98d4c27-2202-455d-b0df-a05e39cc0782</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_Add/280_checkboxCategories</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ccc22690-7726-43c4-8eb0-22e7a3bdc4bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_Edit/325_checkboxCategories</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dfd8b79d-aeeb-4260-94e0-f39ccf0ca263</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/UI/a_Delete/441_checkboxCategories</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -63,7 +81,13 @@
       <guid>60345d35-2591-4f09-a09f-5a42b1f2b462</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Home</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Categories</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>55322db0-40c7-4b50-a7c1-be1cafe2f975</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/DELETE/with permission/003_Categories</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>aa407bfe-2d07-48a0-87e5-b41167465cdb</guid>

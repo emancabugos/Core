@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>01_Home</name>
+   <name>08_FailedTransactionList</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>24cbf347-eca6-4fce-a8f4-5422f1ed0691</testSuiteGuid>
+   <testSuiteGuid>296c5771-2409-4955-b547-15db6d395b29</testSuiteGuid>
    <testCaseLink>
       <guid>85ae0b8e-0f35-4c97-8bbe-16c8d2b98b57</guid>
       <isReuseDriver>false</isReuseDriver>
