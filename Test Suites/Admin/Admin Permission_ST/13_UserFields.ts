@@ -36,28 +36,28 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>b9edc545-7808-45e2-83f5-b55ef50b13a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/152_checkboxUserFields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/13_UserFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>283d7f6d-7787-4fd2-b336-fd463671855a</guid>
+      <guid>04894dc8-f2c2-4cd3-92eb-26c7c01a4e07</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/283_checkboxUserFields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/04_UserFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
+      <guid>dbd85306-ee79-477d-bf23-eda766b7b118</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/328_checkboxUserFields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/10_UserFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1c1e335-cb04-4ae4-9eac-523dc1511ac8</guid>
+      <guid>30698102-a01f-4c8d-9585-999bc4a0fa99</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/443_checkboxUserFields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/05_UserFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -126,22 +126,16 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d697f221-a67e-4b76-8b64-668ab9f98ece</guid>
+      <guid>43a8742f-e550-4918-89c3-02d19a65731b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/283_checkboxUserFields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/10_UserFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5822eed3-c056-4b92-b3c9-76c58e7a1510</guid>
+      <guid>8c8e9ef2-975a-4f06-bea2-b8dc2111c007</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/328_checkboxUserFields</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2af55387-416f-4fdd-8175-9c390684ec24</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/443_checkboxUserFields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/05_UserFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>
@@ -162,28 +156,28 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/login_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c65c5816-85db-49f2-863c-a79de782e2b9</guid>
+      <guid>66af61b9-f5bb-4409-a57a-db453b683dab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Item fields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_User Fields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ca048e09-92c5-4493-9dce-fc45130edb50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/ADD/Item Fields_ON</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/ADD/User Fields_OFF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9078a603-75ee-4332-87e2-06414aa2ec5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/EDIT/Item Fields/TC02</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/EDIT/User Fields/TC02</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7e9e7655-5b3d-4a72-a30c-bc19be9a98bf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/DELETE/without permission/004_Item Fields_Off</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/DELETE/without permission/005_User Fields_Off</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8aaff030-da0d-4b94-bc4e-129ccd785fa7</guid>

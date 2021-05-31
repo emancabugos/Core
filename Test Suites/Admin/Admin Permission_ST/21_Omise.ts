@@ -36,16 +36,16 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>4351da62-a295-414c-9f5b-f98fcd53e22f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/160_checkboxOmise</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/21_Omise</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
+      <guid>918603e9-a14e-4320-bbbd-e9b7974eacaf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/335_checkboxStripe</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/18_Omise</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -96,10 +96,10 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>77dd6773-48a1-44af-8d24-1449dbca2349</guid>
+      <guid>62e730da-5764-4b8c-b1a5-de12608f9254</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/339_checkboxOmise</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/18_Omise</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>

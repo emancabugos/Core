@@ -36,28 +36,28 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>d7e3b213-2919-4aaa-975a-dfa4051ad9ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/170_checkboxMerchantCommission</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/29_MerchantCommission</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b6a24b83-aa78-489b-b39a-d356748e05ff</guid>
+      <guid>83a55984-2ed6-4713-ba7a-9201fd3dd12a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/291_checkboxMerchantCommission</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/11_MerchantCommission</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
+      <guid>88d8518f-1359-4aa4-9fe4-1f77fe8d2651</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/345_checkboxMerchantCommission</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/26_MerhantCommssion</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>50fc8c90-2fe3-4ddd-a386-e09e7c16d599</guid>
+      <guid>1a1d57fe-5adc-4a41-9172-a02b13acc0c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/448_checkboxMerchantCommission</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/10_MerchantCommission</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -126,22 +126,22 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>11eed20a-4e23-4f69-b26a-a80e3ff487fe</guid>
+      <guid>ff4963ec-4940-4437-8768-1c0eb5533618</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/289_checkboxUserGroups</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/11_MerchantCommission</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bc5469a0-998b-4d2a-a911-ab4dcef6a421</guid>
+      <guid>3b1c52e5-9017-4bf2-b931-dfce1f980117</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/448_checkboxMerchantCommission</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/10_MerchantCommission</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>aeb1ceab-c2e4-48bc-a9a9-4ca4078c3c36</guid>
+      <guid>276e3a52-992c-43e0-ac61-54e29b7eb9d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/345_checkboxMerchantCommission</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/26_MerhantCommssion</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>

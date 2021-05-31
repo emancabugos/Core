@@ -36,16 +36,16 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>f0e1975c-6ac3-49be-9709-16f38a461d63</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/202_checkboxGoogleTranslate</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/60_GoogleTranslate</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
+      <guid>30cce158-7297-4ef2-9851-82b5b98c460c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/372_checkboxGoogleTranslate</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/51_GoogleTranslate</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -102,10 +102,10 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>11df4b11-54e9-4d1e-9862-5f2d49c84da4</guid>
+      <guid>ae83e35a-87b2-491c-8081-0dd90d8835a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/372_checkboxGoogleTranslate</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/51_GoogleTranslate</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>

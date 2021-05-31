@@ -36,28 +36,28 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>9cbd5984-64c3-4996-9f84-e761095f3df0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/155_checkboxCustomDomain</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/16_CustomDomain</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>283d7f6d-7787-4fd2-b336-fd463671855a</guid>
+      <guid>09026a93-90c9-4662-b9f2-cfc83c86da94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/286_checkboxCustomDomain</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/06_CustomDomain</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
+      <guid>70a59cc3-af6a-4851-b38c-ba50ff45c243</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/331_checkboxCustomDomain</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/13_CustomDomain</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1c1e335-cb04-4ae4-9eac-523dc1511ac8</guid>
+      <guid>b8da57a4-c097-4797-a943-c290a48daeeb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/445_checkboxCustomDomain</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/07_CustomDomain</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -126,22 +126,22 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0b733ae0-0f84-4548-a42a-11134c746a16</guid>
+      <guid>3cf3e6e6-64a4-4b95-ad13-001941e8fb12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/286_checkboxCustomDomain</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/06_CustomDomain</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e7546a24-8401-4d53-bf74-812aac25d351</guid>
+      <guid>54c7ee19-bfa8-4373-b0af-bfd86e699804</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/445_checkboxCustomDomain</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/07_CustomDomain</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a531a2c4-8556-4847-b1d3-5d7915ba5ede</guid>
+      <guid>5a3c0252-b04f-4fc1-bc14-cc677cb94ef2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/331_checkboxCustomDomain</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/13_CustomDomain</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>

@@ -36,22 +36,16 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>5a858202-a886-4201-a5b8-18732b7ef40f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/167_checkboxUserGroupCreation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/26_UserGroupCreation</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b6a24b83-aa78-489b-b39a-d356748e05ff</guid>
+      <guid>8608f82b-8eda-426c-a538-a3382bad0a7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/290_checkboxUserGroupCreation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/342_checkboxUserGroupCreation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/23_UserGroupsCreation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -76,12 +70,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_User Group Creation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4d832e20-d537-4f62-88b5-c8b77e665605</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/ADD/User Groups_ON</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>28361fe4-cf4b-425f-ab2f-003a9089467f</guid>
@@ -114,16 +102,10 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>79377864-4f3a-4f45-a5af-a47be9f2a307</guid>
+      <guid>5ce325e0-a8a8-4bbd-86be-5900de770f14</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/290_checkboxUserGroupCreation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>0cf60569-ce7b-4c2b-99f5-c7b5e2b7e0af</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/342_checkboxUserGroupCreation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/23_UserGroupsCreation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>

@@ -36,28 +36,28 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>94546303-c58e-4299-8b80-2e4549b54aec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/183_checkboxPolicies</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/41_Policies</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b6a24b83-aa78-489b-b39a-d356748e05ff</guid>
+      <guid>71f6f290-8163-4370-b829-dd306745fb2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/294_checkboxPolicies</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/13_Policies</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
+      <guid>566e0637-5228-4449-b2c4-5035b565c3f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/358_checkboxPolicies</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/37_Policies</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>50fc8c90-2fe3-4ddd-a386-e09e7c16d599</guid>
+      <guid>985edfb9-e01d-4f65-9819-f7360ba0fa38</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/453_checkboxPolicies</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/14_Policies</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -144,22 +144,22 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fac632cb-87b1-40c8-8bd5-b81858a3cd8f</guid>
+      <guid>1cdc53f6-b452-40b9-93f6-ea30bfb92d03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/294_checkboxPolicies</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/13_Policies</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c000d8a7-68d7-4b6d-ae16-5e8bcfa3042c</guid>
+      <guid>ca0e7e6f-fcd6-4c73-8328-059c9a69695e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/453_checkboxPolicies</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/14_Policies</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a4de4024-282e-41a0-8045-4c38291d246f</guid>
+      <guid>2924f5a9-4267-4c41-bde4-eed0866b2d00</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/358_checkboxPolicies</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/37_Policies</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>

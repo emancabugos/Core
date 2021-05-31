@@ -36,22 +36,28 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>7aeaad7e-58ad-4806-b334-7e891dd08d26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/200_checkboxLanguageSettings</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/58_LanguageSettings</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
+      <guid>c2ae78da-030c-4e89-b61b-410eed05afd1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/370_checkboxLanguageSettings</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/19_LanguageSettings</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>50fc8c90-2fe3-4ddd-a386-e09e7c16d599</guid>
+      <guid>0d84667b-26b7-4542-9aab-cc30767236fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/457_checkboxLanguageSettings</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/49_LanguageSettings</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e49427e0-bcdb-4780-999c-d0e9fe072c29</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/18_LanguageSettings</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -120,28 +126,22 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e017f152-a498-4f52-9a88-297237a8314e</guid>
+      <guid>387a4e9c-5671-485b-ad27-2b3dc1e7d7fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/457_checkboxLanguageSettings</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/19_LanguageSettings</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a8e6e5c2-4c57-4df2-80e8-4e0787e2a9b7</guid>
+      <guid>a12a03d3-c85c-458b-8164-4de5de882168</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/370_checkboxLanguageSettings</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/18_LanguageSettings</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>64dc79ed-2276-4749-8cc8-8f0c1d04becb</guid>
+      <guid>8c70f0bc-a5d2-4f00-9028-0df9ed6e9da6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/456_checkboxAdminPermissionCreation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8d6cccc9-8a20-49b9-9eff-272b4d4ede64</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/297_checkboxLanguageSettings</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/49_LanguageSettings</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>

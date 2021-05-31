@@ -36,10 +36,10 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>7f7cb5c7-2675-4a39-9dae-3172ba175f43</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/153_checkboxUserFieldsCreation</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/14_UserFieldsCreation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9ca0df75-c615-40bc-a0a5-2e58a7aaeb20</guid>
@@ -75,25 +75,25 @@
       <guid>60345d35-2591-4f09-a09f-5a42b1f2b462</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Item fields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_User Fields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d244c901-e64e-4e60-9636-086ae726e672</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/ADD/Item Fields_ON</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/ADD/User Fields_ON</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2ab7d8b7-b775-4e8c-9dad-b50b0254cdbf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/EDIT/Item Fields/TC01</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/EDIT/User Fields/TC01</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>55322db0-40c7-4b50-a7c1-be1cafe2f975</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/DELETE/with permission/004_Item Fields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/DELETE/with permission/005_User Fields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>aa407bfe-2d07-48a0-87e5-b41167465cdb</guid>
@@ -159,7 +159,7 @@
       <guid>c65c5816-85db-49f2-863c-a79de782e2b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_Item fields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_BP/VIEW/View ON_User fields creation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ca048e09-92c5-4493-9dce-fc45130edb50</guid>
@@ -171,7 +171,7 @@
       <guid>9078a603-75ee-4332-87e2-06414aa2ec5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/EDIT/Item Fields/TC02</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission/ARC-10440_ST/EDIT/User Fields/TC02</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7e9e7655-5b3d-4a72-a30c-bc19be9a98bf</guid>

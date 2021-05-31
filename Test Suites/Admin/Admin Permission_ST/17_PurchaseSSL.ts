@@ -36,16 +36,22 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>fe6a81fb-3e81-491a-8808-5fbee6c471af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/17_PuchaseSSL</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5501f551-95f0-4492-b737-6be67e706e63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/14_PurchaseSSL</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/156_checkboxPurchaseSSL</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/332_checkboxPurchaseSSL</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -96,10 +102,10 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fb0e4c59-7252-41ef-8420-8e6f7bf9b9d9</guid>
+      <guid>be25c90d-af23-4dfb-9f64-cfadf47bf5f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/332_checkboxPurchaseSSL</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/14_PurchaseSSL</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>

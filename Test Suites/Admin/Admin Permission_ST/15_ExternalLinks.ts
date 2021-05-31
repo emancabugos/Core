@@ -36,28 +36,28 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>f3f074c4-cb91-4ba2-982e-259590faf73c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/154_checkboxExternalLinks</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/15_ExternalLinks</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>283d7f6d-7787-4fd2-b336-fd463671855a</guid>
+      <guid>3a4bf55e-1361-47de-9206-9d5478395c0e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/285_checkboxExternalLinks</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/05_ExternalLinks</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
+      <guid>24782d8c-278b-4839-8914-ca5d0d2be1fc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Edit/330_checkboxExternalLinks</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/06_ExternalLinks</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1c1e335-cb04-4ae4-9eac-523dc1511ac8</guid>
+      <guid>db015eef-0fe4-44a6-bb76-41f1ade8bc9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/444_checkboxExternalLinks</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/12_ExternalLinks</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c8b5a3d6-159c-43c6-a3ee-aaf4e4d08365</guid>
@@ -126,22 +126,22 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/click_Edit</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6211b9c9-e86a-4cf2-aba6-aace55676232</guid>
+      <guid>6fe701de-089b-4fb3-a82a-5d31835c83ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Add/285_checkboxExternalLinks</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Add/05_ExternalLinks</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4d822412-9dab-41fa-94a6-57041cc75d9f</guid>
+      <guid>fcd9aee6-61f3-4aef-8c8d-aeb16ee71af1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/444_checkboxExternalLinks</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_Delete/06_ExternalLinks</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2af55387-416f-4fdd-8175-9c390684ec24</guid>
+      <guid>998b3ba3-835a-461e-bfcd-43ffa2023452</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_Delete/443_checkboxUserFields</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/e_Edit/12_ExternalLinks</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33ceda39-70e3-425e-8917-dc7a52a86936</guid>

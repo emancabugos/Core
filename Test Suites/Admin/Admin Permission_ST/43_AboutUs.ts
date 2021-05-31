@@ -36,10 +36,10 @@
       <testCaseId>Test Cases/ADMIN/Admin Permission_BP/For Suites/select_SubAdmin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b15d7331-9d1c-4ebe-be87-f87ff3c528a5</guid>
+      <guid>9888adfe-9963-41f2-b9e3-b4203eba2052</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Admin Permission_BP/Simple/a_View/182_checkboxAboutUs</testCaseId>
+      <testCaseId>Test Cases/ADMIN/Admin Permission_ST/Simple/a_View/40_AboutUs</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d9774dc5-fbc9-4227-810f-a67b21231edd</guid>
