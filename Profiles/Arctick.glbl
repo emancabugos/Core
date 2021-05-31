@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'0220bp0comm6'</initValue>
+      <initValue>'1120rgkth1'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'0220bp0comm6.test.arcadier.io/admin/'</initValue>
+      <initValue>'1120rgkth1.test.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -163,5 +163,10 @@
       <description></description>
       <initValue>'0218wenabp.test.arcadier.io/user/order/cart'</initValue>
       <name>cartURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'subadmin01'</initValue>
+      <name>subadmin</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

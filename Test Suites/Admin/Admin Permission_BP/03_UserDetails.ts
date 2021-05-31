@@ -84,6 +84,12 @@
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>61bf842e-3c0f-4c95-8540-a88abf2e7c10</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Admin New Sidebar/Simple/43_redirectionAdminPermission</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>cc01da91-a608-4ea9-a367-85b34e144c18</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ADMIN/New Admin Permission/button_CreateNewAdminGroup'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Permission_BP/button_Back'), 0)
+

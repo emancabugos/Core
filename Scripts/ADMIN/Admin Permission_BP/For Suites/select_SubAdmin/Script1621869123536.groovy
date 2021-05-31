@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('ADMIN/Admin Permission_BP/textfield_AdminUserGroup'), 'SubAdmin')
+
+WebUI.click(findTestObject('ADMIN/Admin Permission_BP/textfield_SearchSubAdmin'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Permission_BP/textfield_checkSubAdmin'), 0)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('ADMIN/Admin Permission_BP/checkbox_SelectAll'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('ADMIN/Admin Permission_BP/column_PageName'), FailureHandling.CONTINUE_ON_FAILURE)
+

@@ -21,7 +21,7 @@
       <guid>a72c8a16-e878-4b5b-ba74-ab1b3c32b4ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/Simple Checkout</testCaseId>
+      <testCaseId>Test Cases/CONSUMER/BESPOKE/Checkout Scenarios/a_Simple Checkout</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>08347f5c-2e96-4408-b498-1812e05149d5</guid>
