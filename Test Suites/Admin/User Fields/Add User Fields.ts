@@ -15,7 +15,7 @@
       <guid>a1ce79bc-3404-4aa6-b5c0-1259d55579d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/ARC-10194_Add UserFields/Navigation_Core</testCaseId>
+      <testCaseId>Test Cases/ADMIN/ARC-10194_Add UserFields/Navigation_Superbaby_B2C</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0cdfbf52-4386-4c47-8f08-0dcf69b8dd36</guid>
