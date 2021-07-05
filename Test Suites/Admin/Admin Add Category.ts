@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>baf2bc58-391c-4fcb-b9e5-8142952b037f</testSuiteGuid>
    <testCaseLink>
       <guid>6829c2f5-e662-4263-9d75-0a0c95439d9f</guid>
@@ -29,7 +30,7 @@
       <testCaseId>Test Cases/ADMIN/Configuration/Categories/Category Add-Edit/Add Category</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ec586017-cfcc-4a7e-878b-0a93302b3951</id>
+         <id>dfd43f13-a516-405e-b8df-db3b12a6964c</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -37,27 +38,27 @@
          <testDataId>Data Files/ADMIN/Category/Category List</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
+         <testDataLinkId>dfd43f13-a516-405e-b8df-db3b12a6964c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CategoryNametext</value>
+         <value></value>
          <variableId>55a4d2ef-8d94-4efc-9f5e-0ead421f6591</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
+         <testDataLinkId>dfd43f13-a516-405e-b8df-db3b12a6964c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>ParentName</value>
+         <value></value>
          <variableId>95cdb832-0587-44ee-821f-9afb9ae49ce8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
+         <testDataLinkId>dfd43f13-a516-405e-b8df-db3b12a6964c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CategoryImageUpload</value>
+         <value></value>
          <variableId>47799acf-877b-4e5f-838f-5f40b584daa9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ec586017-cfcc-4a7e-878b-0a93302b3951</testDataLinkId>
+         <testDataLinkId>dfd43f13-a516-405e-b8df-db3b12a6964c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Description</value>
+         <value></value>
          <variableId>17f850bb-d156-4919-951b-4f9aaaa05417</variableId>
       </variableLink>
    </testCaseLink>

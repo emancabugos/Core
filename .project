@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C%%Katalon%Core%Core.prj</name>
+	<name>C%%katalon%Core%Core.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,19 @@
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
 			<id>1622420799962</id>
+=======
+<<<<<<< HEAD
+			<id>1622446185609</id>
+=======
+<<<<<<< HEAD
+			<id>1621909674030</id>
+=======
+<<<<<<< HEAD
+			<id>1621813522382</id>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +38,15 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1622420799966</id>
+=======
+<<<<<<< HEAD
+			<id>1622446185612</id>
+=======
+			<id>1621813522405</id>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -34,6 +54,8 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+<<<<<<< HEAD
+=======
 		<filter>
 			<id>1622430623180</id>
 			<name></name>
@@ -430,6 +452,7 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+<<<<<<< HEAD
 		<filter>
 			<id>1623981011024</id>
 			<name></name>
@@ -538,5 +561,18 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
+=======
+=======
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 	</filteredResources>
 </projectDescription>
