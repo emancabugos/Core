@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/User Menu/img_usermenu'), 0)
+
+WebUI.click(findTestObject('SPACETIME/MERCHANT/User Menu/img_usermenu'))
+
+WebUI.waitForElementVisible(findTestObject('Utilities/Bespoke Usermenu/linktext_Purchases'), 0)
+
+WebUI.click(findTestObject('Utilities/Bespoke Usermenu/linktext_Purchases'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyElementClickable(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/linktext_invoiceID'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('BESPOKE DEL 2/CONSUMER/Purchase History List/linktext_invoiceID'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.verifyTextPresent('You need permission to access this page', false)
+
