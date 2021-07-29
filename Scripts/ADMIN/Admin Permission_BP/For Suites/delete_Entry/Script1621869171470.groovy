@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('ADMIN/New Admin Permission/button_Delete'))
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/New Admin Permission/button_Yes'), 0)
+
+WebUI.click(findTestObject('ADMIN/New Admin Permission/button_Yes'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.waitForElementNotVisible(findTestObject('ADMIN/New Admin Permission/button_Yes'), 0)
+

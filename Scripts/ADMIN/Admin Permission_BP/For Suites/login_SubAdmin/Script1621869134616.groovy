@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(GlobalVariable.AdminURL)
+
+WebUI.waitForElementVisible(findTestObject('ADMIN/Admin Login Page/textbox_username'), 0)
+
+WebUI.setText(findTestObject('ADMIN/Admin Login Page/textbox_username'), GlobalVariable.subadmin)
+
+WebUI.setText(findTestObject('ADMIN/Admin Login Page/textbox_password'), GlobalVariable.CustomPass)
+
+WebUI.scrollToElement(findTestObject('ADMIN/Admin Login Page/button_SignIn'), 0)
+
+WebUI.click(findTestObject('ADMIN/Admin Login Page/button_SignIn'))
+
