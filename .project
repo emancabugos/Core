@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
-	<name>C%%Users%Trisha%Katalon Studio%Core%Core.prj</name>
-=======
 	<name>C%%Katalon%Core%Core.prj</name>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
 	<comment></comment>
 	<projects>
 	</projects>
@@ -21,8 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-<<<<<<< HEAD
-			<id>1621813522382</id>
+			<id>1621910806472</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -31,7 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621813522405</id>
+			<id>1621910806483</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -40,13 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621902146341</id>
-=======
-<<<<<<< HEAD
-			<id>1621899162352</id>
-=======
-<<<<<<< HEAD
-			<id>1621899415163</id>
+			<id>1621984090605</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -55,7 +44,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621899415172</id>
+			<id>1621984090612</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -63,16 +52,8 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-=======
-<<<<<<< HEAD
-			<id>1621384937639</id>
-=======
-<<<<<<< HEAD
-			<id>1621813522382</id>
-=======
-<<<<<<< HEAD
-			<id>1621812004772</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+		<filter>
+			<id>1622444352186</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -81,7 +62,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621899162374</id>
+			<id>1622444352189</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -89,10 +70,8 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-<<<<<<< HEAD
-=======
 		<filter>
-			<id>1621820985659</id>
+			<id>1622502571643</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -101,7 +80,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621820985666</id>
+			<id>1622502571650</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -109,15 +88,8 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-=======
-<<<<<<< HEAD
-			<id>1621389268439</id>
-=======
-			<id>1621768976365</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+		<filter>
+			<id>1622601034872</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -126,14 +98,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1621902146349</id>
-=======
-<<<<<<< HEAD
-			<id>1621384937643</id>
-=======
-			<id>1621813522405</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1622601034883</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -142,11 +107,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1621904226159</id>
-=======
-			<id>1621816467315</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1622607315722</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -155,11 +116,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1621904226177</id>
-=======
-			<id>1621816467315</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1622607315724</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -167,10 +124,8 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-<<<<<<< HEAD
-=======
 		<filter>
-			<id>1621818562618</id>
+			<id>1622610879696</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -179,7 +134,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621818562628</id>
+			<id>1622610879699</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -188,7 +143,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621857001472</id>
+			<id>1622611725964</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -197,7 +152,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621857001482</id>
+			<id>1622611725973</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -206,7 +161,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621862636605</id>
+			<id>1622613155643</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -215,7 +170,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621862636611</id>
+			<id>1622613155646</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -224,7 +179,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621868828138</id>
+			<id>1622674766822</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -233,8 +188,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621868828141</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1622674766831</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -243,13 +197,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1621565589855</id>
-=======
-<<<<<<< HEAD
-			<id>1621897954407</id>
-=======
-			<id>1621813045910</id>
+			<id>1623107605072</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -258,7 +206,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621813045920</id>
+			<id>1623107605083</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -267,7 +215,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621813502060</id>
+			<id>1623285208930</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -276,7 +224,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621813502060</id>
+			<id>1623285208939</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -284,12 +232,8 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-=======
-<<<<<<< HEAD
 		<filter>
-			<id>1621521339054</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1623366402258</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -298,8 +242,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1621565589871</id>
+			<id>1623366402266</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -308,7 +251,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621565713471</id>
+			<id>1623633490543</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -317,7 +260,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621565713554</id>
+			<id>1623633490558</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -326,7 +269,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621579386037</id>
+			<id>1623711886351</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -335,7 +278,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621579386042</id>
+			<id>1623711886359</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -344,7 +287,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621581810629</id>
+			<id>1623800724903</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -353,7 +296,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621581810639</id>
+			<id>1623800724912</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -362,7 +305,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621585074806</id>
+			<id>1623886465019</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -371,7 +314,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621585074810</id>
+			<id>1623886465031</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -380,7 +323,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621901764008</id>
+			<id>1623972247164</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -389,10 +332,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621901764016</id>
-=======
-			<id>1621897954417</id>
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+			<id>1623972247174</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -400,12 +340,8 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
 		<filter>
-			<id>1621522700201</id>
+			<id>1624317006334</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -414,7 +350,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621522700204</id>
+			<id>1624317006344</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -423,7 +359,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621551627197</id>
+			<id>1624403422480</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -432,7 +368,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621551627365</id>
+			<id>1624403422709</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -441,7 +377,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621553138473</id>
+			<id>1624492124183</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -450,7 +386,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621553138476</id>
+			<id>1624492124194</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -459,7 +395,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621773482586</id>
+			<id>1624511871414</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -468,7 +404,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621773482595</id>
+			<id>1624511871426</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -477,7 +413,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621812338213</id>
+			<id>1624579472910</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -486,7 +422,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1621812338229</id>
+			<id>1624579473033</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -494,14 +430,545 @@
 				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
 			</matcher>
 		</filter>
-=======
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
->>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+		<filter>
+			<id>1624923455490</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1624923455499</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1624934248803</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1624934248853</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625016035085</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625016035107</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625453608196</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625453608213</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625466051517</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625466051522</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625552809647</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625552809653</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625615882325</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625615882341</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625704223789</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625704223804</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625748992443</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625748992454</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625752165178</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625752165190</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625790480861</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1625790480874</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626130498652</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626130498672</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626134387507</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626134387524</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626184340690</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626184340706</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626224781473</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626224781676</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626308947903</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626308947921</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626326856766</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626326856773</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626843149074</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626843149080</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626915463838</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626915463970</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626925782469</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626925782481</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626932220673</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626932220678</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626937649801</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1626937649806</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627290721625</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627290721633</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627309706129</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627309706135</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627342211735</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627342211749</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627345159757</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627345159761</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627393626201</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627393626214</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627448621882</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627448621909</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627449550905</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627449550917</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627517766423</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1627517766427</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
 	</filteredResources>
 </projectDescription>

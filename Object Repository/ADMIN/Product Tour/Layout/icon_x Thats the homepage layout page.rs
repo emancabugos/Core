@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon_x Thats the homepage layout page</name>
+   <tag></tag>
+   <elementGuidId>88abd6db-84c4-4d39-9064-11f1302004b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M273.25,232.44,455.71,49.86A28.94,28.94,0,0,0,414.77,8.94L232.33,191.49,49.89,8.94A28.93,28.93,0,0,0,9,8.93,28.93,28.93,0,0,0,9,49.86L191.41,232.44,9,415a28.94,28.94,0,1,0,40.94,40.91L232.33,273.38,414.77,455.93A28.94,28.94,0,1,0,455.71,415Z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Layer_1&quot;)/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

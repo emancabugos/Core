@@ -14,13 +14,13 @@
    <testCaseLink>
       <guid>6829c2f5-e662-4263-9d75-0a0c95439d9f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8f413c03-1f59-461e-b023-591525029116</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Categories/Category Add-Edit/UI Verification</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -35,7 +35,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ADMIN/Category List</testDataId>
+         <testDataId>Data Files/ADMIN/Category/Category List</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -65,19 +65,19 @@
    <testCaseLink>
       <guid>ec799779-093a-4091-b125-98e8a944f83e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Categories/Category Add-Edit/Edit Category</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>85521475-521a-42b3-9568-2783fcb6a3cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Categories/Category Add-Edit/Delete Category</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5a0a138f-de82-4f61-a81a-a4fc1eeb65f8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

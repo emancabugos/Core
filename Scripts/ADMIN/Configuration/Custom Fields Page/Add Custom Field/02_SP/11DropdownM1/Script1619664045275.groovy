@@ -63,6 +63,10 @@ WebUI.comment('Mandatory/NonMandatory')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/togglebutton_mandatory'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.comment('Default Value')
+
+WebUI.click(findTestObject('ADMIN/Custom Field Default Value/dropdown_DEFAULT VALUE1'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.comment('Assign Category')
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'))

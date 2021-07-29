@@ -33,6 +33,10 @@ WebUI.comment('Mandatory/NonMandatory')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/togglebutton_mandatory'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.comment('Default Value')
+
+WebUI.uploadFile(findTestObject('ADMIN/Custom Field Default Value/pdf_inputDEFAULT VALUE'), 'C:\\Katalon\\Core\\Images\\PDF\\1mb.pdf')
+
 WebUI.comment('Assign Category')
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'))
