@@ -4,6 +4,12 @@
    <name>dropdown_OrderStatus</name>
    <tag></tag>
    <elementGuidId>b6e8d137-1976-484f-baf7-f365cdea9cd5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name = 'order-status' and @id = 'orderid-1']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -42,7 +48,7 @@
       <value>options:OrderStatusList, optionsText:'Name', optionsValue:'ID', value:OrderStatus, event:{change:$root.singleStatusChanged}</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

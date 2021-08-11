@@ -33,6 +33,10 @@ WebUI.comment('Mandatory/NonMandatory')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/togglebutton_mandatory'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.comment('Default Value')
+
+WebUI.setText(findTestObject('ADMIN/Custom Field Default Value/precentage_inputDEFAULT VALUE'), '54%')
+
 WebUI.comment('Assign Category')
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'))
@@ -42,7 +46,7 @@ WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields List Page/a
 
 WebUI.comment('Category Assignment')
 
-WebUI.setText(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/searchbox_Category'), varAssignedCategory, 
+WebUI.setText(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/searchbox_Category'), 'Category 01', 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields List Page/a_SelectCategories/a_Categories/checkbox_1'))

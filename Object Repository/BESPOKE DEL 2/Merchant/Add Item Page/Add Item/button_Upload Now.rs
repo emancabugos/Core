@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[4]/div[6]/div/a[count(. | //a[@class = 'add-cart-btn']) = count(//a[@class = 'add-cart-btn'])]</value>
+         <value>/html/body/div[4]/div[6]/div/a[count(. | //a[@class = 'add-cart-btn ' and (text() = 'SAVE' or . = 'SAVE')]) = count(//a[@class = 'add-cart-btn ' and (text() = 'SAVE' or . = 'SAVE')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>add-cart-btn</value>
+      <value>add-cart-btn </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,11 +34,11 @@
       <value>btnItemUpload</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add Item</value>
+      <value>SAVE</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

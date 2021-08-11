@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//div[9]/div/ul/li[2]/div/div[2]/input</value>
+         <value>/html/body/div[3]/div[2]/div[3]/div/div[1]/div[2]/div/form/div/div[10]/div[3]/ul/li[2]/div/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,5 +22,12 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/div[3]/div[2]/div[3]/div/div[1]/div[2]/div/form/div/div[10]/div[3]/ul/li[2]/div/div[2]/input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
    </webElementProperties>
 </WebElementEntity>

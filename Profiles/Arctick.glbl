@@ -6,12 +6,16 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Change to: test, staging, live</description>
-      <initValue>'https://www.staging.arcadier.io'</initValue>
+      <initValue>'https://www.test.arcadier.io'</initValue>
       <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'superb2bcty'</initValue>
+<<<<<<< HEAD
+      <initValue>'0723omp'</initValue>
+=======
+      <initValue>'0928b2cmulti'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +55,16 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'superb2bcty.arcadier.io/admin'</initValue>
+<<<<<<< HEAD
+      <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
+=======
+      <initValue>'0928b2cmulti.test.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'bootstrap.arcadier.com/adminportal/private-setting.html'</initValue>
+      <initValue>'0531spacetime1.staging.arcadier.io'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +79,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'01seller'</initValue>
+<<<<<<< HEAD
+      <initValue>'risaseller2.1'</initValue>
+=======
+      <initValue>'sellerauto'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -168,5 +180,10 @@
       <description></description>
       <initValue>'subadmin01'</initValue>
       <name>subadmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>refersionURL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

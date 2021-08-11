@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;saveCustomfield&quot;]/span/a[count(. | //*[(text() = 'Save' or . = 'Save')]) = count(//*[(text() = 'Save' or . = 'Save')])]</value>
+         <value>//a[(text() = 'Save' or . = 'Save')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -41,10 +41,10 @@
       <value>Save</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;saveCustomfield&quot;]/span/a</value>
+      <value>//*[@id=&quot;saveCustomfield&quot;]/a</value>
    </webElementProperties>
 </WebElementEntity>

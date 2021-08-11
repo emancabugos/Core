@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
+         <value>//a[(text() = 'Add Field' or . = 'Add Field')]</value>
+=======
          <value>//*[(text() = 'Add Field' or . = 'Add Field')]</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
