@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='whitelist-url']/div/h5</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'View your blacklisted domains below.' or . = 'View your blacklisted domains below.')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -24,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add Whitelist here.</value>
+      <value>View your blacklisted domains below.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

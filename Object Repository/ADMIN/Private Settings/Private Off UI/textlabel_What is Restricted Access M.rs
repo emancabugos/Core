@@ -4,6 +4,12 @@
    <name>textlabel_What is Restricted Access M</name>
    <tag></tag>
    <elementGuidId>9b45ea8c-30f2-474f-85b4-fa09fee693ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h4[(text() = 'What is a restricted access marketplace?' or . = 'What is a restricted access marketplace?')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>What is Restricted Access Marketplace ?</value>
+      <value>What is a restricted access marketplace?</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

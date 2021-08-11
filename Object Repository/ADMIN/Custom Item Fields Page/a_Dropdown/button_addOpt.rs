@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;contactForm&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;opt5 custom-field-opt active&quot;]/div[@class=&quot;custom-field-form&quot;]/div[@class=&quot;add-option-area&quot;]/a[1]/i[@class=&quot;icon icon-addopt&quot;]</value>
+         <value>/html/body/div[3]/div[2]/div[3]/div/div[1]/div[2]/div/form/div/div[10]/div[3]/div[2]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -35,6 +35,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contactForm&quot;)/div[@class=&quot;form-field-controler&quot;]/div[@class=&quot;opt5 custom-field-opt active&quot;]/div[@class=&quot;custom-field-form&quot;]/div[@class=&quot;add-option-area&quot;]/a[1]/i[@class=&quot;icon icon-addopt&quot;]</value>
+      <value>/html/body/div[3]/div[2]/div[3]/div/div[1]/div[2]/div/form/div/div[10]/div[3]/div[2]/a</value>
    </webElementProperties>
 </WebElementEntity>

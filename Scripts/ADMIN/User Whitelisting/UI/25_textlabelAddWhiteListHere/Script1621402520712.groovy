@@ -18,3 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Whitelisting/textlabel_AddWhitelistHere'))
 
+WebUI.verifyTextPresent('View your whitelisted domains below.', false)
+

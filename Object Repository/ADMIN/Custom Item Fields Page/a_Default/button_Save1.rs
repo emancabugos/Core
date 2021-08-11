@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;saveCustomfield&quot;]/a[count(. | //a[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')]) = count(//a[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')])]</value>
+         <value>//*[@id=&quot;saveCustomfield&quot;]/span/a[count(. | //*[(text() = 'Save' or . = 'Save')]) = count(//*[(text() = 'Save' or . = 'Save')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +27,7 @@
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -45,6 +45,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;saveCustomfield&quot;]/a</value>
+      <value>//*[@id=&quot;saveCustomfield&quot;]/span/a</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>delete_searchbar</name>
+   <tag></tag>
+   <elementGuidId>ae1cf9ae-d6b8-4075-b282-568db3816aca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='add-item-area']/div/div/form/div[2]/div/div/div/div/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-times-circle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa  fa-times-circle</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react_0HM9Q0FHO8LQN&quot;)/div[@class=&quot;main&quot;]/div[@id=&quot;add-item-area&quot;]/div[@class=&quot;box-shadow&quot;]/div[@class=&quot;container&quot;]/form[@class=&quot;user-group-create-body&quot;]/div[@class=&quot;item-form-group&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;form--element&quot;]/div[@class=&quot;advanced-select choosen&quot;]/div[@class=&quot;dropdown&quot;]/a[@class=&quot;x-clear&quot;]/i[@class=&quot;fa  fa-times-circle&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='add-item-area']/div/div/form/div[2]/div/div/div/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

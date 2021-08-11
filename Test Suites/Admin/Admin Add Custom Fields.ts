@@ -14,67 +14,67 @@
    <testCaseLink>
       <guid>10ab58b6-5d24-4a10-9fce-35de014c5eb0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3fb5d26c-85e5-46a3-8bac-bdc948b66a8f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Admin New Sidebar/Simple/24_redirectionCustomFields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3aec1fa7-9f76-45f8-a008-43db0c95ff82</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/01TextfieldNM1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f468e424-62c7-47a4-bc52-2fa23d9eaf22</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/02TextfieldNM2</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d5d90d51-6a5a-4fce-a64d-e9a314179f2e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/03TextEditorNM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c1055b2a-a85b-416f-8cfe-bd47be01c183</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/04HypetlinkNM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0e225740-57d1-469f-a060-ad71b53f5fd7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/05EmailNM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b3e079b0-7d21-487a-9845-62345ef5351f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/06NumberNM1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3e74ef29-457e-4877-85b0-edf4823fa2d8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/07NumberNM2</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>54b4e7db-5038-44b7-907a-d642d51b538b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/08PercentageNM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>58b13b41-a4e0-4982-ba0c-8405671da30b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/09CheckBoxNM1</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -86,7 +86,7 @@
    <testCaseLink>
       <guid>e0c73414-9c35-40ec-97f1-5e516b3a002e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/10CheckBoxNM2</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -98,7 +98,7 @@
    <testCaseLink>
       <guid>dbc38cfa-f493-4562-8dac-0c9e0db1fab1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/11DropdownNM1</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -110,7 +110,7 @@
    <testCaseLink>
       <guid>9ebb85ce-7a31-4631-a357-7a326a9b7602</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/12DropdownNM2</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -122,67 +122,67 @@
    <testCaseLink>
       <guid>92b318b3-28d8-4ba8-a144-866281a4f154</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/13LocationNM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b22744f2-ada8-4d27-a02a-d7de433f832d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/14pdfFILENM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d96d149e-fca4-4baa-b12e-f94ca163193d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/15VideoNM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>82c1cffd-3995-4a44-8958-d2fed5a93d4d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/16TimeONNM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e95b7eba-4c38-4a5d-9994-d6efa5fa6036</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/01_AllCat/17TimeOFFNM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>57c6482d-336a-47ac-a6c4-73f1d5f512c6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/02_SP/01TextfieldM1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a0ae12e6-abed-468f-9721-5c106088c82a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/02_SP/02TextfieldM2</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>64ce0fa6-4b1c-48e4-b1e0-dd2b7f75d8da</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/02_SP/03TextEditorM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>497c11aa-0cf6-46b6-bb85-2ce2281beb7a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/02_SP/04HypetlinkM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a4be3b25-2c5e-4eff-af1d-1f84716c75be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/02_SP/05EmailM</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a24871bb-5461-4512-bffb-c0aa0b0c90f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/02_SP/06PercentageM</testCaseId>
    </testCaseLink>
    <testCaseLink>
