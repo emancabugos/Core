@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>Change to: test, staging, live</description>
-      <initValue>'https://www.test.arcadier.io'</initValue>
+      <initValue>'https://www.staging.arcadier.io'</initValue>
       <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1120rgkth1'</initValue>
+      <initValue>'superb2bcty'</initValue>
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,12 +51,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'1120rgkth1.test.arcadier.io/admin'</initValue>
+      <initValue>'superb2bcty.arcadier.io/admin'</initValue>
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
-      <initValue>'https://0405spacetimetheme1.test.arcadier.io/'</initValue>
+      <initValue>'bootstrap.arcadier.com/adminportal/private-setting.html'</initValue>
       <name>HomepageURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
