@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e6f716c7-2dc6-42ec-88ab-bc5a1328afe4</testSuiteGuid>
    <testCaseLink>
       <guid>5b57a26e-867b-46a2-8dec-be02e980164c</guid>
@@ -19,17 +20,17 @@
    <testCaseLink>
       <guid>259ff2f5-a10d-4e57-9052-2512f4621e77</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Buyer Pages/Chat/Simple/Modify Text/navigateTo_Chat</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>34cbe664-e262-4be6-8924-f70fce418d4f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Buyer Pages/Chat/Simple/Modify Text/edit_ChatPerLanguage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>9ae70319-f3ff-4272-a7a3-51fae75abe9a</id>
+         <id>89601c81-dc93-4c46-b1b8-40e9b185d0d9</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -37,7 +38,7 @@
          <testDataId>Data Files/ADMIN/Language/Language</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>9ae70319-f3ff-4272-a7a3-51fae75abe9a</testDataLinkId>
+         <testDataLinkId>89601c81-dc93-4c46-b1b8-40e9b185d0d9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Language</value>
          <variableId>6f64711f-58a5-4390-a81d-7301b583ab26</variableId>
@@ -46,13 +47,13 @@
    <testCaseLink>
       <guid>6a634cd2-2812-46a8-98a0-72356999725e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Buyer Pages/Checkout/Simple/Modify Text/navigateTo_Checkout</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>faf908d5-20f0-4182-b4eb-fc6fcd24bb8e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/SpaceTime/Buyer Pages/Checkout/Simple/Modify Text/edit_CheckoutPerLangauge</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

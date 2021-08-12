@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;saveCustomfield&quot;]/a[count(. | //a[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')]) = count(//a[@class = 'btn-blue btn-custom-field-add-save' and (text() = 'Save' or . = 'Save')])]</value>
+         <value>//a[@class = 'btn-blue btn-custom-field-add-save ' and (text() = 'Save' or . = 'Save')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn-blue btn-custom-field-add-save</value>
+      <value>btn-blue btn-custom-field-add-save </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <value>Save</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

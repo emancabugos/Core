@@ -9,6 +9,7 @@
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f4e176bd-0a4a-499b-941f-f06a653070e8</testSuiteGuid>
    <testCaseLink>
       <guid>3fd5e661-bb36-414b-86dd-cd4a0387efaa</guid>
@@ -71,12 +72,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>8760a160-e501-4289-aaa8-972d7f214f8b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Buyer Invite Navigation</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5a8a76a6-59a4-4fe0-94d7-bb6101f18ceb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -98,15 +93,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c4317f40-5dce-46a9-9907-0d82f3bc4b4e</guid>
+      <guid>8760a160-e501-4289-aaa8-972d7f214f8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Buyer Invite Navigation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c4317f40-5dce-46a9-9907-0d82f3bc4b4e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Change of Payments Navigation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5d18e87f-4167-4ca7-be1a-ad94ad8bec9d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Language/Edit Text/Bespoke/EDM/Change of Payments</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

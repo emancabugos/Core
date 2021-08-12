@@ -7,10 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[6]/div[2]/div/div/div[2]/a[count(. | //*[@class = 'itmupld-loc-upldbtn']) = count(//*[@class = 'itmupld-loc-upldbtn'])]</value>
+         <value>//*[@class = 'itmupld-loc-upldbtn' and (text() = 'Add now' or . = 'Add now')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[4]/div[1]/div/div/div[1]/div/div[2]/div/div/ul/li[6]/div[2]/div/div/div[2]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,14 +38,14 @@
       <value>itmupld-loc-upldbtn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Add now</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

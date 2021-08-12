@@ -19,6 +19,8 @@ WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Header/header_Add
 
 WebUI.click(findTestObject('SPACETIME/MERCHANT/Header/header_Add Service'), FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.comment('Select Category')
 
 WebUI.waitForElementVisible(findTestObject('SPACETIME/MERCHANT/Service Creation/Category List/Category Commission/category100'), 

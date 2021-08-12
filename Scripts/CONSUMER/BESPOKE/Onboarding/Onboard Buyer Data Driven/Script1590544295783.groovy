@@ -72,6 +72,8 @@ WebUI.click(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile P
 
 WebUI.delay(1)
 
+WebUI.delay(2)
+
 WebUI.uploadFile(findTestObject('BESPOKE DEL 2/MERCHANT/Merchant Onboarding/Profile Page/Profile/image_container'), varImage)
 
 WebUI.waitForElementVisible(findTestObject('Utilities/Image Cropper/button_ok'), 0)
@@ -81,8 +83,6 @@ WebUI.click(findTestObject('Utilities/Image Cropper/button_ok'), FailureHandling
 WebUI.waitForElementVisible(findTestObject('Utilities/Image Cropper/button_Save Photo'), 0)
 
 WebUI.click(findTestObject('Utilities/Image Cropper/button_Save Photo'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
 
 WebUI.setText(findTestObject('BESPOKE DEL 2/CONSUMER/Onboarding/Profile/input_DISPLAY NAME_DisplayName'), varFname)
 
