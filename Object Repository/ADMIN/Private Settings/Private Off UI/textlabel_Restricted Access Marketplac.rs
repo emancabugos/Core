@@ -4,6 +4,15 @@
    <name>textlabel_Restricted Access Marketplac</name>
    <tag></tag>
    <elementGuidId>a165f788-55a3-4f7e-845f-3f7f58988e31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[(text() = 'Restricted access marketplaces only allow members to have access to the marketplace. This means that sellers and/or buyers must be invited or approved before onboarding and joining your marketplace. There are 2 types of restricted marketplace available.' or . = 'Restricted access marketplaces only allow members to have access to the marketplace. This means that sellers and/or buyers must be invited or approved before onboarding and joining your marketplace. There are 2 types of restricted marketplace available.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +27,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Restricted Access Marketplace is a setting that only allow members to have access to marketplace. This means you can vet your sellers or buyers before allowing them aboard your marketplace. You can have 2 types of restricted access</value>
+      <value>Restricted access marketplaces only allow members to have access to the marketplace. This means that sellers and/or buyers must be invited or approved before onboarding and joining your marketplace. There are 2 types of restricted marketplace available.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

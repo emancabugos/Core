@@ -34,6 +34,10 @@ WebUI.comment('Mandatory/NonMandatory')
 
 WebUI.waitForElementVisible(findTestObject('ADMIN/Custom Item Fields Page/a_Default/togglebutton_mandatory'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.comment('Default Value')
+
+WebUI.setText(findTestObject('ADMIN/Custom Field Default Value/hyperlink_inputDEFAULT VALUE'), 'arcadier.com')
+
 WebUI.comment('Assign Category')
 
 WebUI.click(findTestObject('ADMIN/Custom Item Fields Page/a_Default/button_SelectCategories'))

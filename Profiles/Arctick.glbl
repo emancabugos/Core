@@ -11,7 +11,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'cottageadmin'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'0723omp'</initValue>
+=======
+      <initValue>'0928b2cmulti'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminCustom</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +59,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>remove https://</description>
+<<<<<<< HEAD
       <initValue>'cottagenosh.staging.arcadier.io/admin'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'https://0723omp.test.arcadier.io/admin'</initValue>
+=======
+      <initValue>'0928b2cmulti.test.arcadier.io/admin'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>AdminURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +87,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'sellerapril01'</initValue>
+=======
+<<<<<<< HEAD
+      <initValue>'risaseller2.1'</initValue>
+=======
+      <initValue>'sellerauto'</initValue>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       <name>CustomMerchant</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

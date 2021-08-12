@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+<<<<<<< HEAD
          <value>//a[@class = 'btn-blue btn-custom-field-add-save ' and (text() = 'Save' or . = 'Save')]</value>
+=======
+         <value>//a[(text() = 'Save' or . = 'Save')]</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +31,7 @@
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

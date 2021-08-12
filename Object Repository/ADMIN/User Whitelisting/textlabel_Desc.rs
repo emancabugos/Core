@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='main']/div[2]/div/div/div/div/div/div/h5</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Whitelist that will be allowed to register on the marketplace. Blacklist domains or IP addresses from accessing the marketplace.' or . = 'Whitelist that will be allowed to register on the marketplace. Blacklist domains or IP addresses from accessing the marketplace.')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -24,7 +28,8 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Whitelist that will be allowed to register on the marketplace. Blacklist domains or IP addresses from accessing the marketplace.</value>
+      <value>Only whitelisted domains will be allowed to register on the marketplace.
+Blacklisted domains will not be allowed to register on the marketplace.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -18,3 +18,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Whitelisting/textlabel_NothingToSeeHere'))
 
+WebUI.verifyTextPresent('Nothing to see here. Add your first domain by clicking the \'Add\' button.', false)
+

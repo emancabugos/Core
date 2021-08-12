@@ -18,3 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementVisible(findTestObject('ADMIN/User Whitelisting/textlabel_Desc'))
 
+WebUI.verifyTextPresent('Only whitelisted domains will be allowed to register on the marketplace.', false)
+
+WebUI.verifyTextPresent('Blacklisted domains will not be allowed to register on the marketplace.', false)
+

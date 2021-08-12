@@ -6,8 +6,21 @@
    <elementGuidId>b24bd63a-ff9d-4728-a3c0-d4aa6006eb3f</elementGuidId>
    <selectorCollection>
       <entry>
+<<<<<<< HEAD
+         <key>BASIC</key>
+         <value>/html/body/div[4]/div[2]/div/div/div[2]/div/a[2][count(. | //a[@class = 'seller-upload-btn ']) = count(//a[@class = 'seller-upload-btn '])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.seller-upload-btn</value>
+      </entry>
+      <entry>
+=======
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
          <key>XPATH</key>
          <value>//a[@onclick='userItemListModule.GoToUpload()']</value>
+<<<<<<< HEAD
+=======
       </entry>
       <entry>
          <key>CSS</key>
@@ -16,6 +29,7 @@
       <entry>
          <key>BASIC</key>
          <value>/html/body/div[4]/div[2]/div/div/div[2]/div/a[2]</value>
+>>>>>>> branch 'master' of https://github.com/emancabugos/Core.git
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -46,7 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>seller-upload-btn</value>
+      <value>seller-upload-btn </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

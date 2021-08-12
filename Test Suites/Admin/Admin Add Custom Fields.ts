@@ -530,19 +530,19 @@
    <testCaseLink>
       <guid>0ff1814f-99fd-406d-89b7-da504e61ec2d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/04_SPG/18MaxChar</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6a06b4c5-1c86-433b-9249-a43ce51b401f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/04_SPG/19EditCF</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>0a280efa-e3f3-4f53-8d9e-3cbaebde0cbf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Field/04_SPG/20DeleteCF</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -550,5 +550,44 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/Utilities/ADMIN/Admin Logout</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d502310-cd7f-4710-9efb-613858ec0e28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ADMIN/Configuration/Custom Fields Page/Add Custom Item Fields/Add_CF_DataDriven</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>aae6673b-8376-45c2-9e9a-97163635d8c1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ADMIN/Custom Field/Custom Field List</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>aae6673b-8376-45c2-9e9a-97163635d8c1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Custom Field Name</value>
+         <variableId>e7e2accf-8b92-48d5-b84d-1ad6cfac8272</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aae6673b-8376-45c2-9e9a-97163635d8c1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Custom Field Type</value>
+         <variableId>fbf48d2f-e8e6-4579-9a8a-f4ad1ebffac3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aae6673b-8376-45c2-9e9a-97163635d8c1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Assigned Category</value>
+         <variableId>9e89511a-0b8a-4c32-a128-59c0572a3a81</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>aae6673b-8376-45c2-9e9a-97163635d8c1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>MandatoryNonMandatory</value>
+         <variableId>4a439abe-56b5-41fd-bf64-92a1148ed710</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
